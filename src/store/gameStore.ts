@@ -35,7 +35,8 @@ const useGameStore = create<GameState>((set, get) => ({
                     id:      `${g.id}-${i}`,
                     label,
                     groupId: g.id,
-                  }))),
+                  })))
+                  .sort(() => Math.random() - 0.5),
     solvedGroups: [],
     selected:     [],
     attempts:     0,
@@ -92,5 +93,14 @@ const useGameStore = create<GameState>((set, get) => ({
   },
 
 }))
+
+function shuffle<T>(array: T[]): T[] {
+    const arr = [...array]
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]]
+    }
+    return arr
+}
 
 export default useGameStore
