@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import SolvedGroup from './SolvedGroup'
 import Tile from './Tile'
 import BoardHeader from './BoardHeader';
+import Header from '@/components/Header'
 
 export default function Board({ puzzle }: { puzzle: Puzzle }) {
     const tiles = useGameStore((state) => state.tiles)
@@ -24,6 +25,8 @@ export default function Board({ puzzle }: { puzzle: Puzzle }) {
   return (
     <div className='flex flex-col items-center'>
         <div className='flex flex-col gap-2 w-full max-w-xl'>
+            <Header />
+
             <BoardHeader dateTitle={puzzle.date} /> 
 
             {solvedGroups.map(group => (
