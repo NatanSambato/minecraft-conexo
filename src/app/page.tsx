@@ -13,7 +13,7 @@ export default function page() {
           Daily Game
         </Link>
 
-        <Link href={"/archive"} className='px-6 py-3 bg-gray-600 text-white text-center rounded'>
+        <Link href="/archive" className='px-6 py-3 bg-gray-600 text-white text-center rounded'>
           Archive
         </Link>
       </div>
