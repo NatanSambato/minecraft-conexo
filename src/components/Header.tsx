@@ -7,12 +7,12 @@ import HelpModal from './HelpModal'
 import IconButton from './IconButton'
 
 
-export default function Header() {
+export default function Header( { returnLink } : { returnLink: string } ) {
     const [isHelpOpen, setIsHelpOpen] = useState(false)
 
     return (
         <header className='w-full max-w-xl mx-auto flex items-center justify-between mb-5 mt-2.5'> 
-            <Link href="/" className='p-1.5 rounded-full hover:bg-white/10 transition-colors cursor-pointer'>
+            <Link href={returnLink} className='p-1.5 rounded-full hover:bg-white/10 transition-colors cursor-pointer'>
                 <ArrowLeft size={22} />
             </Link>
 

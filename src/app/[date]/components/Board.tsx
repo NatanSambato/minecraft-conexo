@@ -25,7 +25,7 @@ export default function Board({ puzzle }: { puzzle: Puzzle }) {
   return (
     <div className='flex flex-col items-center'>
         <div className='flex flex-col gap-2 w-full max-w-xl'>
-            <Header />
+            <Header returnLink={`/archive?date=${puzzle.date}`} />
 
             <BoardHeader dateTitle={puzzle.date} /> 
 

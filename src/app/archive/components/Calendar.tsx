@@ -5,15 +5,23 @@ import { useRouter } from 'next/navigation'
 
 interface CalendarProps {
   availableDates: string[]   // e.g. ['2025-04-17', '2025-04-18']
+  initialDate?: string
 }
 
-export default function Calendar({ availableDates }: CalendarProps) {
+export default function Calendar({ availableDates, initialDate }: CalendarProps) {
   const router = useRouter()
 
   const puzzleDays = availableDates.map(d => {
     const [year, month, day] = d.split('-').map(Number)
     return new Date(year, month - 1, day)  // local time, no UTC shift
   })
+
+  const defaultMonth = initialDate
+    ? new Date(Number(initialDate.split('-')[0]), Number(initialDate.split('-')[1]) - 1) 
+    : puzzleDays.at(-1)
+  ;
+
+  const today = new Date()
 
   const handleDayClick = (day: Date) => {
     const dateStr = day.toISOString().split('T')[0]
@@ -22,14 +30,13 @@ export default function Calendar({ availableDates }: CalendarProps) {
     }
   }
 
-  const today = new Date()
-
   return (
     <DayPicker
       mode="single"
       showOutsideDays={false}
-      startMonth={ new Date(2026, 3) }
-      endMonth={ new Date() }
+      defaultMonth={defaultMonth}
+      startMonth={new Date(2026, 3)}
+      endMonth={new Date()}
       modifiers={{
         available: puzzleDays,
         todayAvailable: puzzleDays.filter(d => 
