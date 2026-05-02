@@ -18,7 +18,11 @@ export default async function GamePage({ params }: { params: Promise<{ date: str
         notFound()
     }
     const raw = fs.readFileSync(filePath, 'utf-8')
-    const puzzle = JSON.parse(raw)
+    let puzzle
+    try {
+        puzzle = JSON.parse(raw)
+        if (!puzzle || !puzzle.groups) notFound()
+    } catch { notFound() }
     
     return <Board puzzle={puzzle}/>
 }
