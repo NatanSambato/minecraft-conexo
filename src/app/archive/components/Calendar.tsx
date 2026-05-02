@@ -28,6 +28,8 @@ export default function Calendar({ availableDates }: CalendarProps) {
     <DayPicker
       mode="single"
       showOutsideDays={false}
+      startMonth={ new Date(2026, 3) }
+      endMonth={ new Date() }
       modifiers={{
         available: puzzleDays,
         todayAvailable: puzzleDays.filter(d => 
@@ -53,8 +55,8 @@ export default function Calendar({ availableDates }: CalendarProps) {
         month_caption:   'flex items-center justify-center h-10 mb-2 text-lg',
         caption_label:   'text-white font-bold',
         nav:             'absolute top-0 left-0 right-0 flex items-center justify-between h-10 z-10 mx-5 ',
-        button_previous: 'p-2 hover:bg-white/10 rounded-full transition-colors [&_svg]:fill-white cursor-pointer',
-        button_next:     'p-2 hover:bg-white/10 rounded-full transition-colors [&_svg]:fill-white cursor-pointer',
+        button_previous: 'p-2 hover:bg-white/10 rounded-full transition-colors [&_svg]:fill-white cursor-pointer aria-disabled:opacity-30 aria-disabled:hover:bg-transparent aria-disabled:cursor-default',
+        button_next:     'p-2 hover:bg-white/10 rounded-full transition-colors [&_svg]:fill-white cursor-pointer aria-disabled:opacity-30 aria-disabled:hover:bg-transparent aria-disabled:cursor-default',
         month_grid:      'w-full table-fixed',
         weekdays:        'w-full',
         weekday:         'text-center font-bold text-white pb-2',
