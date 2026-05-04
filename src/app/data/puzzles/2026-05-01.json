@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-01",
+  "groups": [
+    {
+      "id": 1,
+      "difficulty": 1,
+      "correlation": "Dye Sources",
+      "color": "green",
+      "items": ["Cocoa Beans", "Cactus", "Lapis Lazuli", "Beetroot"]
+    },
+    {
+      "id": 2,
+      "correlation": "Tall Flowers",
+      "color": "yellow",
+      "items": ["Rose Bush", "Lilac", "Sunflower", "Peony"]
+    },
+    {
+      "id": 3,
+      "correlation": "Dyes",
+      "color": "purple",
+      "items": ["Pink", "Blue", "Purple", "Magenta"]
+    },
+    {
+      "id": 4,
+      "correlation": "Small Flowers",
+      "color": "blue",
+      "items": ["Azure Bluet", "Poppy", "Blue Orchid", "Oxeye Daisy"]
+    }
+  ]
+}

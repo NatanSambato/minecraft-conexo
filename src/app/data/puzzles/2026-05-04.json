@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-04",
+  "groups": [
+    {
+      "id": 1,
+      "difficulty": 0,
+      "correlation": "Mobs that Spawn in the Dark",
+      "color": "green",
+      "items": ["Zombie", "Skeleton", "Bat", "Witch"]
+    },
+    {
+      "id": 2,
+      "correlation": "Can Explode",
+      "color": "yellow",
+      "items": ["Creeper", "End Crystal", "Bed", "Wither"]
+    },
+    {
+      "id": 3,
+      "correlation": "Found in the End",
+      "color": "purple",
+      "items": ["Obsidian", "Enderman", "Chorus Fruit", "Elytra"]
+    },
+    {
+      "id": 4,
+      "correlation": "Means of Transportation",
+      "color": "blue",
+      "items": ["Zombie Horse", "Minecart", "Strider", "Nether Portal"]
+    }
+  ]
+}

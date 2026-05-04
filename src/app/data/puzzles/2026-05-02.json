@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-02",
+  "groups": [
+    {
+      "id": 1,
+      "difficulty": 1,
+      "correlation": "Food",
+      "color": "green",
+      "items": ["Dried Kelp", "Pufferfish", "Glow Berry", "Suspicious Stew"]
+    },
+    {
+      "id": 2,
+      "correlation": "Fishing Loot",
+      "color": "yellow",
+      "items": ["Nautilus Shell", "Lily Pad", "Leather Boots", "String"]
+    },
+    {
+      "id": 3,
+      "correlation": "Fuels",
+      "color": "purple",
+      "items": ["Wooden Button", "Fishing Rod", "Lava Bucket", "Blaze Rod"]
+    },
+    {
+      "id": 4,
+      "correlation": "Redstone Components",
+      "color": "blue",
+      "items": ["Tripwire Hook", "Target", "Lever", "Redstone Torch"]
+    }
+  ]
+}

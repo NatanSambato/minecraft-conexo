@@ -1,0 +1,152 @@
+[33mcommit ec37e65f617ce8b5990f4acc8f6d1570686201d4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Sun May 3 22:47:27 2026 -0300
+
+    Implemented Hint feature
+
+[33mcommit 743a316ca4a10173b6c3b918c0af0409c118ed51[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Sat May 2 06:12:01 2026 -0300
+
+    Game page go back button: now returns to the archive page, displaying corresponding game's month
+
+[33mcommit 2a156f3fd01e5c92693b7732ea352e7a95a15d2f[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Sat May 2 05:12:58 2026 -0300
+
+    Archive calendar now has start/end months
+
+[33mcommit 94c816c6f484e52bff018a7ac555c642559220fa[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Sat May 2 03:36:46 2026 -0300
+
+    Validated incorrect puzzle JSONs
+
+[33mcommit dfb35650b723e5410f106d561e1e33b6f55eef56[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Sat May 2 03:26:25 2026 -0300
+
+    Implemented /archive route
+
+[33mcommit 20f8004a54e8db2eca4eccc4523c23808ca39fb4[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Mon Apr 27 21:16:15 2026 -0300
+
+    Added Header for game and archive routes
+
+[33mcommit 558fa33182f79bb57c55dfdb90eb2461331afb00[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Mon Apr 27 21:15:50 2026 -0300
+
+    Added HelpModal with game instructions
+    
+    Co-authored-by: Copilot <copilot@github.com>
+
+[33mcommit 9dfe946c34c44df2af5d8d60dd705fe6f507ebea[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Mon Apr 27 21:08:16 2026 -0300
+
+    Added IconButton component
+    
+    Co-authored-by: Copilot <copilot@github.com>
+
+[33mcommit d8986486a4e5fe564774a7ca2728ed6384003fa9[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Mon Apr 27 21:06:11 2026 -0300
+
+    Adjusted Tile label line-height
+
+[33mcommit be38c7f5ac57fce7a6b67a79ce061620f45cd71a[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Mon Apr 27 21:00:22 2026 -0300
+
+    Set global.css line-height to 1
+
+[33mcommit 0e55ff74ce351b72678baa5c626259fffe44245e[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Mon Apr 27 20:58:57 2026 -0300
+
+    Installed Lucide icons library
+
+[33mcommit 516898caa931d465f1266867c703ed24e39f8b69[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Mon Apr 27 10:43:12 2026 -0300
+
+    Tiles are now shuffled on initGame
+
+[33mcommit 8087e384a3ccd4977e04a7bb89ff566a09143fd9[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Fri Apr 24 17:09:44 2026 -0300
+
+    Updated homepage layout with Daily Game and Archives buttons
+
+[33mcommit 8287508d91eb30b2c9226d19eb804a7c169debca[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Fri Apr 24 17:07:53 2026 -0300
+
+    Created a [date] route to render the game
+
+[33mcommit 7920a35495e22c04081daafc9e4050f7ec63352f[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Fri Apr 24 17:04:32 2026 -0300
+
+    Created Game Components:
+    - Board.tsx;
+    - BoardHeader.tsx;
+    - SolvedGroup.tsx;
+    - Tile.tsx;
+
+[33mcommit 8e21f40cce4b431f71132c12a4f07e727a721ff7[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Fri Apr 24 14:35:48 2026 -0300
+
+    Created a gameUtils lib with a getTodaysDate method
+
+[33mcommit cfc8669e3105f15f1123eb73a19ad79238e9d6e1[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Fri Apr 24 14:35:09 2026 -0300
+
+    Updated favicon temporarily to Crafting Table
+
+[33mcommit 0c314e3668968d7520bb3ca80b9f9c437042694c[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Thu Apr 23 13:09:03 2026 -0300
+
+    Added Zustand state store
+
+[33mcommit 06c16221f4a73c2b9672451f5c6e368d9405ec81[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Thu Apr 23 13:07:54 2026 -0300
+
+    Added index.ts with game
+    types
+
+[33mcommit 6e7e1c98ce6aefc822ded2979e1e8fe8a6dadd8e[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Fri Apr 17 15:18:40 2026 -0300
+
+    Added a src folder
+
+[33mcommit 0a8b55b9253929cc4bcc46d9c34aae554b1ac5de[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Fri Apr 17 14:44:07 2026 -0300
+
+    Updated @/ path to the src folder
+
+[33mcommit 79f15b322709b1c515b6948a50b51b7fa5858e25[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Fri Apr 17 14:19:34 2026 -0300
+
+    Installed Zustand for the Game State
+
+[33mcommit d69735846e711dde5a7a6b1210120e2365ab307d[m
+Author: NatanSambato <natan_sambato@hotmail.com>
+Date:   Tue Apr 14 16:50:45 2026 -0300
+
+    Added Minecraft Seven v2 font
+
+[33mcommit f705e49012fb3105177a17b77aed93e8d5e4ec8e[m
+Author: NatanSambato <32022776+NatanSambato@users.noreply.github.com>
+Date:   Tue Apr 14 11:46:29 2026 -0300
+
+    Initial commit
