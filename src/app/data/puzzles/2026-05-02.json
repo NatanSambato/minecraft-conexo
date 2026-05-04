@@ -1,30 +1,30 @@
 {
   "date": "2026-05-02",
+  "creator": "Natowski",
   "groups": [
     {
       "id": 1,
-      "difficulty": 1,
       "correlation": "Food",
-      "color": "green",
+      "color": "yellow",
       "items": ["Dried Kelp", "Pufferfish", "Glow Berry", "Suspicious Stew"]
     },
     {
       "id": 2,
-      "correlation": "Fishing Loot",
-      "color": "yellow",
-      "items": ["Nautilus Shell", "Lily Pad", "Leather Boots", "String"]
+      "correlation": "Redstone Components",
+      "color": "green",
+      "items": ["Tripwire Hook", "Target", "Lever", "Redstone Torch"]
     },
     {
       "id": 3,
       "correlation": "Fuels",
-      "color": "purple",
+      "color": "blue",
       "items": ["Wooden Button", "Fishing Rod", "Lava Bucket", "Blaze Rod"]
     },
     {
       "id": 4,
-      "correlation": "Redstone Components",
-      "color": "blue",
-      "items": ["Tripwire Hook", "Target", "Lever", "Redstone Torch"]
+      "correlation": "Fishing Loot",
+      "color": "purple",
+      "items": ["Nautilus Shell", "Lily Pad", "Leather Boots", "String"]
     }
   ]
 }

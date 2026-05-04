@@ -1,0 +1,30 @@
+{
+    "date": "2026-05-06",
+    "creator": "Natowski",
+    "groups": [
+      {
+        "id": 1,
+        "correlation": "Aquatic Animals",
+        "color": "yellow",
+        "items": ["Nautilus", "Dolphin", "Turtle", "Squid"]
+      },  
+      {
+        "id": 2,
+        "correlation": "Bucket Variants",
+        "color": "green",
+        "items": ["Milk", "Sulfur Cube", "Pufferfish", "Tropical Fish"]
+      },
+      {
+        "id": 3,
+        "correlation": "Blocks that can negate fall damage",
+        "color": "blue",
+        "items": ["Powder Snow", "Ladder", "Scaffold", "Vines"]
+      },
+      {
+        "id": 4,
+        "correlation": "Non-Flammable Wooden Blocks",
+        "color": "purple",
+        "items": ["Chest", "Oak Sign", "Loom", "Note Block"]
+      }
+    ]
+  }

@@ -1,0 +1,30 @@
+{
+    "date": "2026-05-10",
+    "creator": "Natowski",
+    "groups": [
+      {
+        "id": 1,
+        "correlation": "Constructable Mobs",
+        "color": "yellow",
+        "items": ["Wither", "Copper Golem", "Iron Golem", "Creaking"]
+      },
+      {
+        "id": 2,
+        "correlation": "Flying Mobs",
+        "color": "green",
+        "items": ["Vex", "Bat", "Blaze", "Phantom"]
+      },
+      {
+        "id": 3,
+        "correlation": "Tameable Mobs",
+        "color": "blue",
+        "items": ["Parrot", "Trader Llama", "Zombie Nautilus", "Wolf"]
+      },
+      {
+        "id": 4,
+        "correlation": "Mobs with at least 100hp",
+        "color": "purple",
+        "items": ["Warden", "EnderDragon", "Giant", "Ravager"]
+      }
+    ]
+  }

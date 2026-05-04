@@ -1,30 +1,30 @@
 {
   "date": "2026-05-03",
+  "creator": "Natowski",
   "groups": [
     {
       "id": 1,
-      "difficulty": 3,
-      "correlation": "Breeding Foods",
-      "color": "green",
-      "items": ["Seeds", "Sea Grass", "Pufferfish", "Slimeball"]
+      "correlation": "Blocks that decrease your walking speed",
+      "color": "yellow",
+      "items": ["Soul Sand", "Cobweb", "Honey Block", "Sweet Berry Bush"]
     },
     {
       "id": 2,
-      "correlation": "Obtained from Wandering Trader",
-      "color": "yellow",
-      "items": ["Lily Pad", "Nautilus Shell", "Glowstone", "Podzol"]
-    },
-    {
-      "id": 3,
       "correlation": "Light-Emitting Blocks",
-      "color": "purple",
+      "color": "green",
       "items": ["Conduit", "Sea Pickle", "Lava", "Sea Lantern"]
     },
     {
-      "id": 4,
-      "correlation": "Blocks that modify walking speed",
+      "id": 3,
+      "correlation": "Breeding Foods",
       "color": "blue",
-      "items": ["Soul Sand", "Cobweb", "Honey Block", "Sweet Berry Bush"]
+      "items": ["Seeds", "Sea Grass", "Bamboo", "Slimeball"]
+    },
+    {
+      "id": 4,
+      "correlation": "Obtained from the Wandering Trader",
+      "color": "purple",
+      "items": ["Lily Pad", "Nautilus Shell", "Blue Ice", "Podzol"]
     }
   ]
 }
