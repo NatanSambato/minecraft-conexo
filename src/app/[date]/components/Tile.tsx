@@ -39,8 +39,8 @@ export default function Tile({ tile, disabled }: TileProps) {
             <div
                 className='absolute top-0 right-0 w-0 h-0'
                 style={{
-                    borderTop: `20px solid ${groupHex}`,
-                    borderLeft: '20px solid transparent',
+                    borderTop: `30px solid ${groupHex}`,
+                    borderLeft: '30px solid transparent',
                 }}
             />
         )}

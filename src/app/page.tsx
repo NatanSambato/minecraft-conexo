@@ -6,7 +6,9 @@ export default function page() {
 
   return (
     <main className='flex flex-col items-center justify-center min-h-screen gap-8'>
-      <h1 className='text-xl'>MINECRAFT CONEXO</h1>
+      <h1 className='font-black text-2xl uppercase tracking-wide'>
+        MINECRAFT CONEXO
+      </h1>
 
       <div className='flex flex-col gap-4'>
         <Link href={`/${today}`} className="px-6 py-3 bg-green-600 text-white rounded">

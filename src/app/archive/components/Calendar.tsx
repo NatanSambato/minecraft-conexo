@@ -35,7 +35,7 @@ export default function Calendar({ availableDates, initialDate }: CalendarProps)
       mode="single"
       showOutsideDays={false}
       defaultMonth={defaultMonth}
-      startMonth={new Date(2026, 3)}
+      startMonth={new Date(2026, 4)}
       endMonth={new Date()}
       modifiers={{
         available: puzzleDays,
