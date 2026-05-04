@@ -1,14 +1,8 @@
+import { getGroupColor } from '@/lib/gameUtils'
 import { Group } from '@/types'
 
-const colorMap: Record<string, string> = {
-  green:  'bg-green-600',
-  yellow: 'bg-yellow-500',
-  blue:   'bg-blue-800',
-  purple: 'bg-purple-600',
-}
-
 export default function SolvedGroup({ group }: { group: Group }) {
-  const bgColor = colorMap[group.color] ?? 'bg-gray-600'
+  const bgColor = getGroupColor(group.color)
 
   return (
     <div className={`flex flex-col items-center justify-center p-1.5 rounded-lg ${bgColor}`}>
