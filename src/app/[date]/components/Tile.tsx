@@ -30,7 +30,7 @@ export default function Tile({ tile, disabled }: TileProps) {
         onClick={handleClick}
         disabled={disabled}
         className={`
-            relative h-16 flex items-center justify-center rounded-sm p-4 text-center text-lg leading-5 font-bold uppercase
+            relative h-20 flex items-center justify-center rounded-sm p-4 text-center text-lg leading-5 font-bold uppercase
             ${isSelected ? 'bg-amber-600' : 'bg-stone-600'}
             ${disabled   ? '' : 'cursor-pointer'}
         `}
