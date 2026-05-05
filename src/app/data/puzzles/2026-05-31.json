@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-31",
+  "creator": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Moster Room Loot",
+      "color": "yellow",
+      "items": ["Music Disc Cat", "Diamond Horse Armor", "Bucket", "Rotten Flesh"]
+    },
+    {
+      "id": 2,
+      "correlation": "Mineshaft Loot",
+      "color": "green",
+      "items": ["Rail", "Glow Berry", "Torch", "Diamond"]
+    },
+    {
+      "id": 3,
+      "correlation": "Buried Treasure Loot",
+      "color": "blue",
+      "items": ["Heart of the Sea", "Prismarine Shard", "Tnt", "Emerald"]
+    },
+    {
+      "id": 4,
+      "correlation": "Pillager Outpost Loot",
+      "color": "purple",
+      "items": ["Crossbow", "Dark Oak Log", "Goat Horn", "Bottle o' Enchanting"]
+    }
+  ]
+}

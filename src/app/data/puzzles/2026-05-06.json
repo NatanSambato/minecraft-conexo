@@ -1,30 +1,30 @@
 {
-    "date": "2026-05-06",
-    "creator": "Natowski",
-    "groups": [
-      {
-        "id": 1,
-        "correlation": "Aquatic Animals",
-        "color": "yellow",
-        "items": ["Nautilus", "Dolphin", "Turtle", "Squid"]
-      },  
-      {
-        "id": 2,
-        "correlation": "Bucket Variants",
-        "color": "green",
-        "items": ["Milk", "Sulfur Cube", "Pufferfish", "Tropical Fish"]
-      },
-      {
-        "id": 3,
-        "correlation": "Blocks that can negate fall damage",
-        "color": "blue",
-        "items": ["Powder Snow", "Ladder", "Scaffold", "Vines"]
-      },
-      {
-        "id": 4,
-        "correlation": "Non-Flammable Wooden Blocks",
-        "color": "purple",
-        "items": ["Chest", "Oak Sign", "Loom", "Note Block"]
-      }
-    ]
-  }
+  "date": "2026-05-06",
+  "creator": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Eggs",
+      "color": "yellow",
+      "items": ["Egg", "Turtle Egg", "Dragon Egg", "Sniffer Egg"]
+    },
+    {
+      "id": 2,
+      "correlation": "Projectiles (or their Item Forms)",
+      "color": "green",
+      "items": ["Arrow", "Wind Charge", "Wither Skull", "Bottle o' Enchanting"]
+    },
+    {
+      "id": 3,
+      "correlation": "Village Loot",
+      "color": "blue",
+      "items": ["Bread", "Apple", "Oak Sapling", "Bundle"]
+    },
+    {
+      "id": 4,
+      "correlation": "Witch Drops",
+      "color": "purple",
+      "items": ["Glass Bottle", "Stick", "Redstone Dust", "Sugar"]
+    }
+  ]
+}

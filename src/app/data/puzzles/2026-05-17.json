@@ -1,0 +1,30 @@
+{
+    "date": "2026-05-17",
+    "creator": "Natowski",
+    "groups": [
+        {
+        "id": 1,
+        "correlation": "Falling Blocks",
+        "color": "yellow",
+        "items": ["Anvil", "Gravel", "Concrete Powder", "Pointed Dripstone"]
+        },
+        {
+        "id": 2,
+        "correlation": "Villager's Job Blocks",
+        "color": "green",
+        "items": ["Lectern", "Barrel", "Brewing Stand", "Cauldron"]
+        },
+        {
+        "id": 3,
+        "correlation": "Climbable Blocks",
+        "color": "blue",
+        "items": ["Ladder", "Scaffolding", "Cave Vines", "Twisted Vines"]
+        },
+        {
+        "id": 4,
+        "correlation": "Blocks only obtained with Silk Touch",
+        "color": "purple",
+        "items": ["Bee Hive", "Ice", "Mushroom Stem", "Coral Fan"]
+        }
+    ]
+}

@@ -1,30 +1,30 @@
 {
-    "date": "2026-05-05",
-    "creator": "Natowski",
-    "groups": [
-      {
-        "id": 1,
-        "correlation": "Items you can feed horses, donkeys and mules",
-        "color": "yellow",
-        "items": ["Apple", "Carrot", "Sugar", "Hay Bale"]
-      },
-      {
-        "id": 2,
-        "correlation": "Minecart Variations",
-        "color": "green",
-        "items": ["Hopper", "Chest", "Tnt", "Furnace"]
-      },
-      {
-        "id": 3,
-        "correlation": "Items crafted with Diamond(s)",
-        "color": "blue",
-        "items": ["Jukebox", "Enchantment Table", "Firework Star", "Smithing Templates"]
-      },
-      {
-        "id": 4,
-        "correlation": "Round Items",
-        "color": "purple",
-        "items": ["Slimeball", "Snowball", "Ender Pearl", "Fire Charge"]
-      }
-    ]
-  }
+  "date": "2026-05-05",
+  "creator": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Items you can feed horses, donkeys and mules",
+      "color": "yellow",
+      "items": ["Apple", "Carrot", "Sugar", "Hay Bale"]
+    },
+    {
+      "id": 2,
+      "correlation": "Minecart Variations",
+      "color": "green",
+      "items": ["Hopper", "Chest", "Tnt", "Furnace"]
+    },
+    {
+      "id": 3,
+      "correlation": "Items crafted with Diamond(s)",
+      "color": "blue",
+      "items": ["Jukebox", "Enchantment Table", "Firework Star", "Smithing Templates"]
+    },
+    {
+      "id": 4,
+      "correlation": "Round Items",
+      "color": "purple",
+      "items": ["Slimeball", "Snowball", "Ender Pearl", "Fire Charge"]
+    }
+  ]
+}
