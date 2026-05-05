@@ -30,6 +30,8 @@ export default function Calendar({ availableDates, initialDate }: CalendarProps)
     }
   }
 
+  const showFuture = process.env.NEXT_PUBLIC_SHOW_FUTURE === 'true'
+
   return (
     <DayPicker
       mode="single"
@@ -38,7 +40,8 @@ export default function Calendar({ availableDates, initialDate }: CalendarProps)
       startMonth={new Date(2026, 4)}
       endMonth={new Date()}
       modifiers={{
-        available: puzzleDays,
+        available: puzzleDays.filter(d => d <= today),
+        future: puzzleDays.filter(d => d > today),
         todayAvailable: puzzleDays.filter(d => 
           d.getDate()     === today.getDate() &&
           d.getMonth()    === today.getMonth() &&
@@ -47,13 +50,19 @@ export default function Calendar({ availableDates, initialDate }: CalendarProps)
       }}
       modifiersClassNames={{
         available: 'font-bold text-white',
+        future: showFuture ? 'font-bold text-white' : '',
         outside:   '[&_button]:bg-transparent opacity-0 pointer-events-none',
         todayAvailable: '[&_button]:bg-green-500 [&_button]:hover:bg-white/10 ',
 
       }}
-      disabled={(date) => !availableDates.includes(
-        `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
-      )}
+      disabled={(date) => {
+        const dateString = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
+        const isFuture = showFuture
+          ? false 
+          : date > today
+        return !availableDates.includes(dateString) || isFuture
+      }}
+
       onDayClick={handleDayClick}
       classNames={{
         root:            'relative w-full px-4',

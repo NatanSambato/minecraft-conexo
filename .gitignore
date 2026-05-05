@@ -40,4 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 src/app/data/puzzles/_template.json
-src/app/data/puzzles/2026-04-01.json
+src/app/data/puzzles/2026-04-30.json
