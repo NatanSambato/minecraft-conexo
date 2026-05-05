@@ -120,13 +120,13 @@ const useGameStore = create<GameState>((set, get) => ({
       const unhintedGroup = unsolvedGroups.filter(g => !hintedGroups[g.id])
       if (unhintedGroup.length === 0) return
 
-      const randomGroup = unhintedGroup[Math.floor(Math.random() * unhintedGroup.length)]
-      const candidates = tiles.filter(t => t.groupId === randomGroup.id)
+      const groupToHint = unhintedGroup[0];
+      const candidates = tiles.filter(t => t.groupId === groupToHint.id)
 
       const shuffled = [...candidates].sort(() => Math.random() - 0.5)
       const picked = shuffled.slice(0, 2).map(t => t.id)
 
-      newHintedGroups[randomGroup.id] = picked
+      newHintedGroups[groupToHint.id] = picked
     }
 
     set({
