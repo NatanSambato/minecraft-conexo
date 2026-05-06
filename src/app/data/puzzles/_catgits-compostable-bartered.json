@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-30",
+  "creator": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "",
+      "color": "yellow",
+      "items": []
+    },
+    {
+      "id": 2,
+      "correlation": "Items Bartered",
+      "color": "green",
+      "items": ["Leather", "Ender Pearl", "String", "Crying Obsidian"]
+    },
+    {
+      "id": 3,
+      "correlation": "Compostable",
+      "color": "blue",
+      "items": ["Red Mushroom", "Leaf Litter", "Fern", "Lily Pad"]
+    },
+    {
+      "id": 4,
+      "correlation": "Cat Gifts",
+      "color": "purple",
+      "items": ["Rabbit Hide", "Phantom Membrane", "Rotten Flesh", "Feather"]
+    }
+  ]
+}

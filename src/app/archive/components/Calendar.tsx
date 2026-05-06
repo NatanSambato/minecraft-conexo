@@ -2,17 +2,18 @@
 
 import { DayPicker } from 'react-day-picker'
 import { useRouter } from 'next/navigation'
+import { Puzzle } from '@/types'
 
 interface CalendarProps {
-  availableDates: string[]   // e.g. ['2025-04-17', '2025-04-18']
+  puzzles: Puzzle[]   // e.g. ['2025-04-17', '2025-04-18']
   initialDate?: string
 }
 
-export default function Calendar({ availableDates, initialDate }: CalendarProps) {
+export default function Calendar({ puzzles, initialDate }: CalendarProps) {
   const router = useRouter()
 
-  const puzzleDays = availableDates.map(d => {
-    const [year, month, day] = d.split('-').map(Number)
+  const puzzleDays = puzzles.map(p => {
+    const [year, month, day] = p.date.split('-').map(Number)
     return new Date(year, month - 1, day)  // local time, no UTC shift
   })
 
@@ -25,7 +26,7 @@ export default function Calendar({ availableDates, initialDate }: CalendarProps)
 
   const handleDayClick = (day: Date) => {
     const dateStr = day.toISOString().split('T')[0]
-    if (availableDates.includes(dateStr)) {
+    if (puzzles.some(p => p.date === dateStr)) {
       router.push(`/${dateStr}`)
     }
   }
@@ -60,7 +61,7 @@ export default function Calendar({ availableDates, initialDate }: CalendarProps)
         const isFuture = showFuture
           ? false 
           : date > today
-        return !availableDates.includes(dateString) || isFuture
+        return !puzzles.some(p => p.date === dateString) || isFuture
       }}
 
       onDayClick={handleDayClick}
