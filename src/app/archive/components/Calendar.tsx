@@ -3,6 +3,12 @@
 import { DayPicker } from 'react-day-picker'
 import { useRouter } from 'next/navigation'
 import { Puzzle } from '@/types'
+import { getAllProgress } from '@/lib/utils'
+
+const toDate = (dateStr: string) => {
+  const [y, m, d] = dateStr.split('-').map(Number)
+  return new Date(y, m - 1, d)
+}
 
 interface CalendarProps {
   puzzles: Puzzle[]   // e.g. ['2025-04-17', '2025-04-18']
@@ -11,11 +17,9 @@ interface CalendarProps {
 
 export default function Calendar({ puzzles, initialDate }: CalendarProps) {
   const router = useRouter()
+  const allProgress = getAllProgress()
 
-  const puzzleDays = puzzles.map(p => {
-    const [year, month, day] = p.date.split('-').map(Number)
-    return new Date(year, month - 1, day)  // local time, no UTC shift
-  })
+  const puzzleDays = puzzles.map(p => toDate(p.date))
 
   const defaultMonth = initialDate
     ? new Date(Number(initialDate.split('-')[0]), Number(initialDate.split('-')[1]) - 1) 
@@ -23,6 +27,9 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
   ;
 
   const today = new Date()
+
+  const wonDays     = puzzles.filter(p => allProgress[`puzzle_${p.id}`]?.status === 'won').map(p => toDate(p.date))
+  const playingDays = puzzles.filter(p => allProgress[`puzzle_${p.id}`]?.status === 'playing').map(p => toDate(p.date))
 
   const handleDayClick = (day: Date) => {
     const dateStr = day.toISOString().split('T')[0]
@@ -43,6 +50,8 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
       modifiers={{
         available: puzzleDays.filter(d => d <= today),
         future: puzzleDays.filter(d => d > today),
+        won: wonDays,
+        playing: playingDays,
         todayAvailable: puzzleDays.filter(d => 
           d.getDate()     === today.getDate() &&
           d.getMonth()    === today.getMonth() &&
@@ -51,9 +60,11 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
       }}
       modifiersClassNames={{
         available: 'font-bold text-white',
+        won: '[&_button]:bg-green-500',
+        playing: '[&_button]:bg-yellow-400',
         future: showFuture ? 'font-bold text-white' : '',
         outside:   '[&_button]:bg-transparent opacity-0 pointer-events-none',
-        todayAvailable: '[&_button]:bg-green-500 [&_button]:hover:bg-white/10 ',
+        // todayAvailable: '[&_button]:bg-green-500 [&_button]:hover:bg-white/10 ',
 
       }}
       disabled={(date) => {

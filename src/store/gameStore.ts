@@ -1,6 +1,7 @@
 // store/gameStore.js
 import { create } from 'zustand'
-import type { Tile, Group, Puzzle, GameStatus } from '@/types'
+import type { Tile, Group, Puzzle, GameStatus, SavedProgress } from '@/types'
+import { saveProgressToStorage } from '@/hooks/useProgress'
 
 const GROUP_SIZE = 4
 
@@ -13,10 +14,11 @@ interface GameState {
   hintsUsed:       number
   hintedGroups:    Record<number, string[]> 
   status:          GameStatus
-  initGame:        (puzzle: Puzzle) => void
+  initGame:        (puzzle: Puzzle, savedProgress?: SavedProgress | null) => void
   toggleTile:      (tileId: string) => void
   submitSelection: () => void
   activateHint:    () => void
+  saveProgress:    () => void
 }
 
 const useGameStore = create<GameState>((set, get) => ({
@@ -34,21 +36,30 @@ const useGameStore = create<GameState>((set, get) => ({
 
   // --- ACTIONS ---
 
-  initGame: (puzzle) => set({
-    puzzle,
-    tiles:        puzzle.groups.flatMap(g => g.items.map((label, i) => ({
-                    id:      `${g.id}-${i}`,
-                    label,
-                    groupId: g.id,
-                  })))
-                  .sort(() => Math.random() - 0.5),
-    solvedGroups: [],
-    selected:     [],
-    attempts:     0,
-    hintsUsed:    0,
-    hintedGroups: {},
-    status:       'playing',
-  }),
+  initGame: (puzzle, savedProgress) => {
+    const allTiles = puzzle.groups.flatMap(g => g.items.map((label, i) => ({
+      id: `${g.id}-${i}`,
+      label,
+      groupId: g.id,
+    })))
+
+    const orderedTiles = savedProgress?.tileOrder
+      ? savedProgress.tileOrder
+        .map((id) => allTiles.find((t) => t.id === id))
+        .filter((t): t is Tile => t !== undefined)
+      : allTiles.sort(() => Math.random() - 0.5)
+                  
+    set({
+      puzzle,
+      tiles:        orderedTiles,
+      solvedGroups: savedProgress?.solvedGroups ?? [],
+      attempts:     savedProgress?.attempts     ?? 0,
+      hintsUsed:    savedProgress?.hintsUsed    ?? 0,
+      hintedGroups: savedProgress?.hintedGroups ?? {},
+      status:       savedProgress?.status       ?? 'playing',
+      selected:     [],
+    })
+  },
 
   toggleTile: (tileId) => {
     const { selected } = get()
@@ -86,13 +97,15 @@ const useGameStore = create<GameState>((set, get) => ({
       if (!solvedGroup) return
       const newSolved   = [...solvedGroups, solvedGroup]
       const hasWon      = newSolved.length === puzzle.groups.length
-
-      return set({
+      
+      set({
         attempts: newAttempts,
         solvedGroups: newSolved,
         selected:     [],
         status:       hasWon ? 'won' : 'playing',
       })
+
+      get().saveProgress()
     }
 
     // Wrong guess
@@ -133,6 +146,16 @@ const useGameStore = create<GameState>((set, get) => ({
       hintedGroups: newHintedGroups,
       hintsUsed: hintsUsed + 1,
       selected: [],
+    })
+
+    get().saveProgress();
+  },
+
+  saveProgress: () => {
+    const { status, solvedGroups, attempts, hintsUsed, hintedGroups, puzzle, tiles } = get()
+    if (!puzzle) return
+    saveProgressToStorage(puzzle.id, { status, solvedGroups, attempts, hintsUsed, hintedGroups,
+      tileOrder: tiles.map(t => t.id)
     })
   }
 

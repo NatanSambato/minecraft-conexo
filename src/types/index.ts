@@ -18,3 +18,12 @@ export interface Puzzle {
 }
 
 export type GameStatus = 'playing' | 'won'
+
+export interface SavedProgress {
+  status: GameStatus
+  solvedGroups: Group[]
+  attempts: number
+  hintsUsed: number
+  hintedGroups: Record<number, string[]>
+  tileOrder: string[]
+}
