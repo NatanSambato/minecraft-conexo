@@ -1,0 +1,31 @@
+{
+    "id": 9,
+    "date": "2026-05-09",
+    "creator": "Natowski",
+    "groups": [
+      {
+        "id": 1,
+        "correlation": "Brewing Base Ingredients",
+        "color": "yellow",
+        "items": ["Nether Wart", "Glowstone Dust", "Redstone Dust", "Gunpowder"]
+      },
+      {
+        "id": 2,
+        "correlation": "Items crafted with Glass",
+        "color": "green",
+        "items": ["Glass bottle", "Yellow Stained Glass", "Beacon", "Harness"]
+      },
+      {
+        "id": 3,
+        "correlation": "Plants with a gold-based variant",
+        "color": "blue",
+        "items": ["Apple", "Carrot", "Melon Slice", "Dandelion"]
+      },
+      {
+        "id": 4,
+        "correlation": "Compostable",
+        "color": "purple",
+        "items": ["Fern", "Moss Carpet", "Mangrove Roots", "Red Mushroom"]
+      }
+    ]
+  }

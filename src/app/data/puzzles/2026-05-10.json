@@ -1,0 +1,31 @@
+{
+    "id": 10,
+    "date": "2026-05-10",
+    "creator": "Natowski",
+    "groups": [
+      {
+        "id": 1,
+        "correlation": "Can be worn on your head",
+        "color": "yellow",
+        "items": ["Carved Pumpkin", "Piglin Head", "Wither Skeleton Skull", "Turtle Shell"]
+      },
+      {
+        "id": 2,
+        "correlation": "Items Bartered",
+        "color": "green",
+        "items": ["Potion of Fire Resistance", "Crying Obsidian", "Ender Pearl", "Nether Brick"]
+      },
+      {
+        "id": 3,
+        "correlation": "Have a color in the name",
+        "color": "blue",
+        "items": ["Pink Petals", "Red Sand", "Brown Mushroom", "Blackstone"]
+      },
+      {
+        "id": 4,
+        "correlation": "16-Stack Items",
+        "color": "purple",
+        "items": ["Bucket", "Snowball", "Cherry Sign", "Written Book"]
+      }
+    ]
+  }
