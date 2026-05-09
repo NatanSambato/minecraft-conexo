@@ -18,6 +18,7 @@ interface GameState {
   toggleTile:      (tileId: string) => void
   submitSelection: () => void
   activateHint:    () => void
+  canHint:         () => boolean
   saveProgress:    () => void
 }
 
@@ -114,13 +115,11 @@ const useGameStore = create<GameState>((set, get) => ({
 
   activateHint: () => {
     const { puzzle, solvedGroups, hintsUsed, hintedGroups, tiles } = get()
-    if (!puzzle) return
     
-    const unsolvedGroups = puzzle.groups.filter(g => !solvedGroups.some(sg => sg.id === g.id))
-    if (unsolvedGroups.length === 0) return 
-
+    if (!get().canHint()) return
+    
+    const unsolvedGroups = puzzle!.groups.filter(g => !solvedGroups.some(sg => sg.id === g.id))
     const newHintedGroups = { ...hintedGroups }
-
     const partialGroup = unsolvedGroups.find(g => hintedGroups[g.id] && hintedGroups[g.id].length < 3)
 
     if (partialGroup) {
@@ -131,11 +130,8 @@ const useGameStore = create<GameState>((set, get) => ({
       newHintedGroups[partialGroup.id] = [...alreadyHinted, picked.id]
     } else {
       const unhintedGroup = unsolvedGroups.filter(g => !hintedGroups[g.id])
-      if (unhintedGroup.length === 0) return
-
       const groupToHint = unhintedGroup[0];
       const candidates = tiles.filter(t => t.groupId === groupToHint.id)
-
       const shuffled = [...candidates].sort(() => Math.random() - 0.5)
       const picked = shuffled.slice(0, 2).map(t => t.id)
 
@@ -149,6 +145,21 @@ const useGameStore = create<GameState>((set, get) => ({
     })
 
     get().saveProgress();
+  },
+
+  canHint: () => {
+    const { puzzle, solvedGroups, hintedGroups } = get()
+    if (!puzzle) return false
+    
+    const unsolvedGroups = puzzle.groups.filter(g => !solvedGroups.some(sg => sg.id === g.id))
+    if (unsolvedGroups.length === 0) return false
+    
+    const partialGroup = unsolvedGroups.find(g => hintedGroups[g.id] && hintedGroups[g.id].length < 3)
+    if (partialGroup) return true
+    
+    const unhintedGroup = unsolvedGroups.filter(g => !hintedGroups[g.id])
+    console.log(unhintedGroup.length)
+    return unhintedGroup.length > 0
   },
 
   saveProgress: () => {
