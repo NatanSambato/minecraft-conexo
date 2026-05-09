@@ -26,13 +26,17 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
     : puzzleDays.at(-1)
   ;
 
-  const today = new Date()
+  const todayStr = new Date().toISOString().split('T')[0] // "2026-04-23"
+  const todayDate = new Date(todayStr)
+  const puzzleDateStrs = puzzles.map(p => p.date)
+  const availableStrs = puzzleDateStrs.filter(d => d <= todayStr)
+  const futureStrs    = puzzleDateStrs.filter(d => d > todayStr)
 
   const wonDays     = puzzles.filter(p => allProgress[`puzzle_${p.id}`]?.status === 'won').map(p => toDate(p.date))
   const playingDays = puzzles.filter(p => allProgress[`puzzle_${p.id}`]?.status === 'playing').map(p => toDate(p.date))
 
   const handleDayClick = (day: Date) => {
-    const dateStr = day.toISOString().split('T')[0]
+    const dateStr = `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, '0')}-${String(day.getDate()).padStart(2, '0')}`
     if (puzzles.some(p => p.date === dateStr)) {
       router.push(`/${dateStr}`)
     }
@@ -46,16 +50,16 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
       showOutsideDays={false}
       defaultMonth={defaultMonth}
       startMonth={new Date(2026, 4)}
-      endMonth={new Date()}
+      endMonth={todayDate}
       modifiers={{
-        available: puzzleDays.filter(d => d <= today),
-        future: puzzleDays.filter(d => d > today),
+        available: availableStrs.map(toDate),
+        future: futureStrs.map(toDate),
         won: wonDays,
         playing: playingDays,
         todayAvailable: puzzleDays.filter(d => 
-          d.getDate()     === today.getDate() &&
-          d.getMonth()    === today.getMonth() &&
-          d.getFullYear() === today.getFullYear()
+          d.getDate()     === todayDate.getDate() &&
+          d.getMonth()    === todayDate.getMonth() &&
+          d.getFullYear() === todayDate.getFullYear()
         )
       }}
       modifiersClassNames={{
@@ -64,15 +68,11 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
         playing: '[&_button]:bg-yellow-400',
         future: showFuture ? 'font-bold text-white' : '',
         outside:   '[&_button]:bg-transparent opacity-0 pointer-events-none',
-        // todayAvailable: '[&_button]:bg-green-500 [&_button]:hover:bg-white/10 ',
-
       }}
       disabled={(date) => {
-        const dateString = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
-        const isFuture = showFuture
-          ? false 
-          : date > today
-        return !puzzles.some(p => p.date === dateString) || isFuture
+        const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
+        const isFuture = showFuture ? false : dateStr > todayStr
+        return !puzzleDateStrs.includes(dateStr) || isFuture
       }}
 
       onDayClick={handleDayClick}
