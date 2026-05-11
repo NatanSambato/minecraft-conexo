@@ -1,0 +1,31 @@
+{
+    "id": 12,
+    "date": "2026-05-12",
+    "creator": "Natowski",
+    "groups": [
+      {
+        "id": 1,
+        "correlation": "Spider Related",
+        "color": "yellow",
+        "items": ["Spider Eye", "Fermented Spider Eye", "Spider Jockey", "Cobweb"]
+      },
+      {
+        "id": 2,
+        "correlation": "Arthropods",
+        "color": "green",
+        "items": ["Bee", "Cave Spider", "Silverfish", "Endermite"]
+      },
+      {
+        "id": 3,
+        "correlation": "Crafted with Honeycomb",
+        "color": "blue",
+        "items": ["Honeycomb Block", "Beehive", "Candle", "Waxed Weathered Chiseled Copper"]
+      },
+      {
+        "id": 4,
+        "correlation": "Apply an Effect",
+        "color": "purple",
+        "items": ["Elder Guardian", "Shulker", "Husk", "Wither Rose"]
+      }
+    ]
+  }

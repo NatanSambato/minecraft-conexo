@@ -1,0 +1,31 @@
+{
+    "id": 11,
+    "date": "2026-05-11",
+    "creator": "Natowski",
+    "groups": [
+      {
+        "id": 1,
+        "correlation": "Removed Items",
+        "color": "yellow",
+        "items": ["Ruby", "Quiver", "Horse Saddle", "Copper Horn"   ]
+      },
+      {
+        "id": 2,
+        "correlation": "Crafted with Copper Ingot(s)",
+        "color": "green",
+        "items": ["Copper Hoe", "Lightning Rod", "Brush", "Spyglass"]
+      },
+      {
+        "id": 3,
+        "correlation": "Added in the Caves & Cliffs update",
+        "color": "blue",
+        "items": ["Amethyst", "Glow Squid", "Axolotl", "Music Disc Otherside"]
+      },
+      {
+        "id": 4,
+        "correlation": "Mobs that interact with blocks",
+        "color": "purple",
+        "items": ["Enderman", "Copper Golem", "Zombie", "Villager"]
+      }
+    ]
+  }

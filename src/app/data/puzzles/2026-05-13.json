@@ -1,0 +1,31 @@
+{
+    "id": 13,
+    "date": "2026-05-13",
+    "creator": "Natowski",
+    "groups": [
+      {
+        "id": 1,
+        "correlation": "Mobs that can equip a Saddle",
+        "color": "yellow",
+        "items": ["Pig", "Mule", "Skeleton Horse", "Camel Husk"]
+      },
+      {
+        "id": 2,
+        "correlation": "Nether Mobs",
+        "color": "green",
+        "items": ["Blaze", "Ghast", "Piglin", "Strider"]
+      },
+      {
+        "id": 3,
+        "correlation": "Items made with Ghast Tear",
+        "color": "blue",
+        "items": ["Potion of Regeneration", "End Crystal", "Dried Ghast", "Mundane Potion"]
+      },
+      {
+        "id": 4,
+        "correlation": "Fossil Blocks",
+        "color": "purple",
+        "items": ["Bone Block", "Coal Ore", "Diamond Ore", "Deepslate Diamond Ore"]
+      }
+    ]
+  }
