@@ -23,7 +23,7 @@
     },
     {
       "id": 4,
-      "correlation": "Mobs that Spawn in the Dark",
+      "correlation": "Mobs that spawn in the dark",
       "color": "purple",
       "items": ["Zombie", "Skeleton", "Bat", "Witch"]
     }

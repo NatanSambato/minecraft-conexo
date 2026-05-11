@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "correlation": "Items crafted with Diamond(s)",
+      "correlation": "Crafted with Diamond",
       "color": "blue",
       "items": ["Jukebox", "Enchantment Table", "Firework Star", "Smithing Templates"]
     },
