@@ -11,7 +11,7 @@
       },
       {
         "id": 2,
-        "correlation": "Crafted with Copper Ingot(s)",
+        "correlation": "Crafted with Copper Ingot",
         "color": "green",
         "items": ["Copper Hoe", "Lightning Rod", "Brush", "Spyglass"]
       },
