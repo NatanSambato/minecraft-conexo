@@ -1,31 +1,31 @@
 {
-    "id": 16,
-    "date": "2026-05-16",
-    "creator": "Natowski",
-    "groups": [
-      {
-        "id": 1,
-        "correlation": "Skeleton Variants",
-        "color": "yellow",
-        "items": ["Stray", "Bogged", "Parched", "Wither Skeleton"]
-      },
-      {
-        "id": 2,
-        "correlation": "Raiders",
-        "color": "green",
-        "items": ["Evoker", "Vindicator", "Pillager", "Witch"]
-      },
-      {
-        "id": 3,
-        "correlation": "Mobs that drop fish",
-        "color": "blue",
-        "items": ["Guardian", "Elder Guardian", "Dolphin", "Polar Bear"]
-      },
-      {
-        "id": 4,
-        "correlation": "Jockeys",
-        "color": "purple",
-        "items": ["Spider", "Chicken", "Nautilus", "Ravager"]
-      }
-    ]
-  }
+  "id": 16,
+  "date": "2026-05-16",
+  "creator": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Skeleton Variants",
+      "color": "yellow",
+      "items": ["Stray", "Bogged", "Parched", "Wither Skeleton"]
+    },
+    {
+      "id": 2,
+      "correlation": "Raiders",
+      "color": "green",
+      "items": ["Evoker", "Vindicator", "Pillager", "Witch"]
+    },
+    {
+      "id": 3,
+      "correlation": "Mobs that drop fish",
+      "color": "blue",
+      "items": ["Guardian", "Elder Guardian", "Dolphin", "Polar Bear"]
+    },
+    {
+      "id": 4,
+      "correlation": "Jockeys",
+      "color": "purple",
+      "items": ["Spider", "Chicken", "Nautilus", "Ravager"]
+    }
+  ]
+}
