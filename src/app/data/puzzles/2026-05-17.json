@@ -1,31 +1,31 @@
 {
-    "id": 17,
-    "date": "2026-05-17",
-    "creator": "Natowski",
-    "groups": [
-      {
-        "id": 1,
-        "correlation": "Items crafted with Wool",
-        "color": "yellow",
-        "items": ["White Carpet", "Painting", "Banner", "Harness"]
-      },
-      {
-        "id": 2,
-        "correlation": "Storage Items",
-        "color": "green",
-        "items": ["Shulker Box", "Barrel", "Bundle", "Shelf"]
-      },
-      {
-        "id": 3,
-        "correlation": "Items that became craftable",
-        "color": "blue",
-        "items": ["Saddle", "Name Tag", "Mossy Cobblestone", "End Crystal"]
-      },
-      {
-        "id": 4,
-        "correlation": "Blocks that spread to adjacent ones",
-        "color": "purple",
-        "items": ["Fire", "Grass Block", "Mycelium", "Sculk"]
-      }
-    ]
-  }
+  "id": 17,
+  "date": "2026-05-17",
+  "creator": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Items crafted with Wool",
+      "color": "yellow",
+      "items": ["White Carpet", "Painting", "Banner", "Harness"]
+    },
+    {
+      "id": 2,
+      "correlation": "Storage Items",
+      "color": "green",
+      "items": ["Shulker Box", "Barrel", "Bundle", "Shelf"]
+    },
+    {
+      "id": 3,
+      "correlation": "Spreading Blocks",
+      "color": "blue",
+      "items": ["Fire", "Grass Block", "Mycelium", "Vines"]
+    },
+    {
+      "id": 4,
+      "correlation": "Items that became craftable",
+      "color": "purple",
+      "items": ["Saddle", "Name Tag", "Mossy Cobblestone", "End Crystal"]
+    }
+  ]
+}
