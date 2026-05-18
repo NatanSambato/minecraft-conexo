@@ -1,0 +1,31 @@
+{
+  "id": 21,
+  "date": "2026-05-21",
+  "creator": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Animal Blocks",
+      "color": "yellow",
+      "items": ["Frogspawn", "Firefly Bush", "Tube Coral", "Sponge"]
+    },
+    {
+      "id": 2,
+      "correlation": "Aquatic Organisms",
+      "color": "green",
+      "items": ["Mangrove Roots", "Lily Pad", "Kelp", "Sea Grass"]
+    },
+    {
+      "id": 3,
+      "correlation": "Items crafted with Prismarine Shard",
+      "color": "blue",
+      "items": ["Prismarine", "Prismarine Bricks", "Dark Prismarine", "Sea Lantern"]
+    },
+    {
+      "id": 4,
+      "correlation": "Elder Guardian Drops",
+      "color": "purple",
+      "items": ["Tide Armor Trim", "Prismarine Crystals", "Prismarine Shard", "Raw Cod"]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": 22,
+  "date": "2026-05-22",
+  "creator": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Green Mobs",
+      "color": "yellow",
+      "items": ["Creeper", "Zombie", "Turtle", "Slime"]
+    },
+    {
+      "id": 2,
+      "correlation": "Green Blocks",
+      "color": "green",
+      "items": ["Block of Bamboo", "Melon", "Moss Block", "Dried Kelp Block"]
+    },
+    {
+      "id": 3,
+      "correlation": "Green Items",
+      "color": "blue",
+      "items": ["Green Bundle", "Emerald", "Wheat Seeds", "Turtle Shell"]
+    },
+    {
+      "id": 4,
+      "correlation": "Slime Related",
+      "color": "purple",
+      "items": ["Slime Block", "Sticky Piston", "Potion of Oozing", "Swamp"]
+    }
+  ]
+}
