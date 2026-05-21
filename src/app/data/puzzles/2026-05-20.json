@@ -17,7 +17,7 @@
         },
         {
         "id": 3,
-        "correlation": "Weapons mobs spawn equipped with",
+        "correlation": "Mob Weapons",
         "color": "blue",
         "items": ["Trident", "Golden Sword", "Stone Sword", "Golden Axe"]
         },
