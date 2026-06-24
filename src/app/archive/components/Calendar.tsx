@@ -2,7 +2,9 @@
 
 import { DayPicker } from 'react-day-picker'
 import { useRouter } from 'next/navigation'
+import { Puzzle, SavedProgress } from '@/types'
 import { getProgress } from '@/lib/utils'
+import { useEffect, useState } from 'react'
 
 const toDate = (dateStr: string) => {
   const [y, m, d] = dateStr.split('-').map(Number)
@@ -16,7 +18,13 @@ interface CalendarProps {
 
 export default function Calendar({ puzzles, initialDate }: CalendarProps) {
   const router = useRouter()
-  const progress = getProgress()
+
+  const [progress, setProgress] = useState<Record<string, SavedProgress>>({})
+  
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setProgress(getProgress())
+  }, [])
 
   const puzzleDays = puzzles.map(p => toDate(p.date))
 
