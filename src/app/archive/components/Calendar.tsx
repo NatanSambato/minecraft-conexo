@@ -2,8 +2,7 @@
 
 import { DayPicker } from 'react-day-picker'
 import { useRouter } from 'next/navigation'
-import { Puzzle } from '@/types'
-import { getAllProgress } from '@/lib/utils'
+import { getProgress } from '@/lib/utils'
 
 const toDate = (dateStr: string) => {
   const [y, m, d] = dateStr.split('-').map(Number)
@@ -17,7 +16,7 @@ interface CalendarProps {
 
 export default function Calendar({ puzzles, initialDate }: CalendarProps) {
   const router = useRouter()
-  const allProgress = getAllProgress()
+  const progress = getProgress()
 
   const puzzleDays = puzzles.map(p => toDate(p.date))
 
@@ -32,8 +31,8 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
   const availableStrs = puzzleDateStrs.filter(d => d <= todayStr)
   const futureStrs    = puzzleDateStrs.filter(d => d > todayStr)
 
-  const wonDays     = puzzles.filter(p => allProgress[`puzzle_${p.id}`]?.status === 'won').map(p => toDate(p.date))
-  const playingDays = puzzles.filter(p => allProgress[`puzzle_${p.id}`]?.status === 'playing').map(p => toDate(p.date))
+  const wonDays     = puzzles.filter(p => progress[`puzzle_${p.id}`]?.status === 'won').map(p => toDate(p.date))
+  const playingDays = puzzles.filter(p => progress[`puzzle_${p.id}`]?.status === 'playing').map(p => toDate(p.date))
 
   const handleDayClick = (day: Date) => {
     const dateStr = `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, '0')}-${String(day.getDate()).padStart(2, '0')}`

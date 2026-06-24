@@ -1,6 +1,6 @@
 import { SavedProgress } from "@/types"
 
-export function getAllProgress(): Record<string, SavedProgress> {
+export function getProgress(): Record<string, SavedProgress> {
     const result: Record<string, SavedProgress> = {}
     
     for (let i = 0; i < localStorage.length; i++) {
