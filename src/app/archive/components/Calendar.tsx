@@ -12,7 +12,7 @@ const toDate = (dateStr: string) => {
 }
 
 interface CalendarProps {
-  puzzles: Puzzle[]   // e.g. ['2025-04-17', '2025-04-18']
+  puzzles: Puzzle[]   // e.g. ['2026-04-17', '2026-04-18']
   initialDate?: string
 }
 
@@ -28,13 +28,15 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
 
   const puzzleDays = puzzles.map(p => toDate(p.date))
 
+  const todayStr = new Date().toISOString().split('T')[0] // "2026-04-23"
   const defaultMonth = initialDate
     ? new Date(Number(initialDate.split('-')[0]), Number(initialDate.split('-')[1]) - 1) 
-    : puzzleDays.at(-1)
+    : new Date(todayStr)
   ;
 
-  const todayStr = new Date().toISOString().split('T')[0] // "2026-04-23"
-  const todayDate = new Date(todayStr)
+  const todayDate = toDate(todayStr)
+  const firstPuzzleDate = puzzleDays[0]
+  const lastPuzzleDate = puzzleDays.at(-1) ?? todayDate
   const puzzleDateStrs = puzzles.map(p => p.date)
   const availableStrs = puzzleDateStrs.filter(d => d <= todayStr)
   const futureStrs    = puzzleDateStrs.filter(d => d > todayStr)
@@ -49,15 +51,15 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
     }
   }
 
-  const showFuture = process.env.NEXT_PUBLIC_SHOW_UNRELEASED_PUZZLES  === 'true'
-
+  const showFuture = process.env.NEXT_PUBLIC_SHOW_UNRELEASED_PUZZLES  === 'false'
+  
   return (
     <DayPicker
       mode="single"
       showOutsideDays={false}
       defaultMonth={defaultMonth}
-      startMonth={new Date(2026, 4)}
-      endMonth={todayDate}
+      startMonth={firstPuzzleDate}
+      endMonth={showFuture ? lastPuzzleDate : todayDate}
       modifiers={{
         available: availableStrs.map(toDate),
         future: futureStrs.map(toDate),
