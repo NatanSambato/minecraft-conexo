@@ -15,7 +15,7 @@
  */
 
 import rawRegistryData from "@/app/data/registry.json";
-import type { Registry, RegistryEntry, RegistryRow } from "@/types/index";
+import type { Registry, RegistryEntry } from "@/types/index";
 
 // ─── Module state ─────────────────────────────────────────────────────────────
 
@@ -60,23 +60,6 @@ export function getItem(name: string): RegistryEntry | null {
   // _meta is also in the registry map — guard against it
   if (!entry || typeof entry !== "object" || !("translations" in entry)) return null;
   return entry as RegistryEntry;
-}
-
-/** Flatten the registry into rows for admin/debug views. */
-export function getAllItems(): RegistryRow[] {
-  const registry = assertLoaded();
-  return Object.entries(registry)
-    .filter(([key, val]) => key !== "_meta" && typeof val === "object" && "translations" in val)
-    .map(([name, entry]) => {
-      const e = entry as RegistryEntry;
-      return {
-        name,
-        url: e.pageUrl ?? null,
-        pt: e.translations?.pt ?? null,
-        es: e.translations?.es ?? null,
-        image: e.image ?? null,
-      };
-    });
 }
 
 /**
