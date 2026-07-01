@@ -51,7 +51,7 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
     }
   }
 
-  const showFuture = process.env.NEXT_PUBLIC_SHOW_UNRELEASED_PUZZLES  === 'false'
+  const showFuture = process.env.NEXT_PUBLIC_SHOW_UNRELEASED_PUZZLES  === 'true'
   
   return (
     <DayPicker
