@@ -1,6 +1,6 @@
 {
   "id": 11,
-  "date": "2026-05-11",
+  "date": "2026-07-11",
   "creator": "Natowski",
   "groups": [
     {
@@ -19,7 +19,7 @@
       "id": 3,
       "correlation": "Added in the Caves & Cliffs update",
       "color": "blue",
-      "items": ["Amethyst", "Glow Squid", "Axolotl", "Music Disc Otherside"]
+      "items": ["Amethyst Shard", "Glow Squid", "Axolotl", "Music Disc Otherside"]
     },
     {
       "id": 4,

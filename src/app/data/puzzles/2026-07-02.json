@@ -1,13 +1,13 @@
 {
   "id": 2,
-  "date": "2026-05-02",
+  "date": "2026-07-02",
   "creator": "Natowski",
   "groups": [
     {
       "id": 1,
       "correlation": "Food",
       "color": "yellow",
-      "items": ["Dried Kelp", "Pufferfish", "Glow Berry", "Suspicious Stew"]
+      "items": ["Dried Kelp", "Pufferfish", "Glow Berries", "Suspicious Stew"]
     },
     {
       "id": 2,

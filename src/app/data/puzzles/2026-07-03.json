@@ -1,6 +1,6 @@
 {
   "id": 3,
-  "date": "2026-05-03",
+  "date": "2026-07-03",
   "creator": "Natowski",
   "groups": [
     {
@@ -19,7 +19,7 @@
       "id": 3,
       "correlation": "Breeding Foods",
       "color": "blue",
-      "items": ["Wheat Seeds", "Sea Grass", "Bamboo", "Slimeball"]
+      "items": ["Wheat Seeds", "Seagrass", "Bamboo", "Slimeball"]
     },
     {
       "id": 4,

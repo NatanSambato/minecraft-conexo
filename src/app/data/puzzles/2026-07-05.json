@@ -1,6 +1,6 @@
 {
   "id": 5,
-  "date": "2026-05-05",
+  "date": "2026-07-05",
   "creator": "Natowski",
   "groups": [
     {
@@ -19,7 +19,7 @@
       "id": 3,
       "correlation": "Crafted with Diamond",
       "color": "blue",
-      "items": ["Jukebox", "Enchantment Table", "Firework Star", "Smithing Templates"]
+      "items": ["Jukebox", "Enchanting Table", "Firework Star", "Smithing Template"]
     },
     {
       "id": 4,

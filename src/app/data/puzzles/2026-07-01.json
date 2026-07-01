@@ -1,13 +1,13 @@
 {
   "id": 1,
-  "date": "2026-05-01",
+  "date": "2026-07-01",
   "creator": "Natowski",
   "groups": [
     {
       "id": 1,
       "correlation": "Dyes",
       "color": "yellow",
-      "items": ["Pink", "Blue", "Purple", "Magenta"]
+      "items": ["Pink Dye", "Blue Dye", "Purple Dye", "Magenta Dye"]
     },
     {
       "id": 2,

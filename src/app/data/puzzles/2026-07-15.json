@@ -1,6 +1,6 @@
 {
     "id": 15,
-    "date": "2026-05-15",
+    "date": "2026-07-15",
     "creator": "Natowski",
     "groups": [
         {
@@ -25,7 +25,7 @@
         "id": 4,
         "correlation": "Blocks only obtained with Silk Touch",
         "color": "purple",
-        "items": ["Bee Hive", "Ice", "Mushroom Stem", "Coral Fan"]
+        "items": ["Beehive", "Ice", "Mushroom Stem", "Coral Fan"]
         }
     ]
 }

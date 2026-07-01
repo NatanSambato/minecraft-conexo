@@ -1,6 +1,6 @@
 {
     "id": 20,
-    "date": "2026-05-20",
+    "date": "2026-07-20",
     "creator": "Natowski",
     "groups": [
         {
@@ -25,7 +25,7 @@
         "id": 4,
         "correlation": "Conditional Mob Drops",
         "color": "purple",
-        "items": ["Music Disc Tears", "Music Disc Lava Chicken", "Pearlescent Froglight", "Ominous Bottle"]
+        "items": ["Music Disc Tears", "Music Disc Lava Chicken", "Froglight", "Ominous Bottle"]
         }
     ]
 }

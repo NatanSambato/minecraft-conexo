@@ -1,6 +1,6 @@
 {
   "id": 8,
-  "date": "2026-05-08",
+  "date": "2026-07-08",
   "creator": "Natowski",
   "groups": [
     {
@@ -25,7 +25,7 @@
       "id": 4,
       "correlation": "Mobs with at least 100hp",
       "color": "purple",
-      "items": ["Warden", "EnderDragon", "Giant", "Ravager"]
+      "items": ["Warden", "Ender Dragon", "Giant", "Ravager"]
     }
   ]
 }

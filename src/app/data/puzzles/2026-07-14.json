@@ -1,19 +1,19 @@
 {
   "id": 14,
-  "date": "2026-05-14",
+  "date": "2026-07-14",
   "creator": "Natowski",
   "groups": [
     {
       "id": 1,
       "correlation": "Not obtainable in survival mode",
       "color": "yellow",
-      "items": ["Command Block", "Fire", "Portal Frame", "Parrot Spawn Egg"]
+      "items": ["Command Block", "Fire", "End Portal Frame", "Parrot Spawn Egg"]
     },
     {
       "id": 2,
       "correlation": "Crafted with Wheat",
       "color": "green",
-      "items": ["Bread", "Cookies", "Hay Bale", "Packed Mud"]
+      "items": ["Bread", "Cookie", "Hay Bale", "Packed Mud"]
     },
     {
       "id": 3,

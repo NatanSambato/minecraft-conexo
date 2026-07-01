@@ -1,6 +1,6 @@
 {
   "id": 100,
-  "date": "2026-06-30",
+  "date": "2026-08-30",
   "creator": "Natowski",
   "groups": [
     {
@@ -19,7 +19,7 @@
       "id": 3,
       "correlation": "Blocks that can negate fall damage",
       "color": "blue",
-      "items": ["Powder Snow", "Ladder", "Scaffold", "Vines"]
+      "items": ["Powder Snow", "Ladder", "Scaffolding", "Vines"]
     },
     {
       "id": 4,

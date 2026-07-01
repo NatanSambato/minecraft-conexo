@@ -1,11 +1,11 @@
 {
   "id": 29,
-  "date": "2026-05-29",
+  "date": "2026-07-29",
   "creator": "Natowski",
   "groups": [
     {
       "id": 1,
-      "correlation": "Moster Room Loot",
+      "correlation": "Monster Room Loot",
       "color": "yellow",
       "items": ["Music Disc Cat", "Diamond Horse Armor", "Bucket", "Rotten Flesh"]
     },
@@ -13,13 +13,13 @@
       "id": 2,
       "correlation": "Mineshaft Loot",
       "color": "green",
-      "items": ["Rail", "Glow Berry", "Torch", "Diamond"]
+      "items": ["Rail", "Glow Berries", "Diamond", "Iron Pickaxe"]
     },
     {
       "id": 3,
       "correlation": "Buried Treasure Loot",
       "color": "blue",
-      "items": ["Heart of the Sea", "Prismarine Shard", "Tnt", "Emerald"]
+      "items": ["Heart of the Sea", "Prismarine Shard", "Potion of Water Breathing", "Emerald"]
     },
     {
       "id": 4,

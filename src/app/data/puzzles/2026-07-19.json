@@ -1,6 +1,6 @@
 {
   "id": 19,
-  "date": "2026-05-19",
+  "date": "2026-07-19",
   "creator": "Natowski",
   "groups": [
     {
@@ -13,7 +13,7 @@
       "id": 2,
       "correlation": "Items crafted with Amethyst",
       "color": "green",
-      "items": ["Block of Amethyst", "Spyglass", "Tinted Glass", "Calibrated Skulk Sensor"]
+      "items": ["Block of Amethyst", "Spyglass", "Tinted Glass", "Calibrated Sculk Sensor"]
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "id": 4,
       "correlation": "Items used in a single crafting recipe",
       "color": "purple",
-      "items": ["Nether Star", "Packed Ice", "Chain", "Armadillo Scute"]
+      "items": ["Nether Star", "Packed Ice", "Iron Chain", "Armadillo Scute"]
     }
   ]
 }
