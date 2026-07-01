@@ -8,6 +8,9 @@ import Tile from './Tile'
 import BoardHeader from './BoardHeader';
 import Header from '@/components/Header'
 import { useProgress } from '@/hooks/useProgress'
+import { loadRegistry } from '@/lib/registry';
+
+await loadRegistry();
 
 export default function Board({ puzzle }: { puzzle: Puzzle }) {
     const { loadProgress } = useProgress(puzzle.id)

@@ -3,6 +3,8 @@
 import { getGroupHex } from '@/lib/gameUtils'
 import useGameStore from '@/store/gameStore'
 import type { Tile } from '@/types'
+import { getImage } from '@/lib/registry';
+import Image from 'next/image';
 
 const getFontSize = (label: string) => {
     
@@ -26,6 +28,8 @@ export default function Tile({ tile, disabled }: TileProps) {
 
     const isSelected = selected.includes(tile.id)
 
+    const image = getImage(tile.label)
+
     const handleClick = () => {
         if (disabled) return
         toggleTile(tile.id)
@@ -41,6 +45,17 @@ export default function Tile({ tile, disabled }: TileProps) {
             ${disabled   ? '' : 'cursor-pointer'}
         `}
     >
+       <div className='absolute inset-1'>
+            <Image
+                src={image || '/images/placeholder.png '} 
+                alt={tile.label}
+                fill
+                sizes="(max-width: 576px) 25vw, 144px"
+                unoptimized={image?.endsWith(".gif") ?? false}
+                className='object-contain'
+            />
+       </div>
+
         {isHinted && (
             <div
                 className='absolute top-0 right-0 w-0 h-0'
@@ -50,7 +65,6 @@ export default function Tile({ tile, disabled }: TileProps) {
                 }}
             />
         )}
-        {tile.label}
     </button>
   )
 }
