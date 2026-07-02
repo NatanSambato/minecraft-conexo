@@ -158,7 +158,6 @@ const useGameStore = create<GameState>((set, get) => ({
     if (partialGroup) return true
     
     const unhintedGroup = unsolvedGroups.filter(g => !hintedGroups[g.id])
-    console.log(unhintedGroup.length)
     return unhintedGroup.length > 0
   },
 
