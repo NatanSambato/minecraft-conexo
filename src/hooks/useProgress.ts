@@ -1,7 +1,10 @@
 import { useCallback } from 'react';
 import { SavedProgress } from '../types/index';
 
-export const buildKey = (puzzleId: number): string => `puzzle_${puzzleId}`
+const STORAGE_VERSION = 2;
+export const PUZZLE_KEY_PREFIX = `v${STORAGE_VERSION}_puzzle_`;
+
+export const buildKey = (puzzleId: number): string => `${PUZZLE_KEY_PREFIX}${puzzleId}`
 
 export const loadProgressFromStorage = (puzzleId: number): SavedProgress | null => {
     try {

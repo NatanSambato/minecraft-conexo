@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { Puzzle, SavedProgress } from '@/types'
 import { getProgress } from '@/lib/utils'
 import { useEffect, useState } from 'react'
+import { buildKey } from '@/hooks/useProgress'
 
 const toDate = (dateStr: string) => {
   const [y, m, d] = dateStr.split('-').map(Number)
@@ -41,8 +42,8 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
   const availableStrs = puzzleDateStrs.filter(d => d <= todayStr)
   const futureStrs    = puzzleDateStrs.filter(d => d > todayStr)
 
-  const wonDays     = puzzles.filter(p => progress[`puzzle_${p.id}`]?.status === 'won').map(p => toDate(p.date))
-  const playingDays = puzzles.filter(p => progress[`puzzle_${p.id}`]?.status === 'playing').map(p => toDate(p.date))
+  const wonDays     = puzzles.filter(p => progress[buildKey(p.id)]?.status === 'won').map(p => toDate(p.date))
+  const playingDays = puzzles.filter(p => progress[buildKey(p.id)]?.status === 'playing').map(p => toDate(p.date))
 
   const handleDayClick = (day: Date) => {
     const dateStr = `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, '0')}-${String(day.getDate()).padStart(2, '0')}`
