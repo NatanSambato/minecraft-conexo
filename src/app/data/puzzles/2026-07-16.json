@@ -1,31 +1,31 @@
 {
-  "id": 16,
+  "id": 3,
   "date": "2026-07-16",
   "creator": "Natowski",
   "groups": [
     {
       "id": 1,
-      "correlation": "Skeleton Variants",
+      "correlation": "Blocks that decrease your walking speed",
       "color": "yellow",
-      "items": ["Stray", "Bogged", "Parched", "Wither Skeleton"]
+      "items": ["Soul Sand", "Cobweb", "Honey Block", "Sweet Berry Bush"]
     },
     {
       "id": 2,
-      "correlation": "Raiders",
+      "correlation": "Light-Emitting Blocks",
       "color": "green",
-      "items": ["Evoker", "Vindicator", "Pillager", "Witch"]
+      "items": ["Conduit", "Sea Pickle", "Lava", "Sea Lantern"]
     },
     {
       "id": 3,
-      "correlation": "Mobs that drop fish",
+      "correlation": "Breeding Foods",
       "color": "blue",
-      "items": ["Guardian", "Elder Guardian", "Dolphin", "Polar Bear"]
+      "items": ["Wheat Seeds", "Seagrass", "Bamboo", "Slimeball"]
     },
     {
       "id": 4,
-      "correlation": "Jockeys",
+      "correlation": "Obtained from the Wandering Trader",
       "color": "purple",
-      "items": ["Spider", "Chicken", "Nautilus", "Ravager"]
+      "items": ["Lily Pad", "Nautilus Shell", "Blue Ice", "Podzol"]
     }
   ]
 }
