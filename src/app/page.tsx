@@ -1,3 +1,5 @@
+'use client'
+
 import { getTodaysDate } from '@/lib/gameUtils'
 import Link from 'next/link';
 
