@@ -75,6 +75,7 @@ export function getAllItems(): RegistryRow[] {
         pt: e.translations?.pt ?? null,
         es: e.translations?.es ?? null,
         image: e.image ?? null,
+        _manual: e._manual,
       };
     });
 }

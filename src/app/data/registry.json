@@ -23760,11 +23760,13 @@
   "Shulker Bullet": {
     "image": "https://minecraft.wiki/images/Shulker_Bullet.png?434ec",
     "pageUrl": "https://minecraft.wiki/w/Shulker#Shulker_bullet",
-    "translations": {}
+    "translations": {},
+    "_manual": true
   },
   "Cocoa": {
     "image": "https://minecraft.wiki/images/Cocoa_Age_2_%28S%29_JE6.png?c1627",
     "pageUrl": "https://minecraft.wiki/w/Cocoa_Beans",
-    "translations": {}
+    "translations": {},
+    "_manual": true
   }
 }

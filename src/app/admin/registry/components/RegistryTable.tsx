@@ -8,7 +8,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 const CHUNK_SIZE = 50;
 
 type SortKey = "name" | "pt" | "es" | "image";
-type Filter = "all" | "missingPt" | "missingEs" | "missingImage";
+type Filter = "all" | "missingPt" | "missingEs" | "missingImage" | "manual";
 
 export default function RegistryTable({ items }: { items: RegistryRow[] }) {
   const [filter, setFilter] = useState<Filter>("all");
@@ -38,6 +38,9 @@ export default function RegistryTable({ items }: { items: RegistryRow[] }) {
         break;
       case "missingImage":
         rows = rows.filter((r) => !r.image);
+        break;
+      case "manual":
+        rows = rows.filter((r) => r._manual);
         break;
     }
 
@@ -92,12 +95,14 @@ export default function RegistryTable({ items }: { items: RegistryRow[] }) {
       missingPt: items.filter((r) => !r.pt).length,
       missingEs: items.filter((r) => !r.es).length,
       missingImage: items.filter((r) => !r.image).length,
+      manual: items.filter((r) => r._manual).length,
     }),
     [items]
   );
 
   const filterOptions: [Filter, string][] = [
     ["all", `All (${counts.total})`],
+    ["manual", `Manual (${counts.manual})`],
     ["missingPt", `Missing PT (${counts.missingPt})`],
     ["missingEs", `Missing ES (${counts.missingEs})`],
     ["missingImage", `Missing Image (${counts.missingImage})`],

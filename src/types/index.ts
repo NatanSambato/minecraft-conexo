@@ -55,4 +55,5 @@ export interface RegistryRow {
   pt: string | null;
   es: string | null;
   image: string | null;
+  _manual?: true;
 }
