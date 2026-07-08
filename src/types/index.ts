@@ -48,3 +48,11 @@ export interface Registry {
   _meta: RegistryMeta;
   [itemName: string]: RegistryEntry | RegistryMeta;
 }
+
+export interface RegistryRow {
+  name: string;
+  url: string | null;
+  pt: string | null;
+  es: string | null;
+  image: string | null;
+}
