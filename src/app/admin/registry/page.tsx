@@ -1,6 +1,8 @@
 import { loadRegistry, getAllItems } from "@/lib/registry";
 import RegistryTable from "./components/RegistryTable";
 
+export const dynamic = "force-dynamic";
+
 export default async function RegistryAdminPage() {
   await loadRegistry();
   const items = getAllItems();
