@@ -1,5 +1,5 @@
 import { PUZZLE_KEY_PREFIX } from "@/hooks/useProgress"
-import { SavedProgress } from "@/types"
+import type { SavedProgress } from "@/types"
 
 export function getProgress(): Record<string, SavedProgress> {
     const result: Record<string, SavedProgress> = {}

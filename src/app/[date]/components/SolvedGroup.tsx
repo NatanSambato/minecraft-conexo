@@ -1,6 +1,6 @@
 import { getGroupColor } from '@/lib/gameUtils'
 import { getImage } from '@/lib/registry'
-import { Group } from '@/types'
+import type { Group } from '@/types'
 import Image from 'next/image'
 
 export default function SolvedGroup({ group }: { group: Group }) {

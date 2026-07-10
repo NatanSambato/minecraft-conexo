@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { SavedProgress } from '../types/index';
+import type { SavedProgress } from '../types/index';
 
 const STORAGE_VERSION = 2;
 export const PUZZLE_KEY_PREFIX = `v${STORAGE_VERSION}_puzzle_`;

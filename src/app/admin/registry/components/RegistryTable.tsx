@@ -1,6 +1,6 @@
 "use client";
 
-import { RegistryRow } from "@/types";
+import type { RegistryRow } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";

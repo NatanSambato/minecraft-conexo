@@ -2,7 +2,7 @@
 
 import { DayPicker } from 'react-day-picker'
 import { useRouter } from 'next/navigation'
-import { Puzzle, SavedProgress } from '@/types'
+import type { Puzzle, SavedProgress } from '@/types'
 import { getProgress } from '@/lib/utils'
 import { useEffect, useState } from 'react'
 import { buildKey } from '@/hooks/useProgress'
