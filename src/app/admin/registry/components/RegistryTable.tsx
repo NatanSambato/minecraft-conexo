@@ -4,21 +4,34 @@ import { RegistryRow } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { EntryFields } from "../../../api/admin/registry/route";
+import { useRouter } from "next/navigation";
+import { CopyPlus, Pencil, SquarePlus, Trash2 } from "lucide-react";
+import EntryModal, { initialForAdd, initialForCopy, initialForEdit } from "./EntryModal";
+import DeleteModal from "./DeleteModal";
 
 const CHUNK_SIZE = 50;
 
 type SortKey = "name" | "pt" | "es" | "image";
 type Filter = "all" | "missingPt" | "missingEs" | "missingImage" | "manual";
 
+// Edit Mode
+type ModalState =
+  | { type: "add" | "copy" | "edit"; initial: EntryFields }
+  | { type: "delete"; name: string }
+  | null;
+
 export default function RegistryTable({ items }: { items: RegistryRow[] }) {
+const router = useRouter();
+
   const [filter, setFilter] = useState<Filter>("all");
   const [sortKey, setSortKey] = useState<SortKey>("name");
   const [sortAsc, setSortAsc] = useState(true);
   const [search, setSearch] = useState("");
   const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
-  const filterSignature = `${filter}|${search}|${sortKey}|${sortAsc}`;
-  const [prevSignature, setPrevSignature] = useState(filterSignature);
   const [visibleCount, setVisibleCount] = useState(CHUNK_SIZE);
+  const [hoveredRow, setHoveredRow] = useState<string | null>(null);
+  const [modal, setModal] = useState<ModalState>(null);
   const sentinelRef = useRef<HTMLTableRowElement>(null);
 
   const filtered = useMemo(() => {
@@ -53,6 +66,8 @@ export default function RegistryTable({ items }: { items: RegistryRow[] }) {
     return rows;
   }, [items, filter, sortKey, sortAsc, search]);
 
+  const filterSignature = `${filter}|${search}|${sortKey}|${sortAsc}`;
+  const [prevSignature, setPrevSignature] = useState(filterSignature);
   if (prevSignature !== filterSignature) {
     setPrevSignature(filterSignature);
     setVisibleCount(CHUNK_SIZE);
@@ -108,8 +123,14 @@ export default function RegistryTable({ items }: { items: RegistryRow[] }) {
     ["missingImage", `Missing Image (${counts.missingImage})`],
   ];
 
+  function handleSuccess() {
+    setModal(null);
+    router.refresh();
+  }
+
   return (
     <div>
+      {/* Top bar */}
       <div className="flex flex-wrap gap-2 mb-4 items-center text-sm">
         <div className="relative inline-block">
           <input
@@ -142,6 +163,8 @@ export default function RegistryTable({ items }: { items: RegistryRow[] }) {
           );
         })}
       </div>
+
+      {/* Table */}
       <table className="w-full border-collapse text-sm table-fixed">
         <colgroup>
           <col className="w-[40%]" />
@@ -163,40 +186,70 @@ export default function RegistryTable({ items }: { items: RegistryRow[] }) {
           </tr>
         </thead>
         <tbody>
-          {visibleItems.map((row) => (
-            <tr key={row.name} className="border-b">
-              <td className="p-2">
-                {row.url ? (
-                  <Link href={row.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                    {row.name}
-                  </Link>
-                ) : (
-                  row.name
-                )}
-              </td>
-              <td className={`p-2 ${!row.pt ? "text-red-500" : ""}`}>
-                {row.pt ?? <span className="inline-block translate-x-0.5">—</span>}
+          {visibleItems.map((row) => {
+            const isHovered = hoveredRow === row.name;
+
+            const actions = [
+              { title: "Add entry", icon: SquarePlus, bg: "bg-green-500", onClick: () => setModal({ type: "add", initial: initialForAdd() }) },
+              { title: "Copy entry", icon: CopyPlus, bg: "bg-blue-500", onClick: () => setModal({ type: "copy", initial: initialForCopy(row) }) },
+              { title: "Edit entry", icon: Pencil, bg: "bg-orange-500", onClick: () => setModal({ type: "edit", initial: initialForEdit(row) }) },
+              { title: "Delete entry", icon: Trash2, bg: "bg-red-500", onClick: () => setModal({ type: "delete", name: row.name }) },
+            ];
+
+            return (
+              <tr
+                key={row.name}
+                className="border-b"
+                onMouseEnter={() => setHoveredRow(row.name)}
+                onMouseLeave={() => setHoveredRow(null)}
+              >
+                <td className="p-2 relative">
+                  {/* Action buttons column */}
+                  {isHovered && (
+                    <div className="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 flex flex-col gap-0.5 pr-1">
+                      <div className="grid grid-cols-2 gap-0.5">
+                        {actions.map(({ title, icon: Icon, bg, onClick }) => (
+                          <button key={title} type="button" title="title" onClick={onClick}
+                            className={`flex items-center justify-center p-1 rounded text-white ${bg} hover:opacity-80 cursor-pointer`}>
+                            <Icon size={14}/>
+                          </button> 
+                        ))} 
+                      </div>
+                    </div>
+                  )}
+                  {/* Data Cells */}
+                  {row.url ? (
+                    <Link href={row.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                      {row.name}
+                    </Link>
+                  ) : (
+                    row.name
+                  )}
                 </td>
-              <td className={`p-2 ${!row.es ? "text-red-500" : ""}`}>
-                {row.es ?? <span className="inline-block translate-x-0.5">—</span>}
-              </td>
-              <td className="p-2">
-                {row.image ? (
-                  <Image
-                    src={row.image}
-                    alt={row.name}
-                    width={32}
-                    height={32}
-                    onClick={() => setLightboxSrc(row.image)}
-                    unoptimized={row.image.endsWith(".gif") ?? false}
-                    className="h-8 w-8 object-contain hover:cursor-pointer translate-x-1"
-                  />
-                ) : (
-                  <span className="text-red-500 inline-block translate-x-3.5">—</span> 
-                )}
-              </td>
-            </tr>
-          ))}
+                <td className={`p-2 ${!row.pt ? "text-red-500" : ""}`}>
+                  {row.pt ?? <span className="inline-block translate-x-0.5">—</span>}
+                  </td>
+                <td className={`p-2 ${!row.es ? "text-red-500" : ""}`}>
+                  {row.es ?? <span className="inline-block translate-x-0.5">—</span>}
+                </td>
+                <td className="p-2">
+                  {row.image ? (
+                    <Image
+                      src={row.image}
+                      alt={row.name}
+                      width={32}
+                      height={32}
+                      onClick={() => setLightboxSrc(row.image)}
+                      unoptimized={row.image.endsWith(".gif") ?? false}
+                      className="h-8 w-8 object-contain hover:cursor-pointer translate-x-1"
+                    />
+                  ) : (
+                    <span className="text-red-500 inline-block translate-x-3.5">—</span> 
+                  )}
+                </td>
+              </tr>
+              );
+            })}
           {hasMore && (
             <tr ref={sentinelRef}>
               <td colSpan={4} className="p-4 text-center text-gray-400">
@@ -206,6 +259,22 @@ export default function RegistryTable({ items }: { items: RegistryRow[] }) {
           )}
         </tbody>
       </table>
+
+      {/* Modals */}
+      {modal?.type === "add" && (
+        <EntryModal mode="add" initial={modal.initial} onClose={() => setModal(null)} onSuccess={handleSuccess}/>
+      )}
+      {modal?.type === "copy" && (
+        <EntryModal mode="copy" initial={modal.initial} onClose={() => setModal(null)} onSuccess={handleSuccess}/>
+      )}
+      {modal?.type === "edit" && (
+        <EntryModal mode="edit" initial={modal.initial} onClose={() => setModal(null)} onSuccess={handleSuccess}/>
+      )}
+      {modal?.type === "delete" && (
+        <DeleteModal name={modal.name} onClose={() => setModal(null)} onSuccess={handleSuccess}/>
+      )}
+
+      {/* Lightbox */}
       {lightboxSrc && (
         <div
           onClick={() => setLightboxSrc(null)}
