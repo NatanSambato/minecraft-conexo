@@ -7,7 +7,7 @@
       "id": 1,
       "correlation": "Food",
       "color": "yellow",
-      "items": ["Dried Kelp", "Pufferfish", "Glow Berries", "Suspicious Stew"]
+      "items": ["Dried Kelp", "Pufferfish (item)", "Glow Berries", "Suspicious Stew"]
     },
     {
       "id": 2,
