@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "correlation": "Projectiles (or their Item Forms)",
+      "correlation": "Projectiles",
       "color": "green",
       "items": ["Shulker Bullet", "Arrow", "Wind Charge", "Bottle o' Enchanting"]
     },
