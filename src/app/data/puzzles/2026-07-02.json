@@ -19,13 +19,13 @@
       "id": 3,
       "correlation": "Fuels",
       "color": "blue",
-      "items": ["Wooden Button", "Fishing Rod", "Lava Bucket", "Blaze Rod"]
+      "items": ["Oak Button (item)", "Fishing Rod", "Lava Bucket", "Blaze Rod"]
     },
     {
       "id": 4,
       "correlation": "Fishing Loot",
       "color": "purple",
-      "items": ["Nautilus Shell", "Lily Pad", "Leather Boots", "String"]
+      "items": ["Nautilus Shell", "Lily Pad (item)", "Leather Boots (item)", "String"]
     }
   ]
 }

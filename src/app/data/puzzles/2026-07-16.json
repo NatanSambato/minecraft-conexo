@@ -19,13 +19,13 @@
       "id": 3,
       "correlation": "Breeding Foods",
       "color": "blue",
-      "items": ["Wheat Seeds", "Seagrass", "Bamboo", "Slimeball"]
+      "items": ["Wheat Seeds", "Seagrass (item)", "Bamboo (item)", "Slimeball"]
     },
     {
       "id": 4,
       "correlation": "Obtained from the Wandering Trader",
       "color": "purple",
-      "items": ["Lily Pad", "Nautilus Shell", "Blue Ice", "Podzol"]
+      "items": ["Lily Pad (item)", "Nautilus Shell", "Blue Ice", "Podzol"]
     }
   ]
 }

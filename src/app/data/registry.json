@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3500,
+    "totalEntries": 3556,
     "languages": [
       "pt",
       "es"
@@ -1323,12 +1323,13 @@
     }
   },
   "Firework Star": {
-    "image": "https://minecraft.wiki/images/Invicon_White_Firework_Star.png",
+    "image": "https://minecraft.wiki/images/Firework_Star_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Firework_Star",
     "translations": {
       "es": "Estrella de fuegos artificiales",
       "pt": "Estrela de Fogo de Artifício"
-    }
+    },
+    "_manual": true
   },
   "Golden Horse Armor": {
     "image": "https://minecraft.wiki/images/Golden_Horse_Armor_JE4_BE3.png",
@@ -5526,14 +5527,6 @@
       "pt": "Prismarinho Escuro"
     }
   },
-  "Coral": {
-    "image": "https://minecraft.wiki/images/Tube_Coral_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Coral",
-    "translations": {
-      "es": "Coral",
-      "pt": "Coral"
-    }
-  },
   "Cut Sandstone": {
     "image": "https://minecraft.wiki/images/Cut_Sandstone_JE5_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Cut_Sandstone",
@@ -5570,26 +5563,11 @@
       "pt": "Gorgônia"
     }
   },
-  "Coral Block": {
-    "image": "https://minecraft.wiki/images/Tube_Coral_Block_JE2_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Coral_Block",
-    "translations": {
-      "es": "Bloque de coral",
-      "pt": "Bloco de Coral"
-    }
-  },
   "Dead Coral Fan": {
     "image": "https://minecraft.wiki/images/Dead_Tube_Coral_Fan_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Dead_Coral_Fan",
     "translations": {
       "pt": "Gorgônia Morta"
-    }
-  },
-  "Dead Coral": {
-    "image": "https://minecraft.wiki/images/Dead_Tube_Coral_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
-    "translations": {
-      "pt": "Coral Morto"
     }
   },
   "Cornflower": {
@@ -5647,13 +5625,6 @@
     "pageUrl": "https://minecraft.wiki/w/Cracked_Nether_Bricks",
     "translations": {
       "pt": "Tijolos do Nether Rachados"
-    }
-  },
-  "Dead Coral Block": {
-    "image": "https://minecraft.wiki/images/Dead_Tube_Coral_Block_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Dead_Coral_Block",
-    "translations": {
-      "pt": "Bloco de coral morto"
     }
   },
   "Cursor": {
@@ -6641,12 +6612,13 @@
     }
   },
   "Lily Pad": {
-    "image": "https://minecraft.wiki/images/Lily_Pad_(on_the_water).png",
+    "image": "https://minecraft.wiki/images/Lily_Pad_JE3.png",
     "pageUrl": "https://minecraft.wiki/w/Lily_Pad",
     "translations": {
-      "es": "Nenúfar",
-      "pt": "Vitória-Régia"
-    }
+      "pt": "Vitória-Régia",
+      "es": "Nenúfar"
+    },
+    "_manual": true
   },
   "Invisible Bedrock": {
     "image": null,
@@ -7048,14 +7020,6 @@
     "pageUrl": "https://minecraft.wiki/w/Mossy_Stone_Bricks",
     "translations": {
       "pt": "Tijolos de Pedra Musgosos"
-    }
-  },
-  "Mushroom Block": {
-    "image": "https://minecraft.wiki/images/Red_Mushroom_Block_(ESU)_JE2_BE2.png",
-    "pageUrl": "https://minecraft.wiki/w/Mushroom_Block",
-    "translations": {
-      "es": "Bloque de champiñón",
-      "pt": "Bloco de cogumelo"
     }
   },
   "Paeonia": {
@@ -9951,14 +9915,6 @@
       "pt": "Agente"
     }
   },
-  "Parrot": {
-    "image": "https://minecraft.wiki/images/Red_Parrot_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Parrot",
-    "translations": {
-      "es": "Loro",
-      "pt": "Papagaio"
-    }
-  },
   "Turtle": {
     "image": "https://minecraft.wiki/images/Turtle_JE3_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Turtle",
@@ -10145,12 +10101,13 @@
     }
   },
   "Giant": {
-    "image": "https://minecraft.wiki/images/Zombie_JE5_BE2.png",
+    "image": "https://i.imgur.com/jkWpQ9w.png",
     "pageUrl": "https://minecraft.wiki/w/Giant",
     "translations": {
-      "es": "Gigante",
-      "pt": "Gigante"
-    }
+      "pt": "Gigante",
+      "es": "Gigante"
+    },
+    "_manual": true
   },
   "Magma Cube": {
     "image": "https://minecraft.wiki/images/Magma_Cube_JE2_BE2.png",
@@ -23627,146 +23584,706 @@
   },
   "Arrow of Night Vision": {
     "image": "https://minecraft.wiki/images/Arrow_of_Night_Vision_JE3.png?e19e2",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Visão Noturna",
       "es": "Flecha de Visión nocturna"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Invisibility": {
     "image": "https://minecraft.wiki/images/Arrow_of_Invisibility_JE3.png?de26d",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Invisibilidade",
       "es": "Flecha de Invisibilidad"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Leaping": {
     "image": "https://minecraft.wiki/images/Arrow_of_Leaping_JE3.png?93b34",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
-    "translations": {}
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
+    "translations": {},
+    "_manual": true
   },
   "Arrow of Fire Resistance": {
     "image": "https://minecraft.wiki/images/Arrow_of_Fire_Resistance_JE3.png?a2634",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Resistência ao Fogo",
       "es": "Flecha de Cuerpo ignífugo"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Swiftness": {
     "image": "https://minecraft.wiki/images/Arrow_of_Swiftness_JE3.png?39b44",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
-    "translations": {}
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
+    "translations": {},
+    "_manual": true
   },
   "Arrow of Slowness": {
     "image": "https://minecraft.wiki/images/Arrow_of_Slowness_JE3.png?0d1d0",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Lentidão",
       "es": "Flecha de Lentitud"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Water Breathing": {
     "image": "https://minecraft.wiki/images/Arrow_of_Water_Breathing_JE3.png?763c6",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Respiração Aquática",
       "es": "Flecha de Apnea"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Healing": {
     "image": "https://minecraft.wiki/images/Arrow_of_Healing_JE2.png?45202",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Cura",
       "es": "Flecha de Curación"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Harming": {
     "image": "https://minecraft.wiki/images/Arrow_of_Harming_JE3.png?2095a",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
-    "translations": {}
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
+    "translations": {},
+    "_manual": true
   },
   "Arrow of Poison": {
     "image": "https://minecraft.wiki/images/Arrow_of_Poison_JE3.png?a0010",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Veneno",
       "es": "Flecha de Veneno"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Regeneration": {
     "image": "https://minecraft.wiki/images/Arrow_of_Regeneration_JE2.png?562ae",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Regeneração",
       "es": "Flecha de Regeneración"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Strength": {
     "image": "https://minecraft.wiki/images/Arrow_of_Strength_JE3.png?9e2da",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Força (efeito)",
       "es": "Flecha de Fuerza"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Weakness": {
     "image": "https://minecraft.wiki/images/Arrow_of_Weakness_JE2_BE2.png?cec80",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Fraqueza",
       "es": "Flecha de Debilidad"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Slow Falling": {
     "image": "https://minecraft.wiki/images/Arrow_of_Slow_Falling_JE4.png?461ac",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Queda Lenta",
       "es": "Flecha de Caída lenta"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Weaving": {
     "image": "https://minecraft.wiki/images/Arrow_of_Weaving_JE1_BE1.png?fbf04",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Tecitura",
       "es": "Flecha de Tejedura"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Oozing": {
     "image": "https://minecraft.wiki/images/Arrow_of_Oozing_JE1_BE1.png?9f8b2",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Pegajoso",
       "es": "Flecha de Mucosidad"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Luck": {
     "image": "https://minecraft.wiki/images/Arrow_of_Luck_JE3.png?7c40f",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Sorte",
       "es": "Flecha de Suerte"
-    }
+    },
+    "_manual": true
   },
   "Arrow of Decay": {
     "image": "https://minecraft.wiki/images/Arrow_of_Decay_BE4.png?882a5",
-    "pageUrl": "https://minecraft.wiki/w/Arrow",
-    "translations": {}
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
+    "translations": {},
+    "_manual": true
   },
   "Shulker Bullet": {
     "image": "https://minecraft.wiki/images/Shulker_Bullet.png?434ec",
     "pageUrl": "https://minecraft.wiki/w/Shulker#Shulker_bullet",
-    "translations": {},
+    "translations": {
+      "pt": "Bala de Shulker",
+      "es": "Bala de Shulker"
+    },
     "_manual": true
   },
   "Cocoa": {
     "image": "https://minecraft.wiki/images/Cocoa_Age_2_%28S%29_JE6.png?c1627",
     "pageUrl": "https://minecraft.wiki/w/Cocoa_Beans",
     "translations": {},
+    "_manual": true
+  },
+  "Kelp (item)": {
+    "image": "https://minecraft.wiki/images/Kelp_%28item%29_JE1_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Kelp",
+    "translations": {
+      "pt": "Alga",
+      "es": "Alga"
+    },
+    "_manual": true
+  },
+  "Arrow (item)": {
+    "image": "https://minecraft.wiki/images/Arrow_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Arrow",
+    "translations": {
+      "pt": "Flecha",
+      "es": "Flecha"
+    },
+    "_manual": true
+  },
+  "Spectral Arrow (item)": {
+    "image": "https://minecraft.wiki/images/Spectral_Arrow_%28item%29_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spectral_Arrow",
+    "translations": {
+      "pt": "Flecha Espectral",
+      "es": "Flecha#Flecha espectral"
+    },
+    "_manual": true
+  },
+  "Wind Charge (item)": {
+    "image": "https://minecraft.wiki/images/Wind_Charge_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Wind_Charge",
+    "translations": {
+      "pt": "Projétil de vento",
+      "es": "Carga de viento"
+    },
+    "_manual": true
+  },
+  "Yellow Harness": {
+    "image": "https://minecraft.wiki/images/Yellow_Ghast_Harness_Goggles_Up.png",
+    "pageUrl": "https://minecraft.wiki/w/Harness",
+    "translations": {
+      "pt": "Arreio Amarelo",
+      "es": "Arnés Amarillo"
+    },
+    "_manual": true
+  },
+  "Waxed Weathered Chiseled Copper": {
+    "image": "https://minecraft.wiki/images/Weathered_Chiseled_Copper_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Chiseled_Copper",
+    "translations": {
+      "pt": "Cobre Talhado Desgastado Encerado",
+      "es": "Cobre cincelado degradado encerado"
+    },
+    "_manual": true
+  },
+  "Red Mushroom Block": {
+    "image": "https://minecraft.wiki/images/Red_Mushroom_Block_(ESU)_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Mushroom_Block",
+    "translations": {
+      "pt": "Bloco de Cogumelo Vermelho",
+      "es": "Bloque de champiñón rojo"
+    },
+    "_manual": true
+  },
+  "Brown Mushroom Block": {
+    "image": "https://minecraft.wiki/images/Brown_Mushroom_Block_%28ESU%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Mushroom_Block",
+    "translations": {
+      "pt": "Bloco de Cogumelo Marrom",
+      "es": "Bloque de champiñón marrón"
+    },
+    "_manual": true
+  },
+  "Mushroom Stem": {
+    "image": "https://minecraft.wiki/images/Mushroom_Stem_%28ESU%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Mushroom_Block",
+    "translations": {
+      "pt": "Caule de Cogumelo",
+      "es": "Tallo de champiñón"
+    },
+    "_manual": true
+  },
+  "Mushroom Block": {
+    "image": "https://minecraft.wiki/images/Mushroom_Block_%28ESU%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Mushroom_Block",
+    "translations": {
+      "pt": "Bloco de Cogumelo",
+      "es": "Bloque de champiñón"
+    },
+    "_manual": true
+  },
+  "Firework Star (Trail Effect)": {
+    "image": "https://i.imgur.com/55NRObU.gif",
+    "pageUrl": "https://minecraft.wiki/w/Firework_Star",
+    "translations": {
+      "pt": "Estrela de Fogo de Artifício",
+      "es": "Estrella de fuegos artificiales"
+    },
+    "_manual": true
+  },
+  "Leather Boots (item)": {
+    "image": "https://minecraft.wiki/images/Leather_Boots_%28item%29_JE4_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Leather_Boots",
+    "translations": {
+      "pt": "Botas de Couro"
+    },
+    "_manual": true
+  },
+  "Lily Pad (item)": {
+    "image": "https://minecraft.wiki/images/Lily_Pad_%28item%29_JE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Lily_Pad",
+    "translations": {
+      "pt": "Vitória-Régia",
+      "es": "Nenúfar"
+    },
+    "_manual": true
+  },
+  "Seagrass (item)": {
+    "image": "https://minecraft.wiki/images/Seagrass_%28item%29_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Seagrass",
+    "translations": {
+      "pt": "Erva marinha",
+      "es": "Hierba marina"
+    },
+    "_manual": true
+  },
+  "Bamboo (item)": {
+    "image": "https://minecraft.wiki/images/Bamboo_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Bamboo",
+    "translations": {
+      "pt": "Bambu",
+      "es": "Bambú"
+    },
+    "_manual": true
+  },
+  "Oak Button (item)": {
+    "image": "https://i.imgur.com/ce6XBnK.png",
+    "pageUrl": "https://minecraft.wiki/w/Button",
+    "translations": {
+      "pt": "Botão de Carvalho",
+      "es": "Botón de Roble"
+    },
+    "_manual": true
+  },
+  "Red Parrot": {
+    "image": "https://minecraft.wiki/images/Red_Parrot_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Vermelho",
+      "es": "Loro Rojo"
+    },
+    "_manual": true
+  },
+  "Blue Parrot": {
+    "image": "https://minecraft.wiki/images/Blue_Parrot_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Azul",
+      "es": "Loro Azul"
+    },
+    "_manual": true
+  },
+  "Green Parrot": {
+    "image": "https://minecraft.wiki/images/Green_Parrot_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Verde",
+      "es": "Loro Verde"
+    },
+    "_manual": true
+  },
+  "Cyan Parrot": {
+    "image": "https://minecraft.wiki/images/Cyan_Parrot_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Ciano",
+      "es": "Loro Cian"
+    },
+    "_manual": true
+  },
+  "Gray Parrot": {
+    "image": "https://minecraft.wiki/images/Gray_Parrot_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Cinza",
+      "es": "Loro Gris"
+    },
+    "_manual": true
+  },
+  "Spyglass (item)": {
+    "image": "https://minecraft.wiki/images/Spyglass_%28item%29_JE3_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Spyglass",
+    "translations": {
+      "pt": "Luneta",
+      "es": "Catalejo"
+    },
+    "_manual": true
+  },
+  "Parrot Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Parrot_Spawn_Egg_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Papagaio",
+      "es": "Huevo generador de Loro"
+    },
+    "_manual": true
+  },
+  "Tube Coral": {
+    "image": "https://minecraft.wiki/images/Tube_Coral_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Tubo",
+      "es": "Coral de tubo"
+    },
+    "_manual": true
+  },
+  "Tube Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Tube_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Tubo",
+      "es": "Coral de tubo"
+    },
+    "_manual": true
+  },
+  "Brain Coral": {
+    "image": "https://minecraft.wiki/images/Brain_Coral_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Cérebro",
+      "es": "Coral de cerebro"
+    },
+    "_manual": true
+  },
+  "Brain Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Brain_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Cérebro",
+      "es": "Coral de cerebro"
+    },
+    "_manual": true
+  },
+  "Bubble Coral": {
+    "image": "https://minecraft.wiki/images/Bubble_Coral_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Bolha",
+      "es": "Coral de burbuja"
+    },
+    "_manual": true
+  },
+  "Bubble Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Bubble_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Bolha",
+      "es": "Coral de burbuja"
+    },
+    "_manual": true
+  },
+  "Fire Coral": {
+    "image": "https://minecraft.wiki/images/Fire_Coral_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Fogo",
+      "es": "Coral de fuego"
+    },
+    "_manual": true
+  },
+  "Fire Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Fire_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Fogo",
+      "es": "Coral de fuego"
+    },
+    "_manual": true
+  },
+  "Horn Coral": {
+    "image": "https://minecraft.wiki/images/Horn_Coral_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Chifre",
+      "es": "Coral de cuerno"
+    },
+    "_manual": true
+  },
+  "Horn Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Horn_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral",
+    "translations": {
+      "pt": "Coral-de-Chifre",
+      "es": "Coral de cuerno"
+    },
+    "_manual": true
+  },
+  "Dead Tube Coral": {
+    "image": "https://minecraft.wiki/images/Dead_Tube_Coral_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Tubo Morto",
+      "es": "Coral de tubo muerto"
+    },
+    "_manual": true
+  },
+  "Dead Tube Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Dead_Tube_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Tubo Morto",
+      "es": "Coral de tubo muerto"
+    },
+    "_manual": true
+  },
+  "Dead Brain Coral": {
+    "image": "https://minecraft.wiki/images/Dead_Brain_Coral_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Cérebro Morto",
+      "es": "Coral de cerebro muerto"
+    },
+    "_manual": true
+  },
+  "Dead Brain Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Dead_Brain_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Cérebro Morto",
+      "es": "Coral de cerebro muerto"
+    },
+    "_manual": true
+  },
+  "Dead Bubble Coral": {
+    "image": "https://minecraft.wiki/images/Dead_Bubble_Coral_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Bolha Morto",
+      "es": "Coral de burbuja muerto"
+    },
+    "_manual": true
+  },
+  "Dead Bubble Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Dead_Bubble_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Bolha Morto",
+      "es": "Coral de burbuja muerto"
+    },
+    "_manual": true
+  },
+  "Dead Fire Coral": {
+    "image": "https://minecraft.wiki/images/Dead_Fire_Coral_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Fogo Morto",
+      "es": "Coral de fuego muerto"
+    },
+    "_manual": true
+  },
+  "Dead Fire Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Dead_Fire_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Fogo Morto",
+      "es": "Coral de fuego muerto"
+    },
+    "_manual": true
+  },
+  "Dead Horn Coral": {
+    "image": "https://minecraft.wiki/images/Dead_Horn_Coral_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Chifre Morto",
+      "es": "Coral de cuerno muerto"
+    },
+    "_manual": true
+  },
+  "Dead Horn Coral (item)": {
+    "image": "https://pt.minecraft.wiki/images/Dead_Horn_Coral.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral",
+    "translations": {
+      "pt": "Coral-de-Chifre Morto",
+      "es": "Coral de cuerno muerto"
+    },
+    "_manual": true
+  },
+  "Tube Coral Block": {
+    "image": "https://minecraft.wiki/images/Tube_Coral_Block_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Tubo",
+      "es": "Bloque de coral de tubo"
+    },
+    "_manual": true
+  },
+  "Brain Coral Block": {
+    "image": "https://minecraft.wiki/images/Brain_Coral_Block_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Cérebro",
+      "es": "Bloque de coral de cerebro"
+    },
+    "_manual": true
+  },
+  "Bubble Coral Block": {
+    "image": "https://minecraft.wiki/images/Bubble_Coral_Block_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Bolha",
+      "es": "Bloque de coral de burbuja"
+    },
+    "_manual": true
+  },
+  "Fire Coral Block": {
+    "image": "https://minecraft.wiki/images/Fire_Coral_Block_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Fogo",
+      "es": "Bloque de coral de fuego"
+    },
+    "_manual": true
+  },
+  "Horn Coral Block": {
+    "image": "https://minecraft.wiki/images/Horn_Coral_Block_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Chifre",
+      "es": "Bloque de coral de cuerno"
+    },
+    "_manual": true
+  },
+  "Dead Tube Coral Block": {
+    "image": "https://minecraft.wiki/images/Dead_Tube_Coral_Block_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Tubo morto",
+      "es": "Bloco de coral de tubo muerto"
+    },
+    "_manual": true
+  },
+  "Dead Brain Coral Block": {
+    "image": "https://minecraft.wiki/images/Dead_Brain_Coral_Block_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Cérebro morto",
+      "es": "Bloco de coral de cerebro muerto"
+    },
+    "_manual": true
+  },
+  "Dead Bubble Coral Block": {
+    "image": "https://minecraft.wiki/images/Dead_Bubble_Coral_Block_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Bolha morto",
+      "es": "Bloco de coral de burbuja muerto"
+    },
+    "_manual": true
+  },
+  "Dead Fire Coral Block": {
+    "image": "https://minecraft.wiki/images/Dead_Fire_Coral_Block_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Fogo morto",
+      "es": "Bloco de coral de fuego muerto"
+    },
+    "_manual": true
+  },
+  "Dead Horn Coral Block": {
+    "image": "https://minecraft.wiki/images/Dead_Horn_Coral_Block_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Dead_Coral_Block",
+    "translations": {
+      "pt": "Bloco de Coral-de-Chifre morto",
+      "es": "Bloco de coral de cuerno muerto"
+    },
+    "_manual": true
+  },
+  "Exposed Copper": {
+    "image": "https://minecraft.wiki/images/Exposed_Copper_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Block_of_Copper",
+    "translations": {
+      "pt": "Cobre Exposto",
+      "es": "Bloque de cobre expuesto"
+    },
+    "_manual": true
+  },
+  "Weathered Copper": {
+    "image": "https://minecraft.wiki/images/Weathered_Copper_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Block_of_Copper",
+    "translations": {
+      "pt": "Cobre Desgastado",
+      "es": "Bloque de cobre degradado"
+    },
+    "_manual": true
+  },
+  "Oxidized Copper": {
+    "image": "https://minecraft.wiki/images/Oxidized_Copper_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Block_of_Copper",
+    "translations": {
+      "pt": "Cobre Oxidado",
+      "es": "Bloque de cobre oxidado"
+    },
+    "_manual": true
+  },
+  "Waxed Block of Copper": {
+    "image": "https://minecraft.wiki/images/Block_of_Copper_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Block_of_Copper",
+    "translations": {
+      "pt": "Bloco de Cobre Encerado",
+      "es": "Bloque de cobre encerado"
+    },
+    "_manual": true
+  },
+  "Waxed Exposed Copper": {
+    "image": "https://minecraft.wiki/images/Exposed_Copper_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Block_of_Copper",
+    "translations": {
+      "pt": "Cobre Exposto Encerado",
+      "es": "Bloque de cobre expuesto encerado"
+    },
+    "_manual": true
+  },
+  "Waxed Weathered Copper": {
+    "image": "https://minecraft.wiki/images/Weathered_Copper_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Block_of_Copper",
+    "translations": {
+      "pt": "Cobre Desgastado Encerado",
+      "es": "Bloque de cobre degradado encerado"
+    },
+    "_manual": true
+  },
+  "Waxed Oxidized Copper": {
+    "image": "https://minecraft.wiki/images/Oxidized_Copper_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Block_of_Copper",
+    "translations": {
+      "pt": "Cobre Oxidado Encerado",
+      "es": "Bloque de cobre oxidado encerado"
+    },
     "_manual": true
   }
 }
