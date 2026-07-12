@@ -35,6 +35,8 @@ export default function Tile({ tile, disabled }: TileProps) {
         toggleTile(tile.id)
     }
 
+    const isWaxed = tile.label.startsWith('Waxed ')
+
   return (
     <button
         onClick={handleClick}
@@ -54,6 +56,14 @@ export default function Tile({ tile, disabled }: TileProps) {
                 unoptimized={image?.endsWith(".gif") ?? false}
                 className='object-contain'
             />
+            {isWaxed && (
+                <Image
+                    src='/images/tile-overlays/wax-effect-overlay.png'
+                    alt='waxed'
+                    fill
+                    className='object-contain pointer-events-none'
+                />
+            )}
        </div>
 
         {isHinted && (
