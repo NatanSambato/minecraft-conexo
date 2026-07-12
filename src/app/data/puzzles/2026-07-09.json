@@ -5,15 +5,15 @@
   "groups": [
     {
       "id": 1,
-      "correlation": "Brewing Base Ingredients",
+      "correlation": "Items crafted with Glass",
       "color": "yellow",
-      "items": ["Nether Wart", "Glowstone Dust", "Redstone Dust", "Gunpowder"]
+      "items": ["Glass bottle", "Yellow Stained Glass", "Beacon", "Yellow Harness"]
     },
     {
       "id": 2,
-      "correlation": "Items crafted with Glass",
+      "correlation": "Brewing Base Ingredients",
       "color": "green",
-      "items": ["Glass bottle", "Yellow Stained Glass", "Beacon", "Harness"]
+      "items": ["Nether Wart", "Glowstone Dust", "Redstone Dust", "Gunpowder"]
     },
     {
       "id": 3,
