@@ -15,7 +15,7 @@ const CHUNK_SIZE = 50;
 type SortKey = "name" | "pt" | "es" | "image";
 type Filter = "all" | "missingPt" | "missingEs" | "missingImage" | "manual";
 
-// Edit Mode
+// Edit actions
 type ModalState =
   | { type: "add" | "copy" | "edit"; initial: EntryFields }
   | { type: "delete"; name: string }
@@ -200,11 +200,11 @@ const router = useRouter();
               <tr
                 key={row.name}
                 className="border-b"
-                onMouseEnter={() => setHoveredRow(row.name)}
+                onMouseEnter={() => process.env.NODE_ENV === "development" && setHoveredRow(row.name)}
                 onMouseLeave={() => setHoveredRow(null)}
               >
                 <td className="p-2 relative">
-                  {/* Action buttons column */}
+                  {/* Row edit action buttons - dev only */}
                   {isHovered && (
                     <div className="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 flex flex-col gap-0.5 pr-1">
                       <div className="grid grid-cols-2 gap-0.5">
