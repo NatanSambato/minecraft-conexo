@@ -5,6 +5,7 @@ import useGameStore from '@/store/gameStore'
 import type { Tile } from '@/types'
 import { getImage } from '@/lib/registry';
 import Image from 'next/image';
+import { getEffectIcon } from '@/lib/effectIcons';
 
 const getFontSize = (label: string) => {
     
@@ -36,6 +37,8 @@ export default function Tile({ tile, disabled }: TileProps) {
     }
 
     const isWaxed = tile.label.startsWith('Waxed ')
+    const effectIcon = getEffectIcon(tile.label)
+    const isArrow = tile.label.startsWith('Arrow of')
 
   return (
     <button
@@ -56,6 +59,7 @@ export default function Tile({ tile, disabled }: TileProps) {
                 unoptimized={image?.endsWith(".gif") ?? false}
                 className='object-contain'
             />
+
             {isWaxed && (
                 <Image
                     src='/images/tile-overlays/wax-effect-overlay.png'
@@ -63,6 +67,17 @@ export default function Tile({ tile, disabled }: TileProps) {
                     fill
                     className='object-contain pointer-events-none'
                 />
+            )}
+
+            {effectIcon && (
+                <div className={`absolute w-5 h-5 ${isArrow ? 'bottom-1.5 right-3.5' : 'top-1.5 right-3.5'}`}>
+                    <Image
+                        src={effectIcon}
+                        alt=''
+                        fill
+                        className='object-contain pointer-events-none'
+                    />
+                </div>
             )}
        </div>
 
