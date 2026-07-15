@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3556,
+    "totalEntries": 3564,
     "languages": [
       "pt",
       "es"
@@ -2676,8 +2676,10 @@
     "image": "https://minecraft.wiki/images/Potion_of_Swiftness_JE3.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Swiftness",
     "translations": {
-      "pt": "Poção de Agilidade"
-    }
+      "pt": "Poção de Agilidade",
+      "es": "Poción de rapidez"
+    },
+    "_manual": true
   },
   "Potion of Night Vision": {
     "image": "https://minecraft.wiki/images/Potion_of_Night_Vision_JE3.png",
@@ -2776,7 +2778,8 @@
     "image": "https://minecraft.wiki/images/Potion_of_the_Turtle_Master_JE4.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_the_Turtle_Master",
     "translations": {
-      "pt": "Poção do Mestre-Tartaruga"
+      "pt": "Poção do Mestre-Tartaruga",
+      "es": "Poción del maestro tortuga"
     }
   },
   "Pufferfish (item)": {
@@ -4311,22 +4314,28 @@
     "image": "https://minecraft.wiki/images/Potion_of_Oozing_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Oozing",
     "translations": {
-      "pt": "Poção Pegajosa"
-    }
+      "pt": "Poção Pegajosa",
+      "es": "Poción de mucosidad"
+    },
+    "_manual": true
   },
   "Potion of Infestation": {
     "image": "https://minecraft.wiki/images/Potion_of_Infestation_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Infestation",
     "translations": {
-      "pt": "Poção de Infestação"
-    }
+      "pt": "Poção de Infestação",
+      "es": "Poción de infestación"
+    },
+    "_manual": true
   },
   "Potion of Wind Charging": {
     "image": "https://minecraft.wiki/images/Potion_of_Wind_Charging_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Wind_Charging",
     "translations": {
-      "pt": "Poção de Ventania"
-    }
+      "pt": "Poção de Ventania",
+      "es": "Poción de cierzo"
+    },
+    "_manual": true
   },
   "Painting variant definition": {
     "image": null,
@@ -9134,14 +9143,6 @@
       "pt": "Edição Java 1.RV-Pre1/USB Charger Block"
     }
   },
-  "Twisting Vines": {
-    "image": "https://minecraft.wiki/images/Twisting_Vines_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Twisting_Vines",
-    "translations": {
-      "es": "Enredaderas retorcidas",
-      "pt": "Trepadeiras Retorcidas"
-    }
-  },
   "Tuff": {
     "image": "https://minecraft.wiki/images/Tuff.png",
     "pageUrl": "https://minecraft.wiki/w/Tuff",
@@ -13332,11 +13333,13 @@
     }
   },
   "Cave Vines (feature)": {
-    "image": null,
+    "image": "https://minecraft.wiki/images/Cave_vines.png",
     "pageUrl": "https://minecraft.wiki/w/Cave_Vines_(feature)",
     "translations": {
-      "pt": "Trepadeiras das cavernas (recurso)"
-    }
+      "pt": "Trepadeiras das cavernas (recurso)",
+      "es": "Enredaderas de cueva (feature)"
+    },
+    "_manual": true
   },
   "Clay Blob": {
     "image": "https://minecraft.wiki/images/Clay_blob_iso.png",
@@ -13704,11 +13707,12 @@
     }
   },
   "Twisting Vines (feature)": {
-    "image": null,
+    "image": "https://minecraft.wiki/images/Twisting_vine_iso.png",
     "pageUrl": "https://minecraft.wiki/w/Twisting_Vines_(feature)",
     "translations": {
       "pt": "Trepadeiras retorcidas (recurso)"
-    }
+    },
+    "_manual": true
   },
   "Weeping Vines (feature)": {
     "image": null,
@@ -21752,9 +21756,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Stem_%28UD%29_JE2_BE1.png?63218",
     "pageUrl": null,
     "translations": {
-      "pt": "Caule de Carmesim",
-      "es": "Tallo de Carmesí"
-    }
+      "pt": "Caule Carmesim",
+      "es": "Tallo carmesí"
+    },
+    "_manual": true
   },
   "Warped Stem": {
     "image": "https://minecraft.wiki/images/Warped_Stem_%28UD%29_JE2_BE1.png?41943",
@@ -21973,9 +21978,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Shelf_JE1_BE2.png?93507",
     "pageUrl": "https://minecraft.wiki/w/Shelf",
     "translations": {
-      "pt": "Estante de Carmesim",
-      "es": "Estante de Carmesí"
-    }
+      "pt": "Estante Carmesim",
+      "es": "Estante carmesí"
+    },
+    "_manual": true
   },
   "Warped Shelf": {
     "image": "https://minecraft.wiki/images/Warped_Shelf_JE1_BE2.png?aee19",
@@ -22074,9 +22080,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Planks_JE1_BE1.png?04063",
     "pageUrl": "https://minecraft.wiki/w/Planks",
     "translations": {
-      "pt": "Tábuas de Carmesim",
-      "es": "Tablones de Carmesí"
-    }
+      "pt": "Tábuas Carmesim",
+      "es": "Tablones carmesí"
+    },
+    "_manual": true
   },
   "Warped Planks": {
     "image": "https://minecraft.wiki/images/Warped_Planks_JE1_BE1.png?9ea67",
@@ -22175,9 +22182,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Stairs_%28N%29_JE1_BE1.png?6e664",
     "pageUrl": "https://minecraft.wiki/w/Stairs",
     "translations": {
-      "pt": "Escadas de Carmesim",
-      "es": "Escaleras de Carmesí"
-    }
+      "pt": "Escadas Carmesim",
+      "es": "Escaleras carmesí"
+    },
+    "_manual": true
   },
   "Warped Stairs": {
     "image": "https://minecraft.wiki/images/Warped_Stairs_%28N%29_JE1_BE1.png?cea9f",
@@ -22276,9 +22284,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Slab_JE1_BE1.png?4b56c",
     "pageUrl": "https://minecraft.wiki/w/Slab",
     "translations": {
-      "pt": "Laje de Carmesim",
-      "es": "Losa de Carmesí"
-    }
+      "pt": "Laje Carmesim",
+      "es": "Losa carmesí"
+    },
+    "_manual": true
   },
   "Warped Slab": {
     "image": "https://minecraft.wiki/images/Warped_Slab_JE1_BE1.png?19e92",
@@ -22377,9 +22386,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Fence_%28EW%29_JE1.png?87f0e",
     "pageUrl": "https://minecraft.wiki/w/Fence",
     "translations": {
-      "pt": "Cerca de Carmesim",
-      "es": "Valla de Carmesí"
-    }
+      "pt": "Cerca Carmesim",
+      "es": "Valla carmesí"
+    },
+    "_manual": true
   },
   "Warped Fence": {
     "image": "https://minecraft.wiki/images/Warped_Fence_%28EW%29_JE1.png?1e318",
@@ -22478,9 +22488,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Fence_Gate_JE1_BE1.png?e27df",
     "pageUrl": "https://minecraft.wiki/w/Fence_Gate",
     "translations": {
-      "pt": "Portão de Carmesim",
-      "es": "Puerta de valla de Carmesí"
-    }
+      "pt": "Portão carmesim",
+      "es": "Puerta de valla carmesí"
+    },
+    "_manual": true
   },
   "Warped Fence Gate": {
     "image": "https://minecraft.wiki/images/Warped_Fence_Gate_JE1_BE1.png?a8741",
@@ -22579,17 +22590,19 @@
     "image": "https://minecraft.wiki/images/Crimson_Door_JE3.png?8c7e6",
     "pageUrl": "https://minecraft.wiki/w/Door",
     "translations": {
-      "pt": "Porta de Carmesim",
-      "es": "Puerta de Carmesí"
-    }
+      "pt": "Porta Carmesim",
+      "es": "Puerta carmesí"
+    },
+    "_manual": true
   },
   "Warped Door": {
     "image": "https://minecraft.wiki/images/Warped_Door_JE3.png?c586a",
     "pageUrl": "https://minecraft.wiki/w/Door",
     "translations": {
-      "pt": "Porta de Deformado",
-      "es": "Puerta de Deformado"
-    }
+      "pt": "Porta Deformado",
+      "es": "Puerta distorsionada"
+    },
+    "_manual": true
   },
   "Poplar Door": {
     "image": "https://minecraft.wiki/images/Poplar_Door_JE2.png?579b2",
@@ -22680,9 +22693,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Trapdoor_JE1_BE1.png?d27bb",
     "pageUrl": "https://minecraft.wiki/w/Trapdoor",
     "translations": {
-      "pt": "Alçapão de Carmesim",
-      "es": "Trampilla de Carmesí"
-    }
+      "pt": "Alçapão Carmesim",
+      "es": "Trampilla carmesí"
+    },
+    "_manual": true
   },
   "Warped Trapdoor": {
     "image": "https://minecraft.wiki/images/Warped_Trapdoor_JE1_BE1.png?57ba7",
@@ -22781,9 +22795,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Sign_%280%29.png?367b6",
     "pageUrl": "https://minecraft.wiki/w/Sign",
     "translations": {
-      "pt": "Placa de Carmesim",
-      "es": "Cartel de Carmesí"
-    }
+      "pt": "Placa Carmesim",
+      "es": "Cartel carmesí"
+    },
+    "_manual": true
   },
   "Warped Sign": {
     "image": "https://minecraft.wiki/images/Warped_Sign_%280%29.png?7c21e",
@@ -22882,9 +22897,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Hanging_Sign_JE1_BE1.png?b5156",
     "pageUrl": "https://minecraft.wiki/w/Hanging_Sign",
     "translations": {
-      "pt": "Placa Suspensa de Carmesim",
-      "es": "Cartel Colgante de Carmesí"
-    }
+      "pt": "Placa Suspensa Carmesim",
+      "es": "Cartel Colgante carmesí"
+    },
+    "_manual": true
   },
   "Warped Hanging Sign": {
     "image": "https://minecraft.wiki/images/Warped_Hanging_Sign_JE1_BE1.png?d2892",
@@ -22983,17 +22999,19 @@
     "image": "https://minecraft.wiki/images/Crimson_Button_JE2.png?108fd",
     "pageUrl": "https://minecraft.wiki/w/Button",
     "translations": {
-      "pt": "Botão de Carmesim",
-      "es": "Botón de Carmesí"
-    }
+      "pt": "Botão Carmesim",
+      "es": "Botón carmesí"
+    },
+    "_manual": true
   },
   "Warped Button": {
     "image": "https://minecraft.wiki/images/Warped_Button_JE2.png?fd83a",
     "pageUrl": "https://minecraft.wiki/w/Button",
     "translations": {
-      "pt": "Botão de Deformado",
-      "es": "Botón de Deformado"
-    }
+      "pt": "Botão Deformado",
+      "es": "Botón de distorsionado"
+    },
+    "_manual": true
   },
   "Poplar Button": {
     "image": "https://minecraft.wiki/images/Poplar_Button_JE1.png?9078d",
@@ -23084,9 +23102,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Pressure_Plate_JE1_BE1.png?40df0",
     "pageUrl": "https://minecraft.wiki/w/Pressure_Plate",
     "translations": {
-      "pt": "Placa de Pressão de Carmesim",
-      "es": "Placa de presión de Carmesí"
-    }
+      "pt": "Placa de Pressão Carmesim",
+      "es": "Placa de presión carmesí"
+    },
+    "_manual": true
   },
   "Warped Pressure Plate": {
     "image": "https://minecraft.wiki/images/Warped_Pressure_Plate_JE1_BE1.png?f5776",
@@ -23501,9 +23520,10 @@
     "image": "https://minecraft.wiki/images/Crimson_Hyphae_%28UD%29_JE1_BE1.png?d2a5d",
     "pageUrl": null,
     "translations": {
-      "pt": "Hifas de Carmesim",
-      "es": "Hifas de Carmesí"
-    }
+      "pt": "Hifas Carmesim",
+      "es": "Hifas carmesí"
+    },
+    "_manual": true
   },
   "Warped Hyphae": {
     "image": "https://minecraft.wiki/images/Warped_Hyphae_%28UD%29_JE1_BE1.png?10c5d",
@@ -23618,7 +23638,10 @@
   "Arrow of Swiftness": {
     "image": "https://minecraft.wiki/images/Arrow_of_Swiftness_JE3.png?39b44",
     "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
-    "translations": {},
+    "translations": {
+      "pt": "Flecha de Agilidade",
+      "es": "Flecha de rapidez"
+    },
     "_manual": true
   },
   "Arrow of Slowness": {
@@ -23712,7 +23735,7 @@
     "image": "https://minecraft.wiki/images/Arrow_of_Oozing_JE1_BE1.png?9f8b2",
     "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
-      "pt": "Flecha de Pegajoso",
+      "pt": "Flecha Pegajosa",
       "es": "Flecha de Mucosidad"
     },
     "_manual": true
@@ -24283,6 +24306,86 @@
     "translations": {
       "pt": "Cobre Oxidado Encerado",
       "es": "Bloque de cobre oxidado encerado"
+    },
+    "_manual": true
+  },
+  "Arrow of Wind Charging": {
+    "image": "https://minecraft.wiki/images/Arrow_of_Wind_Charging_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
+    "translations": {
+      "pt": "Flecha de Ventania",
+      "es": "Flecha de cierzo"
+    },
+    "_manual": true
+  },
+  "Arrow of Infestation": {
+    "image": "https://minecraft.wiki/images/Arrow_of_Infestation_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
+    "translations": {
+      "pt": "Flecha de Infestação",
+      "es": "Flecha de infestación"
+    },
+    "_manual": true
+  },
+  "Arrow of the Turtle Master": {
+    "image": "https://minecraft.wiki/images/Arrow_of_the_Turtle_Master_JE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
+    "translations": {
+      "pt": "Flecha do Mestre-tartaruga",
+      "es": "Flecha del maestro tortuga"
+    }
+  },
+  "Cave Vines (Body)": {
+    "image": "https://minecraft.wiki/images/Cave_Vines_Plant_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Cave_Vines_(feature)",
+    "translations": {
+      "pt": "Trepadeiras das Cavernas (Corpo)",
+      "es": "Enredaderas de cueva (Cuerpo)"
+    },
+    "_manual": true
+  },
+  "Cave Vines (Head)": {
+    "image": "https://minecraft.wiki/images/Cave_Vines_%28head%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cave_Vines_(feature)",
+    "translations": {
+      "pt": "Trepadeiras das Cavernas (Cabeça)",
+      "es": "Enredaderas de cueva (Cabeza)"
+    },
+    "_manual": true
+  },
+  "Cave Vines with Berries (Head)": {
+    "image": "https://minecraft.wiki/images/Cave_Vines_%28berries%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cave_Vines_(feature)",
+    "translations": {
+      "pt": "Trepadeiras das Cavernas com Bagas (Cabeça)",
+      "es": "Enredaderas de cueva con Bayas (Cabeza)"
+    },
+    "_manual": true
+  },
+  "Cave Vines with Berries (Body)": {
+    "image": "https://minecraft.wiki/images/Cave_Vines_Plant_%28berries%29_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Cave_Vines_(feature)",
+    "translations": {
+      "pt": "Trepadeiras das Cavernas com Bagas (Corpo)",
+      "es": "Enredaderas de cueva com bayas (Cuerpo)"
+    },
+    "_manual": true
+  },
+  "Twisting Vines (Head)": {
+    "image": "https://minecraft.wiki/images/Twisting_Vines_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Twisting_Vines",
+    "translations": {
+      "pt": "Trepadeiras Retorcidas (Cabeça)",
+      "es": "Enredaderas retorcidas (Cabeza)"
+    },
+    "_manual": true
+  },
+  "Twisting Vines (Body)": {
+    "image": "https://minecraft.wiki/images/Twisting_Vines_Plant_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Twisting_Vines",
+    "translations": {
+      "pt": "Trepadeiras Retorcidas (Corpo)",
+      "es": "Enredaderas retorcidas (Cuerpo)"
     },
     "_manual": true
   }
