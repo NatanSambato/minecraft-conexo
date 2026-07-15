@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3564,
+    "totalEntries": 3568,
     "languages": [
       "pt",
       "es"
@@ -7442,14 +7442,6 @@
     "pageUrl": "https://minecraft.wiki/w/Polished_Blackstone_Brick_Wall",
     "translations": {
       "pt": "Muro de Tijolos de Pedra-Negra Polida"
-    }
-  },
-  "Pointed Dripstone": {
-    "image": "https://minecraft.wiki/images/Pointed_Dripstone_Base_(D)_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
-    "translations": {
-      "es": "Caliza puntiaguda",
-      "pt": "Espeleotema Pontiagudo"
     }
   },
   "Polished Deepslate": {
@@ -24386,6 +24378,51 @@
     "translations": {
       "pt": "Trepadeiras Retorcidas (Corpo)",
       "es": "Enredaderas retorcidas (Cuerpo)"
+    },
+    "_manual": true
+  },
+  "Pointed Dripstone (item)": {
+    "image": "https://minecraft.wiki/images/Pointed_Dripstone_%28item%29_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
+    "translations": {
+      "pt": "Espeleotema Pontiagudo",
+      "es": "Caliza puntiaguda"
+    },
+    "_manual": true
+  },
+  "Pointed Dripstone (Down)": {
+    "image": "https://minecraft.wiki/images/Pointed_Dripstone_Tip_Merge_%28D%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
+    "translations": {
+      "pt": "Espeleotema Pontiagudo (Para Baixo)",
+      "es": "Caliza puntiaguda (Hacia abajo)"
+    },
+    "_manual": true
+  },
+  "Pointed Dripstone (Up)": {
+    "image": "https://minecraft.wiki/images/Pointed_Dripstone_Tip_Merge_%28U%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
+    "translations": {
+      "pt": "Espeleotema Pontiagudo (Para Cima)",
+      "es": "Caliza puntiaguda (Hacia arriba)"
+    },
+    "_manual": true
+  },
+  "Stalagmite (Feature)": {
+    "image": "https://minecraft.wiki/images/Stalagmite_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
+    "translations": {
+      "pt": "Estalagmite (Formação)",
+      "es": "Estalagmita (Formación)"
+    },
+    "_manual": true
+  },
+  "Stalactite (Feature)": {
+    "image": "https://minecraft.wiki/images/Stalactite_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
+    "translations": {
+      "pt": "Estalactite (Formação)",
+      "es": "Estalactita (Formación)"
     },
     "_manual": true
   }

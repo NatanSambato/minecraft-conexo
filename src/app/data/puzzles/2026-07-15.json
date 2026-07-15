@@ -7,7 +7,7 @@
         "id": 1,
         "correlation": "Falling Blocks",
         "color": "yellow",
-        "items": ["Anvil", "Gravel", "Concrete Powder", "Pointed Dripstone"]
+        "items": ["Anvil", "Gravel", "Concrete Powder", "Pointed Dripstone (Down)"]
         },
         {
         "id": 2,
@@ -25,7 +25,7 @@
         "id": 4,
         "correlation": "Blocks only obtained with Silk Touch",
         "color": "purple",
-        "items": ["Beehive", "Ice", "Mushroom Stem", "Coral Fan"]
+        "items": ["Bee Nest", "Ice", "Mushroom Stem", "Coral Fan"]
         }
     ]
 }
