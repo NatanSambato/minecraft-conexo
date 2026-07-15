@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3568,
+    "totalEntries": 3569,
     "languages": [
       "pt",
       "es"
@@ -24329,7 +24329,7 @@
   },
   "Cave Vines (Body)": {
     "image": "https://minecraft.wiki/images/Cave_Vines_Plant_JE2.png",
-    "pageUrl": "https://minecraft.wiki/w/Cave_Vines_(feature)",
+    "pageUrl": "https://minecraft.wiki/w/Glow_Berries",
     "translations": {
       "pt": "Trepadeiras das Cavernas (Corpo)",
       "es": "Enredaderas de cueva (Cuerpo)"
@@ -24338,7 +24338,7 @@
   },
   "Cave Vines (Head)": {
     "image": "https://minecraft.wiki/images/Cave_Vines_%28head%29_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Cave_Vines_(feature)",
+    "pageUrl": "https://minecraft.wiki/w/Glow_Berries",
     "translations": {
       "pt": "Trepadeiras das Cavernas (Cabeça)",
       "es": "Enredaderas de cueva (Cabeza)"
@@ -24347,7 +24347,7 @@
   },
   "Cave Vines with Berries (Head)": {
     "image": "https://minecraft.wiki/images/Cave_Vines_%28berries%29_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Cave_Vines_(feature)",
+    "pageUrl": "https://minecraft.wiki/w/Glow_Berries",
     "translations": {
       "pt": "Trepadeiras das Cavernas com Bagas (Cabeça)",
       "es": "Enredaderas de cueva con Bayas (Cabeza)"
@@ -24356,7 +24356,7 @@
   },
   "Cave Vines with Berries (Body)": {
     "image": "https://minecraft.wiki/images/Cave_Vines_Plant_%28berries%29_JE2.png",
-    "pageUrl": "https://minecraft.wiki/w/Cave_Vines_(feature)",
+    "pageUrl": "https://minecraft.wiki/w/Glow_Berries",
     "translations": {
       "pt": "Trepadeiras das Cavernas com Bagas (Corpo)",
       "es": "Enredaderas de cueva com bayas (Cuerpo)"
@@ -24390,6 +24390,24 @@
     },
     "_manual": true
   },
+  "Stalactite (feature)": {
+    "image": "https://minecraft.wiki/images/Stalactite_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
+    "translations": {
+      "pt": "Estalactite (Formação)",
+      "es": "Estalactita (Formación)"
+    },
+    "_manual": true
+  },
+  "Stalagmite (feature)": {
+    "image": "https://minecraft.wiki/images/Stalagmite_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
+    "translations": {
+      "pt": "Estalagmite (Formação)",
+      "es": "Estalagmita (Formación)"
+    },
+    "_manual": true
+  },
   "Pointed Dripstone (Down)": {
     "image": "https://minecraft.wiki/images/Pointed_Dripstone_Tip_Merge_%28D%29_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
@@ -24408,21 +24426,12 @@
     },
     "_manual": true
   },
-  "Stalagmite (Feature)": {
-    "image": "https://minecraft.wiki/images/Stalagmite_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
+  "Sweet Berry Bush": {
+    "image": "https://minecraft.wiki/images/Sweet_Berry_Bush_Age_3_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Sweet_Berries",
     "translations": {
-      "pt": "Estalagmite (Formação)",
-      "es": "Estalagmita (Formación)"
-    },
-    "_manual": true
-  },
-  "Stalactite (Feature)": {
-    "image": "https://minecraft.wiki/images/Stalactite_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Pointed_Dripstone",
-    "translations": {
-      "pt": "Estalactite (Formação)",
-      "es": "Estalactita (Formación)"
+      "pt": "Arbusto de Bagas Doces",
+      "es": "Arbusto de bayas dulces"
     },
     "_manual": true
   }
