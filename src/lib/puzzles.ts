@@ -1,9 +1,10 @@
 import path from "path"
 import fs from "fs"
+import { Puzzle } from "@/types"
 
 export const PUZZLES_DIR = path.join(process.cwd(), 'src', 'app', 'data', 'puzzles')
 
-export function getAllPuzzles() {
+export function getAllPuzzles(): Puzzle[] {
     const files = fs.readdirSync(PUZZLES_DIR)
         .filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
 
