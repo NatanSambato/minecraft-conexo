@@ -25,7 +25,7 @@
       "id": 4,
       "correlation": "Items that became craftable",
       "color": "purple",
-      "items": ["Saddle", "Name Tag", "Mossy Cobblestone", "End Crystal"]
+      "items": ["Saddle", "Name Tag", "Mossy Cobblestone", "End Crystal (item)"]
     }
   ]
 }

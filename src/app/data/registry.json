@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3569,
+    "totalEntries": 3570,
     "languages": [
       "pt",
       "es"
@@ -2572,12 +2572,13 @@
     }
   },
   "Saddle": {
-    "image": "https://minecraft.wiki/images/Saddle_(Pig)_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Saddle_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Saddle",
     "translations": {
-      "es": "Montura",
-      "pt": "Sela"
-    }
+      "pt": "Sela",
+      "es": "Montura"
+    },
+    "_manual": true
   },
   "Redstone Dust": {
     "image": "https://minecraft.wiki/images/Redstone_Dust_JE2_BE2.png",
@@ -24432,6 +24433,15 @@
     "translations": {
       "pt": "Arbusto de Bagas Doces",
       "es": "Arbusto de bayas dulces"
+    },
+    "_manual": true
+  },
+  "End Crystal (item)": {
+    "image": "https://minecraft.wiki/images/End_Crystal_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/End_Crystal",
+    "translations": {
+      "pt": "Cristal do End",
+      "es": "Cristal del End"
     },
     "_manual": true
   }
