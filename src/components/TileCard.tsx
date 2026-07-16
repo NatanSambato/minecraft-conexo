@@ -61,6 +61,7 @@ export default function TileCard({ label, image, isSelected, isHinted, groupHex,
                     src='/images/tile-overlays/wax-effect-overlay.png'
                     alt='waxed'
                     fill
+                    sizes="(max-width: 576px) 25vw, 144px"
                     className='object-contain pointer-events-none'
                 />
             )}
@@ -72,6 +73,7 @@ export default function TileCard({ label, image, isSelected, isHinted, groupHex,
                         src={effectIcon}
                         alt=''
                         fill
+                        sizes="(max-width: 576px) 25vw, 144px"
                         className='object-contain pointer-events-none'
                     />
                 </div>
