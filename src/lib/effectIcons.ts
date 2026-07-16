@@ -33,10 +33,9 @@ export const EFFECT_ICON: Record<string, string | null> = {
   'Decay':            'wither (effect)',        
   'Wind Charging':    'wind charged',
   'Infestation':      'infested',
-  // No distinct effect icon — use custom image, skip overlay
-  'the Turtle Master': null,
+  'the Turtle Master': 'turtle shell',
   // Other effects
-  'Shazboots':        'shazboots',
+  'Shazboots':        'Shazboots! (effect)',
   'Small':            'small',
   'Big':              'big',
   'Sticky':           'sticky',
