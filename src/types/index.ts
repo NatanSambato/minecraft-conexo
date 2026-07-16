@@ -14,6 +14,7 @@ export interface Group {
 export interface Puzzle {
   id: number
   date:   string
+  author: string
   groups: Group[]
 }
 
