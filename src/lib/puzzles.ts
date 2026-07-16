@@ -1,7 +1,7 @@
 import path from "path"
-import fs from "fs" 
+import fs from "fs"
 
-const PUZZLES_DIR = path.join(process.cwd(), 'src', 'app', 'data', 'puzzles')
+export const PUZZLES_DIR = path.join(process.cwd(), 'src', 'app', 'data', 'puzzles')
 
 export function getAllPuzzles() {
     const files = fs.readdirSync(PUZZLES_DIR)
