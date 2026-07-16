@@ -19,7 +19,7 @@ import type { Registry, RegistryEntry, RegistryRow } from "@/types/index";
 
 // ─── Module state ─────────────────────────────────────────────────────────────
 
-let _registry: Registry | null = null;
+let _registry: Registry | null = rawRegistryData as Registry;
 
 // ─── Load ─────────────────────────────────────────────────────────────────────
 
@@ -29,7 +29,6 @@ let _registry: Registry | null = null;
  */
 export async function loadRegistry(): Promise<void> {
   if (_registry) return;
-
   _registry = rawRegistryData as Registry;
 
   if (process.env.NODE_ENV === "development") {
