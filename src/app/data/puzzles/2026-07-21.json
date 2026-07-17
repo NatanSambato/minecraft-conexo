@@ -19,13 +19,23 @@
       "id": 3,
       "correlation": "Items crafted with Prismarine Shard",
       "color": "blue",
-      "items": ["Prismarine", "Prismarine Bricks", "Dark Prismarine", "Sea Lantern"]
+      "items": [
+        "Prismarine",
+        "Prismarine Bricks",
+        "Dark Prismarine",
+        "Sea Lantern"
+      ]
     },
     {
       "id": 4,
       "correlation": "Elder Guardian Drops",
       "color": "purple",
-      "items": ["Tide Armor Trim", "Prismarine Crystals", "Prismarine Shard", "Raw Cod"]
+      "items": [
+        "Tide Armor Trim",
+        "Prismarine Crystals",
+        "Prismarine Shard",
+        "Raw Cod"
+      ]
     }
   ]
 }

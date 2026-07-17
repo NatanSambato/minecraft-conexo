@@ -7,7 +7,12 @@
       "id": 1,
       "correlation": "Food",
       "color": "yellow",
-      "items": ["Dried Kelp", "Pufferfish (item)", "Glow Berries", "Suspicious Stew"]
+      "items": [
+        "Dried Kelp",
+        "Pufferfish (item)",
+        "Glow Berries",
+        "Suspicious Stew"
+      ]
     },
     {
       "id": 2,
@@ -25,7 +30,12 @@
       "id": 4,
       "correlation": "Fishing Loot",
       "color": "purple",
-      "items": ["Nautilus Shell", "Lily Pad (item)", "Leather Boots (item)", "String"]
+      "items": [
+        "Nautilus Shell",
+        "Lily Pad (item)",
+        "Leather Boots (item)",
+        "String"
+      ]
     }
   ]
 }

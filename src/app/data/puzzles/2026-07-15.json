@@ -1,31 +1,41 @@
 {
-    "id": 15,
-    "date": "2026-07-15",
-    "author": "Natowski",
-    "groups": [
-        {
-        "id": 1,
-        "correlation": "Falling Blocks",
-        "color": "yellow",
-        "items": ["Anvil", "Gravel", "Concrete Powder", "Pointed Dripstone (Down)"]
-        },
-        {
-        "id": 2,
-        "correlation": "Villager's Job Blocks",
-        "color": "green",
-        "items": ["Lectern", "Barrel", "Brewing Stand", "Cauldron"]
-        },
-        {
-        "id": 3,
-        "correlation": "Climbable Blocks",
-        "color": "blue",
-        "items": ["Ladder", "Scaffolding", "Cave Vines with Berries (Body)", "Twisting Vines (Body)"]
-        },
-        {
-        "id": 4,
-        "correlation": "Blocks only obtained with Silk Touch",
-        "color": "purple",
-        "items": ["Bee Nest", "Ice", "Mushroom Stem", "Coral Fan"]
-        }
-    ]
+  "id": 15,
+  "date": "2026-07-15",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Falling Blocks",
+      "color": "yellow",
+      "items": [
+        "Anvil",
+        "Gravel",
+        "Concrete Powder",
+        "Pointed Dripstone (Down)"
+      ]
+    },
+    {
+      "id": 2,
+      "correlation": "Villager's Job Blocks",
+      "color": "green",
+      "items": ["Lectern", "Barrel", "Brewing Stand", "Cauldron"]
+    },
+    {
+      "id": 3,
+      "correlation": "Climbable Blocks",
+      "color": "blue",
+      "items": [
+        "Ladder",
+        "Scaffolding",
+        "Cave Vines with Berries (Body)",
+        "Twisting Vines (Body)"
+      ]
+    },
+    {
+      "id": 4,
+      "correlation": "Blocks only obtained with Silk Touch",
+      "color": "purple",
+      "items": ["Bee Nest", "Ice", "Mushroom Stem", "Coral Fan"]
+    }
+  ]
 }

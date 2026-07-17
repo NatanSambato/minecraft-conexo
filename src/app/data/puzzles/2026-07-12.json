@@ -19,7 +19,12 @@
       "id": 3,
       "correlation": "Crafted with Honeycomb",
       "color": "blue",
-      "items": ["Honeycomb Block", "Beehive", "Candle", "Waxed Weathered Chiseled Copper"]
+      "items": [
+        "Honeycomb Block",
+        "Beehive",
+        "Candle",
+        "Waxed Weathered Chiseled Copper"
+      ]
     },
     {
       "id": 4,

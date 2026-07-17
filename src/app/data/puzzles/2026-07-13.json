@@ -19,13 +19,23 @@
       "id": 3,
       "correlation": "Items made with Ghast Tear",
       "color": "blue",
-      "items": ["Potion of Regeneration", "End Crystal", "Dried Ghast", "Mundane Potion"]
+      "items": [
+        "Potion of Regeneration",
+        "End Crystal",
+        "Dried Ghast",
+        "Mundane Potion"
+      ]
     },
     {
       "id": 4,
       "correlation": "Fossil Blocks",
       "color": "purple",
-      "items": ["Bone Block", "Coal Ore", "Diamond Ore", "Deepslate Diamond Ore"]
+      "items": [
+        "Bone Block",
+        "Coal Ore",
+        "Diamond Ore",
+        "Deepslate Diamond Ore"
+      ]
     }
   ]
 }

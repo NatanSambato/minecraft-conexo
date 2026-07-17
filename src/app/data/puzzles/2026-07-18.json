@@ -13,19 +13,29 @@
       "id": 2,
       "correlation": "Found in Nether Fortress",
       "color": "green",
-      "items": ["Nether Wart",  "Nether Brick Fence", "Blaze", "Magma Cube"]
+      "items": ["Nether Wart", "Nether Brick Fence", "Blaze", "Magma Cube"]
     },
     {
       "id": 3,
       "correlation": "Made with Blaze Powder",
       "color": "blue",
-      "items": ["Eye of Ender", "Magma Cream", "Potion of Strength", "Fire Charge"]
+      "items": [
+        "Eye of Ender",
+        "Magma Cream",
+        "Potion of Strength",
+        "Fire Charge"
+      ]
     },
     {
       "id": 4,
       "correlation": "Have \"Fire\" in the name",
       "color": "purple",
-      "items": ["Potion of Fire Resistance", "Campfire", "Firefly Bush", "Fire Aspect"]
+      "items": [
+        "Potion of Fire Resistance",
+        "Campfire",
+        "Firefly Bush",
+        "Fire Aspect"
+      ]
     }
   ]
 }

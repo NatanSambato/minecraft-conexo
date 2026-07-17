@@ -32,14 +32,17 @@ export async function loadRegistry(): Promise<void> {
   _registry = rawRegistryData as Registry;
 
   if (process.env.NODE_ENV === "development") {
-    console.log(`[Registry] Loaded — ${_registry._meta?.totalEntries ?? "?"} entries`);
+    console.log(
+      `[Registry] Loaded — ${_registry._meta?.totalEntries ?? "?"} entries`,
+    );
   }
 }
 
 // ─── Internal ─────────────────────────────────────────────────────────────────
 
 function assertLoaded(): Registry {
-  if (!_registry) throw new Error("Registry not loaded. Call loadRegistry() first.");
+  if (!_registry)
+    throw new Error("Registry not loaded. Call loadRegistry() first.");
   return _registry;
 }
 
@@ -51,13 +54,15 @@ function assertLoaded(): Registry {
  */
 export function getItem(name: string): RegistryEntry | null {
   const registry = assertLoaded();
-  const entry = registry[name]
-    ?? registry[name.toLowerCase()]
-    ?? Object.entries(registry).find(
-      ([k]) => k.toLowerCase() === name.toLowerCase()
+  const entry =
+    registry[name] ??
+    registry[name.toLowerCase()] ??
+    Object.entries(registry).find(
+      ([k]) => k.toLowerCase() === name.toLowerCase(),
     )?.[1];
   // _meta is also in the registry map — guard against it
-  if (!entry || typeof entry !== "object" || !("translations" in entry)) return null;
+  if (!entry || typeof entry !== "object" || !("translations" in entry))
+    return null;
   return entry as RegistryEntry;
 }
 
@@ -65,7 +70,10 @@ export function getItem(name: string): RegistryEntry | null {
 export function getAllItems(): RegistryRow[] {
   const registry = assertLoaded();
   return Object.entries(registry)
-    .filter(([key, val]) => key !== "_meta" && typeof val === "object" && "translations" in val)
+    .filter(
+      ([key, val]) =>
+        key !== "_meta" && typeof val === "object" && "translations" in val,
+    )
     .map(([name, entry]) => {
       const e = entry as RegistryEntry;
       return {

@@ -7,7 +7,7 @@
       "id": 1,
       "correlation": "Removed Items",
       "color": "yellow",
-      "items": ["Ruby", "Quiver", "Horse Saddle", "Copper Horn"   ]
+      "items": ["Ruby", "Quiver", "Horse Saddle", "Copper Horn"]
     },
     {
       "id": 2,
@@ -19,7 +19,12 @@
       "id": 3,
       "correlation": "Added in the Caves & Cliffs update",
       "color": "blue",
-      "items": ["Amethyst Shard", "Glow Squid", "Axolotl", "Music Disc Otherside"]
+      "items": [
+        "Amethyst Shard",
+        "Glow Squid",
+        "Axolotl",
+        "Music Disc Otherside"
+      ]
     },
     {
       "id": 4,

@@ -28,7 +28,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
-, "src/hooks/useProgress.js"  ],
+    "**/*.mts",
+    "src/hooks/useProgress.js"
+  ],
   "exclude": ["node_modules"]
 }

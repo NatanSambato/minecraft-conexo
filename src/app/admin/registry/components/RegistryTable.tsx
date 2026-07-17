@@ -7,7 +7,11 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { EntryFields } from "../../../api/admin/registry/route";
 import { useRouter } from "next/navigation";
 import { CopyPlus, Pencil, SquarePlus, Trash2 } from "lucide-react";
-import EntryModal, { initialForAdd, initialForCopy, initialForEdit } from "./EntryModal";
+import EntryModal, {
+  initialForAdd,
+  initialForCopy,
+  initialForEdit,
+} from "./EntryModal";
 import DeleteModal from "./DeleteModal";
 
 const CHUNK_SIZE = 50;
@@ -22,7 +26,7 @@ type ModalState =
   | null;
 
 export default function RegistryTable({ items }: { items: RegistryRow[] }) {
-const router = useRouter();
+  const router = useRouter();
 
   const [filter, setFilter] = useState<Filter>("all");
   const [sortKey, setSortKey] = useState<SortKey>("name");
@@ -88,7 +92,7 @@ const router = useRouter();
           setVisibleCount((c) => c + CHUNK_SIZE);
         }
       },
-      { rootMargin: "200px" } // start loading a bit before it's fully on-screen
+      { rootMargin: "200px" }, // start loading a bit before it's fully on-screen
     );
 
     observer.observe(el);
@@ -112,7 +116,7 @@ const router = useRouter();
       missingImage: items.filter((r) => !r.image).length,
       manual: items.filter((r) => r._manual).length,
     }),
-    [items]
+    [items],
   );
 
   const filterOptions: [Filter, string][] = [
@@ -143,7 +147,7 @@ const router = useRouter();
             <span className="absolute right-1 top-1/2 -translate-y-1/2 text-xs text-gray-400 pointer-events-none">
               ({filtered.length})
             </span>
-          )}          
+          )}
         </div>
         {filterOptions.map(([key, label]) => {
           const selected = filter === key;
@@ -178,9 +182,10 @@ const router = useRouter();
               <th
                 key={key}
                 onClick={() => toggleSort(key)}
-                className='text-left p-2 cursor-pointer select-none'
+                className="text-left p-2 cursor-pointer select-none"
               >
-                {key.toUpperCase()} {sortKey === key ? (sortAsc ? "▲" : "▼") : ""}
+                {key.toUpperCase()}{" "}
+                {sortKey === key ? (sortAsc ? "▲" : "▼") : ""}
               </th>
             ))}
           </tr>
@@ -190,17 +195,43 @@ const router = useRouter();
             const isHovered = hoveredRow === row.name;
 
             const actions = [
-              { title: "Add entry", icon: SquarePlus, bg: "bg-green-500", onClick: () => setModal({ type: "add", initial: initialForAdd() }) },
-              { title: "Copy entry", icon: CopyPlus, bg: "bg-blue-500", onClick: () => setModal({ type: "copy", initial: initialForCopy(row) }) },
-              { title: "Edit entry", icon: Pencil, bg: "bg-orange-500", onClick: () => setModal({ type: "edit", initial: initialForEdit(row) }) },
-              { title: "Delete entry", icon: Trash2, bg: "bg-red-500", onClick: () => setModal({ type: "delete", name: row.name }) },
+              {
+                title: "Add entry",
+                icon: SquarePlus,
+                bg: "bg-green-500",
+                onClick: () =>
+                  setModal({ type: "add", initial: initialForAdd() }),
+              },
+              {
+                title: "Copy entry",
+                icon: CopyPlus,
+                bg: "bg-blue-500",
+                onClick: () =>
+                  setModal({ type: "copy", initial: initialForCopy(row) }),
+              },
+              {
+                title: "Edit entry",
+                icon: Pencil,
+                bg: "bg-orange-500",
+                onClick: () =>
+                  setModal({ type: "edit", initial: initialForEdit(row) }),
+              },
+              {
+                title: "Delete entry",
+                icon: Trash2,
+                bg: "bg-red-500",
+                onClick: () => setModal({ type: "delete", name: row.name }),
+              },
             ];
 
             return (
               <tr
                 key={row.name}
                 className="border-b"
-                onMouseEnter={() => process.env.NODE_ENV === "development" && setHoveredRow(row.name)}
+                onMouseEnter={() =>
+                  process.env.NODE_ENV === "development" &&
+                  setHoveredRow(row.name)
+                }
                 onMouseLeave={() => setHoveredRow(null)}
               >
                 <td className="p-2 relative">
@@ -209,17 +240,27 @@ const router = useRouter();
                     <div className="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 flex flex-col gap-0.5 pr-1">
                       <div className="grid grid-cols-2 gap-0.5">
                         {actions.map(({ title, icon: Icon, bg, onClick }) => (
-                          <button key={title} type="button" title="title" onClick={onClick}
-                            className={`flex items-center justify-center p-1 rounded text-white ${bg} hover:opacity-80 cursor-pointer`}>
-                            <Icon size={14}/>
-                          </button> 
-                        ))} 
+                          <button
+                            key={title}
+                            type="button"
+                            title="title"
+                            onClick={onClick}
+                            className={`flex items-center justify-center p-1 rounded text-white ${bg} hover:opacity-80 cursor-pointer`}
+                          >
+                            <Icon size={14} />
+                          </button>
+                        ))}
                       </div>
                     </div>
                   )}
                   {/* Data Cells */}
                   {row.url ? (
-                    <Link href={row.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    <Link
+                      href={row.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
                       {row.name}
                     </Link>
                   ) : (
@@ -227,10 +268,14 @@ const router = useRouter();
                   )}
                 </td>
                 <td className={`p-2 ${!row.pt ? "text-red-500" : ""}`}>
-                  {row.pt ?? <span className="inline-block translate-x-0.5">—</span>}
-                  </td>
+                  {row.pt ?? (
+                    <span className="inline-block translate-x-0.5">—</span>
+                  )}
+                </td>
                 <td className={`p-2 ${!row.es ? "text-red-500" : ""}`}>
-                  {row.es ?? <span className="inline-block translate-x-0.5">—</span>}
+                  {row.es ?? (
+                    <span className="inline-block translate-x-0.5">—</span>
+                  )}
                 </td>
                 <td className="p-2">
                   {row.image ? (
@@ -244,12 +289,14 @@ const router = useRouter();
                       className="h-8 w-8 object-contain hover:cursor-pointer translate-x-1"
                     />
                   ) : (
-                    <span className="text-red-500 inline-block translate-x-3.5">—</span> 
+                    <span className="text-red-500 inline-block translate-x-3.5">
+                      —
+                    </span>
                   )}
                 </td>
               </tr>
-              );
-            })}
+            );
+          })}
           {hasMore && (
             <tr ref={sentinelRef}>
               <td colSpan={4} className="p-4 text-center text-gray-400">
@@ -262,16 +309,35 @@ const router = useRouter();
 
       {/* Modals */}
       {modal?.type === "add" && (
-        <EntryModal mode="add" initial={modal.initial} onClose={() => setModal(null)} onSuccess={handleSuccess}/>
+        <EntryModal
+          mode="add"
+          initial={modal.initial}
+          onClose={() => setModal(null)}
+          onSuccess={handleSuccess}
+        />
       )}
       {modal?.type === "copy" && (
-        <EntryModal mode="copy" initial={modal.initial} onClose={() => setModal(null)} onSuccess={handleSuccess}/>
+        <EntryModal
+          mode="copy"
+          initial={modal.initial}
+          onClose={() => setModal(null)}
+          onSuccess={handleSuccess}
+        />
       )}
       {modal?.type === "edit" && (
-        <EntryModal mode="edit" initial={modal.initial} onClose={() => setModal(null)} onSuccess={handleSuccess}/>
+        <EntryModal
+          mode="edit"
+          initial={modal.initial}
+          onClose={() => setModal(null)}
+          onSuccess={handleSuccess}
+        />
       )}
       {modal?.type === "delete" && (
-        <DeleteModal name={modal.name} onClose={() => setModal(null)} onSuccess={handleSuccess}/>
+        <DeleteModal
+          name={modal.name}
+          onClose={() => setModal(null)}
+          onSuccess={handleSuccess}
+        />
       )}
 
       {/* Lightbox */}

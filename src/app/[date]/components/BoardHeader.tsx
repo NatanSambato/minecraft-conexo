@@ -1,13 +1,13 @@
-'use client'
+"use client";
 
-import useGameStore from "@/store/gameStore"
-import { Lightbulb } from "lucide-react"
+import useGameStore from "@/store/gameStore";
+import { Lightbulb } from "lucide-react";
 
-export default function BoardHeader({ dateTitle } : {dateTitle: string}) {
-  const attempts = useGameStore((state) => state.attempts)
-  const hintsUsed = useGameStore((state) => state.hintsUsed)
-  const canHint = useGameStore((state) => state.canHint())
-  const activateHint = useGameStore((state) => state.activateHint)
+export default function BoardHeader({ dateTitle }: { dateTitle: string }) {
+  const attempts = useGameStore((state) => state.attempts);
+  const hintsUsed = useGameStore((state) => state.hintsUsed);
+  const canHint = useGameStore((state) => state.canHint());
+  const activateHint = useGameStore((state) => state.activateHint);
 
   return (
     <div className="flex items-center justify-between mb-2 ml-1.5 w-full text-md">
@@ -17,7 +17,7 @@ export default function BoardHeader({ dateTitle } : {dateTitle: string}) {
         <span>
           ATTEMPTS:
           <span className="font-bold"> {attempts}</span>
-        </span> 
+        </span>
 
         <span>
           HINTS:
@@ -26,7 +26,7 @@ export default function BoardHeader({ dateTitle } : {dateTitle: string}) {
       </div>
 
       <button
-        disabled = {!canHint}
+        disabled={!canHint}
         onClick={activateHint}
         className="
           flex items-center gap-1 p-1.5 rounded-lg mr-3 cursor-pointer
@@ -34,9 +34,9 @@ export default function BoardHeader({ dateTitle } : {dateTitle: string}) {
           disabled:pointer-events-none disabled:opacity-40
         "
       >
-        <Lightbulb size={22}/>
+        <Lightbulb size={22} />
         <span>Hint</span>
       </button>
-    </div>  
-  )
+    </div>
+  );
 }

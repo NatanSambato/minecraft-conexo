@@ -28,18 +28,17 @@ import {
 
 import type { Registry } from "@/types";
 
-
 // ─── CLI args ─────────────────────────────────────────────────────────────────
 
 const args = parseArgs(process.argv);
 
-const LANGS = typeof args.langs === "string"
-  ? args.langs.split(",").map((l) => l.trim())
-  : DEFAULT_LANGS;
+const LANGS =
+  typeof args.langs === "string"
+    ? args.langs.split(",").map((l) => l.trim())
+    : DEFAULT_LANGS;
 
-const OUT_PATH = typeof args.out === "string"
-  ? args.out
-  : "./src/app/data/registry.json";
+const OUT_PATH =
+  typeof args.out === "string" ? args.out : "./src/app/data/registry.json";
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
@@ -76,11 +75,13 @@ async function main(): Promise<void> {
     .map(([k]) => k);
 
   if (notFound.length > 0) {
-    console.log(`\n⚠️  ${notFound.length} pages had no wiki entry (manual image needed):`);
+    console.log(
+      `\n⚠️  ${notFound.length} pages had no wiki entry (manual image needed):`,
+    );
     notFound.forEach((n) => console.log(`   - ${n}`));
   }
 
-  // 3.5 - Resolve blocks with variants (Red Wool, Oak Log) 
+  // 3.5 - Resolve blocks with variants (Red Wool, Oak Log)
   const VARIANT_FAMILIES = await getVariantFamilies();
 
   // Fetch translations for the base block names themselves (Wool, Bundle, Candle, ...)
@@ -101,18 +102,18 @@ async function main(): Promise<void> {
     if (family.name === "colors") console.log("🎨 Resolving color variants...");
     if (family.name === "woods") console.log("🌲 Resolving wood variants...");
     if (family.name === "ores") console.log("⛏️ Resolving ore variants...");
-    if (family.name === "tipped-arrows") console.log("🏹 Resolving tipped arrow variants...");
+    if (family.name === "tipped-arrows")
+      console.log("🏹 Resolving tipped arrow variants...");
 
     const candidates = generateVariantCandidates({
       modifiers: family.modifiers,
       bases: family.bases,
-      buildName: family.buildName
+      buildName: family.buildName,
     });
 
     for (const name of candidates) {
       const imageUrl = await fetchFileImageUrl(name);
       if (!imageUrl) continue;
-  
 
       const { base } = family.splitName(name);
 
@@ -120,7 +121,7 @@ async function main(): Promise<void> {
         name,
         family,
         LANGS,
-        baseTranslationsLookup
+        baseTranslationsLookup,
       );
 
       entries[name] = {

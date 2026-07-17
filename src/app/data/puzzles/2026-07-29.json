@@ -7,7 +7,12 @@
       "id": 1,
       "correlation": "Monster Room Loot",
       "color": "yellow",
-      "items": ["Music Disc Cat", "Diamond Horse Armor", "Bucket", "Rotten Flesh"]
+      "items": [
+        "Music Disc Cat",
+        "Diamond Horse Armor",
+        "Bucket",
+        "Rotten Flesh"
+      ]
     },
     {
       "id": 2,
@@ -19,7 +24,12 @@
       "id": 3,
       "correlation": "Buried Treasure Loot",
       "color": "blue",
-      "items": ["Heart of the Sea", "Prismarine Shard", "Potion of Water Breathing", "Emerald"]
+      "items": [
+        "Heart of the Sea",
+        "Prismarine Shard",
+        "Potion of Water Breathing",
+        "Emerald"
+      ]
     },
     {
       "id": 4,

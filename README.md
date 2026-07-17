@@ -1,6 +1,6 @@
 # Minecraft Conexo
 
-A daily Minecraft-themed word-grouping puzzle game — inspired by [Conexo](https://conexo.ws/) and the *Connecting Wall* segment from BBC's *Only Connect*.
+A daily Minecraft-themed word-grouping puzzle game — inspired by [Conexo](https://conexo.ws/) and the _Connecting Wall_ segment from BBC's _Only Connect_.
 
 **[▶ Play today's puzzle](https://minecraft-conexo.vercel.app/)**
 
@@ -19,6 +19,7 @@ You're presented with a **4×4 grid of 16 tiles** — all Minecraft related. You
 ### 💡 Hint System
 
 Stuck? Use a hint:
+
 - First hint reveals **2 tiles** that belong to the same group
 - Second hint reveals a **3rd related tile** in that group
 - Further hints begin revealing tiles from a different group
@@ -28,35 +29,41 @@ Stuck? Use a hint:
 ## 📸 Screenshots
 
 ### Home Screen
+
 ![Home Screen](src/screenshots/home-page.png)
 
 ### Archive (Previous Puzzles)
+
 ![Archive](src/screenshots/archive.png)
 
 ### The Grid
+
 ![The Grid](src/screenshots/puzzle-grid.png)
 
 ### Hints Revealed
+
 ![Hints Revealed](src/screenshots/hints-revealed.png)
 
 ### Group Solved
+
 ![Group Solved](src/screenshots/solved-groups.png)
 
 ### Victory Screen
+
 ![Victory Screen](src/screenshots/victory-screen.png)
 
 ---
 
 ## 🛠 Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | [Next.js](https://nextjs.org/) |
-| Language | [TypeScript](https://www.typescriptlang.org/) |
-| Styling | [Tailwind CSS](https://tailwindcss.com/) |
-| State Management | [Zustand](https://zustand-demo.pmnd.rs/) |
-| Persistence | localStorage |
-| Deployment | [Vercel](https://vercel.com/) |
+| Layer            | Technology                                    |
+| ---------------- | --------------------------------------------- |
+| Framework        | [Next.js](https://nextjs.org/)                |
+| Language         | [TypeScript](https://www.typescriptlang.org/) |
+| Styling          | [Tailwind CSS](https://tailwindcss.com/)      |
+| State Management | [Zustand](https://zustand-demo.pmnd.rs/)      |
+| Persistence      | localStorage                                  |
+| Deployment       | [Vercel](https://vercel.com/)                 |
 
 ---
 
@@ -73,7 +80,7 @@ Stuck? Use a hint:
 
 ## 🧩 About the Puzzle Format
 
-Each puzzle is handcrafted — every group has a deliberate, Minecraft-specific connection. Groups are designed to have **plausible distractors**: tiles that *seem* like they fit in multiple groups, making the puzzle genuinely challenging.
+Each puzzle is handcrafted — every group has a deliberate, Minecraft-specific connection. Groups are designed to have **plausible distractors**: tiles that _seem_ like they fit in multiple groups, making the puzzle genuinely challenging.
 
 Groups are color-coded by difficulty:
 🟨 **Yellow** — easiest &nbsp;·&nbsp; 🟩 **Green** &nbsp;·&nbsp; 🟦 **Blue** &nbsp;·&nbsp; 🟪 **Purple** — hardest

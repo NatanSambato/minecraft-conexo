@@ -1,31 +1,36 @@
 {
-    "id": 20,
-    "date": "2026-07-20",
-    "author": "Natowski",
-    "groups": [
-        {
-        "id": 1,
-        "correlation": "Items crafted with String",
-        "color": "yellow",
-        "items": ["Fishing Rod", "Lead", "White Wool", "Loom"]
-        },
-        {
-        "id": 2,
-        "correlation": "Illager Drops",
-        "color": "green",
-        "items": ["Totem of Undying", "Emerald", "Crossbow", "Iron Axe"]
-        },
-        {
-        "id": 3,
-        "correlation": "Mob Weapons",
-        "color": "blue",
-        "items": ["Trident", "Golden Sword", "Stone Sword", "Golden Axe"]
-        },
-        {
-        "id": 4,
-        "correlation": "Conditional Mob Drops",
-        "color": "purple",
-        "items": ["Music Disc Tears", "Music Disc Lava Chicken", "Froglight", "Ominous Bottle"]
-        }
-    ]
+  "id": 20,
+  "date": "2026-07-20",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Items crafted with String",
+      "color": "yellow",
+      "items": ["Fishing Rod", "Lead", "White Wool", "Loom"]
+    },
+    {
+      "id": 2,
+      "correlation": "Illager Drops",
+      "color": "green",
+      "items": ["Totem of Undying", "Emerald", "Crossbow", "Iron Axe"]
+    },
+    {
+      "id": 3,
+      "correlation": "Mob Weapons",
+      "color": "blue",
+      "items": ["Trident", "Golden Sword", "Stone Sword", "Golden Axe"]
+    },
+    {
+      "id": 4,
+      "correlation": "Conditional Mob Drops",
+      "color": "purple",
+      "items": [
+        "Music Disc Tears",
+        "Music Disc Lava Chicken",
+        "Froglight",
+        "Ominous Bottle"
+      ]
+    }
+  ]
 }

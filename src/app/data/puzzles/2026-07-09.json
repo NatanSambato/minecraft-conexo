@@ -7,7 +7,12 @@
       "id": 1,
       "correlation": "Items crafted with Glass",
       "color": "yellow",
-      "items": ["Glass bottle", "Yellow Stained Glass", "Beacon", "Yellow Harness"]
+      "items": [
+        "Glass bottle",
+        "Yellow Stained Glass",
+        "Beacon",
+        "Yellow Harness"
+      ]
     },
     {
       "id": 2,

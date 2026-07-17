@@ -13,13 +13,23 @@
       "id": 2,
       "correlation": "Items crafted with Amethyst",
       "color": "green",
-      "items": ["Block of Amethyst", "Spyglass", "Tinted Glass", "Calibrated Sculk Sensor"]
+      "items": [
+        "Block of Amethyst",
+        "Spyglass",
+        "Tinted Glass",
+        "Calibrated Sculk Sensor"
+      ]
     },
     {
       "id": 3,
       "correlation": "Blocks that drop exp when mined",
       "color": "blue",
-      "items": ["Nether Quartz Ore", "Nether Gold Ore", "Monster Spawner", "Sculk"]
+      "items": [
+        "Nether Quartz Ore",
+        "Nether Gold Ore",
+        "Monster Spawner",
+        "Sculk"
+      ]
     },
     {
       "id": 4,
