@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3570,
+    "totalEntries": 3571,
     "languages": ["pt", "es"],
     "categories": [
       "Category:Items",
@@ -2247,14 +2247,6 @@
     "translations": {
       "es": "Tinte rosa",
       "pt": "Corante Rosa"
-    }
-  },
-  "Nether Wart": {
-    "image": "https://minecraft.wiki/images/Nether_Wart_(item)_JE2_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Nether_Wart",
-    "translations": {
-      "es": "Verruga del Nether",
-      "pt": "Fungo do Nether"
     }
   },
   "Poisonous Potato": {
@@ -24439,6 +24431,24 @@
     "translations": {
       "pt": "Cristal do End",
       "es": "Cristal del End"
+    },
+    "_manual": true
+  },
+  "Nether Wart (item)": {
+    "image": "https://minecraft.wiki/images/Nether_Wart_(item)_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Nether_Wart",
+    "translations": {
+      "pt": "Fungo do Nether",
+      "es": "Verruga del Nether"
+    },
+    "_manual": true
+  },
+  "Nether Wart (crop)": {
+    "image": "https://minecraft.wiki/images/Nether_Wart_Age_3_JE8.png",
+    "pageUrl": "https://minecraft.wiki/w/Nether_Wart",
+    "translations": {
+      "pt": "Fungo do Nether",
+      "es": "Verruga del Nether"
     },
     "_manual": true
   }

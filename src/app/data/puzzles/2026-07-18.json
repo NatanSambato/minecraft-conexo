@@ -13,7 +13,12 @@
       "id": 2,
       "correlation": "Found in Nether Fortress",
       "color": "green",
-      "items": ["Nether Wart", "Nether Brick Fence", "Blaze", "Magma Cube"]
+      "items": [
+        "Nether Wart (crop)",
+        "Nether Brick Fence",
+        "Blaze",
+        "Magma Cube"
+      ]
     },
     {
       "id": 3,
@@ -28,12 +33,12 @@
     },
     {
       "id": 4,
-      "correlation": "Have \"Fire\" in the name",
+      "correlation": "Fire Related",
       "color": "purple",
       "items": [
         "Potion of Fire Resistance",
         "Campfire",
-        "Firefly Bush",
+        "Fire Patch",
         "Fire Aspect"
       ]
     }
