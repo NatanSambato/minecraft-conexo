@@ -18,7 +18,12 @@
       "id": 2,
       "correlation": "Brewing Base Ingredients",
       "color": "green",
-      "items": ["Nether Wart", "Glowstone Dust", "Redstone Dust", "Gunpowder"]
+      "items": [
+        "Nether Wart (item)",
+        "Glowstone Dust",
+        "Redstone Dust",
+        "Gunpowder"
+      ]
     },
     {
       "id": 3,
