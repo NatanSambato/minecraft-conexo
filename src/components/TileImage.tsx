@@ -41,7 +41,7 @@ export default function TileImage({
             sizes={sizes}
             unoptimized={image?.endsWith(".gif") ?? false}
             loading={loading}
-            className="object-contain"
+            className="object-contain pointer-events-none"
           />
         </div>
       )}

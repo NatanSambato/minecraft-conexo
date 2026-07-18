@@ -287,6 +287,7 @@ export default function RegistryTable({ items }: { items: RegistryRow[] }) {
                       onClick={() => setLightboxSrc(row.image)}
                       unoptimized={row.image.endsWith(".gif") ?? false}
                       className="h-8 w-8 object-contain hover:cursor-pointer translate-x-1"
+                      draggable="false"
                     />
                   ) : (
                     <span className="text-red-500 inline-block translate-x-3.5">
@@ -354,6 +355,7 @@ export default function RegistryTable({ items }: { items: RegistryRow[] }) {
               sizes="90vw"
               unoptimized={lightboxSrc?.endsWith(".gif") ?? false}
               className="object-contain"
+              draggable="false"
             />
           </div>
         </div>
