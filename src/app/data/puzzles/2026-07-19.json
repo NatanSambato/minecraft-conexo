@@ -15,7 +15,7 @@
       "color": "green",
       "items": [
         "Block of Amethyst",
-        "Spyglass",
+        "Spyglass (item)",
         "Tinted Glass",
         "Calibrated Sculk Sensor"
       ]
@@ -35,7 +35,12 @@
       "id": 4,
       "correlation": "Items used in a single crafting recipe",
       "color": "purple",
-      "items": ["Nether Star", "Packed Ice", "Iron Chain", "Armadillo Scute"]
+      "items": [
+        "Nether Star",
+        "Packed Ice",
+        "Iron Chain (item)",
+        "Armadillo Scute"
+      ]
     }
   ]
 }

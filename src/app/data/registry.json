@@ -1,8 +1,11 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3571,
-    "languages": ["pt", "es"],
+    "totalEntries": 3572,
+    "languages": [
+      "pt",
+      "es"
+    ],
     "categories": [
       "Category:Items",
       "Category:Blocks",
@@ -24449,6 +24452,15 @@
     "translations": {
       "pt": "Fungo do Nether",
       "es": "Verruga del Nether"
+    },
+    "_manual": true
+  },
+  "Iron Chain (item)": {
+    "image": "https://minecraft.wiki/images/Chain_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Iron_Chain",
+    "translations": {
+      "pt": "Corrente de Ferro",
+      "es": "Cadena de hierro"
     },
     "_manual": true
   }
