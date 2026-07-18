@@ -1,7 +1,7 @@
 import { getGroupColor } from "@/lib/gameUtils";
 import { getImage } from "@/lib/registry";
 import type { Group } from "@/types";
-import Image from "next/image";
+import TileImage from "../../../components/TileImage";
 
 export default function SolvedGroup({ group }: { group: Group }) {
   const bgColor = getGroupColor(group.color);
@@ -16,14 +16,16 @@ export default function SolvedGroup({ group }: { group: Group }) {
       </span>
       <div className="flex gap-5 mt-1 shrink-0">
         {images.map((image, i) => (
-          <div key={group.items[i] ?? i} className="relative w-[35px] h-[35px]">
-            <Image
-              src={image || "/images/placeholder.png"}
-              alt={group.items[i]}
-              fill
-              unoptimized={image?.endsWith(".gif") ?? false}
+          <div
+            key={group.items[i] ?? i}
+            className="relative w-[35px] h-[35px] overflow-visible"
+          >
+            <TileImage
+              image={image}
+              label={group.items[i]}
               loading="lazy"
-              className="object-contain"
+              sizes="35px"
+              compact
             />
           </div>
         ))}
