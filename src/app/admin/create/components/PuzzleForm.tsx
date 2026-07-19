@@ -3,6 +3,7 @@ import { ItemSearch } from "./ItemSearch";
 import { getGroupColor } from "@/lib/gameUtils";
 
 interface PuzzleFormProp {
+  mode?: "create" | "suggest";
   groups: Group[];
   items: RegistryRow[];
   date: string;
@@ -17,6 +18,7 @@ interface PuzzleFormProp {
 }
 
 export default function PuzzleForm({
+  mode,
   groups,
   items,
   date,
@@ -35,12 +37,14 @@ export default function PuzzleForm({
     <div className="flex flex-col gap-4 w-96">
       <div className={`${inputStyle} flex flex-col gap-2`}>
         {/* Data input */}
-        <input
-          type="date"
-          value={date}
-          className=""
-          onChange={(e) => onDateChange(e.target.value)}
-        />
+        {mode === "create" && (
+          <input
+            type="date"
+            value={date}
+            className=""
+            onChange={(e) => onDateChange(e.target.value)}
+          />
+        )}
 
         {/* Author input */}
         <input
@@ -51,15 +55,17 @@ export default function PuzzleForm({
         />
 
         {/* Id input */}
-        <input
-          type="number"
-          value={id ?? ""}
-          placeholder="Id..."
-          className=""
-          onChange={(e) =>
-            onIdChange(e.target.value ? Number(e.target.value) : null)
-          }
-        />
+        {mode === "create" && (
+          <input
+            type="number"
+            value={id ?? ""}
+            placeholder="Id..."
+            className=""
+            onChange={(e) =>
+              onIdChange(e.target.value ? Number(e.target.value) : null)
+            }
+          />
+        )}
       </div>
 
       {/* Groups input */}

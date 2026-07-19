@@ -14,7 +14,18 @@ function emptyGroups(): Group[] {
   ];
 }
 
-export default function PuzzleEditor({ items }: { items: RegistryRow[] }) {
+interface Props {
+  mode?: "create" | "suggest";
+  items: RegistryRow[];
+  onSave?: (puzzle: {
+    id: number | null;
+    date: string;
+    author: string;
+    groups: Group[];
+  }) => void;
+}
+
+export default function PuzzleEditor({ mode, items, onSave }: Props) {
   const [groups, setGroups] = useState<Group[]>(emptyGroups());
   const [date, setDate] = useState("");
   const [author, setAuthor] = useState("");
@@ -48,21 +59,13 @@ export default function PuzzleEditor({ items }: { items: RegistryRow[] }) {
     })),
   );
 
-  const handleSave = async () => {
-    const res = await fetch("/api/admin/create-puzzle", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id, date, author, groups }),
-    });
-
-    if (res.ok) alert("Saved!");
-    else alert("Error saving puzzle");
-  };
+  const handleSave = () => onSave?.({ id, date, author, groups });
 
   return (
     <div className="flex items-start justify-center gap-10 w-full max-w-7xl mx-auto">
       {/* Form */}
       <PuzzleForm
+        mode={mode}
         groups={groups}
         items={items}
         date={date}
