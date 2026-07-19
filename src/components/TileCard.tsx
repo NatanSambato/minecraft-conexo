@@ -19,8 +19,10 @@ export default function TileCard({
   disabled,
   onClick,
 }: Props) {
+  const Tag = onClick ? "button" : "div";
+
   return (
-    <button
+    <Tag
       onClick={onClick}
       disabled={disabled}
       className={`
@@ -46,6 +48,6 @@ export default function TileCard({
           }}
         />
       )}
-    </button>
+    </Tag>
   );
 }
