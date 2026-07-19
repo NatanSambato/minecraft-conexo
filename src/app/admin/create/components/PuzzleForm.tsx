@@ -100,11 +100,12 @@ export default function PuzzleForm({
         </div>
       ))}
 
+      {/* Save/Suggest button  */}
       <button
         onClick={onSave}
         className="px-4 py-2 bg-green-600 rounded font-bold hover:bg-green-500"
       >
-        Save Puzzle
+        {mode === "create" ? "Save " : "Suggest "} Puzzle
       </button>
     </div>
   );
