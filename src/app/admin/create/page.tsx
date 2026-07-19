@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
-import PuzzleEditor from "@/components/PuzzleEditor";
 import { getAllItems, loadRegistry } from "@/lib/registry";
 import { notFound } from "next/navigation";
+import CreateClient from "./components/CreateClient";
 
 export default async function CreatePage() {
   if (process.env.NODE_ENV !== "development") notFound();
@@ -12,7 +12,7 @@ export default async function CreatePage() {
     <div>
       <Header returnLink="/" />
       <div className="flex justify-center">
-        <PuzzleEditor items={items} />
+        <CreateClient items={items} />
       </div>
     </div>
   );
