@@ -1,6 +1,7 @@
 import { Group, RegistryRow } from "@/types";
 import { ItemSearch } from "./ItemSearch";
 import { getGroupColor } from "@/lib/gameUtils";
+import { ClipboardPaste } from "lucide-react";
 
 interface PuzzleFormProp {
   mode?: "create" | "suggest";
@@ -15,6 +16,7 @@ interface PuzzleFormProp {
   onAuthorChange: (v: string) => void;
   onIdChange: (v: number | null) => void;
   onSave: () => void;
+  onSubmit: (puzzle: string) => void;
 }
 
 export default function PuzzleForm({
@@ -30,11 +32,27 @@ export default function PuzzleForm({
   onAuthorChange,
   onIdChange,
   onSave,
+  onSubmit,
 }: PuzzleFormProp) {
   const inputStyle: string = "bg-stone-900 px-2 py-1 font-bold rounded";
 
   return (
-    <div className="flex flex-col gap-4 w-96">
+    <div className="flex flex-col gap-4 w-96 relative">
+      {/* Import button */}
+      {mode === "create" && (
+        <button
+          type="button"
+          title="Import from clipboard"
+          onClick={async () => {
+            const text = await navigator.clipboard.readText();
+            onSubmit(text);
+          }}
+          className="absolute -left-8 top-0 flex items-center justify-center p-1 rounded text-white bg-amber-500 hover:opacity-80 cursor-pointer"
+        >
+          <ClipboardPaste size={14} />
+        </button>
+      )}
+
       <div className={`${inputStyle} flex flex-col gap-2`}>
         {/* Data input */}
         {mode === "create" && (

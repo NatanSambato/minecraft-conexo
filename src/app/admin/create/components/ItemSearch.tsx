@@ -2,7 +2,7 @@
 
 import { RegistryRow } from "@/types";
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 interface ItemSearchProp {
   value: string;
@@ -14,6 +14,10 @@ interface ItemSearchProp {
 export function ItemSearch({ value, onChange, items, ii }: ItemSearchProp) {
   const [query, setQuery] = useState(value);
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    setQuery(value);
+  }, [value]);
 
   const filtered = useMemo(
     () =>

@@ -61,6 +61,18 @@ export default function PuzzleEditor({ mode, items, onSave }: Props) {
 
   const handleSave = () => onSave?.({ id, date, author, groups });
 
+  const handleImport = (json: string) => {
+    try {
+      const parsed = JSON.parse(json);
+      const groups = Array.isArray(parsed) ? parsed : parsed.groups;
+      const author = parsed.author ?? "";
+      setGroups(groups);
+      setAuthor(author);
+    } catch {
+      alert("Invalid JSON");
+    }
+  };
+
   return (
     <div className="flex items-start justify-center gap-10 w-full max-w-7xl mx-auto">
       {/* Form */}
@@ -77,6 +89,7 @@ export default function PuzzleEditor({ mode, items, onSave }: Props) {
         onAuthorChange={setAuthor}
         onIdChange={setId}
         onSave={handleSave}
+        onSubmit={handleImport}
       />
 
       {/* Tile Grid - Preview */}
