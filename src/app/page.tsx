@@ -38,7 +38,7 @@ export default function page() {
           >
             Suggest Puzzle
           </Link>
-          <span className="absolute -top-2 -right-2 tracking-widest text-yellow-400 text-xs font-black px-1 rotate-14">
+          <span className="absolute -top-2 -right-2 tracking-widest text-yellow-300 text-xs font-black px-1 rotate-14">
             NEW
           </span>
         </div>
