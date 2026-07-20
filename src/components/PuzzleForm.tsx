@@ -1,7 +1,24 @@
 import { Group, RegistryRow } from "@/types";
 import { ItemSearch } from "@/components/ItemSearch";
 import { getGroupColor } from "@/lib/gameUtils";
-import { ClipboardPaste } from "lucide-react";
+import { ClipboardPaste, Grip } from "lucide-react";
+import {
+  arrayMove,
+  SortableContext,
+  useSortable,
+  verticalListSortingStrategy,
+} from "@dnd-kit/sortable";
+import {
+  closestCenter,
+  DndContext,
+  DragEndEvent,
+  PointerSensor,
+  useSensor,
+  useSensors,
+} from "@dnd-kit/core";
+import { CSS } from "@dnd-kit/utilities";
+
+const GROUP_COLORS = ["yellow", "green", "blue", "purple"] as const;
 
 interface PuzzleFormProp {
   mode?: "create" | "suggest";
@@ -12,12 +29,86 @@ interface PuzzleFormProp {
   id?: number | null;
   onUpdateCorrelation: (gi: number, v: string) => void;
   onUpdateItem: (gi: number, ii: number, v: string) => void;
+  onReorderGroups: (newGroups: Group[]) => void;
   onDateChange: (v: string) => void;
   onAuthorChange: (v: string) => void;
   onIdChange: (v: number | null) => void;
   onSave: () => void;
   onSubmit: (puzzle: string) => void;
 }
+
+interface Props {
+  group: Group;
+  gi: number;
+  items: RegistryRow[];
+  onUpdateCorrelation: (gi: number, v: string) => void;
+  onUpdateItem: (gi: number, ii: number, v: string) => void;
+}
+
+// ─── Sortable group card ──────────────────────────────────────────────────────
+
+function SortableGroupCard({
+  group,
+  gi,
+  items,
+  onUpdateCorrelation,
+  onUpdateItem,
+}: Props) {
+  const { attributes, listeners, setNodeRef, transform, isDragging } =
+    useSortable({ id: group.id });
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    opacity: isDragging ? 0.5 : 1,
+  };
+
+  return (
+    <div
+      ref={setNodeRef}
+      style={style}
+      className={`flex flex-col gap-2 p-4 rounded-lg ${getGroupColor(group.color)}`}
+    >
+      {/* Correlation input */}
+      <div className="flex items-center justify-center gap-2">
+        <input
+          className="w-full bg-stone-900 rounded px-2 py-1 font-bold"
+          placeholder={`Group ${gi + 1}`}
+          value={group.correlation}
+          onChange={(e) => onUpdateCorrelation(gi, e.target.value)}
+        />
+        <button
+          {...attributes}
+          {...listeners}
+          className="cursor-grab active:cursor-grabbing touch-none text-white-70 hover:text-white"
+          aria-label="Drag to reorder"
+        >
+          <Grip size={18} />
+        </button>
+      </div>
+
+      {/* Item input */}
+      <div className="flex flex-col gap-1">
+        {group.items.map((item, ii) => (
+          <ItemSearch
+            key={ii}
+            value={item}
+            onChange={(v) => {
+              const match = items.find(
+                (item) => item.name.toLowerCase() === v.toLowerCase(),
+              );
+
+              onUpdateItem(gi, ii, match ? match.name : v);
+            }}
+            items={items}
+            ii={ii}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Main form ────────────────────────────────────────────────────────────────
 
 export default function PuzzleForm({
   mode,
@@ -28,6 +119,7 @@ export default function PuzzleForm({
   id,
   onUpdateCorrelation,
   onUpdateItem,
+  onReorderGroups,
   onDateChange,
   onAuthorChange,
   onIdChange,
@@ -35,6 +127,24 @@ export default function PuzzleForm({
   onSubmit,
 }: PuzzleFormProp) {
   const inputStyle: string = "bg-stone-900 px-2 py-1 font-bold rounded";
+
+  const sensors = useSensors(useSensor(PointerSensor));
+
+  function handleDragEnd(event: DragEndEvent) {
+    const { active, over } = event;
+    if (!over || active.id === over.id) return;
+
+    const oldIndex = groups.findIndex((g) => g.id === active.id);
+    const newIndex = groups.findIndex((g) => g.id === over.id);
+
+    const reordered = arrayMove(groups, oldIndex, newIndex).map((g, i) => ({
+      ...g,
+      id: i + 1,
+      color: GROUP_COLORS[i],
+    }));
+
+    onReorderGroups(reordered);
+  }
 
   return (
     <div className="flex flex-col gap-4 w-96 relative">
@@ -87,36 +197,29 @@ export default function PuzzleForm({
       </div>
 
       {/* Groups input */}
-      {groups.map((group, gi) => (
-        <div
-          key={group.id}
-          className={`flex flex-col gap-2 p-4 rounded-lg ${getGroupColor(group.color)}`}
+      <DndContext
+        sensors={sensors}
+        collisionDetection={closestCenter}
+        onDragEnd={handleDragEnd}
+      >
+        <SortableContext
+          items={groups.map((g) => g.id)}
+          strategy={verticalListSortingStrategy}
         >
-          <input
-            className="w-full bg-stone-900 rounded px-2 py-1 font-bold"
-            placeholder={`Group ${gi + 1}`}
-            value={group.correlation}
-            onChange={(e) => onUpdateCorrelation(gi, e.target.value)}
-          />
-          <div className="flex flex-col gap-1">
-            {group.items.map((item, ii) => (
-              <ItemSearch
-                key={ii}
-                value={item}
-                onChange={(v) => {
-                  const match = items.find(
-                    (item) => item.name.toLowerCase() === v.toLowerCase(),
-                  );
-
-                  onUpdateItem(gi, ii, match ? match.name : v);
-                }}
+          <div className="flex flex-col gap-4">
+            {groups.map((group, gi) => (
+              <SortableGroupCard
+                key={group.id}
+                group={group}
+                gi={gi}
                 items={items}
-                ii={ii}
-              />
+                onUpdateCorrelation={onUpdateCorrelation}
+                onUpdateItem={onUpdateItem}
+              ></SortableGroupCard>
             ))}
           </div>
-        </div>
-      ))}
+        </SortableContext>
+      </DndContext>
 
       {/* Save/Suggest button  */}
       <button
