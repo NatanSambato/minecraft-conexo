@@ -1,5 +1,5 @@
 import { Group, RegistryRow } from "@/types";
-import { ItemSearch } from "./ItemSearch";
+import { ItemSearch } from "@/components/ItemSearch";
 import { getGroupColor } from "@/lib/gameUtils";
 import { ClipboardPaste } from "lucide-react";
 

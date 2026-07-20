@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Group, RegistryRow } from "@/types";
 import TileCard from "./TileCard";
-import PuzzleForm from "@/app/admin/create/components/PuzzleForm";
+import PuzzleForm from "@/components/PuzzleForm";
 
 function emptyGroups(): Group[] {
   return [
