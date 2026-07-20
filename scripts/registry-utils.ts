@@ -143,6 +143,7 @@ const COLOR_VARIANT_BLOCKS = [
   "Bed",
   "Banner",
   "Shulker Box",
+  "Cushion"
 ];
 
 const FEMININE_BASES: Record<string, Set<string>> = {
@@ -156,6 +157,7 @@ const FEMININE_BASES: Record<string, Set<string>> = {
     "Candle",
     "Bed",
     "Shulker Box",
+    "Cushion",
   ]),
   es: new Set([
     "Wool",
@@ -307,12 +309,14 @@ const WOOD_TRANSLATIONS: Record<string, Record<string, string>> = {
   Crimson: { pt: "Carmesim", es: "Carmesí" },
   Warped: { pt: "Deformado", es: "Deformado" },
   Bamboo: { pt: "Bambu", es: "Bambú" },
+  Poplar: { pt: "Álamo", es: "Álamo" },
 };
 
 const BASE_TRANSLATION_FALLBACKS: Record<string, Record<string, string>> = {
   // Colored Blocks
   "Wool Slab": { pt: "Laje de Lã", es: "Laje de Lana" },
   "Wool Stairs": { pt: "Escadas de Lã", es: "Escaleras de Lana" },
+  "Cushion": { pt: "Almofada", es: "Cojín" },
   // Wooden Blocks
   Fence: { pt: "Cerca", es: "Valla" },
   Door: { pt: "Porta", es: "Puerta" },

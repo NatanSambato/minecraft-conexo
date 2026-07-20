@@ -19,7 +19,7 @@
       "id": 3,
       "correlation": "Mob Weapons",
       "color": "blue",
-      "items": ["Trident", "Golden Sword", "Stone Sword", "Golden Axe"]
+      "items": ["Trident (item)", "Golden Sword", "Stone Sword", "Golden Axe"]
     },
     {
       "id": 4,
