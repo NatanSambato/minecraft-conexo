@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3572,
+    "totalEntries": 3582,
     "languages": [
       "pt",
       "es"
@@ -24461,6 +24461,95 @@
     "translations": {
       "pt": "Corrente de Ferro",
       "es": "Cadena de hierro"
+    },
+    "_manual": true
+  },
+  "Milk": {
+    "image": "https://i.imgur.com/ytRIZcX.gif",
+    "pageUrl": "https://minecraft.wiki/w/Milk_Bucket",
+    "translations": {
+      "pt": "Balde de Leite",
+      "es": "Cubo con leche"
+    },
+    "_manual": true
+  },
+  "Trident (item)": {
+    "image": "https://minecraft.wiki/images/Trident_%28item%29_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Trident",
+    "translations": {
+      "pt": "Tridente",
+      "es": "Tridente"
+    },
+    "_manual": true
+  },
+  "Tropical Slime": {
+    "image": "https://minecraft.wiki/images/MCE_Tropical_Slime.gif",
+    "pageUrl": "https://minecraft.wiki/w/Earth:Tropical_Slime",
+    "translations": {
+      "pt": "Slime Tropical",
+      "es": "Slime tropical"
+    },
+    "_manual": true
+  },
+  "Redstone Cube": {
+    "image": "https://minecraft.wiki/images/MCD_Redstone_Cube_Idle.gif",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Redstone_Cube",
+    "translations": {
+      "pt": "Cubo de Redstone",
+      "es": "Cubo de redstone"
+    },
+    "_manual": true
+  },
+  "Diamond Horse Armor (item)": {
+    "image": "https://minecraft.wiki/images/Diamond_Horse_Armor_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Diamond_Horse_Armor",
+    "translations": {
+      "pt": "Armadura de Diamante para Cavalo"
+    },
+    "_manual": true
+  },
+  "Rail (item)": {
+    "image": "https://i.imgur.com/sf3H89i.png",
+    "pageUrl": "https://minecraft.wiki/w/Rail",
+    "translations": {
+      "pt": "Trilho",
+      "es": "Raíl"
+    },
+    "_manual": true
+  },
+  "Turtle Shell (item)": {
+    "image": "https://minecraft.wiki/images/Turtle_Shell_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Turtle_Shell",
+    "translations": {
+      "pt": "Casco de Tartaruga",
+      "es": "Caparazón de tortuga"
+    },
+    "_manual": true
+  },
+  "Sponge Room (Ocean Monument)": {
+    "image": "https://minecraft.wiki/images/MonumentOcean3.png",
+    "pageUrl": "https://minecraft.wiki/w/Ocean_Monument",
+    "translations": {
+      "pt": "Sala de Esponja (Monumento Oceânico)",
+      "es": "Sala de esponja (Monumento oceánico)"
+    },
+    "_manual": true
+  },
+  "Treasure Chamber (Ocean Monument)": {
+    "image": "https://minecraft.wiki/images/thumb/Sponge_and_treasure.png/2560px-Sponge_and_treasure.png?ee7ce",
+    "pageUrl": "https://minecraft.wiki/w/Ocean_Monument",
+    "translations": {
+      "pt": "Câmara do Tesouro (Monumento Oceânico)",
+      "es": "Cámara del Tesoro (Monumento oceánico)"
+    },
+    "_manual": true
+  },
+  "Bucket of Mud": {
+    "image": "https://minecraft.wiki/images/MCE_Bucket_of_Mud.png",
+    "pageUrl": "https://minecraft.wiki/w/Earth:Bucket_of_Mud",
+    "translations": {
+      "pt": "Balde de Barro",
+      "es": "Cubo de barro"
     },
     "_manual": true
   }
