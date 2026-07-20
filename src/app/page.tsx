@@ -42,6 +42,24 @@ export default function page() {
             NEW
           </span>
         </div>
+
+        {/* Dev buttons */}
+        <div className="flex gap-2 pt-6">
+          {/* Create button */}
+          <Link
+            href="/admin/create"
+            className="px-6 py-3 bg-amber-500 text-white text-center rounded"
+          >
+            Create Puzzle
+          </Link>
+          {/* Registry button */}
+          <Link
+            href="/admin/registry"
+            className="px-6 py-3 bg-red-600 text-white text-center rounded"
+          >
+            Registry
+          </Link>
+        </div>
       </div>
     </main>
   );
