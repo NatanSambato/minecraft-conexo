@@ -6,6 +6,8 @@ import Link from "next/link";
 export default function page() {
   const today = getTodaysDate();
 
+  const isDev = process.env.NODE_ENV === "development";
+
   return (
     <main className="flex flex-col items-center justify-center min-h-screen gap-8">
       {/* Title */}
@@ -44,22 +46,24 @@ export default function page() {
         </div>
 
         {/* Dev buttons */}
-        <div className="flex gap-2 pt-6">
-          {/* Create button */}
-          <Link
-            href="/admin/create"
-            className="px-6 py-3 bg-amber-500 text-white text-center rounded"
-          >
-            Create Puzzle
-          </Link>
-          {/* Registry button */}
-          <Link
-            href="/admin/registry"
-            className="px-6 py-3 bg-red-600 text-white text-center rounded"
-          >
-            Registry
-          </Link>
-        </div>
+        {isDev && (
+          <div className="flex gap-2 pt-6">
+            {/* Create button */}
+            <Link
+              href="/admin/create"
+              className="px-6 py-3 bg-amber-500 text-white text-center rounded"
+            >
+              Create Puzzle
+            </Link>
+            {/* Registry button */}
+            <Link
+              href="/admin/registry"
+              className="px-6 py-3 bg-red-600 text-white text-center rounded"
+            >
+              Registry
+            </Link>
+          </div>
+        )}
       </div>
     </main>
   );
