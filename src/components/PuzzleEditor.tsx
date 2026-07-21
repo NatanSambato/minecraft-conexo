@@ -74,10 +74,15 @@ export default function PuzzleEditor({ mode, items, onSave }: Props) {
   const handleImport = (json: string) => {
     try {
       const parsed = JSON.parse(json);
-      const groups = Array.isArray(parsed) ? parsed : parsed.groups;
-      const author = parsed.author ?? "";
-      setGroups(groups);
-      setAuthor(author);
+
+      if (Array.isArray(parsed)) {
+        setGroups(parsed);
+      } else {
+        setGroups(parsed.groups ?? []);
+        setAuthor(parsed.author ?? "");
+        setDate(parsed.date ?? "");
+        setId(parsed.id ?? null);
+      }
     } catch {
       alert("Invalid JSON");
     }
