@@ -5,9 +5,14 @@
   "groups": [
     {
       "id": 1,
-      "correlation": "Animal Blocks",
+      "correlation": "Found in Ocean Monument",
       "color": "yellow",
-      "items": ["Frogspawn", "Firefly Bush", "Coral", "Sponge"]
+      "items": [
+        "Sponge Room (Ocean Monument)",
+        "Treasure Chamber (Ocean Monument)",
+        "Elder Guardian",
+        "Guardian"
+      ]
     },
     {
       "id": 2,
