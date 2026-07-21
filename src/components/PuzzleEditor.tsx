@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { Group, RegistryRow } from "@/types";
+import type { Group, Puzzle, RegistryRow } from "@/types";
 import TileCard from "./TileCard";
 import PuzzleForm from "@/components/PuzzleForm";
 
@@ -17,6 +17,7 @@ function emptyGroups(): Group[] {
 interface Props {
   mode?: "create" | "suggest";
   items: RegistryRow[];
+  puzzles?: Puzzle[];
   onSave?: (puzzle: {
     id: number | null;
     date: string;
@@ -25,7 +26,7 @@ interface Props {
   }) => void;
 }
 
-export default function PuzzleEditor({ mode, items, onSave }: Props) {
+export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
   const [groups, setGroups] = useState<Group[]>(emptyGroups());
   const [date, setDate] = useState("");
   const [author, setAuthor] = useState("");
@@ -95,6 +96,7 @@ export default function PuzzleEditor({ mode, items, onSave }: Props) {
         mode={mode}
         groups={groups}
         items={items}
+        puzzles={puzzles}
         date={date}
         author={author}
         id={id}

@@ -27,10 +27,6 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: "Invalid puzzle date" }, { status: 400 })
     }
 
-    if (getPuzzleByDate(body.date)) {
-        return NextResponse.json({ error: "Duplicate puzzle date" }, { status: 400 })
-    }
-
     const puzzles = getAllPuzzles();
     const highestId = Math.max(...puzzles.map(p => p.id))
 

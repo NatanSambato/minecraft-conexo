@@ -1,4 +1,4 @@
-import { Group, RegistryRow } from "@/types";
+import { Group, Puzzle, RegistryRow } from "@/types";
 import { ItemSearch } from "@/components/ItemSearch";
 import { getGroupColor } from "@/lib/gameUtils";
 import { ClipboardPaste, Grip } from "lucide-react";
@@ -24,6 +24,7 @@ interface PuzzleFormProp {
   mode?: "create" | "suggest";
   groups: Group[];
   items: RegistryRow[];
+  puzzles?: Puzzle[];
   date: string;
   author?: string;
   id?: number | null;
@@ -114,6 +115,7 @@ export default function PuzzleForm({
   mode,
   groups,
   items,
+  puzzles,
   date,
   author,
   id,
@@ -146,6 +148,9 @@ export default function PuzzleForm({
     onReorderGroups(reordered);
   }
 
+  const puzzleExists = puzzles && puzzles.some((p) => p.date === date);
+  const idExists = puzzles && puzzles.some((p) => p.id === id);
+
   return (
     <div className="flex flex-col gap-4 w-96 relative">
       {/* Import button */}
@@ -166,12 +171,19 @@ export default function PuzzleForm({
       <div className={`${inputStyle} flex flex-col gap-2`}>
         {/* Data input */}
         {mode === "create" && (
-          <input
-            type="date"
-            value={date}
-            className=""
-            onChange={(e) => onDateChange(e.target.value)}
-          />
+          <div>
+            {puzzleExists && (
+              <span className="absolute pl-0.5 -top-5 text-sm text-red-400">
+                Editing Puzzle
+              </span>
+            )}
+            <input
+              type="date"
+              value={date}
+              className={`${puzzleExists ? "text-red-400" : ""}`}
+              onChange={(e) => onDateChange(e.target.value)}
+            />
+          </div>
         )}
 
         {/* Author input */}
@@ -188,7 +200,7 @@ export default function PuzzleForm({
             type="number"
             value={id ?? ""}
             placeholder="Id..."
-            className=""
+            className={`${idExists ? "text-red-400" : ""}`}
             onChange={(e) =>
               onIdChange(e.target.value ? Number(e.target.value) : null)
             }

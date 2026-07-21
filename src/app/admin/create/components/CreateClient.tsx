@@ -1,13 +1,19 @@
 "use client";
 
 import PuzzleEditor from "@/components/PuzzleEditor";
-import { RegistryRow } from "@/types";
+import { Puzzle, RegistryRow } from "@/types";
 
-export default function CreateClient({ items }: { items: RegistryRow[] }) {
+interface Prop {
+  items: RegistryRow[];
+  puzzles: Puzzle[];
+}
+
+export default function CreateClient({ items, puzzles }: Prop) {
   return (
     <PuzzleEditor
       mode="create"
       items={items}
+      puzzles={puzzles}
       onSave={async ({ id, date, author, groups }) => {
         const res = await fetch("/api/admin/create-puzzle", {
           method: "POST",
