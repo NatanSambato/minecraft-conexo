@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "correlation": "Items crafted with Amethyst",
+      "correlation": "Crafted with Amethyst",
       "color": "green",
       "items": [
         "Block of Amethyst",

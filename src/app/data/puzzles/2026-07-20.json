@@ -5,7 +5,7 @@
   "groups": [
     {
       "id": 1,
-      "correlation": "Items crafted with String",
+      "correlation": "Crafted with String",
       "color": "yellow",
       "items": ["Fishing Rod", "Lead", "White Wool", "Loom"]
     },
