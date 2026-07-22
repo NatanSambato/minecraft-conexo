@@ -9,6 +9,7 @@ import BoardHeader from "./BoardHeader";
 import Header from "@/components/Header";
 import { useProgress } from "@/hooks/useProgress";
 import { loadRegistry } from "@/lib/registry";
+import Link from "next/link";
 
 await loadRegistry();
 
@@ -47,6 +48,17 @@ export default function Board({ puzzle }: { puzzle: Puzzle }) {
               disabled={solvedGroups.some((g) => g.id === tile.groupId)}
             />
           ))}
+        </div>
+
+        {/* Author credit */}
+        <div className="py-13 text-center">
+          <Link
+            href={"/suggest"}
+            className="hover:bg-white/10 rounded-lg p-1.5"
+          >
+            <span className="text-sm">Submitted by: </span>
+            <span className="text-md font-bold">{puzzle.author}</span>
+          </Link>
         </div>
       </div>
     </div>
