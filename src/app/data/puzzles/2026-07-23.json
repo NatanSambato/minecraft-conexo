@@ -1,0 +1,31 @@
+{
+  "id": 35,
+  "date": "2026-07-23",
+  "author": "mrcyberhumano",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Entity Items",
+      "items": ["Oak Boat", "Minecart", "Item Frame", "Armor Stand"]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Throwable Items",
+      "items": ["Wind Charge (item)", "Snowball", "Ender Pearl", "Egg"]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Interactable Items",
+      "items": ["Goat Horn", "Spyglass (item)", "Book and Quill", "Bundle"]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Special Dispenser Interaction",
+      "items": ["Shears", "Powder Snow Bucket", "Flint and Steel", "Bone Meal"]
+    }
+  ]
+}

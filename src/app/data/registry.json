@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3582,
+    "totalEntries": 3583,
     "languages": [
       "pt",
       "es"
@@ -9739,14 +9739,6 @@
     "translations": {
       "es": "Araña de cueva",
       "pt": "Aranha das Cavernas"
-    }
-  },
-  "Mooshroom": {
-    "image": "https://minecraft.wiki/images/Red_Mooshroom_JE5_BE3.png",
-    "pageUrl": "https://minecraft.wiki/w/Mooshroom",
-    "translations": {
-      "es": "Mooshroom",
-      "pt": "Mooshroom/Sons"
     }
   },
   "Snow Golem": {
@@ -24550,6 +24542,24 @@
     "translations": {
       "pt": "Balde de Barro",
       "es": "Cubo de barro"
+    },
+    "_manual": true
+  },
+  "Red Mooshroom": {
+    "image": "https://minecraft.wiki/images/Red_Mooshroom_JE5_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Mooshroom",
+    "translations": {
+      "pt": "Coguvaca Vermelha",
+      "es": "Champiñaca roja"
+    },
+    "_manual": true
+  },
+  "Brown Mooshroom": {
+    "image": "https://minecraft.wiki/images/Brown_Mooshroom_JE3_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Mooshroom",
+    "translations": {
+      "pt": "Coguvaca Marrom",
+      "es": "Champiñaca marrón"
     },
     "_manual": true
   }
