@@ -31,7 +31,7 @@ export function ItemSearch({ value, onChange, items, ii }: ItemSearchProp) {
   );
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
       {/* Input field */}
       <input
         className="w-full bg-stone-900 rounded px-2 py-1 text-sm"

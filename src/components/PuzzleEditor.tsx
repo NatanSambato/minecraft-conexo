@@ -72,6 +72,12 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
     setGroups(newGroups);
   }
 
+  const handleReorderItems = (gi: number, newItems: string[]) => {
+    setGroups((prev) =>
+      prev.map((g, i) => (i === gi ? { ...g, items: newItems } : g)),
+    );
+  };
+
   const handleSave = () => onSave?.({ id, date, author, notes, groups });
 
   const handleImport = (json: string) => {
@@ -107,6 +113,7 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
         onUpdateCorrelation={updateCorrelation}
         onUpdateItem={updateItem}
         onReorderGroups={handleReorderGroups}
+        onReorderItems={handleReorderItems}
         onDateChange={setDate}
         onAuthorChange={setAuthor}
         onNotesChange={setNotes}

@@ -1,7 +1,7 @@
 import { Group, Puzzle, RegistryRow } from "@/types";
 import { ItemSearch } from "@/components/ItemSearch";
 import { getGroupColor } from "@/lib/gameUtils";
-import { ClipboardPaste, Grip } from "lucide-react";
+import { ClipboardPaste, Grip, GripVertical } from "lucide-react";
 import {
   arrayMove,
   SortableContext,
@@ -32,6 +32,7 @@ interface PuzzleFormProp {
   onUpdateCorrelation: (gi: number, v: string) => void;
   onUpdateItem: (gi: number, ii: number, v: string) => void;
   onReorderGroups: (newGroups: Group[]) => void;
+  onReorderItems: (gi: number, newItems: string[]) => void;
   onDateChange: (v: string) => void;
   onAuthorChange: (v: string) => void;
   onNotesChange: (v: string) => void;
@@ -40,12 +41,70 @@ interface PuzzleFormProp {
   onSubmit: (puzzle: string) => void;
 }
 
-interface Props {
+interface SortableGroupProps {
   group: Group;
   gi: number;
   items: RegistryRow[];
   onUpdateCorrelation: (gi: number, v: string) => void;
   onUpdateItem: (gi: number, ii: number, v: string) => void;
+  onReorderItems: (gi: number, v: string[]) => void;
+}
+
+interface SortableItemProps {
+  id: number;
+  ii: number;
+  gi: number;
+  item: string;
+  items: RegistryRow[];
+  onUpdateItem: (gi: number, ii: number, v: string) => void;
+}
+
+// ─── Sortable item card ──────────────────────────────────────────────────────
+
+function SortableItemCard({
+  id,
+  ii,
+  gi,
+  item,
+  items,
+  onUpdateItem,
+}: SortableItemProps) {
+  const { attributes, listeners, setNodeRef, transform, isDragging } =
+    useSortable({ id });
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    opacity: isDragging ? 0.5 : 1,
+  };
+
+  return (
+    <div
+      ref={setNodeRef}
+      style={style}
+      className="flex items-center gap-2 w-full"
+    >
+      <ItemSearch
+        value={item}
+        onChange={(v) => {
+          const match = items.find(
+            (item) => item.name.toLowerCase() === v.toLowerCase(),
+          );
+
+          onUpdateItem(gi, ii, match ? match.name : v);
+        }}
+        items={items}
+        ii={ii}
+      />
+      <button
+        {...attributes}
+        {...listeners}
+        className="cursor-grab active:cursor-grabbing touch-none text-white-70 hover:text-white"
+        aria-label="Drag to reorder"
+      >
+        <GripVertical size={18} />
+      </button>
+    </div>
+  );
 }
 
 // ─── Sortable group card ──────────────────────────────────────────────────────
@@ -56,7 +115,8 @@ function SortableGroupCard({
   items,
   onUpdateCorrelation,
   onUpdateItem,
-}: Props) {
+  onReorderItems,
+}: SortableGroupProps) {
   const { attributes, listeners, setNodeRef, transform, isDragging } =
     useSortable({ id: group.id });
 
@@ -64,6 +124,19 @@ function SortableGroupCard({
     transform: CSS.Transform.toString(transform),
     opacity: isDragging ? 0.5 : 1,
   };
+
+  const sensors = useSensors(useSensor(PointerSensor));
+
+  function handleItemDragEnd(event: DragEndEvent) {
+    const { active, over } = event;
+    if (!over || active.id === over.id) return;
+
+    const oldIndex = active.id as number;
+    const newIndex = over.id as number;
+
+    const reordered = arrayMove(group.items, oldIndex, newIndex);
+    onReorderItems(gi, reordered);
+  }
 
   return (
     <div
@@ -90,23 +163,30 @@ function SortableGroupCard({
       </div>
 
       {/* Item input */}
-      <div className="flex flex-col gap-1">
-        {group.items.map((item, ii) => (
-          <ItemSearch
-            key={ii}
-            value={item}
-            onChange={(v) => {
-              const match = items.find(
-                (item) => item.name.toLowerCase() === v.toLowerCase(),
-              );
-
-              onUpdateItem(gi, ii, match ? match.name : v);
-            }}
-            items={items}
-            ii={ii}
-          />
-        ))}
-      </div>
+      <DndContext
+        sensors={sensors}
+        collisionDetection={closestCenter}
+        onDragEnd={handleItemDragEnd}
+      >
+        <SortableContext
+          items={group.items.map((_, i) => i)}
+          strategy={verticalListSortingStrategy}
+        >
+          <div className="flex flex-col gap-4">
+            {group.items.map((item, ii) => (
+              <SortableItemCard
+                key={ii}
+                id={ii}
+                ii={ii}
+                gi={gi}
+                item={item}
+                items={items}
+                onUpdateItem={onUpdateItem}
+              ></SortableItemCard>
+            ))}
+          </div>
+        </SortableContext>
+      </DndContext>
     </div>
   );
 }
@@ -125,6 +205,7 @@ export default function PuzzleForm({
   onUpdateCorrelation,
   onUpdateItem,
   onReorderGroups,
+  onReorderItems,
   onDateChange,
   onAuthorChange,
   onNotesChange,
@@ -231,6 +312,7 @@ export default function PuzzleForm({
                 items={items}
                 onUpdateCorrelation={onUpdateCorrelation}
                 onUpdateItem={onUpdateItem}
+                onReorderItems={onReorderItems}
               ></SortableGroupCard>
             ))}
           </div>
