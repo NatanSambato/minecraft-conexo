@@ -22,6 +22,7 @@ interface Props {
     id: number | null;
     date: string;
     author: string;
+    notes?: string;
     groups: Group[];
   }) => void;
 }
@@ -30,6 +31,7 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
   const [groups, setGroups] = useState<Group[]>(emptyGroups());
   const [date, setDate] = useState("");
   const [author, setAuthor] = useState("");
+  const [notes, setNotes] = useState("");
   const [id, setId] = useState<number | null>(null);
 
   const updateCorrelation = (gi: number, value: string) =>
@@ -70,7 +72,7 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
     setGroups(newGroups);
   }
 
-  const handleSave = () => onSave?.({ id, date, author, groups });
+  const handleSave = () => onSave?.({ id, date, author, notes, groups });
 
   const handleImport = (json: string) => {
     try {
@@ -82,6 +84,7 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
         setGroups(parsed.groups ?? []);
         setAuthor(parsed.author ?? "");
         setDate(parsed.date ?? "");
+        setNotes(parsed.notes ?? "");
         setId(parsed.id ?? null);
       }
     } catch {
@@ -99,12 +102,14 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
         puzzles={puzzles}
         date={date}
         author={author}
+        notes={notes}
         id={id}
         onUpdateCorrelation={updateCorrelation}
         onUpdateItem={updateItem}
         onReorderGroups={handleReorderGroups}
         onDateChange={setDate}
         onAuthorChange={setAuthor}
+        onNotesChange={setNotes}
         onIdChange={setId}
         onSave={handleSave}
         onSubmit={handleImport}

@@ -27,12 +27,14 @@ interface PuzzleFormProp {
   puzzles?: Puzzle[];
   date: string;
   author?: string;
+  notes?: string;
   id?: number | null;
   onUpdateCorrelation: (gi: number, v: string) => void;
   onUpdateItem: (gi: number, ii: number, v: string) => void;
   onReorderGroups: (newGroups: Group[]) => void;
   onDateChange: (v: string) => void;
   onAuthorChange: (v: string) => void;
+  onNotesChange: (v: string) => void;
   onIdChange: (v: number | null) => void;
   onSave: () => void;
   onSubmit: (puzzle: string) => void;
@@ -118,12 +120,14 @@ export default function PuzzleForm({
   puzzles,
   date,
   author,
+  notes,
   id,
   onUpdateCorrelation,
   onUpdateItem,
   onReorderGroups,
   onDateChange,
   onAuthorChange,
+  onNotesChange,
   onIdChange,
   onSave,
   onSubmit,
@@ -232,6 +236,15 @@ export default function PuzzleForm({
           </div>
         </SortableContext>
       </DndContext>
+
+      {/* Notes input */}
+      <textarea
+        value={notes}
+        placeholder="Notes..."
+        className={`${inputStyle}`}
+        onChange={(e) => onNotesChange(e.target.value)}
+        rows={4}
+      />
 
       {/* Save/Suggest button  */}
       <button
