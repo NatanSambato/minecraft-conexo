@@ -55,6 +55,7 @@ export default function Board({ puzzle }: { puzzle: Puzzle }) {
           <Link
             href={"/suggest"}
             className="hover:bg-white/10 rounded-lg p-1.5"
+            title="Suggest a game"
           >
             <span className="text-sm">Submitted by: </span>
             <span className="text-md font-bold">{puzzle.author}</span>
