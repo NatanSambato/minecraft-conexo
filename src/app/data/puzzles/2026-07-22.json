@@ -11,15 +11,15 @@
     },
     {
       "id": 2,
-      "correlation": "Green Blocks",
+      "correlation": "Plants",
       "color": "green",
-      "items": ["Block of Bamboo", "Melon", "Moss Block", "Dried Kelp Block"]
+      "items": ["Big Dripleaf", "Bush", "Seagrass", "Acacia Leaves"]
     },
     {
       "id": 3,
-      "correlation": "Green Items",
+      "correlation": "Green Mob Drops",
       "color": "blue",
-      "items": ["Green Bundle", "Emerald", "Wheat Seeds", "Turtle Shell (item)"]
+      "items": ["Creeper Head", "Emerald", "Slimeball", "Music Disc cat"]
     },
     {
       "id": 4,
