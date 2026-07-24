@@ -1,0 +1,51 @@
+{
+  "id": 37,
+  "date": "2026-07-25",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Found in Villages",
+      "items": [
+        "Plains Weaponsmith House",
+        "Hay Pile",
+        "Iron Golem",
+        "Cat"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Redstone Dust",
+      "items": [
+        "Redstone Lamp",
+        "Note Block",
+        "Compass",
+        "Clock"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Mobs that flee from other mobs",
+      "items": [
+        "Villager",
+        "Creeper",
+        "Phantom",
+        "Hoglin"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Sound emitting blocks",
+      "items": [
+        "Jukebox",
+        "Bell",
+        "Anvil",
+        "Fletching Table"
+      ]
+    }
+  ]
+}

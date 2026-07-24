@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3583,
+    "totalEntries": 3584,
     "languages": [
       "pt",
       "es"
@@ -2070,14 +2070,6 @@
     "translations": {
       "es": "Disco de música#Creator",
       "pt": "Disco Musical Creator"
-    }
-  },
-  "Music Disc Creator (Music Box)": {
-    "image": "https://minecraft.wiki/images/Music_Disc_Creator_(Music_Box)_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Music_Disc_Creator_(Music_Box)",
-    "translations": {
-      "es": "Disco de música#Creator (caja de música)",
-      "pt": "Disco Musical Creator (caixa musical)"
     }
   },
   "Music Disc cat": {
@@ -11004,11 +10996,6 @@
     "pageUrl": "https://minecraft.wiki/w/Village%2FStructure%2FBlueprints%2FPlains%2FTemple_1",
     "translations": {}
   },
-  "Village/Structure/Blueprints/Plains/Weaponsmith 1": {
-    "image": "https://minecraft.wiki/images/Plains_Weaponsmith_1.png",
-    "pageUrl": "https://minecraft.wiki/w/Village%2FStructure%2FBlueprints%2FPlains%2FWeaponsmith_1",
-    "translations": {}
-  },
   "Village/Structure/Blueprints/Plains/Shepherd's House": {
     "image": "https://minecraft.wiki/images/Plains_Shepherd's_House.png",
     "pageUrl": "https://minecraft.wiki/w/Village%2FStructure%2FBlueprints%2FPlains%2FShepherd's_House",
@@ -13594,14 +13581,6 @@
     "translations": {
       "es": "Ciudad antigua",
       "pt": "Cidade Ancestral"
-    }
-  },
-  "Pile": {
-    "image": "https://minecraft.wiki/images/Hay_Pile.png",
-    "pageUrl": "https://minecraft.wiki/w/Pile",
-    "translations": {
-      "es": "Pila",
-      "pt": "Pilha (recurso)"
     }
   },
   "Vines (feature)": {
@@ -24560,6 +24539,42 @@
     "translations": {
       "pt": "Coguvaca Marrom",
       "es": "Champiñaca marrón"
+    },
+    "_manual": true
+  },
+  "Oak Sapling (item)": {
+    "image": "https://minecraft.wiki/images/Oak_Sapling_%28texture%29_JE5_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Sapling",
+    "translations": {
+      "pt": "Muda de Carvalho",
+      "es": "Brote de Roble"
+    },
+    "_manual": true
+  },
+  "Music Disc Creator - Music Box": {
+    "image": "https://minecraft.wiki/images/Music_Disc_Creator_(Music_Box)_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Music_Disc_Creator_(Music_Box)",
+    "translations": {
+      "pt": "Disco Musical Creator - caixa musical",
+      "es": "Disco de música#Creator - caja de música"
+    },
+    "_manual": true
+  },
+  "Plains Weaponsmith House": {
+    "image": "https://minecraft.wiki/images/Plains_Weaponsmith_1.png",
+    "pageUrl": "https://minecraft.wiki/w/Village",
+    "translations": {
+      "pt": "Casa do Armeiro da Planície",
+      "es": "Casa del Herrero de armas de llanuras"
+    },
+    "_manual": true
+  },
+  "Hay Pile": {
+    "image": "https://minecraft.wiki/images/Hay_Pile.png",
+    "pageUrl": "https://minecraft.wiki/w/Pile",
+    "translations": {
+      "pt": "Pilha de Feno",
+      "es": "Pila de heno"
     },
     "_manual": true
   }
