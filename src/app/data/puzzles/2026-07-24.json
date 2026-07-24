@@ -7,45 +7,25 @@
       "id": 1,
       "color": "yellow",
       "correlation": "Cubes/Slimes",
-      "items": [
-        "Slime",
-        "Magma Cube",
-        "Redstone Cube",
-        "Tropical Slime"
-      ]
+      "items": ["Slime", "Magma Cube", "Redstone Cube", "Tropical Slime"]
     },
     {
       "id": 2,
       "color": "green",
       "correlation": "Found in Sulfur Cave",
-      "items": [
-        "Sulfur Pool",
-        "Music Disc Bounce",
-        "Sulfur Cube",
-        "Cave Spider"
-      ]
+      "items": ["Sulfur Pool", "Cinnabar", "Sulfur Cube", "Cave Spider"]
     },
     {
       "id": 3,
       "color": "blue",
       "correlation": "Passive Mobs",
-      "items": [
-        "Armadillo",
-        "Rabbit",
-        "Red Parrot",
-        "Ocelot"
-      ]
+      "items": ["Armadillo", "Rabbit", "Red Parrot", "Ocelot"]
     },
     {
       "id": 4,
       "color": "purple",
       "correlation": "Drop String",
-      "items": [
-        "Cobweb",
-        "Spider",
-        "Cat",
-        "Strider"
-      ]
+      "items": ["Cobweb", "Spider", "Cat", "Strider"]
     }
   ]
 }
