@@ -7,25 +7,45 @@
       "id": 1,
       "correlation": "Dyes",
       "color": "yellow",
-      "items": ["Pink Dye", "Blue Dye", "Purple Dye", "Magenta Dye"]
+      "items": [
+        "Pink Dye",
+        "Blue Dye",
+        "Purple Dye",
+        "Magenta Dye"
+      ]
     },
     {
       "id": 2,
-      "correlation": "Dye Sources",
+      "correlation": "Tall Flowers",
       "color": "green",
-      "items": ["Cocoa Beans", "Cactus", "Lapis Lazuli", "Beetroot"]
+      "items": [
+        "Rose Bush",
+        "Lilac",
+        "Sunflower",
+        "Peony"
+      ]
     },
     {
       "id": 3,
       "correlation": "Small Flowers",
       "color": "blue",
-      "items": ["Azure Bluet", "Poppy", "Blue Orchid", "Oxeye Daisy"]
+      "items": [
+        "Azure Bluet",
+        "Poppy",
+        "Blue Orchid",
+        "Oxeye Daisy"
+      ]
     },
     {
       "id": 4,
-      "correlation": "Tall Flowers",
+      "correlation": "Dye Sources",
       "color": "purple",
-      "items": ["Rose Bush", "Lilac", "Sunflower", "Peony"]
+      "items": [
+        "Cocoa Beans",
+        "Cactus",
+        "Lapis Lazuli",
+        "Beetroot"
+      ]
     }
   ]
 }
