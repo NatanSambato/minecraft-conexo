@@ -4,6 +4,8 @@ import { useMemo, useState } from "react";
 import type { Group, Puzzle, RegistryRow } from "@/types";
 import TileCard from "./TileCard";
 import PuzzleForm from "@/components/PuzzleForm";
+import SolvedGroup from "@/app/[date]/components/SolvedGroup";
+import { Pencil } from "lucide-react";
 
 function emptyGroups(): Group[] {
   return [
@@ -122,21 +124,60 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
         onSubmit={handleImport}
       />
 
-      {/* Tile Grid - Preview */}
-      <div className="grid grid-cols-4 gap-2 w-full max-w-xl">
-        {previewTiles.map((tile, i) =>
-          tile.url ? (
-            <a
-              key={i}
-              href={tile.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <TileCard label={tile.label} image={tile.image} />
-            </a>
-          ) : (
-            <TileCard key={i} label={tile.label} image={tile.image} disabled />
-          ),
+      <div className="flex flex-col gap-8 w-full max-w-xl">
+        {/* Tile Grid - Preview */}
+        <div className="grid grid-cols-4 gap-2 w-full max-w-xl">
+          {previewTiles.map((tile, i) =>
+            tile.url ? (
+              <a
+                key={i}
+                href={tile.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <TileCard label={tile.label} image={tile.image} />
+              </a>
+            ) : (
+              <TileCard
+                key={i}
+                label={tile.label}
+                image={tile.image}
+                disabled
+              />
+            ),
+          )}
+        </div>
+
+        {/* Lifetime puzzle groups */}
+        {mode === "create" && puzzles && (
+          <div className="flex flex-col gap-2 w-full">
+            {puzzles.map((puzzle) => (
+              <div
+                key={puzzle.id}
+                className="flex items-center justify-center align-middle gap-2 relative"
+              >
+                <div className="absolute -left-7 flex flex-col items-center gap-0.5">
+                  <span className="text-[8px] shrink-0 text-gray-400">
+                    {puzzle.date.slice(5)}
+                  </span>
+                  <button
+                    type="button"
+                    title="Edit puzzle"
+                    onClick={() => handleImport(JSON.stringify(puzzle))}
+                    className="cursor-pointer hover:opacity-80"
+                  >
+                    <Pencil size={10} />
+                  </button>
+                </div>
+
+                {puzzle.groups.map((group) => (
+                  <div key={group.id} className="flex-1 min-w-0">
+                    <SolvedGroup group={group} compact />
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
         )}
       </div>
     </div>
