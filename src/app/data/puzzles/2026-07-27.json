@@ -1,6 +1,6 @@
 {
-  "id": 100,
-  "date": "2026-08-30",
+  "id": 30,
+  "date": "2026-07-27",
   "author": "Natowski",
   "groups": [
     {
@@ -19,13 +19,13 @@
       "id": 3,
       "correlation": "Blocks that can negate fall damage",
       "color": "blue",
-      "items": ["Powder Snow", "Ladder", "Scaffolding", "Vines"]
+      "items": ["Water", "Ladder", "Vines", "Scaffolding"]
     },
     {
       "id": 4,
       "correlation": "Non-Flammable Wooden Blocks",
       "color": "purple",
-      "items": ["Chest", "Oak Sign", "Loom", "Note Block"]
+      "items": ["Oak Sign", "Chest", "Note Block", "Loom"]
     }
   ]
 }

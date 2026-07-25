@@ -1,0 +1,51 @@
+{
+  "id": 41,
+  "date": "2026-07-31",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Drop Rotten Flesh",
+      "items": [
+        "Zombified Piglin",
+        "Husk",
+        "Zoglin",
+        "Zombie Horse"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Apply Poison",
+      "items": [
+        "Bee",
+        "Pufferfish (large)",
+        "Bogged",
+        "Spider Eye"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Hunted by Wolves",
+      "items": [
+        "Sheep",
+        "Parched",
+        "Fox",
+        "Rabbit"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Spider Eye Sources",
+      "items": [
+        "Spider",
+        "Cave Spider",
+        "Witch",
+        "Desert Pyramid"
+      ]
+    }
+  ]
+}
