@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3584,
+    "totalEntries": 3589,
     "languages": [
       "pt",
       "es"
@@ -24575,6 +24575,51 @@
     "translations": {
       "pt": "Pilha de Feno",
       "es": "Pila de heno"
+    },
+    "_manual": true
+  },
+  "Lingering Water Bottle": {
+    "image": "https://minecraft.wiki/images/Lingering_Water_Bottle_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Lingering_Potion",
+    "translations": {
+      "pt": "Frasco de Água Prolongado",
+      "es": "Frasco con agua persistente"
+    },
+    "_manual": true
+  },
+  "Splash Water Bottle": {
+    "image": "https://minecraft.wiki/images/Splash_Water_Bottle_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Splash_Potion",
+    "translations": {
+      "pt": "Frasco de Água Arremessável",
+      "es": "Frasco con agua arrojadizo"
+    },
+    "_manual": true
+  },
+  "Cake (item)": {
+    "image": "https://minecraft.wiki/images/Cake_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Cake",
+    "translations": {
+      "pt": "Bolo",
+      "es": "Tarta"
+    },
+    "_manual": true
+  },
+  "Pufferfish (large)": {
+    "image": "https://minecraft.wiki/images/Pufferfish_large.gif",
+    "pageUrl": "https://minecraft.wiki/w/Pufferfish",
+    "translations": {
+      "pt": "Baiacu",
+      "es": "Pez globo"
+    },
+    "_manual": true
+  },
+  "Pufferfish (medium)": {
+    "image": "https://minecraft.wiki/images/Pufferfish_medium_JE2.gif",
+    "pageUrl": "https://minecraft.wiki/w/Pufferfish",
+    "translations": {
+      "pt": "Baiacu",
+      "es": "Pez globo"
     },
     "_manual": true
   }

@@ -24,7 +24,7 @@
       "id": 3,
       "correlation": "Village Loot",
       "color": "blue",
-      "items": ["Bread", "Apple", "Oak Sapling", "Bundle"]
+      "items": ["Bread", "Apple", "Oak Sapling (item)", "Bundle"]
     },
     {
       "id": 4,
