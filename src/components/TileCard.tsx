@@ -8,6 +8,12 @@ interface Props {
   groupHex?: string;
   disabled?: boolean;
   onClick?: () => void;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
+  onMouseMove?: (e: React.MouseEvent) => void;
+  onTouchStart?: (e: React.TouchEvent) => void;
+  onTouchEnd?: (e: React.TouchEvent) => void;
+  onTouchMove?: (e: React.TouchEvent) => void;
 }
 
 export default function TileCard({
@@ -18,14 +24,26 @@ export default function TileCard({
   groupHex,
   disabled,
   onClick,
+  onMouseEnter,
+  onMouseLeave,
+  onMouseMove,
+  onTouchStart,
+  onTouchEnd,
+  onTouchMove,
 }: Props) {
   const Tag = onClick ? "button" : "div";
 
   return (
     <Tag
       onClick={onClick}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      onMouseMove={onMouseMove}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+      onTouchMove={onTouchMove}
       disabled={disabled}
-      className={`
+      className={`group
                 relative h-20 flex items-center justify-center rounded-sm text-center leading-5 font-bold uppercase
                 ${isSelected ? "bg-amber-600" : "bg-stone-600"}
                 ${disabled ? "" : "cursor-pointer"}

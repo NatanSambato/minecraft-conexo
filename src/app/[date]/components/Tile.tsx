@@ -5,6 +5,8 @@ import useGameStore from "@/store/gameStore";
 import type { Tile } from "@/types";
 import { getImage } from "@/lib/registry";
 import TileCard from "@/components/TileCard";
+import Tooltip from "@/components/Tooltip";
+import { useTooltip } from "@/hooks/useTooltip";
 
 interface TileProps {
   tile: Tile;
@@ -12,6 +14,7 @@ interface TileProps {
 }
 
 export default function Tile({ tile, disabled }: TileProps) {
+  const { visible, position, handlers } = useTooltip();
   const toggleTile = useGameStore((state) => state.toggleTile);
   const selected = useGameStore((state) => state.selected);
   const isHinted = useGameStore((state) =>
@@ -32,14 +35,24 @@ export default function Tile({ tile, disabled }: TileProps) {
   };
 
   return (
-    <TileCard
-      label={tile.label}
-      image={image}
-      isSelected={isSelected}
-      isHinted={isHinted}
-      groupHex={groupHex}
-      disabled={disabled}
-      onClick={handleClick}
-    />
+    <>
+      <TileCard
+        label={tile.label}
+        image={image}
+        isSelected={isSelected}
+        isHinted={isHinted}
+        groupHex={groupHex}
+        disabled={disabled}
+        onClick={handleClick}
+        {...handlers}
+      />
+
+      <Tooltip
+        x={position.x}
+        y={position.y}
+        label={tile.label}
+        visible={visible}
+      />
+    </>
   );
 }
