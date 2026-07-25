@@ -1,0 +1,41 @@
+{
+  "id": 29,
+  "date": "2026-07-26",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "correlation": "Monster Room Loot",
+      "color": "yellow",
+      "items": [
+        "Music Disc Cat",
+        "Diamond Horse Armor (item)",
+        "Bucket",
+        "Rotten Flesh"
+      ]
+    },
+    {
+      "id": 2,
+      "correlation": "Mineshaft Loot",
+      "color": "green",
+      "items": ["Rail (item)", "Glow Berries", "Diamond", "Iron Pickaxe"]
+    },
+    {
+      "id": 3,
+      "correlation": "Buried Treasure Loot",
+      "color": "blue",
+      "items": [
+        "Heart of the Sea",
+        "Prismarine Shard",
+        "Potion of Water Breathing",
+        "Emerald"
+      ]
+    },
+    {
+      "id": 4,
+      "correlation": "Pillager Outpost Loot",
+      "color": "purple",
+      "items": ["Crossbow", "Dark Oak Log", "Goat Horn", "Bottle o' Enchanting"]
+    }
+  ]
+}

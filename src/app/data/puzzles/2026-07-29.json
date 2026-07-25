@@ -1,41 +1,36 @@
 {
-  "id": 29,
+  "id": 31,
   "date": "2026-07-29",
-  "author": "Natowski",
+  "author": "",
   "groups": [
     {
       "id": 1,
-      "correlation": "Monster Room Loot",
       "color": "yellow",
+      "correlation": "Water Effects",
       "items": [
-        "Music Disc Cat",
-        "Diamond Horse Armor",
-        "Bucket",
-        "Rotten Flesh"
+        "Water Breathing",
+        "Dolphin's Grace",
+        "Breath of the Nautilus",
+        "Conduit Power"
       ]
     },
     {
       "id": 2,
-      "correlation": "Mineshaft Loot",
       "color": "green",
-      "items": ["Rail", "Glow Berries", "Diamond", "Iron Pickaxe"]
+      "correlation": "Skeleton Effects",
+      "items": ["Wither (effect)", "Slowness", "Poison", "Weakness"]
     },
     {
       "id": 3,
-      "correlation": "Buried Treasure Loot",
       "color": "blue",
-      "items": [
-        "Heart of the Sea",
-        "Prismarine Shard",
-        "Potion of Water Breathing",
-        "Emerald"
-      ]
+      "correlation": "Spider Effects",
+      "items": ["Invisibility", "Speed", "Regeneration", "Strength"]
     },
     {
       "id": 4,
-      "correlation": "Pillager Outpost Loot",
       "color": "purple",
-      "items": ["Crossbow", "Dark Oak Log", "Goat Horn", "Bottle o' Enchanting"]
+      "correlation": "Tricky Trial Update Effects",
+      "items": ["Wind Charged", "Infested", "Oozing", "Weaving"]
     }
   ]
 }

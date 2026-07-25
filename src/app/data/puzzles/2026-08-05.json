@@ -1,0 +1,51 @@
+{
+  "id": 34,
+  "date": "2026-08-05",
+  "author": "mrcyberhumano",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Joke Drinks",
+      "items": [
+        "Poisonous Potato Oil (Potion)",
+        "Potato Oil (Potion)",
+        "Bottle of Entity",
+        "Potion of Caring"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Green Potions",
+      "items": [
+        "Potion of Luck",
+        "Potion of Night Vision",
+        "Potion of Oozing",
+        "Potion of Poison"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Can not be Drinked",
+      "items": [
+        "Splash Water Bottle",
+        "Lingering Water Bottle",
+        "Bottle o' Enchanting",
+        "Tipped Arrow"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Uses Water Bottle Icon ",
+      "items": [
+        "Water Bottle",
+        "Awkward Potion",
+        "Mundane Potion",
+        "Thick Potion"
+      ]
+    }
+  ]
+}
