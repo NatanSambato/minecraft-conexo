@@ -124,7 +124,7 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
         onSubmit={handleImport}
       />
 
-      <div className="flex flex-col gap-8 w-full max-w-xl">
+      <div className="flex flex-col gap-5 w-full max-w-xl">
         {/* Tile Grid - Preview */}
         <div className="grid grid-cols-4 gap-2 w-full max-w-xl">
           {previewTiles.map((tile, i) =>

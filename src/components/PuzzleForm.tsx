@@ -174,7 +174,7 @@ function SortableGroupCard({
           items={group.items.map((_, i) => i)}
           strategy={verticalListSortingStrategy}
         >
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-2">
             {group.items.map((item, ii) => (
               <SortableItemCard
                 key={ii}
@@ -305,7 +305,7 @@ export default function PuzzleForm({
           items={groups.map((g) => g.id)}
           strategy={verticalListSortingStrategy}
         >
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3">
             {groups.map((group, gi) => (
               <SortableGroupCard
                 key={group.id}

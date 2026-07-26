@@ -13,6 +13,7 @@ export default async function CreatePage() {
   return (
     <div>
       <Header returnLink="/" />
+      <h1 className="text-xl font-semibold p-4 text-center">Create Puzzle</h1>
       <div className="flex justify-center">
         <CreateClient items={items} puzzles={puzzles} />
       </div>

@@ -8,6 +8,7 @@ export default async function SuggestPage() {
   return (
     <div>
       <Header returnLink="/" />
+      <h1 className="text-xl font-semibold p-4 text-center">Suggest Puzzle</h1>
       <div className="flex justify-center">
         <SuggestClient items={items} />
       </div>
