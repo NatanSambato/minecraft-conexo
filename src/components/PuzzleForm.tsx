@@ -98,6 +98,7 @@ function SortableItemCard({
       <button
         {...attributes}
         {...listeners}
+        tabIndex={-1}
         className="cursor-grab active:cursor-grabbing touch-none text-white-70 hover:text-white"
         aria-label="Drag to reorder"
       >
@@ -155,6 +156,7 @@ function SortableGroupCard({
         <button
           {...attributes}
           {...listeners}
+          tabIndex={-1}
           className="cursor-grab active:cursor-grabbing touch-none text-white-70 hover:text-white"
           aria-label="Drag to reorder"
         >
