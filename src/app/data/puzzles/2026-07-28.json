@@ -1,0 +1,51 @@
+{
+  "id": 42,
+  "date": "2026-07-28",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Geode Blocks",
+      "items": [
+        "Budding Amethyst",
+        "Block of Amethyst",
+        "Calcite",
+        "Smooth Basalt"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Basalt Deltas Blocks",
+      "items": [
+        "Blackstone",
+        "Basalt",
+        "Lava",
+        "Magma Block"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Cold Ocean Ruins Blocks",
+      "items": [
+        "Suspicious Gravel",
+        "Sea Lantern",
+        "Purple Glazed Terracotta",
+        "Polished Diorite"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Infested Block Variants",
+      "items": [
+        "Stone",
+        "Mossy Stone Bricks",
+        "Chiseled Stone Bricks",
+        "Deepslate"
+      ]
+    }
+  ]
+}
