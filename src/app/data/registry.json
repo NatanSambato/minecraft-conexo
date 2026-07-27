@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3589,
+    "totalEntries": 3590,
     "languages": [
       "pt",
       "es"
@@ -24620,6 +24620,15 @@
     "translations": {
       "pt": "Baiacu",
       "es": "Pez globo"
+    },
+    "_manual": true
+  },
+  "Copper Nautilus Armor (item)": {
+    "image": "https://minecraft.wiki/images/Copper_Nautilus_Armor_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Copper_Nautilus_Armor",
+    "translations": {
+      "pt": "Armadura de Cobre para Náutilo",
+      "es": "Armadura para de cobre para nautilo"
     },
     "_manual": true
   }
