@@ -30,10 +30,10 @@
       "color": "blue",
       "correlation": "Cold Ocean Ruins Blocks",
       "items": [
-        "Suspicious Gravel",
+        "Kelp",
         "Sea Lantern",
-        "Purple Glazed Terracotta",
-        "Polished Diorite"
+        "Suspicious Gravel",
+        "Purple Glazed Terracotta"
       ]
     },
     {
@@ -42,7 +42,7 @@
       "correlation": "Infested Block Variants",
       "items": [
         "Stone",
-        "Mossy Stone Bricks",
+        "Cracked Stone Bricks",
         "Chiseled Stone Bricks",
         "Deepslate"
       ]
