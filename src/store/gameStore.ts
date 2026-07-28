@@ -46,8 +46,8 @@ const useGameStore = create<GameState>((set, get) => ({
 
     const orderedTiles = savedProgress?.tileOrder
       ? savedProgress.tileOrder
-          .map((id) => allTiles.find((t) => t.id === id))
-          .filter((t): t is Tile => t !== undefined)
+        .map((id) => allTiles.find((t) => t.id === id))
+        .filter((t): t is Tile => t !== undefined)
       : allTiles.sort(() => Math.random() - 0.5);
 
     set({
@@ -107,10 +107,12 @@ const useGameStore = create<GameState>((set, get) => ({
       });
 
       get().saveProgress();
+      return;
     }
 
     // Wrong guess
     set({ attempts: newAttempts, selected: [] });
+    get().saveProgress();
   },
 
   activateHint: () => {
