@@ -18,7 +18,8 @@ export default async function GamePage({
   if (!puzzle || !puzzle.groups) notFound();
 
   const isFutureDate = date > getTodaysDate();
-  const validKey = key === process.env.PREVIEW_KEY;
+  const validKey =
+    key !== undefined && decodeURIComponent(key) === process.env.PREVIEW_KEY;
 
   if (
     isFutureDate &&
