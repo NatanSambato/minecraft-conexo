@@ -96,6 +96,14 @@ export function getImage(name: string): string | null {
 }
 
 /**
+ * Get the page URL for an item.
+ * Returns null if no url is available.
+ */
+export function getPageUrl(name: string): string | null {
+  return getItem(name)?.pageUrl ?? null
+}
+
+/**
  * Get the translated name for an item.
  * Falls back to the English name (the key itself) if no translation exists.
  */

@@ -1,6 +1,7 @@
 import TileImage from "@/components/TileImage";
 import Tooltip from "@/components/Tooltip";
 import { useTooltip } from "@/hooks/useTooltip";
+import { getPageUrl } from "@/lib/registry";
 
 export function SolvedGroupItem({
   image,
@@ -12,6 +13,7 @@ export function SolvedGroupItem({
   size?: number;
 }) {
   const { visible, position, handlers } = useTooltip();
+  const url = getPageUrl(label);
 
   return (
     <div
@@ -19,13 +21,26 @@ export function SolvedGroupItem({
       style={{ width: size, height: size }}
       className="relative overflow-visible"
     >
-      <TileImage
-        image={image}
-        label={label}
-        loading="lazy"
-        sizes={`${size}px`}
-        compact
-      />
+      {url ? (
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          <TileImage
+            image={image}
+            label={label}
+            loading="lazy"
+            sizes={`${size}px`}
+            compact
+          />
+        </a>
+      ) : (
+        <TileImage
+          image={image}
+          label={label}
+          loading="lazy"
+          sizes={`${size}px`}
+          compact
+        />
+      )}
+
       <Tooltip x={position.x} y={position.y} label={label} visible={visible} />
     </div>
   );
