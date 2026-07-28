@@ -15,7 +15,11 @@ export default async function GamePage({
   if (!puzzle || !puzzle.groups) notFound();
 
   const today = getTodaysDate();
-  if (date > today) notFound();
+  if (
+    date > today &&
+    process.env.NEXT_PUBLIC_SHOW_UNRELEASED_PUZZLES !== "true"
+  )
+    notFound();
 
   return <Board puzzle={puzzle} />;
 }
