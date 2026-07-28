@@ -1,7 +1,7 @@
 {
   "id": 31,
   "date": "2026-07-29",
-  "author": "",
+  "author": "Natowski",
   "groups": [
     {
       "id": 1,
@@ -18,19 +18,34 @@
       "id": 2,
       "color": "green",
       "correlation": "Skeleton Effects",
-      "items": ["Wither (effect)", "Slowness", "Poison", "Weakness"]
+      "items": [
+        "Wither (effect)",
+        "Slowness",
+        "Poison",
+        "Weakness"
+      ]
     },
     {
       "id": 3,
       "color": "blue",
-      "correlation": "Spider Effects",
-      "items": ["Invisibility", "Speed", "Regeneration", "Strength"]
+      "correlation": "Spider Spawn Effects",
+      "items": [
+        "Invisibility",
+        "Speed",
+        "Regeneration",
+        "Strength"
+      ]
     },
     {
       "id": 4,
       "color": "purple",
       "correlation": "Tricky Trial Update Effects",
-      "items": ["Wind Charged", "Infested", "Oozing", "Weaving"]
+      "items": [
+        "Wind Charged",
+        "Infested",
+        "Oozing",
+        "Weaving"
+      ]
     }
   ]
 }
