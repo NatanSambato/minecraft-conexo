@@ -44,11 +44,16 @@ const useGameStore = create<GameState>((set, get) => ({
       })),
     );
 
-    const orderedTiles = savedProgress?.tileOrder
-      ? savedProgress.tileOrder
+    const savedOrder = localStorage.getItem(`tile_order_${puzzle.id}`)
+
+    const orderedTiles = savedOrder
+      ? (JSON.parse(savedOrder) as string[])
         .map((id) => allTiles.find((t) => t.id === id))
         .filter((t): t is Tile => t !== undefined)
       : allTiles.sort(() => Math.random() - 0.5);
+
+    localStorage.setItem(`tile_order_${puzzle.id}`, JSON.stringify(orderedTiles.map(t => t.id)))
+
 
     set({
       puzzle,
