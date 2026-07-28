@@ -6,17 +6,23 @@ import { getTodaysDate } from "@/lib/gameUtils";
 
 export default async function GamePage({
   params,
+  searchParams,
 }: {
   params: Promise<{ date: string }>;
+  searchParams: Promise<{ key?: string }>;
 }) {
   const { date } = await params;
-  const puzzle = getPuzzleByDate(date);
+  const { key } = await searchParams;
 
+  const puzzle = getPuzzleByDate(date);
   if (!puzzle || !puzzle.groups) notFound();
 
-  const today = getTodaysDate();
+  const isFutureDate = date > getTodaysDate();
+  const validKey = key === process.env.PREVIEW_KEY;
+
   if (
-    date > today &&
+    isFutureDate &&
+    !validKey &&
     process.env.NEXT_PUBLIC_SHOW_UNRELEASED_PUZZLES !== "true"
   )
     notFound();
