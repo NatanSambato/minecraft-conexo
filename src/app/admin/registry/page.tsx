@@ -1,10 +1,12 @@
 import { loadRegistry, getAllItems } from "@/lib/registry";
 import RegistryTable from "./components/RegistryTable";
 import Header from "@/components/Header";
+import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
 export default async function RegistryAdminPage() {
+  if (process.env.NODE_ENV !== "development") notFound();
   await loadRegistry();
   const items = getAllItems();
 
