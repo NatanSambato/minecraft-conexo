@@ -9,7 +9,6 @@ export function getProgress(): Record<string, SavedProgress> {
     if (!key?.startsWith(PUZZLE_KEY_PREFIX)) {
       continue;
     }
-    console.log(`Loading localStorage key: ${key}`);
     const raw = localStorage.getItem(key);
     if (raw) result[key] = JSON.parse(raw);
   }

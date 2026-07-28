@@ -37,8 +37,6 @@ export async function POST(req: NextRequest) {
         groups: body.groups,
     }
 
-    console.log(body)
-
     const puzzlePath = path.join(PUZZLES_DIR, `${puzzle.date}.json`)
     await fs.writeFile(puzzlePath, JSON.stringify(puzzle, null, 2), "utf-8");
 
