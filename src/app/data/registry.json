@@ -1700,12 +1700,13 @@
     }
   },
   "Lingering Potion": {
-    "image": "https://minecraft.wiki/images/Lingering_Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Lingering_Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Lingering_Potion",
     "translations": {
-      "es": "Poción persistente",
-      "pt": "Poção Prolongada"
-    }
+      "pt": "Poção Prolongada",
+      "es": "Poción persistente"
+    },
+    "_manual": true
   },
   "Iron Nugget": {
     "image": "https://minecraft.wiki/images/Iron_Nugget_JE1_BE1.png",
@@ -2629,12 +2630,13 @@
     }
   },
   "Potion": {
-    "image": "https://minecraft.wiki/images/Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Potion",
     "translations": {
-      "es": "Poción",
-      "pt": "Poção"
-    }
+      "pt": "Poção",
+      "es": "Poción"
+    },
+    "_manual": true
   },
   "Potion of Weakness": {
     "image": "https://minecraft.wiki/images/Potion_of_Weakness_JE2_BE2.png",
@@ -3049,12 +3051,13 @@
     }
   },
   "Splash Potion": {
-    "image": "https://minecraft.wiki/images/Splash_Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Splash_Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Splash_Potion",
     "translations": {
-      "es": "Poción arrojadiza",
-      "pt": "Poção Arremessável"
-    }
+      "pt": "Poção Arremessável",
+      "es": "Poción arrojadiza"
+    },
+    "_manual": true
   },
   "String": {
     "image": "https://minecraft.wiki/images/String_JE2_BE2.png",
@@ -3390,11 +3393,12 @@
     }
   },
   "Water Bottle": {
-    "image": "https://minecraft.wiki/images/Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Water_Bottle",
     "translations": {
       "pt": "Frasco de Água"
-    }
+    },
+    "_manual": true
   },
   "Bane of Arthropods": {
     "image": null,
@@ -4080,21 +4084,24 @@
     }
   },
   "Awkward Potion": {
-    "image": "https://minecraft.wiki/images/Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Awkward_Potion",
-    "translations": {}
+    "translations": {},
+    "_manual": true
   },
   "Mundane Potion": {
-    "image": "https://minecraft.wiki/images/Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Mundane_Potion",
     "translations": {
       "pt": "Poção Comum"
-    }
+    },
+    "_manual": true
   },
   "Thick Potion": {
-    "image": "https://minecraft.wiki/images/Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Thick_Potion",
-    "translations": {}
+    "translations": {},
+    "_manual": true
   },
   "Potion of Fire Resistance": {
     "image": "https://minecraft.wiki/images/Potion_of_Fire_Resistance_JE3.png",
@@ -4125,11 +4132,12 @@
     }
   },
   "Potion of Healing": {
-    "image": "https://minecraft.wiki/images/Potion_of_Healing_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Potion_of_Healing_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Healing",
     "translations": {
       "pt": "Poção de Cura"
-    }
+    },
+    "_manual": true
   },
   "Potion of Invisibility": {
     "image": "https://minecraft.wiki/images/Potion_of_Invisibility_JE3.png",
@@ -17885,9 +17893,10 @@
     "translations": {}
   },
   "Potion/Before 1.9": {
-    "image": "https://minecraft.wiki/images/Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Potion%2FBefore_1.9",
-    "translations": {}
+    "translations": {},
+    "_manual": true
   },
   "Redstone circuits/Clock/Hopper clocks": {
     "image": null,

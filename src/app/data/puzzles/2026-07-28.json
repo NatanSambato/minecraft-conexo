@@ -6,7 +6,7 @@
     {
       "id": 1,
       "color": "yellow",
-      "correlation": "Geode Blocks",
+      "correlation": "Amethyst Geode Blocks",
       "items": [
         "Budding Amethyst",
         "Block of Amethyst",
@@ -18,12 +18,7 @@
       "id": 2,
       "color": "green",
       "correlation": "Basalt Deltas Blocks",
-      "items": [
-        "Blackstone",
-        "Basalt",
-        "Lava",
-        "Magma Block"
-      ]
+      "items": ["Blackstone", "Basalt", "Lava", "Magma Block"]
     },
     {
       "id": 3,
