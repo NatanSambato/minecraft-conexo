@@ -15,6 +15,10 @@ export default function page() {
         MINECRAFT CONEXO
       </h1>
 
+      <h2 className="p-5 max-w-xs mx-auto text-center">
+        Find the 4 groups of 4 items that share a common theme
+      </h2>
+
       <div className="flex flex-col gap-4">
         {/* Daily game button */}
         <Link
