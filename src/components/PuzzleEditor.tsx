@@ -150,7 +150,10 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
                   <button
                     type="button"
                     title="Edit puzzle"
-                    onClick={() => handleImport(JSON.stringify(puzzle))}
+                    onClick={() => {
+                      handleImport(JSON.stringify(puzzle));
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}
                     className="cursor-pointer hover:opacity-80"
                   >
                     <Pencil size={10} />
