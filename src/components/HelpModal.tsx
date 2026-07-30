@@ -20,7 +20,7 @@ export default function HelpModal({ onClose }: { onClose: () => void }) {
         </div>
 
         <p className="text-sm leading-4 mb-2">
-          Find the 4 groups of 4 tiles that share a common theme.
+          Find the 4 groups of 4 items that share a common theme.
         </p>
 
         <ul className="text-sm flex flex-col gap-3 leading-4">
@@ -28,6 +28,7 @@ export default function HelpModal({ onClose }: { onClose: () => void }) {
             👆 <span className="ml-0.5">Tap 4 tiles to select a group</span>
           </li>
           <li>✅ A correct group is revealed immediately</li>
+          <li>🔁 No lives — try as many times as you want</li>
           <li className="ml-0.5">
             💡<span className="ml-1.5">Use hints if you get stuck</span>
           </li>
