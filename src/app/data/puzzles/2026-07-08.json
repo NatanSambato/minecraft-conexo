@@ -7,25 +7,45 @@
       "id": 1,
       "correlation": "Constructable Mobs",
       "color": "yellow",
-      "items": ["Wither", "Copper Golem", "Iron Golem", "Creaking"]
+      "items": [
+        "Iron Golem",
+        "Copper Golem",
+        "Creaking",
+        "Wither"
+      ]
     },
     {
       "id": 2,
       "correlation": "Flying Mobs",
       "color": "green",
-      "items": ["Vex", "Bat", "Blaze", "Phantom"]
+      "items": [
+        "Vex",
+        "Bat",
+        "Blaze",
+        "Phantom"
+      ]
     },
     {
       "id": 3,
       "correlation": "Tameable Mobs",
       "color": "blue",
-      "items": ["Red Parrot", "Trader Llama", "Zombie Nautilus", "Wolf"]
+      "items": [
+        "Wolf",
+        "Trader Llama",
+        "Zombie Nautilus",
+        "Red Parrot"
+      ]
     },
     {
       "id": 4,
       "correlation": "Mobs with at least 100hp",
       "color": "purple",
-      "items": ["Warden", "Ender Dragon", "Giant", "Ravager"]
+      "items": [
+        "Warden",
+        "Ender Dragon",
+        "Ravager",
+        "Giant"
+      ]
     }
   ]
 }

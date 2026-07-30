@@ -1,11 +1,8 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3590,
-    "languages": [
-      "pt",
-      "es"
-    ],
+    "totalEntries": 3594,
+    "languages": ["pt", "es"],
     "categories": [
       "Category:Items",
       "Category:Blocks",
@@ -24638,6 +24635,33 @@
     "translations": {
       "pt": "Armadura de Cobre para Náutilo",
       "es": "Armadura para de cobre para nautilo"
+    },
+    "_manual": true
+  },
+  "Elytra (item)": {
+    "image": "https://minecraft.wiki/images/Elytra_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Elytra",
+    "translations": {
+      "pt": "Élitros",
+      "es": "Élitros"
+    },
+    "_manual": true
+  },
+  "Elytra (item) (broken)": {
+    "image": "https://minecraft.wiki/images/Broken_Elytra_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Elytra",
+    "translations": {
+      "pt": "Élitros",
+      "es": "Élitros"
+    },
+    "_manual": true
+  },
+  "Elytra (dummy)": {
+    "image": "https://minecraft.wiki/images/Dummy_Elytra.png",
+    "pageUrl": "https://minecraft.wiki/w/Elytra",
+    "translations": {
+      "pt": "Élitros",
+      "es": "Élitros"
     },
     "_manual": true
   }

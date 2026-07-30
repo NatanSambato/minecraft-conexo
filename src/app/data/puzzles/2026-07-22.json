@@ -7,25 +7,45 @@
       "id": 1,
       "correlation": "Green Mobs",
       "color": "yellow",
-      "items": ["Creeper", "Zombie", "Turtle", "Slime"]
+      "items": [
+        "Creeper",
+        "Zombie",
+        "Turtle",
+        "Slime"
+      ]
     },
     {
       "id": 2,
-      "correlation": "Plants",
+      "correlation": "Green Plants",
       "color": "green",
-      "items": ["Big Dripleaf", "Bush", "Seagrass", "Acacia Leaves"]
+      "items": [
+        "Big Dripleaf",
+        "Bush",
+        "Seagrass",
+        "Acacia Leaves"
+      ]
     },
     {
       "id": 3,
       "correlation": "Green Mob Drops",
       "color": "blue",
-      "items": ["Creeper Head", "Emerald", "Slimeball", "Music Disc cat"]
+      "items": [
+        "Creeper Head",
+        "Emerald",
+        "Slimeball",
+        "Music Disc cat"
+      ]
     },
     {
       "id": 4,
       "correlation": "Slime Related",
       "color": "purple",
-      "items": ["Slime Block", "Sticky Piston", "Potion of Oozing", "Swamp"]
+      "items": [
+        "Slime Block",
+        "Sticky Piston",
+        "Potion of Oozing",
+        "Swamp"
+      ]
     }
   ]
 }

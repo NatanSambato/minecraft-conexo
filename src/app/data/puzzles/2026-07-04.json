@@ -5,27 +5,47 @@
   "groups": [
     {
       "id": 1,
-      "correlation": "Can Explode",
+      "correlation": "Found in The End",
       "color": "yellow",
-      "items": ["Creeper", "End Crystal", "Bed", "Wither"]
+      "items": [
+        "End Spike",
+        "Elytra (item)",
+        "Chorus Flower",
+        "Enderman"
+      ]
     },
     {
       "id": 2,
-      "correlation": "Means of Transportation",
+      "correlation": "Can Explode",
       "color": "green",
-      "items": ["Zombie Horse", "Minecart", "Strider", "Nether Portal"]
+      "items": [
+        "Creeper",
+        "End Crystal",
+        "Bed",
+        "Wither"
+      ]
     },
     {
       "id": 3,
-      "correlation": "Found in The End",
+      "correlation": "Means of Transportation",
       "color": "blue",
-      "items": ["Obsidian", "Enderman", "Chorus Flower", "Elytra"]
+      "items": [
+        "Minecart",
+        "Zombie Horse",
+        "Strider",
+        "Nether Portal"
+      ]
     },
     {
       "id": 4,
       "correlation": "Mobs that spawn in the dark",
       "color": "purple",
-      "items": ["Zombie", "Skeleton", "Bat", "Witch"]
+      "items": [
+        "Bat",
+        "Skeleton",
+        "Witch",
+        "Zombie"
+      ]
     }
   ]
 }

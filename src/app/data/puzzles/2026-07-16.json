@@ -7,25 +7,45 @@
       "id": 1,
       "correlation": "Blocks that decrease your walking speed",
       "color": "yellow",
-      "items": ["Soul Sand", "Cobweb", "Honey Block", "Sweet Berry Bush"]
+      "items": [
+        "Soul Sand",
+        "Cobweb",
+        "Honey Block",
+        "Sweet Berry Bush"
+      ]
     },
     {
       "id": 2,
       "correlation": "Light-Emitting Blocks",
       "color": "green",
-      "items": ["Conduit", "Sea Pickle", "Lava", "Sea Lantern"]
+      "items": [
+        "Sea Lantern",
+        "Lava",
+        "Sea Pickle",
+        "Conduit"
+      ]
     },
     {
       "id": 3,
       "correlation": "Breeding Foods",
       "color": "blue",
-      "items": ["Wheat Seeds", "Seagrass (item)", "Bamboo (item)", "Slimeball"]
+      "items": [
+        "Wheat Seeds",
+        "Bamboo (item)",
+        "Seagrass (item)",
+        "Slimeball"
+      ]
     },
     {
       "id": 4,
       "correlation": "Obtained from the Wandering Trader",
       "color": "purple",
-      "items": ["Lily Pad (item)", "Nautilus Shell", "Blue Ice", "Podzol"]
+      "items": [
+        "Podzol",
+        "Nautilus Shell",
+        "Blue Ice",
+        "Lily Pad (item)"
+      ]
     }
   ]
 }
