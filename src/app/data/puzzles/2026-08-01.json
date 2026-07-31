@@ -1,0 +1,51 @@
+{
+  "id": 45,
+  "date": "2026-08-01",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Damaging Blocks",
+      "items": [
+        "Cactus",
+        "Magma Block",
+        "Campfire",
+        "Sweet Berry Bush"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Can be placed in a Flower Pot",
+      "items": [
+        "Blue Orchid",
+        "Oak Sapling",
+        "Dead Bush",
+        "Bamboo"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Mined faster with Shears",
+      "items": [
+        "Orange Wool",
+        "Cobweb",
+        "Mangrove Leaves",
+        "Glow Lichen"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Bonus Chest Loot",
+      "items": [
+        "Oak Log",
+        "Wooden Pickaxe",
+        "Bread",
+        "Raw Salmon"
+      ]
+    }
+  ]
+}
