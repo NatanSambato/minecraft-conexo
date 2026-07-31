@@ -126,6 +126,7 @@ The internal `/admin/create` page reuses the same builder, with a few admin-only
 - A **date** and optional, auto-incrementing **puzzle ID**
 - A **"paste from clipboard"** import that parses a puzzle JSON (e.g., from a [Suggest](#%EF%B8%8F-suggest--create-a-puzzle) submission) straight into the form
 - A list of every **previous puzzle's** groups, correlations, and items below the builder — both a quick reference while creating new puzzles and, via a one-click **edit** shortcut, a way to reload a past puzzle back into the form for overwriting
+- Saving a puzzle writes its JSON file to disk through a REST API endpoint — making it instantly playable
 
 <img src="src/screenshots/create-page.gif" width="700" />
 
