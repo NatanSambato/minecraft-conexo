@@ -7,25 +7,45 @@
       "id": 1,
       "correlation": "Not obtainable in survival mode",
       "color": "yellow",
-      "items": ["Command Block", "Fire", "End Portal Frame", "Parrot Spawn Egg"]
+      "items": [
+        "Command Block",
+        "Fire",
+        "End Portal Frame",
+        "Parrot Spawn Egg"
+      ]
     },
     {
       "id": 2,
       "correlation": "Crafted with Wheat",
       "color": "green",
-      "items": ["Bread", "Cookie", "Hay Bale", "Packed Mud"]
+      "items": [
+        "Bread",
+        "Cookie",
+        "Hay Bale",
+        "Packed Mud"
+      ]
     },
     {
       "id": 3,
       "correlation": "Found in Jungle",
       "color": "blue",
-      "items": ["Melon", "Bamboo", "Panda", "Vines"]
+      "items": [
+        "Melon",
+        "Bamboo",
+        "Vines",
+        "Panda"
+      ]
     },
     {
       "id": 4,
-      "correlation": "Mobs with only exp drop",
+      "correlation": "Mobs with only exp death drop",
       "color": "purple",
-      "items": ["Ocelot", "Frog", "Goat", "Sniffer"]
+      "items": [
+        "Tadpole",
+        "Frog",
+        "Goat",
+        "Sniffer"
+      ]
     }
   ]
 }

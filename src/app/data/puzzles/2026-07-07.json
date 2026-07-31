@@ -7,25 +7,45 @@
       "id": 1,
       "correlation": "Cake Ingredients",
       "color": "yellow",
-      "items": ["Wheat", "Egg", "Sugar", "Milk Bucket"]
+      "items": [
+        "Wheat",
+        "Egg",
+        "Sugar",
+        "Milk Bucket"
+      ]
     },
     {
       "id": 2,
       "correlation": "Compacted Blocks",
       "color": "green",
-      "items": ["Hay Bale", "Bone Block", "Dried Kelp Block", "Honey Block"]
+      "items": [
+        "Hay Bale",
+        "Bone Block",
+        "Dried Kelp Block",
+        "Honey Block"
+      ]
     },
     {
       "id": 3,
       "correlation": "Ore Vein Blocks",
       "color": "blue",
-      "items": ["Block of Raw Iron", "Block of Raw Copper", "Tuff", "Granite"]
+      "items": [
+        "Block of Raw Iron",
+        "Block of Raw Copper",
+        "Tuff",
+        "Granite"
+      ]
     },
     {
       "id": 4,
-      "correlation": "Blocks mined faster with a Sword",
+      "correlation": "Mined faster with a Sword",
       "color": "purple",
-      "items": ["Bamboo", "Cobweb", "Cocoa", "Chorus Plant"]
+      "items": [
+        "Bamboo",
+        "Cobweb",
+        "Cocoa",
+        "Chorus Plant"
+      ]
     }
   ]
 }
