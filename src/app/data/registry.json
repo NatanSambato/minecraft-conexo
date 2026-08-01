@@ -1,8 +1,11 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3594,
-    "languages": ["pt", "es"],
+    "totalEntries": 3599,
+    "languages": [
+      "pt",
+      "es"
+    ],
     "categories": [
       "Category:Items",
       "Category:Blocks",
@@ -9510,12 +9513,13 @@
     }
   },
   "Bee": {
-    "image": "https://minecraft.wiki/images/Baby_Bee_JE2.gif",
+    "image": "https://minecraft.wiki/images/Bee_JE1.gif",
     "pageUrl": "https://minecraft.wiki/w/Bee",
     "translations": {
-      "es": "Abeja",
-      "pt": "Abelha"
-    }
+      "pt": "Abelha",
+      "es": "Abeja"
+    },
+    "_manual": true
   },
   "Frog": {
     "image": "https://minecraft.wiki/images/Temperate_Frog_JE1_BE1.gif",
@@ -11728,14 +11732,6 @@
       "pt": "Tempestade"
     }
   },
-  "Player": {
-    "image": "https://minecraft.wiki/images/Alex_(slim)_JE2.png",
-    "pageUrl": "https://minecraft.wiki/w/Player",
-    "translations": {
-      "es": "Jugador",
-      "pt": "Jogador"
-    }
-  },
   "Herobrine": {
     "image": "https://minecraft.wiki/images/Herobrine.png",
     "pageUrl": "https://minecraft.wiki/w/Herobrine",
@@ -13857,14 +13853,6 @@
     "pageUrl": "https://minecraft.wiki/w/Far_Lands_(Java_Edition)%2FAfter_Beta_1.8",
     "translations": {
       "pt": "Far Lands (Edição Java)"
-    }
-  },
-  "Ruined Portal": {
-    "image": "https://minecraft.wiki/images/Overworld_portal_1.png",
-    "pageUrl": "https://minecraft.wiki/w/Ruined_Portal",
-    "translations": {
-      "es": "Portal en ruinas",
-      "pt": "Portal em Ruínas"
     }
   },
   "Far Lands": {
@@ -24662,6 +24650,78 @@
     "translations": {
       "pt": "Élitros",
       "es": "Élitros"
+    },
+    "_manual": true
+  },
+  "Zombie Pigman": {
+    "image": "https://minecraft.wiki/images/Zombified_Piglin_JE5.png",
+    "pageUrl": "https://minecraft.wiki/w/Zombified_Piglin",
+    "translations": {
+      "pt": "Piglin-Zumbi",
+      "es": "Piglin zombificado"
+    },
+    "_manual": true
+  },
+  "Empty Map": {
+    "image": "https://minecraft.wiki/images/Empty_Map_JE3_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Map",
+    "translations": {
+      "pt": "Mapa em branco",
+      "es": "Mapa vacío"
+    },
+    "_manual": true
+  },
+  "Player (Steve)": {
+    "image": "https://minecraft.wiki/images/Steve_%28classic%29_JE6.png",
+    "pageUrl": "https://minecraft.wiki/w/Player",
+    "translations": {
+      "pt": "Jogador",
+      "es": "Jugador"
+    },
+    "_manual": true
+  },
+  "End Spike (cage)": {
+    "image": "https://minecraft.wiki/images/thumb/End_spike_with_Cage.png/800px-End_spike_with_Cage.png",
+    "pageUrl": "https://minecraft.wiki/w/End_Spike",
+    "translations": {
+      "pt": "Pilar do End",
+      "es": "Pico del End"
+    },
+    "_manual": true
+  },
+  "Igloo Basement": {
+    "image": "https://minecraft.wiki/images/Igloo_bottom.png",
+    "pageUrl": "https://minecraft.wiki/w/Igloo",
+    "translations": {
+      "pt": "Iglu",
+      "es": "Iglú"
+    },
+    "_manual": true
+  },
+  "Ruined Portal (overworld) (small)": {
+    "image": "https://minecraft.wiki/images/Overworld_portal_1.png",
+    "pageUrl": "https://minecraft.wiki/w/Ruined_Portal",
+    "translations": {
+      "pt": "Portal em Ruínas",
+      "es": "Portal en ruinas"
+    },
+    "_manual": true
+  },
+  "Ruined Portal (overworld) (giant)": {
+    "image": "https://minecraft.wiki/images/Overworld_Giant_portal_1.png",
+    "pageUrl": "https://minecraft.wiki/w/Ruined_Portal",
+    "translations": {
+      "pt": "Portal em Ruínas",
+      "es": "Portal en ruinas"
+    },
+    "_manual": true
+  },
+  "Chicken Statue Room": {
+    "image": "https://minecraft.wiki/images/Woodland_mansion_1x2_d5.png",
+    "pageUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+    "translations": {
+      "pt": "Sala da Estátua de Galinha",
+      "es": "Habitación con estatua de gallina"
     },
     "_manual": true
   }

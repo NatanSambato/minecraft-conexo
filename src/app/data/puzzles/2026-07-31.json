@@ -8,10 +8,10 @@
       "color": "yellow",
       "correlation": "Zombified Mobs",
       "items": [
-        "Zombie Villager",
         "Zombified Piglin",
         "Zoglin",
-        "Zombie Horse"
+        "Zombie Pigman",
+        "Zombie Villager"
       ]
     },
     {
@@ -19,32 +19,32 @@
       "color": "green",
       "correlation": "Apply Poison",
       "items": [
-        "Potion of Poison",
         "Poisonous Potato",
         "Pufferfish (large)",
-        "Bee"
+        "Bee",
+        "Witch"
       ]
     },
     {
       "id": 3,
       "color": "blue",
+      "correlation": "Found in Swamp",
+      "items": [
+        "Swamp Hut",
+        "Blue Orchid",
+        "Firefly Bush",
+        "Bogged"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
       "correlation": "Hunted by Wolves",
       "items": [
         "Sheep",
         "Skeleton",
         "Fox",
         "Rabbit"
-      ]
-    },
-    {
-      "id": 4,
-      "color": "purple",
-      "correlation": "Spider Eye Sources",
-      "items": [
-        "Spider",
-        "Cave Spider",
-        "Witch",
-        "Desert Pyramid"
       ]
     }
   ]
