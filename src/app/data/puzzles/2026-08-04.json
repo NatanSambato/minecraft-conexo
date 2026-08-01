@@ -1,0 +1,36 @@
+{
+  "id": 44,
+  "date": "2026-08-04",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Food Ingredients",
+      "items": ["Egg", "Sugar", "Wheat", "Bowl"]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted Foods",
+      "items": ["Cake (item)", "Cookie", "Pumpkin Pie", "Golden Carrot"]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Fishing Loot Foods",
+      "items": [
+        "Tropical Fish (item)",
+        "Raw Salmon",
+        "Pufferfish (item)",
+        "Rotten Flesh"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Food with Effects",
+      "items": ["Spider Eye", "Golden Apple", "Chorus Fruit", "Honey Bottle"]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 49,
+  "date": "2026-08-02",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Beacon Pyramid Blocks",
+      "items": [
+        "Block of Iron",
+        "Block of Emerald",
+        "Block of Diamond",
+        "Block of Netherite"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Ruined Portal Blocks",
+      "items": [
+        "Block of Gold",
+        "Crying Obsidian",
+        "Chest",
+        "Netherrack"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Soul Sand Valley Blocks",
+      "items": [
+        "Bone Block",
+        "Soul Soil",
+        "Basalt",
+        "Gravel"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Trail Ruins Blocks",
+      "items": [
+        "Suspicious Gravel",
+        "Light Blue Glazed Terracotta",
+        "Mud Brick Stairs",
+        "Block of Coal"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3599,
+    "totalEntries": 3604,
     "languages": [
       "pt",
       "es"
@@ -8979,13 +8979,6 @@
     "translations": {
       "es": "Enredaderas",
       "pt": "Trepadeiras"
-    }
-  },
-  "Water Spawner": {
-    "image": "https://minecraft.wiki/images/Water_Spawner_JE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Water_Spawner",
-    "translations": {
-      "pt": "Gerador de Água"
     }
   },
   "Tripwire Hook": {
@@ -24573,7 +24566,7 @@
     "_manual": true
   },
   "Lingering Water Bottle": {
-    "image": "https://minecraft.wiki/images/Lingering_Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Lingering_Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Lingering_Potion",
     "translations": {
       "pt": "Frasco de Água Prolongado",
@@ -24582,7 +24575,7 @@
     "_manual": true
   },
   "Splash Water Bottle": {
-    "image": "https://minecraft.wiki/images/Splash_Water_Bottle_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Splash_Water_Bottle_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Splash_Potion",
     "translations": {
       "pt": "Frasco de Água Arremessável",
@@ -24722,6 +24715,60 @@
     "translations": {
       "pt": "Sala da Estátua de Galinha",
       "es": "Habitación con estatua de gallina"
+    },
+    "_manual": true
+  },
+  "Lava Room": {
+    "image": "https://minecraft.wiki/images/Woodland_mansion_2x2_s1_2.png",
+    "pageUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+    "translations": {
+      "pt": "Sala da Lava",
+      "es": "Habitación de lava"
+    },
+    "_manual": true
+  },
+  "Fake End Portal Room": {
+    "image": "https://minecraft.wiki/images/Woodland_mansion_1x2_s2.png",
+    "pageUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+    "translations": {
+      "pt": "Sala do Portal do Fim falso",
+      "es": "Habitación con portal del End"
+    },
+    "_manual": true
+  },
+  "Large Jail": {
+    "image": "https://minecraft.wiki/images/Woodland_mansion_2x2_a1_2.png",
+    "pageUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+    "translations": {
+      "pt": "Prisão Grande",
+      "es": "Prisíon grande"
+    },
+    "_manual": true
+  },
+  "Cat Statue Room": {
+    "image": "https://minecraft.wiki/images/Woodland_mansion_1x2_d4.png",
+    "pageUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+    "translations": {
+      "pt": "Sala da Estátua de Gato",
+      "es": "Habitación con estatua de gato"
+    },
+    "_manual": true
+  },
+  "Infinite Water Source": {
+    "image": "https://minecraft.wiki/images/Infinite_Water_Source_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Water_Spawner",
+    "translations": {
+      "pt": "Fonte de Água Infinita",
+      "es": "Fuente de agua infinita"
+    },
+    "_manual": true
+  },
+  "Camel Husk Jockey": {
+    "image": "https://minecraft.wiki/images/Camel_Husk_Jockey_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Camel_Husk",
+    "translations": {
+      "pt": "Jóquei de Camelo-Múmia",
+      "es": "Jinete camello disecado"
     },
     "_manual": true
   }
