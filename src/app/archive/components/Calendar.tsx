@@ -29,14 +29,15 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
 
   const puzzleDays = puzzles.map((p) => toDate(p.date));
 
-  const todayStr = new Date().toISOString().split("T")[0]; // "2026-04-23"
+  const today = new Date();
   const defaultMonth = initialDate
     ? new Date(
         Number(initialDate.split("-")[0]),
         Number(initialDate.split("-")[1]) - 1,
       )
-    : new Date(todayStr);
+    : new Date(today.getFullYear(), today.getMonth());
 
+  const todayStr = new Date().toISOString().split("T")[0]; // "2026-04-23"
   const todayDate = toDate(todayStr);
   const firstPuzzleDate = puzzleDays[0];
   const lastPuzzleDate = puzzleDays.at(-1) ?? todayDate;
@@ -91,7 +92,6 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
         const isFuture = showFuture ? false : dateStr > todayStr;
         return !puzzleDateStrs.includes(dateStr) || isFuture;
       }}
-
       onDayClick={handleDayClick}
       classNames={{
         root: "relative w-full px-4",
