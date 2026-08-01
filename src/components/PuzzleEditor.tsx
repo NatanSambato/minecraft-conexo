@@ -160,8 +160,8 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
                   </button>
                 </div>
 
-                {puzzle.groups.map((group) => (
-                  <div key={group.id} className="flex-1 min-w-0">
+                {puzzle.groups.map((group, gi) => (
+                  <div key={`${puzzle.id}-${gi}`} className="flex-1 min-w-0">
                     <SolvedGroup group={group} compact />
                   </div>
                 ))}

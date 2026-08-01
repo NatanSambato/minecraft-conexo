@@ -31,7 +31,7 @@ export default memo(function SolvedGroup({
       >
         {images.map((image, i) => (
           <SolvedGroupItem
-            key={group.items[i] ?? i}
+            key={group.items[i] || i}
             image={image}
             label={group.items[i]}
             size={compact ? 27 : 35}
