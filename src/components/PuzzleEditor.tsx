@@ -5,7 +5,7 @@ import type { Group, Puzzle, RegistryRow } from "@/types";
 import TileCard from "./TileCard";
 import PuzzleForm from "@/components/PuzzleForm";
 import SolvedGroup from "@/app/[date]/components/SolvedGroup";
-import { Pencil } from "lucide-react";
+import { Pencil, Trash2 } from "lucide-react";
 import { getImage, getPageUrl } from "@/lib/registry";
 
 function emptyGroups(): Group[] {
@@ -27,12 +27,14 @@ interface Props {
     author: string;
     notes?: string;
     groups: Group[];
+    oldDate: string | null;
   }) => void;
 }
 
 export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
   const [groups, setGroups] = useState<Group[]>(emptyGroups());
   const [date, setDate] = useState("");
+  const [oldDate, setOldDate] = useState<string | null>(null);
   const [author, setAuthor] = useState("");
   const [notes, setNotes] = useState("");
   const [id, setId] = useState<number | null>(null);
@@ -62,7 +64,10 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
     );
   };
 
-  const handleSave = () => onSave?.({ id, date, author, notes, groups });
+  const handleSave = async () => {
+    await onSave?.({ id, date, author, notes, groups, oldDate });
+    setOldDate(null);
+  };
 
   const handleImport = (json: string) => {
     try {
@@ -144,19 +149,46 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
                 className="flex items-center justify-center align-middle gap-2 relative"
               >
                 <div className="absolute -left-7 flex flex-col items-center gap-0.5">
+                  {/* Date */}
                   <span className="text-[8px] shrink-0 text-gray-400">
                     {puzzle.date.slice(5)}
                   </span>
+                  {/* Edit button */}
                   <button
                     type="button"
                     title="Edit puzzle"
                     onClick={() => {
                       handleImport(JSON.stringify(puzzle));
+                      setOldDate(puzzle.date);
                       window.scrollTo({ top: 0, behavior: "smooth" });
                     }}
                     className="cursor-pointer hover:opacity-80"
                   >
                     <Pencil size={10} />
+                  </button>
+                </div>
+
+                {/* Delete button */}
+                <div className="absolute -right-4 top-5">
+                  <button
+                    type="button"
+                    title="Delete puzzle"
+                    onClick={async () => {
+                      if (!confirm(`Delete puzzle ${puzzle.date}?`)) return;
+                      const res = await fetch("/api/admin/create-puzzle", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                          action: "delete",
+                          date: puzzle.date,
+                        }),
+                      });
+                      if (res.ok) alert("Deleted!");
+                      else alert("Error deleting puzzle");
+                    }}
+                    className="cursor-pointer hover:opacity-80"
+                  >
+                    <Trash2 size={10} />
                   </button>
                 </div>
 

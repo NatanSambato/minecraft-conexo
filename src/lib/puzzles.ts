@@ -32,8 +32,12 @@ export function getAllPuzzles(): Puzzle[] {
   return puzzles.sort((a, b) => a.date.localeCompare(b.date));
 }
 
-export function getPuzzleByDate(date: string) {
+export function getPuzzleByDate(date: string): Puzzle | null {
   const filePath = path.join(PUZZLES_DIR, `${date}.json`);
   if (!fs.existsSync(filePath)) return null;
   return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+}
+
+export function getPuzzlePath(date: string): string {
+  return path.join(PUZZLES_DIR, `${date}.json`)
 }

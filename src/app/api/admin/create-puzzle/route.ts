@@ -1,10 +1,20 @@
 import { Puzzle } from "@/types";
 import { NextRequest, NextResponse } from "next/server";
-import path from "path";
 import fs from 'fs/promises';
-import { getAllPuzzles, getPuzzleByDate, PUZZLES_DIR } from "@/lib/puzzles";
+import { getAllPuzzles, getPuzzleByDate, getPuzzlePath } from "@/lib/puzzles";
 
-type Body = Omit<Puzzle, 'id' | 'author'> & { id?: number, author?: string }
+type PuzzleFields = Omit<Puzzle, 'id' | 'author'> & { id?: number, author?: string }
+
+type Payload =
+    | { action: "create"; entry: PuzzleFields }
+    | { action: "update"; oldDate: string; entry: PuzzleFields }
+    | { action: "delete"; date: string }
+
+function validateEntry(entry: PuzzleFields): string | null {
+    if (!entry.date || !/^\d{4}-\d{2}-\d{2}$/.test(entry.date)) return "Invalid puzzle date"
+    if (!entry.groups || entry.groups.length !== 4) return "Invalid puzzle groups"
+    return null
+}
 
 export async function POST(req: NextRequest) {
     if (process.env.NODE_ENV !== "development") {
@@ -12,33 +22,60 @@ export async function POST(req: NextRequest) {
             { error: "Creating puzzles is only available in development" }, { status: 403 });
     }
 
-    let body;
+    let payload: Payload;
     try {
-        body = await req.json() as Body;
+        payload = await req.json();
     } catch {
         return NextResponse.json({ error: "Invalid JSON body." }, { status: 400 })
     }
 
-    if (!body.groups || body.groups.length !== 4) {
-        return NextResponse.json({ error: "Invalid puzzle groups" }, { status: 400 })
-    }
+    switch (payload.action) {
+        case "create": {
+            const { entry } = payload;
+            const error = validateEntry(entry)
+            if (error) return NextResponse.json({ error }, { status: 400 })
+            if (getPuzzleByDate(entry.date)) {
+                return NextResponse.json({ error: `"${entry.date}" already exists.` }, { status: 409 })
+            }
+            return await writePuzzle(entry);
+        }
 
-    if (!body.date || !/^\d{4}-\d{2}-\d{2}$/.test(body.date)) {
-        return NextResponse.json({ error: "Invalid puzzle date" }, { status: 400 })
-    }
+        case "update": {
+            const { oldDate, entry } = payload;
+            const error = validateEntry(entry)
+            if (error) return NextResponse.json({ error }, { status: 400 })
+            if (oldDate !== entry.date) {
+                if (getPuzzleByDate(entry.date)) {
+                    return NextResponse.json({ error: `"${entry.date}" already exists.` }, { status: 409 })
+                }
 
-    const puzzles = getAllPuzzles();
+                await fs.unlink(getPuzzlePath(oldDate)).catch(() => { })
+            }
+            return await writePuzzle(entry)
+        }
+
+        case "delete": {
+            try {
+                await fs.unlink(getPuzzlePath(payload.date))
+                return NextResponse.json({ ok: true })
+            } catch {
+                return NextResponse.json({ error: `"${payload.date}" not found.` }, { status: 404 },);
+            }
+        }
+    }
+}
+
+async function writePuzzle(entry: PuzzleFields) {
+    const puzzles = getAllPuzzles()
     const highestId = Math.max(...puzzles.map(p => p.id))
 
     const puzzle: Puzzle = {
-        id: body.id ?? highestId + 1,
-        date: body.date,
-        author: body.author || "Natowski",
-        groups: body.groups,
+        id: entry.id ?? highestId + 1,
+        date: entry.date,
+        author: entry.author || "Natowski",
+        groups: entry.groups,
     }
 
-    const puzzlePath = path.join(PUZZLES_DIR, `${puzzle.date}.json`)
-    await fs.writeFile(puzzlePath, JSON.stringify(puzzle, null, 2), "utf-8");
-
-    return NextResponse.json({ ok: true });
+    await fs.writeFile(getPuzzlePath(puzzle.date), JSON.stringify(puzzle, null, 2), "utf-8")
+    return NextResponse.json({ ok: true })
 }
