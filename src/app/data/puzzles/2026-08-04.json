@@ -7,13 +7,23 @@
       "id": 1,
       "color": "yellow",
       "correlation": "Food Ingredients",
-      "items": ["Egg", "Sugar", "Wheat", "Bowl"]
+      "items": [
+        "Egg",
+        "Sugar",
+        "Wheat",
+        "Bowl"
+      ]
     },
     {
       "id": 2,
       "color": "green",
       "correlation": "Crafted Foods",
-      "items": ["Cake (item)", "Cookie", "Pumpkin Pie", "Golden Carrot"]
+      "items": [
+        "Cake (item)",
+        "Cookie",
+        "Pumpkin Pie",
+        "Beetroot Soup"
+      ]
     },
     {
       "id": 3,
@@ -30,7 +40,12 @@
       "id": 4,
       "color": "purple",
       "correlation": "Food with Effects",
-      "items": ["Spider Eye", "Golden Apple", "Chorus Fruit", "Honey Bottle"]
+      "items": [
+        "Spider Eye",
+        "Golden Apple",
+        "Chorus Fruit",
+        "Honey Bottle"
+      ]
     }
   ]
 }
