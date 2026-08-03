@@ -1,7 +1,12 @@
 import { Group, Puzzle, RegistryRow } from "@/types";
 import { ItemSearch } from "@/components/ItemSearch";
 import { getGroupColor } from "@/lib/gameUtils";
-import { ClipboardPaste, Grip, GripVertical } from "lucide-react";
+import {
+  BrushCleaning,
+  ClipboardPaste,
+  Grip,
+  GripVertical,
+} from "lucide-react";
 import {
   arrayMove,
   SortableContext,
@@ -37,8 +42,9 @@ interface PuzzleFormProp {
   onAuthorChange: (v: string) => void;
   onNotesChange: (v: string) => void;
   onIdChange: (v: number | null) => void;
-  onSave: () => void;
-  onSubmit: (puzzle: string) => void;
+  onSave: () => Promise<void>;
+  onImport: (puzzle: string) => void;
+  onClear: () => void;
 }
 
 interface SortableGroupProps {
@@ -193,6 +199,31 @@ function SortableGroupCard({
   );
 }
 
+// ─── IconButton ───────────────────────────────────────────────────────────────
+
+function IconButton({
+  icon,
+  title,
+  onClick,
+  className,
+}: {
+  icon: React.ReactNode;
+  title: string;
+  onClick: () => void;
+  className?: string;
+}) {
+  return (
+    <button
+      type="button"
+      title={title}
+      onClick={onClick}
+      className={`p-1 rounded text-white hover:opacity-80 cursor-pointer ${className}`}
+    >
+      {icon}
+    </button>
+  );
+}
+
 // ─── Main form ────────────────────────────────────────────────────────────────
 
 export default function PuzzleForm({
@@ -213,7 +244,8 @@ export default function PuzzleForm({
   onNotesChange,
   onIdChange,
   onSave,
-  onSubmit,
+  onImport,
+  onClear,
 }: PuzzleFormProp) {
   const inputStyle: string = "bg-stone-900 px-2 py-1 font-bold rounded";
 
@@ -240,19 +272,25 @@ export default function PuzzleForm({
 
   return (
     <div className="flex flex-col gap-4 w-96 relative">
-      {/* Import button */}
+      {/* Admin action buttons */}
       {mode === "create" && (
-        <button
-          type="button"
-          title="Import from clipboard"
-          onClick={async () => {
-            const text = await navigator.clipboard.readText();
-            onSubmit(text);
-          }}
-          className="absolute -left-8 top-0 flex items-center justify-center p-1 rounded text-white bg-amber-500 hover:opacity-80 cursor-pointer"
-        >
-          <ClipboardPaste size={14} />
-        </button>
+        <div className="absolute -left-7 top-0 flex flex-col gap-2">
+          <IconButton
+            title="Import from clipboard"
+            icon={<ClipboardPaste size={14} />}
+            onClick={async () => {
+              const text = await navigator.clipboard.readText();
+              onImport(text);
+            }}
+            className="bg-blue-800"
+          />
+          <IconButton
+            title="Clear"
+            icon={<BrushCleaning size={14} />}
+            onClick={onClear}
+            className="bg-stone-500"
+          />
+        </div>
       )}
 
       <div className={`${inputStyle} flex flex-col gap-2`}>
@@ -332,7 +370,10 @@ export default function PuzzleForm({
 
       {/* Save/Suggest button  */}
       <button
-        onClick={onSave}
+        onClick={async () => {
+          await onSave?.();
+          onClear();
+        }}
         className="px-4 py-2 bg-green-600 rounded font-bold hover:bg-green-500"
       >
         {mode === "create" ? "Save " : "Suggest "} Puzzle

@@ -78,13 +78,24 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
       } else {
         setGroups(parsed.groups ?? []);
         setAuthor(parsed.author ?? "");
-        setDate(parsed.date ?? "");
+        if (parsed.date) {
+          setDate(parsed.date);
+          setOldDate(parsed.date);
+        }
         setNotes(parsed.notes ?? "");
         setId(parsed.id ?? null);
       }
     } catch {
       alert("Invalid JSON");
     }
+  };
+
+  const handleClear = () => {
+    setGroups(emptyGroups());
+    setDate("");
+    setAuthor("");
+    setId(null);
+    setOldDate(null);
   };
 
   return (
@@ -108,7 +119,8 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
         onNotesChange={setNotes}
         onIdChange={setId}
         onSave={handleSave}
-        onSubmit={handleImport}
+        onImport={handleImport}
+        onClear={handleClear}
       />
 
       <div className="flex flex-col gap-5 w-full max-w-xl">
