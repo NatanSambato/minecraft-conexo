@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3604,
+    "totalEntries": 3606,
     "languages": [
       "pt",
       "es"
@@ -5815,14 +5815,6 @@
     "translations": {
       "es": "Flor",
       "pt": "Flor"
-    }
-  },
-  "Farmland": {
-    "image": "https://minecraft.wiki/images/Farmland_JE4_BE6.png",
-    "pageUrl": "https://minecraft.wiki/w/Farmland",
-    "translations": {
-      "es": "Tierra de cultivo",
-      "pt": "Terra Arada"
     }
   },
   "Detector Rail": {
@@ -24769,6 +24761,33 @@
     "translations": {
       "pt": "Jóquei de Camelo-Múmia",
       "es": "Jinete camello disecado"
+    },
+    "_manual": true
+  },
+  "Mineshaft (Badlands)": {
+    "image": "https://minecraft.wiki/images/Badlands_mineshaft.png",
+    "pageUrl": "https://minecraft.wiki/w/Mineshaft",
+    "translations": {
+      "pt": "Mina Abandonada (Terras áridas)",
+      "es": "Mina abandonada (Tierras baldías)"
+    },
+    "_manual": true
+  },
+  "Farmland (dry)": {
+    "image": "https://minecraft.wiki/images/Farmland_JE4_BE6.png",
+    "pageUrl": "https://minecraft.wiki/w/Farmland",
+    "translations": {
+      "pt": "Terra Arada",
+      "es": "Tierra de cultivo"
+    },
+    "_manual": true
+  },
+  "Farmland (wet)": {
+    "image": "https://minecraft.wiki/images/Hydrated_Farmland_JE4_BE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Farmland",
+    "translations": {
+      "pt": "Terra Arada",
+      "es": "Tierra de cultivo"
     },
     "_manual": true
   }
