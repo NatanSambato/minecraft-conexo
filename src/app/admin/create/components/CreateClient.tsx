@@ -19,7 +19,7 @@ export default function CreateClient({ items, puzzles }: Prop) {
           ? { action: "update", oldDate, entry: { id, date, author, groups } }
           : { action: "create", entry: { id, date, author, groups } };
 
-        const res = await fetch("/api/admin/create-puzzle", {
+        const res = await fetch("/api/admin/puzzles", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(body),

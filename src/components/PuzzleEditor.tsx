@@ -28,7 +28,7 @@ interface Props {
     notes?: string;
     groups: Group[];
     oldDate: string | null;
-  }) => void;
+  }) => Promise<void>;
 }
 
 export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
@@ -187,7 +187,7 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
                     title="Delete puzzle"
                     onClick={async () => {
                       if (!confirm(`Delete puzzle ${puzzle.date}?`)) return;
-                      const res = await fetch("/api/admin/create-puzzle", {
+                      const res = await fetch("/api/admin/puzzles", {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
                         body: JSON.stringify({
