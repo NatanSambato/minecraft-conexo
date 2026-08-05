@@ -8,7 +8,7 @@ export default function SuggestClient({ items }: { items: RegistryRow[] }) {
     <PuzzleEditor
       mode="suggest"
       items={items}
-      onSave={({ author, groups, notes }) => {
+      onSave={async ({ author, groups, notes }) => {
         const form = new FormData();
         form.append(
           "entry.1759404553",
