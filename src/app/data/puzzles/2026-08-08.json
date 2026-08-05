@@ -1,0 +1,51 @@
+{
+  "id": 59,
+  "date": "2026-08-08",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Found in Snowy Taiga",
+      "items": [
+        "Igloo",
+        "Snow",
+        "Snow Fox",
+        "Sweet Berry Bush"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Found in Old Growth Pine Taiga",
+      "items": [
+        "Mega Pine",
+        "Forest Rock",
+        "Podzol",
+        "Brown Mushroom"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Blocks an Enderman can pick up",
+      "items": [
+        "Pumpkin",
+        "Melon",
+        "Mycelium",
+        "Warped Nylium"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Blocks a Sheep can Graze",
+      "items": [
+        "Grass Block",
+        "Short Grass",
+        "Fern",
+        "Short Dry Grass"
+      ]
+    }
+  ]
+}

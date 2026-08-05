@@ -1,0 +1,51 @@
+{
+  "id": 46,
+  "date": "2026-08-09",
+  "author": "disso",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Crafted with Gold Ingot",
+      "items": [
+        "Light Weighted Pressure Plate",
+        "Clock",
+        "Powered Rail",
+        "Netherite Ingot"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Ranged Mobs",
+      "items": [
+        "Stray",
+        "Ghast",
+        "Witch",
+        "Breeze"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Found in Badlands",
+      "items": [
+        "Mineshaft (Badlands)",
+        "Terracotta",
+        "Armadillo",
+        "Gold Ore"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Found in Igloo Basement",
+      "items": [
+        "Red Carpet",
+        "Zombie Villager",
+        "Golden Apple",
+        "Cauldron"
+      ]
+    }
+  ]
+}

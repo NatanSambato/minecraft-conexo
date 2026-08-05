@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3606,
+    "totalEntries": 3612,
     "languages": [
       "pt",
       "es"
@@ -2639,18 +2639,20 @@
     "_manual": true
   },
   "Potion of Weakness": {
-    "image": "https://minecraft.wiki/images/Potion_of_Weakness_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Potion_of_Weakness_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Weakness",
     "translations": {
       "pt": "Poção de Fraqueza"
-    }
+    },
+    "_manual": true
   },
   "Potion of Regeneration": {
-    "image": "https://minecraft.wiki/images/Potion_of_Regeneration_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Potion_of_Regeneration_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Regeneration",
     "translations": {
       "pt": "Poção de Regeneração"
-    }
+    },
+    "_manual": true
   },
   "Potion of Strength": {
     "image": "https://minecraft.wiki/images/Potion_of_Strength_JE3.png",
@@ -13064,14 +13066,6 @@
     "translations": {
       "es": "Sala de monstruos",
       "pt": "Sala de monstros"
-    }
-  },
-  "Huge Mushroom": {
-    "image": "https://minecraft.wiki/images/Huge_Red_Mushroom.png",
-    "pageUrl": "https://minecraft.wiki/w/Huge_Mushroom",
-    "translations": {
-      "es": "Champiñón enorme",
-      "pt": "Cogumelo gigante"
     }
   },
   "Oak": {
@@ -24788,6 +24782,66 @@
     "translations": {
       "pt": "Terra Arada",
       "es": "Tierra de cultivo"
+    },
+    "_manual": true
+  },
+  "Huge Red Mushroom": {
+    "image": "https://minecraft.wiki/images/Huge_Red_Mushroom.png",
+    "pageUrl": "https://minecraft.wiki/w/Huge_Mushroom",
+    "translations": {
+      "pt": "Cogumelo vermelho gigante",
+      "es": "Champiñón rojo enorme"
+    },
+    "_manual": true
+  },
+  "Huge Brown Mushroom": {
+    "image": "https://minecraft.wiki/images/Huge_Brown_Mushroom.png",
+    "pageUrl": "https://minecraft.wiki/w/Huge_Mushroom",
+    "translations": {
+      "pt": "Cogumelo marrom gigante",
+      "es": "Champiñón marrón enorme"
+    },
+    "_manual": true
+  },
+  "Melon Stem (Age 7) (Unattached)": {
+    "image": "https://minecraft.wiki/images/Stem_Age_7_JE6.png",
+    "pageUrl": "https://minecraft.wiki/w/Melon",
+    "translations": {
+      "pt": "Caule de Melancia",
+      "es": "Tallo de Sandía"
+    },
+    "_manual": true
+  },
+  "Carrots (Age 7)": {
+    "image": "https://minecraft.wiki/images/Carrots_Age_7_BE.png",
+    "pageUrl": "https://minecraft.wiki/w/Carrot",
+    "translations": {
+      "pt": "Cenoura",
+      "es": "Zanahoria"
+    },
+    "_manual": true
+  },
+  "Wildfire (Dungeons)": {
+    "image": "https://i.imgur.com/8crRlsR.png",
+    "pageUrl": "https://minecraft.wiki/w/Wildfire",
+    "translations": {},
+    "_manual": true
+  },
+  "Snow Fox": {
+    "image": "https://minecraft.wiki/images/Snow_Fox_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Fox",
+    "translations": {
+      "pt": "Raposa das neves",
+      "es": "Zorro de nieve"
+    },
+    "_manual": true
+  },
+  "Mega Pine": {
+    "image": "https://minecraft.wiki/images/Mega_Pine_Tree.png",
+    "pageUrl": "https://minecraft.wiki/w/Boat",
+    "translations": {
+      "pt": "Mega Pinheiro",
+      "es": "Pino gigante"
     },
     "_manual": true
   }

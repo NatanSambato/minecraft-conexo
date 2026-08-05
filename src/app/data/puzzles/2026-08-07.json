@@ -1,0 +1,51 @@
+{
+  "id": 51,
+  "date": "2026-08-07",
+  "author": "Amigo Oculto",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "April Fools' Jokes",
+      "items": [
+        "USB Charger Block",
+        "Pink Wither",
+        "Moon Cow",
+        "Potato flower"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Upward Growing Plants",
+      "items": [
+        "Bamboo",
+        "Cactus",
+        "Chorus Flower",
+        "Twisting Vines (Body)"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Mob Vote Winners",
+      "items": [
+        "Armadillo",
+        "Glow Squid",
+        "Phantom",
+        "Sniffer"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Mobs that do not naturally drown",
+      "items": [
+        "Turtle",
+        "Enderman",
+        "Parched",
+        "Iron Golem"
+      ]
+    }
+  ]
+}
