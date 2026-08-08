@@ -41,9 +41,9 @@
       "color": "purple",
       "correlation": "Mobs that do not naturally drown",
       "items": [
+        "Drowned",
         "Turtle",
-        "Enderman",
-        "Parched",
+        "Witch",
         "Iron Golem"
       ]
     }
