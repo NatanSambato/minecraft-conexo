@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3612,
+    "totalEntries": 3614,
     "languages": [
       "pt",
       "es"
@@ -24842,6 +24842,24 @@
     "translations": {
       "pt": "Mega Pinheiro",
       "es": "Pino gigante"
+    },
+    "_manual": true
+  },
+  "Wolf (tamed)": {
+    "image": "https://minecraft.wiki/images/Tamed_Wolf_with_Red_Collar_JE3_BE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Wolf",
+    "translations": {
+      "pt": "Lobo",
+      "es": "Lobo"
+    },
+    "_manual": true
+  },
+  "Large Slime": {
+    "image": "https://minecraft.wiki/images/Slime_JE3_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Slime",
+    "translations": {
+      "pt": "Slime Grande",
+      "es": "Slime grande"
     },
     "_manual": true
   }

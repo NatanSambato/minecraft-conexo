@@ -1,0 +1,51 @@
+{
+  "id": 60,
+  "date": "2026-08-10",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Mobs that can wear Armor",
+      "items": [
+        "Horse",
+        "Wolf (tamed)",
+        "Nautilus",
+        "Zombie"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Non-Zombie Undeads",
+      "items": [
+        "Skeleton Horse",
+        "Wither",
+        "Phantom",
+        "Skeleton"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Lava Immune Mobs",
+      "items": [
+        "Strider",
+        "Blaze",
+        "Magma Cube",
+        "Warden"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Jumping Mobs",
+      "items": [
+        "Slime",
+        "Rabbit",
+        "Frog",
+        "Spider"
+      ]
+    }
+  ]
+}
