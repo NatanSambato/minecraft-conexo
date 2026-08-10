@@ -1,0 +1,51 @@
+{
+  "id": 61,
+  "date": "2026-08-16",
+  "author": "mrcyberhumano",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Fish",
+      "items": [
+        "Salmon",
+        "Cod",
+        "Tropical Fish",
+        "Pufferfish (large)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Mammals",
+      "items": [
+        "Panda",
+        "Armadillo",
+        "Bat",
+        "Dolphin"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Molluscs",
+      "items": [
+        "Glow Squid",
+        "Squid",
+        "Nautilus",
+        "Zombie Nautilus"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Repitiles",
+      "items": [
+        "Turtle",
+        "Baby Turtle",
+        "Chicken",
+        "Cyan Parrot"
+      ]
+    }
+  ]
+}

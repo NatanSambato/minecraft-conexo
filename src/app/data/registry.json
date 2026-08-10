@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3619,
+    "totalEntries": 3644,
     "languages": [
       "pt",
       "es"
@@ -461,28 +461,38 @@
   "Chainmail Helmet": {
     "image": "https://minecraft.wiki/images/Chainmail_Helmet_JE3_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Chainmail_Helmet",
-    "translations": {}
+    "translations": {
+      "pt": "Capacete de Malha",
+      "es": "Casco de cota de mallas"
+    },
+    "_manual": true
   },
   "Chainmail Leggings": {
     "image": "https://minecraft.wiki/images/Chainmail_Leggings_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Chainmail_Leggings",
     "translations": {
-      "pt": "Calças de Malha"
-    }
+      "pt": "Calças de Malha",
+      "es": "Grebas de cota de mallas"
+    },
+    "_manual": true
   },
   "Chainmail Chestplate": {
     "image": "https://minecraft.wiki/images/Chainmail_Chestplate_JE3_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Chainmail_Chestplate",
     "translations": {
-      "pt": "Peitoral de Malha"
-    }
+      "pt": "Peitoral de Malha",
+      "es": "Peto de cota de mallas"
+    },
+    "_manual": true
   },
   "Chainmail Boots": {
     "image": "https://minecraft.wiki/images/Chainmail_Boots_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Chainmail_Boots",
     "translations": {
-      "pt": "Botas de Malha"
-    }
+      "pt": "Botas de Malha",
+      "es": "Botas de cota de mallas"
+    },
+    "_manual": true
   },
   "Cookie": {
     "image": "https://minecraft.wiki/images/Cookie_JE2_BE2.png",
@@ -701,29 +711,37 @@
     "image": "https://minecraft.wiki/images/Copper_Helmet_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Copper_Helmet",
     "translations": {
-      "pt": "Capacete de Cobre"
-    }
+      "pt": "Capacete de Cobre",
+      "es": "Casco de cobre"
+    },
+    "_manual": true
   },
   "Copper Chestplate": {
     "image": "https://minecraft.wiki/images/Copper_Chestplate_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Copper_Chestplate",
     "translations": {
-      "pt": "Peitoral de Cobre"
-    }
+      "pt": "Peitoral de Cobre",
+      "es": "Peto de cobre"
+    },
+    "_manual": true
   },
   "Copper Leggings": {
     "image": "https://minecraft.wiki/images/Copper_Leggings_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Copper_Leggings",
     "translations": {
-      "pt": "Calças de Cobre"
-    }
+      "pt": "Calças de Cobre",
+      "es": "Grebas de cobre"
+    },
+    "_manual": true
   },
   "Copper Boots": {
     "image": "https://minecraft.wiki/images/Copper_Boots_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Copper_Boots",
     "translations": {
-      "pt": "Botas de Cobre"
-    }
+      "pt": "Botas de Cobre",
+      "es": "Botas de cobre"
+    },
+    "_manual": true
   },
   "Copper Horse Armor": {
     "image": "https://minecraft.wiki/images/Copper_Horse_Armor_JE1_BE1.png",
@@ -737,8 +755,10 @@
     "image": "https://minecraft.wiki/images/Chainmail_Armor_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Chainmail_Armor",
     "translations": {
-      "pt": "Armadura de Malha"
-    }
+      "pt": "Armadura de Malha",
+      "es": "Armadura de cota de mallas"
+    },
+    "_manual": true
   },
   "Copper Nautilus Armor": {
     "image": "https://minecraft.wiki/images/Copper_Nautilus_Armor_JE1_BE2.png",
@@ -782,22 +802,28 @@
     "image": "https://minecraft.wiki/images/Diamond_Helmet_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Diamond_Helmet",
     "translations": {
-      "pt": "Capacete de Diamante"
-    }
+      "pt": "Capacete de Diamante",
+      "es": "Casco de diamante"
+    },
+    "_manual": true
   },
   "Diamond Chestplate": {
     "image": "https://minecraft.wiki/images/Diamond_Chestplate_JE3_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Diamond_Chestplate",
     "translations": {
-      "pt": "Peitoral de Diamante"
-    }
+      "pt": "Peitoral de Diamante",
+      "es": "Peto de diamante"
+    },
+    "_manual": true
   },
   "Diamond Leggings": {
     "image": "https://minecraft.wiki/images/Diamond_Leggings_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Diamond_Leggings",
     "translations": {
-      "pt": "Calças de Diamante"
-    }
+      "pt": "Calças de Diamante",
+      "es": "Grebas de diamante"
+    },
+    "_manual": true
   },
   "Diamond Boots": {
     "image": "https://minecraft.wiki/images/Diamond_Boots_JE2_BE2.png",
@@ -1263,29 +1289,37 @@
     "image": "https://minecraft.wiki/images/Golden_Helmet_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Golden_Helmet",
     "translations": {
-      "pt": "Capacete de Ouro"
-    }
+      "pt": "Capacete de Ouro",
+      "es": "Casco de oro"
+    },
+    "_manual": true
   },
   "Golden Chestplate": {
     "image": "https://minecraft.wiki/images/Golden_Chestplate_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Golden_Chestplate",
     "translations": {
-      "pt": "Peitoral de Ouro"
-    }
+      "pt": "Peitoral de Ouro",
+      "es": "Peto de oro"
+    },
+    "_manual": true
   },
   "Golden Leggings": {
     "image": "https://minecraft.wiki/images/Golden_Leggings_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Golden_Leggings",
     "translations": {
-      "pt": "Calças de Ouro"
-    }
+      "pt": "Calças de Ouro",
+      "es": "Grebas de oro"
+    },
+    "_manual": true
   },
   "Golden Boots": {
     "image": "https://minecraft.wiki/images/Golden_Boots_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Golden_Boots",
     "translations": {
-      "pt": "Botas de Ouro"
-    }
+      "pt": "Botas de Ouro",
+      "es": "Botas de oro"
+    },
+    "_manual": true
   },
   "Golden Pickaxe": {
     "image": "https://minecraft.wiki/images/Golden_Pickaxe_JE4_BE3.png",
@@ -1545,55 +1579,73 @@
     "image": "https://minecraft.wiki/images/Leather_Tunic_JE4_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Leather_Tunic",
     "translations": {
-      "pt": "Túnica de Couro"
-    }
+      "pt": "Túnica de Couro",
+      "es": "Túnica de cuero"
+    },
+    "_manual": true
   },
   "Leather Cap": {
     "image": "https://minecraft.wiki/images/Leather_Cap_JE4_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Leather_Cap",
-    "translations": {}
+    "translations": {
+      "pt": "Capuz de Couro",
+      "es": "Sombrero de cuero"
+    },
+    "_manual": true
   },
   "Leather Pants": {
     "image": "https://minecraft.wiki/images/Leather_Pants_JE4_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Leather_Pants",
     "translations": {
-      "pt": "Calças de Couro"
-    }
+      "pt": "Calças de Couro",
+      "es": "Pantalones de cuero"
+    },
+    "_manual": true
   },
   "Leather Boots": {
     "image": "https://minecraft.wiki/images/Leather_Boots_JE3_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Leather_Boots",
     "translations": {
-      "pt": "Botas de Couro"
-    }
+      "pt": "Botas de Couro",
+      "es": "Botas de cuero"
+    },
+    "_manual": true
   },
   "Iron Helmet": {
     "image": "https://minecraft.wiki/images/Iron_Helmet_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Iron_Helmet",
     "translations": {
-      "pt": "Capacete de Ferro"
-    }
+      "pt": "Capacete de Ferro",
+      "es": "Casco de hierro"
+    },
+    "_manual": true
   },
   "Iron Chestplate": {
     "image": "https://minecraft.wiki/images/Iron_Chestplate_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Iron_Chestplate",
     "translations": {
-      "pt": "Peitoral de Ferro"
-    }
+      "pt": "Peitoral de Ferro",
+      "es": "Peto de hierro"
+    },
+    "_manual": true
   },
   "Iron Leggings": {
     "image": "https://minecraft.wiki/images/Iron_Leggings_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Iron_Leggings",
     "translations": {
-      "pt": "Calças de Ferro"
-    }
+      "pt": "Calças de Ferro",
+      "es": "Grebas de hierro"
+    },
+    "_manual": true
   },
   "Iron Boots": {
     "image": "https://minecraft.wiki/images/Iron_Boots_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Iron_Boots",
     "translations": {
-      "pt": "Botas de Ferro"
-    }
+      "pt": "Botas de Ferro",
+      "es": "Botas de hierro"
+    },
+    "_manual": true
   },
   "Ink Sac": {
     "image": "https://minecraft.wiki/images/Ink_Sac_JE2_BE2.png",
@@ -1762,8 +1814,10 @@
     "image": "https://minecraft.wiki/images/Leather_Horse_Armor_JE2.png",
     "pageUrl": "https://minecraft.wiki/w/Leather_Horse_Armor",
     "translations": {
-      "pt": "Armadura de couro para cavalo"
-    }
+      "pt": "Armadura de couro para cavalo",
+      "es": "Armadura de cuero para caballo"
+    },
+    "_manual": true
   },
   "Honey Bottle": {
     "image": "https://minecraft.wiki/images/Honey_Bottle_JE1_BE2.png",
@@ -2346,29 +2400,37 @@
     "image": "https://minecraft.wiki/images/Netherite_Helmet_JE2_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Netherite_Helmet",
     "translations": {
-      "pt": "Capacete de Netherita"
-    }
+      "pt": "Capacete de Netherita",
+      "es": "Casco de netherita"
+    },
+    "_manual": true
   },
   "Netherite Chestplate": {
     "image": "https://minecraft.wiki/images/Netherite_Chestplate_JE2_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Netherite_Chestplate",
     "translations": {
-      "pt": "Peitoral de Netherita"
-    }
+      "pt": "Peitoral de Netherita",
+      "es": "Peto de netherita"
+    },
+    "_manual": true
   },
   "Netherite Leggings": {
     "image": "https://minecraft.wiki/images/Netherite_Leggings_JE3_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Netherite_Leggings",
     "translations": {
-      "pt": "Calças de Netherita"
-    }
+      "pt": "Calças de Netherita",
+      "es": "Grebas de netherita"
+    },
+    "_manual": true
   },
   "Netherite Boots": {
     "image": "https://minecraft.wiki/images/Netherite_Boots_JE2_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Netherite_Boots",
     "translations": {
-      "pt": "Botas de Netherita"
-    }
+      "pt": "Botas de Netherita",
+      "es": "Botas de netherita"
+    },
+    "_manual": true
   },
   "Netherite Scrap": {
     "image": "https://minecraft.wiki/images/Netherite_Scrap_JE2_BE1.png",
@@ -4037,8 +4099,10 @@
     "image": "https://minecraft.wiki/images/Leather_Armor_JE5_BE3.png",
     "pageUrl": "https://minecraft.wiki/w/Leather_Armor",
     "translations": {
-      "pt": "Armadura de Couro"
-    }
+      "pt": "Armadura de Couro",
+      "es": "Armadura de cuero"
+    },
+    "_manual": true
   },
   "Netherite Armor": {
     "image": "https://minecraft.wiki/images/Netherite_Armor_JE2.png",
@@ -23804,7 +23868,8 @@
     "image": "https://minecraft.wiki/images/Leather_Boots_%28item%29_JE4_BE3.png",
     "pageUrl": "https://minecraft.wiki/w/Leather_Boots",
     "translations": {
-      "pt": "Botas de Couro"
+      "pt": "Botas de Couro",
+      "es": "Botas de cuero"
     },
     "_manual": true
   },
@@ -24907,6 +24972,231 @@
     "translations": {
       "pt": "Botas de Diamante",
       "es": "Botas de diamante"
+    },
+    "_manual": true
+  },
+  "Chainmail Boots (item)": {
+    "image": "https://minecraft.wiki/images/Chainmail_Boots_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Chainmail_Boots",
+    "translations": {
+      "pt": "Botas de Malha",
+      "es": "Botas de cota de mallas"
+    },
+    "_manual": true
+  },
+  "Chainmail Chestplate (item)": {
+    "image": "https://minecraft.wiki/images/Chainmail_Chestplate_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Chainmail_Chestplate",
+    "translations": {
+      "pt": "Peitoral de Malha",
+      "es": "Peto de cota de mallas"
+    },
+    "_manual": true
+  },
+  "Chainmail Helmet (item)": {
+    "image": "https://minecraft.wiki/images/Chainmail_Helmet_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Chainmail_Helmet",
+    "translations": {
+      "pt": "Capacete de Malha",
+      "es": "Casco de cota de mallas"
+    },
+    "_manual": true
+  },
+  "Copper Boots (item)": {
+    "image": "https://minecraft.wiki/images/Copper_Boots_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Copper_Boots",
+    "translations": {
+      "pt": "Botas de Cobre",
+      "es": "Botas de cobre"
+    },
+    "_manual": true
+  },
+  "Golden Boots (item)": {
+    "image": "https://minecraft.wiki/images/Golden_Boots_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Golden_Boots",
+    "translations": {
+      "pt": "Botas de Ouro",
+      "es": "Botas de oro"
+    },
+    "_manual": true
+  },
+  "Iron Boots (item)": {
+    "image": "https://minecraft.wiki/images/Iron_Boots_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Iron_Boots",
+    "translations": {
+      "pt": "Botas de Ferro",
+      "es": "Botas de hierro"
+    },
+    "_manual": true
+  },
+  "Netherite Boots (item)": {
+    "image": "https://minecraft.wiki/images/Netherite_Boots_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Netherite_Boots",
+    "translations": {
+      "pt": "Botas de Netherita",
+      "es": "Botas de netherita"
+    },
+    "_manual": true
+  },
+  "Copper Leggings (item)": {
+    "image": "https://minecraft.wiki/images/Copper_Leggings_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Copper_Leggings",
+    "translations": {
+      "pt": "Calças de Cobre",
+      "es": "Grebas de cobre"
+    },
+    "_manual": true
+  },
+  "Diamond Leggings (item)": {
+    "image": "https://minecraft.wiki/images/Diamond_Leggings_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Diamond_Leggings",
+    "translations": {
+      "pt": "Calças de Diamante",
+      "es": "Grebas de diamante"
+    },
+    "_manual": true
+  },
+  "Golden Leggings (item)": {
+    "image": "https://minecraft.wiki/images/Golden_Leggings_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Golden_Leggings",
+    "translations": {
+      "pt": "Calças de Ouro",
+      "es": "Grebas de oro"
+    },
+    "_manual": true
+  },
+  "Iron Leggings (item)": {
+    "image": "https://minecraft.wiki/images/Iron_Leggings_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Iron_Leggings",
+    "translations": {
+      "pt": "Calças de Ferro",
+      "es": "Grebas de hierro"
+    },
+    "_manual": true
+  },
+  "Netherite Leggings (item)": {
+    "image": "https://minecraft.wiki/images/Netherite_Leggings_%28item%29_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Netherite_Leggings",
+    "translations": {
+      "pt": "Calças de Netherita",
+      "es": "Grebas de netherita"
+    },
+    "_manual": true
+  },
+  "Leather Cap (item)": {
+    "image": "https://minecraft.wiki/images/Leather_Cap_%28item%29_JE4_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Leather_Cap",
+    "translations": {
+      "pt": "Capuz de Couro",
+      "es": "Sombrero de cuero"
+    },
+    "_manual": true
+  },
+  "Leather Tunic (item)": {
+    "image": "https://minecraft.wiki/images/Leather_Tunic_%28item%29_JE4_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Leather_Tunic",
+    "translations": {
+      "pt": "Túnica de Couro",
+      "es": "Túnica de cuero"
+    },
+    "_manual": true
+  },
+  "Leather Pants (item)": {
+    "image": "https://minecraft.wiki/images/Leather_Pants_%28item%29_JE4_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Leather_Pants",
+    "translations": {
+      "pt": "Calças de Couro",
+      "es": "Pantalones de cuero"
+    },
+    "_manual": true
+  },
+  "Netherite Helmet (item)": {
+    "image": "https://minecraft.wiki/images/Netherite_Helmet_%28item%29_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Netherite_Helmet",
+    "translations": {
+      "pt": "Capacete de Netherita",
+      "es": "Casco de netherita"
+    },
+    "_manual": true
+  },
+  "Diamond Helmet (item)": {
+    "image": "https://minecraft.wiki/images/Diamond_Helmet_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Diamond_Helmet",
+    "translations": {
+      "pt": "Capacete de Diamante",
+      "es": "Casco de diamante"
+    },
+    "_manual": true
+  },
+  "Golden Helmet (item)": {
+    "image": "https://minecraft.wiki/images/Golden_Helmet_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Golden_Helmet",
+    "translations": {
+      "pt": "Capacete de Ouro",
+      "es": "Casco de oro"
+    },
+    "_manual": true
+  },
+  "Iron Helmet (item)": {
+    "image": "https://minecraft.wiki/images/Iron_Helmet_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Iron_Helmet",
+    "translations": {
+      "pt": "Capacete de Ferro",
+      "es": "Casco de hierro"
+    },
+    "_manual": true
+  },
+  "Copper Helmet (item)": {
+    "image": "https://minecraft.wiki/images/Copper_Helmet_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Copper_Helmet",
+    "translations": {
+      "pt": "Capacete de Cobre",
+      "es": "Casco de cobre"
+    },
+    "_manual": true
+  },
+  "Copper Chestplate (item)": {
+    "image": "https://minecraft.wiki/images/Copper_Chestplate_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Copper_Chestplate",
+    "translations": {
+      "pt": "Peitoral de Cobre",
+      "es": "Peto de cobre"
+    },
+    "_manual": true
+  },
+  "Netherite Chestplate (item)": {
+    "image": "https://minecraft.wiki/images/Netherite_Chestplate_%28item%29_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Netherite_Chestplate",
+    "translations": {
+      "pt": "Peitoral de Netherita",
+      "es": "Peto de netherita"
+    },
+    "_manual": true
+  },
+  "Golden Chestplate (item)": {
+    "image": "https://minecraft.wiki/images/Golden_Chestplate_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Golden_Chestplate",
+    "translations": {
+      "pt": "Peitoral de Ouro",
+      "es": "Peto de oro"
+    },
+    "_manual": true
+  },
+  "Diamond Chestplate (item)": {
+    "image": "https://minecraft.wiki/images/Diamond_Chestplate_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Diamond_Chestplate",
+    "translations": {
+      "pt": "Peitoral de Diamante",
+      "es": "Peto de diamante"
+    },
+    "_manual": true
+  },
+  "Iron Chestplate (item)": {
+    "image": "https://minecraft.wiki/images/Iron_Chestplate_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Iron_Chestplate",
+    "translations": {
+      "pt": "Peitoral de Ferro",
+      "es": "Peto de hierro"
     },
     "_manual": true
   }

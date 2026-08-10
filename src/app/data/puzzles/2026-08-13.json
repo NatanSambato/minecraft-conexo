@@ -1,0 +1,51 @@
+{
+  "id": 32,
+  "date": "2026-08-13",
+  "author": "mrcyberhumano",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Mobs with Eggs",
+      "items": [
+        "Chicken",
+        "Ender Dragon",
+        "Sniffer",
+        "Turtle"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Mobs affected by Lightning",
+      "items": [
+        "Creeper",
+        "Pig",
+        "Red Mooshroom",
+        "Villager"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Damaged by Water",
+      "items": [
+        "Enderman",
+        "Blaze",
+        "Strider",
+        "Snow Golem"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Hunted by other Mobs ",
+      "items": [
+        "Endermite",
+        "Sheep",
+        "Fox",
+        "Cod"
+      ]
+    }
+  ]
+}
