@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3614,
+    "totalEntries": 3619,
     "languages": [
       "pt",
       "es"
@@ -803,8 +803,10 @@
     "image": "https://minecraft.wiki/images/Diamond_Boots_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Diamond_Boots",
     "translations": {
-      "pt": "Botas de Diamante"
-    }
+      "pt": "Botas de Diamante",
+      "es": "Botas de diamante"
+    },
+    "_manual": true
   },
   "Dye": {
     "image": "https://minecraft.wiki/images/In-game_colored_block-item_chart_v2.png",
@@ -24860,6 +24862,51 @@
     "translations": {
       "pt": "Slime Grande",
       "es": "Slime grande"
+    },
+    "_manual": true
+  },
+  "Baby Axolotl": {
+    "image": "https://minecraft.wiki/images/Baby_Axolotl_Idle_Floor_Underwater.gif",
+    "pageUrl": "https://minecraft.wiki/w/Axolotl",
+    "translations": {
+      "pt": "Axolote Bebê",
+      "es": "Ajolote bebé"
+    },
+    "_manual": true
+  },
+  "Baby Turtle": {
+    "image": "https://minecraft.wiki/images/Baby_Turtle_JE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Turtle",
+    "translations": {
+      "pt": "Tartaruga Bebê",
+      "es": "Tortuga bebé"
+    },
+    "_manual": true
+  },
+  "Wet Sponge": {
+    "image": "https://minecraft.wiki/images/Wet_Sponge_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Sponge",
+    "translations": {
+      "pt": "Esponja húmida",
+      "es": "Esponja mojada"
+    },
+    "_manual": true
+  },
+  "Chainmail Leggings (item)": {
+    "image": "https://minecraft.wiki/images/Chainmail_Leggings_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Chainmail_Leggings",
+    "translations": {
+      "pt": "Calças de Malha",
+      "es": "Grebas de cota de mallas"
+    },
+    "_manual": true
+  },
+  "Diamond Boots (item)": {
+    "image": "https://minecraft.wiki/images/Diamond_Boots_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Diamond_Boots",
+    "translations": {
+      "pt": "Botas de Diamante",
+      "es": "Botas de diamante"
     },
     "_manual": true
   }

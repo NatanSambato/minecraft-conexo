@@ -1,0 +1,51 @@
+{
+  "id": 62,
+  "date": "2026-08-11",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Creeper Drops",
+      "items": [
+        "Creeper Head",
+        "Gunpowder",
+        "Music Disc cat",
+        "Music Disc chirp"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Smeltables",
+      "items": [
+        "Raw Mutton",
+        "Wet Sponge",
+        "Chainmail Leggings (item)",
+        "Spruce Leaves"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Enchantable with Unbreaking",
+      "items": [
+        "Diamond Boots (item)",
+        "Elytra (item)",
+        "Shield",
+        "Flint and Steel"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Rare items",
+      "items": [
+        "Enchanted Golden Apple",
+        "Wither Skeleton Skull",
+        "Beacon",
+        "Music Disc Creator"
+      ]
+    }
+  ]
+}
