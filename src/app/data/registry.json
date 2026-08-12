@@ -13500,12 +13500,13 @@
     }
   },
   "Nether Fortress": {
-    "image": "https://minecraft.wiki/images/Nether_Fortress.png",
+    "image": "https://minecraft.wiki/images/Fortress_isometric_view.png",
     "pageUrl": "https://minecraft.wiki/w/Nether_Fortress",
     "translations": {
-      "es": "Fortaleza del Nether",
-      "pt": "Fortaleza do Nether"
-    }
+      "pt": "Fortaleza do Nether",
+      "es": "Fortaleza del Nether"
+    },
+    "_manual": true
   },
   "Spruce": {
     "image": "https://minecraft.wiki/images/Spruce.png",

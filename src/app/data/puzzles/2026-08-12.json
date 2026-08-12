@@ -28,10 +28,10 @@
     {
       "id": 3,
       "color": "blue",
-      "correlation": "Structures with Cobblestone",
+      "correlation": "Wooden Structures",
       "items": [
-        "Jungle Pyramid",
-        "Monster Room",
+        "Shipwreck",
+        "Swamp Hut",
         "Woodland Mansion",
         "Pillager Outpost"
       ]
@@ -39,12 +39,12 @@
     {
       "id": 4,
       "color": "purple",
-      "correlation": "Structures with Iron Bars",
+      "correlation": "Structures with Spawners",
       "items": [
-        "End Spike (cage)",
-        "Igloo Basement",
+        "Monster Room",
         "Stronghold",
-        "Ruined Portal (overworld) (giant)"
+        "Nether Fortress",
+        "Trial Chambers"
       ]
     }
   ]
