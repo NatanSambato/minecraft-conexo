@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3644,
+    "totalEntries": 3645,
     "languages": [
       "pt",
       "es"
@@ -25198,6 +25198,15 @@
     "translations": {
       "pt": "Peitoral de Ferro",
       "es": "Peto de hierro"
+    },
+    "_manual": true
+  },
+  "Curved Staircase": {
+    "image": "https://minecraft.wiki/images/Woodland_mansion_1x2_c_stairs_2.png",
+    "pageUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+    "translations": {
+      "pt": "Escadaria curvada",
+      "es": "Escaleras curvas"
     },
     "_manual": true
   }
