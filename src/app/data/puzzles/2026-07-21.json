@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "correlation": "Items crafted with Prismarine Shard",
+      "correlation": "Crafted with Prismarine Shard",
       "color": "blue",
       "items": [
         "Prismarine",
