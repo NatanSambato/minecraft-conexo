@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3645,
+    "totalEntries": 3653,
     "languages": [
       "pt",
       "es"
@@ -4365,14 +4365,15 @@
     "translations": {}
   },
   "Potion of Weaving": {
-    "image": "https://minecraft.wiki/images/Potion_of_Weaving_JE1_BE1.png",
+    "image": "https://minecraft.wiki/images/Potion_of_Weaving_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Weaving",
     "translations": {
       "pt": "Poção de Tecitura"
-    }
+    },
+    "_manual": true
   },
   "Potion of Oozing": {
-    "image": "https://minecraft.wiki/images/Potion_of_Oozing_JE1_BE1.png",
+    "image": "https://minecraft.wiki/images/Potion_of_Oozing_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Oozing",
     "translations": {
       "pt": "Poção Pegajosa",
@@ -4381,7 +4382,7 @@
     "_manual": true
   },
   "Potion of Infestation": {
-    "image": "https://minecraft.wiki/images/Potion_of_Infestation_JE1_BE1.png",
+    "image": "https://minecraft.wiki/images/Potion_of_Infestation_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Infestation",
     "translations": {
       "pt": "Poção de Infestação",
@@ -4390,7 +4391,7 @@
     "_manual": true
   },
   "Potion of Wind Charging": {
-    "image": "https://minecraft.wiki/images/Potion_of_Wind_Charging_JE1_BE1.png",
+    "image": "https://minecraft.wiki/images/Potion_of_Wind_Charging_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Potion_of_Wind_Charging",
     "translations": {
       "pt": "Poção de Ventania",
@@ -8552,14 +8553,6 @@
     "pageUrl": "https://minecraft.wiki/w/Spawn_Block",
     "translations": {
       "pt": "Bloco de geração"
-    }
-  },
-  "Spore Blossom": {
-    "image": "https://minecraft.wiki/images/Spore_Blossom_JE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Spore_Blossom",
-    "translations": {
-      "es": "Flor de esporas",
-      "pt": "Flor de Esporos"
     }
   },
   "Sculk Sensor": {
@@ -20397,12 +20390,13 @@
     }
   },
   "White Concrete Powder": {
-    "image": "https://minecraft.wiki/images/White_Concrete_Powder.png?3cb83",
+    "image": "https://minecraft.wiki/images/White_Concrete_Powder_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Concrete_Powder",
     "translations": {
       "pt": "Cimento Branco",
       "es": "Cemento Blanco"
-    }
+    },
+    "_manual": true
   },
   "Orange Concrete Powder": {
     "image": "https://minecraft.wiki/images/Orange_Concrete_Powder.png?ac577",
@@ -24307,7 +24301,7 @@
     "_manual": true
   },
   "Arrow of Wind Charging": {
-    "image": "https://minecraft.wiki/images/Arrow_of_Wind_Charging_JE1_BE1.png",
+    "image": "https://minecraft.wiki/images/Arrow_of_Wind_Charging_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Ventania",
@@ -24316,7 +24310,7 @@
     "_manual": true
   },
   "Arrow of Infestation": {
-    "image": "https://minecraft.wiki/images/Arrow_of_Infestation_JE1_BE1.png",
+    "image": "https://minecraft.wiki/images/Arrow_of_Infestation_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Infestação",
@@ -25207,6 +25201,87 @@
     "translations": {
       "pt": "Escadaria curvada",
       "es": "Escaleras curvas"
+    },
+    "_manual": true
+  },
+  "Spore Blossom (from above)": {
+    "image": "https://minecraft.wiki/images/Spore_Blossom_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Spore_Blossom",
+    "translations": {
+      "pt": "Flor de Esporos",
+      "es": "Flor de esporas"
+    },
+    "_manual": true
+  },
+  "Spore Blossom (from below)": {
+    "image": "https://minecraft.wiki/images/Spore_Blossom_JE1_%28facing_NWU%29.png",
+    "pageUrl": "https://minecraft.wiki/w/Spore_Blossom",
+    "translations": {
+      "pt": "Flor de Esporos",
+      "es": "Flor de esporas"
+    },
+    "_manual": true
+  },
+  "Item Frame (item)": {
+    "image": "https://minecraft.wiki/images/Item_Frame_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Item_Frame",
+    "translations": {
+      "pt": "Moldura",
+      "es": "Marco"
+    },
+    "_manual": true
+  },
+  "Leather Horse Armor (item)": {
+    "image": "https://minecraft.wiki/images/Leather_Horse_Armor_%28item%29_JE3_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Leather_Horse_Armor",
+    "translations": {
+      "pt": "Armadura de couro para cavalo",
+      "es": "Armadura de cuero para caballo"
+    },
+    "_manual": true
+  },
+  "Candle (item)": {
+    "image": "https://minecraft.wiki/images/Candle_%28item%29_JE3_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Candle",
+    "translations": {
+      "pt": "Vela",
+      "es": "Vela"
+    },
+    "_manual": true
+  },
+  "Acacia Hanging Sign (item)": {
+    "image": "https://minecraft.wiki/images/Acacia_Hanging_Sign_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Hanging_Sign",
+    "translations": {
+      "pt": "Placa Suspensa de Acácia",
+      "es": "Cartel Colgante de Acacia"
+    },
+    "_manual": true
+  },
+  "Acacia Sign (item)": {
+    "image": "https://minecraft.wiki/images/Acacia_Sign_%28item%29_JE2_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Sign",
+    "translations": {
+      "pt": "Placa de Acácia",
+      "es": "Cartel de Acacia"
+    },
+    "_manual": true
+  },
+  "Armor Stand (item)": {
+    "image": "https://minecraft.wiki/images/Armor_Stand_%28item%29_JE3_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Armor_Stand",
+    "translations": {
+      "pt": "Suporte de Armaduras",
+      "es": "Soporte para armadura"
+    },
+    "_manual": true
+  },
+  "Fire (item)": {
+    "image": "https://minecraft.wiki/images/Fire_1_%28texture%29_JE2-a2.gif",
+    "pageUrl": "https://minecraft.wiki/w/Fire",
+    "translations": {
+      "pt": "Fogo",
+      "es": "Fuego"
     },
     "_manual": true
   }

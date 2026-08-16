@@ -1,0 +1,51 @@
+{
+  "id": 64,
+  "date": "2026-08-17",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Crafted with Leather",
+      "items": [
+        "Leather Horse Armor (item)",
+        "Saddle",
+        "Bundle",
+        "Item Frame (item)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Stick",
+      "items": [
+        "Arrow (item)",
+        "Wooden Sword",
+        "Armor Stand (item)",
+        "Brush"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Items with Color Variants",
+      "items": [
+        "Carpet",
+        "Candle (item)",
+        "Glass",
+        "Terracotta"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Items with a GUI you can Type on",
+      "items": [
+        "Anvil",
+        "Acacia Sign",
+        "Acacia Hanging Sign",
+        "Book and Quill"
+      ]
+    }
+  ]
+}
