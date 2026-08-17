@@ -6,6 +6,7 @@ import type { Puzzle, SavedProgress } from "@/types";
 import { getProgress } from "@/lib/utils";
 import { useEffect, useState } from "react";
 import { buildKey } from "@/hooks/useProgress";
+import { puzzleContentMatches, wasOverhauled } from "@/lib/puzzleOverhauls";
 
 const toDate = (dateStr: string) => {
   const [y, m, d] = dateStr.split("-").map(Number);
@@ -45,11 +46,20 @@ export default function Calendar({ puzzles, initialDate }: CalendarProps) {
   const availableStrs = puzzleDateStrs.filter((d) => d <= todayStr);
   const futureStrs = puzzleDateStrs.filter((d) => d > todayStr);
 
+  const isStale = (p: Puzzle) => {
+    const saved = progress[buildKey(p.id)];
+    if (!saved) return false;
+    return wasOverhauled(p.id) && !puzzleContentMatches(p, saved.itemLabels);
+  };
+
   const wonDays = puzzles
-    .filter((p) => progress[buildKey(p.id)]?.status === "won")
+    .filter((p) => progress[buildKey(p.id)]?.status === "won" && !isStale(p))
     .map((p) => toDate(p.date));
+
   const playingDays = puzzles
-    .filter((p) => progress[buildKey(p.id)]?.status === "playing")
+    .filter(
+      (p) => progress[buildKey(p.id)]?.status === "playing" && !isStale(p),
+    )
     .map((p) => toDate(p.date));
 
   const handleDayClick = (day: Date) => {
