@@ -27,6 +27,7 @@ export interface SavedProgress {
   hintsUsed: number;
   hintedGroups: Record<number, string[]>;
   tileOrder: string[];
+  itemLabels: string[]
 }
 
 export interface RegistryEntry {

@@ -19,7 +19,7 @@ export const loadProgressFromStorage = (
 
     if (
       wasOverhauled(puzzle.id) &&
-      !puzzleContentMatches(puzzle, saved.solvedGroups)
+      !puzzleContentMatches(puzzle, saved.itemLabels)
     ) {
       localStorage.removeItem(buildKey(puzzle.id));
       return null;

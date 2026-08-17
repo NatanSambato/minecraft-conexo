@@ -1,18 +1,14 @@
-import puzzleOverhauls from '@/app/data/puzzleOverhauls.json'
-import { Puzzle, Group } from '@/types'
+import overhauledPuzzles from '@/app/data/overhauledPuzzles.json'
+import { Puzzle } from '@/types'
 
 export function wasOverhauled(puzzleId: number): boolean {
-    return (puzzleOverhauls as number[]).includes(puzzleId)
+    return (overhauledPuzzles as number[]).includes(puzzleId)
 }
 
-export function puzzleContentMatches(puzzle: Puzzle, solvedGroups: Group[]): boolean {
-    return solvedGroups.every((saved) => {
-        const current = puzzle.groups.find((g) => g.id === saved.id)
-        if (!current) return false
-        if (current.correlation !== saved.correlation) return false
+export function puzzleContentMatches(puzzle: Puzzle, savedLabels: string[]): boolean {
+    const currentItems = puzzle.groups.flatMap((g) => g.items).sort();
+    const savedItems = [...savedLabels].sort();
 
-        const a = [...saved.items].sort()
-        const b = [...current.items].sort()
-        return a.length === b.length && a.every((item, i) => item === b[i])
-    })
+    if (currentItems.length !== savedItems.length) return false;
+    return currentItems.every((item, i) => item === savedItems[i]);
 }

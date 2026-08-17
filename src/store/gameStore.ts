@@ -196,6 +196,7 @@ const useGameStore = create<GameState>((set, get) => ({
       hintsUsed,
       hintedGroups,
       tileOrder: tiles.map((t) => t.id),
+      itemLabels: tiles.map((t) => t.label),
     });
   },
 }));
