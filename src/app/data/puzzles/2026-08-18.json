@@ -1,0 +1,51 @@
+{
+  "id": 65,
+  "date": "2026-08-18",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Found in Lush Cave",
+      "items": [
+        "Axolotl",
+        "Cave Vines (feature)",
+        "Spore Blossom (from below)",
+        "Clay"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Non-Zombie Undeads",
+      "items": [
+        "Skeleton Horse",
+        "Wither",
+        "Phantom",
+        "Skeleton"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Jumping Mobs",
+      "items": [
+        "Slime",
+        "Magma Cube",
+        "Rabbit",
+        "Frog"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Stick Sources",
+      "items": [
+        "Planks",
+        "Dead Bush",
+        "Oak Leaves",
+        "Witch"
+      ]
+    }
+  ]
+}
