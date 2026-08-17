@@ -14,7 +14,7 @@ import Link from "next/link";
 await loadRegistry();
 
 export default function Board({ puzzle }: { puzzle: Puzzle }) {
-  const { loadProgress } = useProgress(puzzle.id);
+  const { loadProgress } = useProgress(puzzle);
   const tiles = useGameStore((state) => state.tiles);
   const solvedGroups = useGameStore((state) => state.solvedGroups);
 
