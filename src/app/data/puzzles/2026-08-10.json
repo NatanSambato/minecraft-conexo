@@ -6,6 +6,28 @@
     {
       "id": 1,
       "color": "yellow",
+      "correlation": "End Related Mobs",
+      "items": [
+        "Ender Dragon",
+        "Shulker",
+        "Enderman",
+        "Endermite"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Drop Meat",
+      "items": [
+        "Pig",
+        "Sheep",
+        "Cow",
+        "Chicken"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
       "correlation": "Mobs that can wear Armor",
       "items": [
         "Horse",
@@ -15,36 +37,14 @@
       ]
     },
     {
-      "id": 2,
-      "color": "green",
-      "correlation": "Non-Zombie Undeads",
-      "items": [
-        "Skeleton Horse",
-        "Wither",
-        "Phantom",
-        "Skeleton"
-      ]
-    },
-    {
-      "id": 3,
-      "color": "blue",
+      "id": 4,
+      "color": "purple",
       "correlation": "Lava Immune Mobs",
       "items": [
         "Strider",
         "Blaze",
         "Magma Cube",
         "Warden"
-      ]
-    },
-    {
-      "id": 4,
-      "color": "purple",
-      "correlation": "Jumping Mobs",
-      "items": [
-        "Slime",
-        "Rabbit",
-        "Frog",
-        "Spider"
       ]
     }
   ]
