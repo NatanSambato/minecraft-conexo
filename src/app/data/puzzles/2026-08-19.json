@@ -1,0 +1,51 @@
+{
+  "id": 66,
+  "date": "2026-08-19",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Joke Biomes",
+      "items": [
+        "The Moon (icon)",
+        "Hub (icon)",
+        "Shapes (icon)",
+        "Biome For Player With No Time For Nonsense (icon)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Cave Biomes",
+      "items": [
+        "Dripstone Caves (icon)",
+        "Lush Caves (icon)",
+        "Deep Dark (icon)",
+        "Sulfur Caves (icon)"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Warm Biomes",
+      "items": [
+        "Desert (icon)",
+        "Jungle (icon)",
+        "Wooded Badlands (icon)",
+        "Savanna Plateau (icon)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Highland Biomes",
+      "items": [
+        "Stony Peaks (icon)",
+        "Windswept Hills (icon)",
+        "Cherry Grove (icon)",
+        "Meadow (icon)"
+      ]
+    }
+  ]
+}

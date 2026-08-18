@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3653,
+    "totalEntries": 3764,
     "languages": [
       "pt",
       "es"
@@ -25282,6 +25282,920 @@
     "translations": {
       "pt": "Fogo",
       "es": "Fuego"
+    },
+    "_manual": true
+  },
+  "Eating": {
+    "image": "https://i.imgur.com/dDfccBQ.png",
+    "pageUrl": "https://minecraft.wiki/w/Food#Eating",
+    "translations": {
+      "pt": "Alimentação",
+      "es": "Alimentación"
+    },
+    "_manual": true
+  },
+  "Badlands (icon)": {
+    "image": "https://i.imgur.com/IpCfljd.png",
+    "pageUrl": "https://minecraft.wiki/w/Badlands",
+    "translations": {
+      "pt": "Terras áridas",
+      "es": "Tierras baldías"
+    },
+    "_manual": true
+  },
+  "Jungle (icon)": {
+    "image": "https://i.imgur.com/DU6vyW0.png",
+    "pageUrl": "https://minecraft.wiki/w/Jungle",
+    "translations": {
+      "pt": "Selva",
+      "es": "Jungla"
+    },
+    "_manual": true
+  },
+  "Basalt Deltas (icon)": {
+    "image": "https://i.imgur.com/Vgnsgcc.png",
+    "pageUrl": "https://minecraft.wiki/w/Basalt_Deltas",
+    "translations": {
+      "pt": "Deltas de basalto",
+      "es": "Deltas de basalto"
+    },
+    "_manual": true
+  },
+  "Beach (icon)": {
+    "image": "https://i.imgur.com/YzMI6kZ.png",
+    "pageUrl": "https://minecraft.wiki/w/Beach",
+    "translations": {
+      "pt": "Praia",
+      "es": "Playa"
+    },
+    "_manual": true
+  },
+  "Birch Forest (icon)": {
+    "image": "https://i.imgur.com/JMhaELO.png",
+    "pageUrl": "https://minecraft.wiki/w/Birch_Forest",
+    "translations": {
+      "pt": "Floresta de bétulas",
+      "es": "Abedular"
+    },
+    "_manual": true
+  },
+  "Cold Ocean (icon)": {
+    "image": "https://i.imgur.com/W0DpoNw.png",
+    "pageUrl": "https://minecraft.wiki/w/Cold_Ocean",
+    "translations": {
+      "pt": "Oceano frio"
+    },
+    "_manual": true
+  },
+  "Crimson Forest (icon)": {
+    "image": "https://i.imgur.com/StMSR7f.png",
+    "pageUrl": "https://minecraft.wiki/w/Crimson_Forest",
+    "translations": {
+      "pt": "Floresta carmesim",
+      "es": "Bosque carmesí"
+    },
+    "_manual": true
+  },
+  "Dark Forest (icon)": {
+    "image": "https://i.imgur.com/SFLqAjv.png",
+    "pageUrl": "https://minecraft.wiki/w/Dark_Forest",
+    "translations": {
+      "pt": "Floresta escura",
+      "es": "Bosque oscuro"
+    },
+    "_manual": true
+  },
+  "Deep Cold Ocean (icon)": {
+    "image": "https://i.imgur.com/mW383Ek.png",
+    "pageUrl": "https://minecraft.wiki/w/Deep_Cold_Ocean",
+    "translations": {
+      "pt": "Oceano frio profundo"
+    },
+    "_manual": true
+  },
+  "Deep Dark (icon)": {
+    "image": "https://i.imgur.com/LRMkzWI.png",
+    "pageUrl": "https://minecraft.wiki/w/Deep_Dark",
+    "translations": {
+      "pt": "Profundezas sombrias",
+      "es": "Oscuridad profunda"
+    },
+    "_manual": true
+  },
+  "Deep Frozen Ocean (icon)": {
+    "image": "https://i.imgur.com/UOUyB69.png",
+    "pageUrl": "https://minecraft.wiki/w/Deep_Frozen_Ocean",
+    "translations": {
+      "pt": "Oceano congelado profundo"
+    },
+    "_manual": true
+  },
+  "Deep Lukewarm Ocean (icon)": {
+    "image": "https://i.imgur.com/U32MrOB.png",
+    "pageUrl": "https://minecraft.wiki/w/Deep_Lukewarm_Ocean",
+    "translations": {
+      "pt": "Oceano morno profundo"
+    },
+    "_manual": true
+  },
+  "End Barrens (icon)": {
+    "image": "https://i.imgur.com/3XJhFje.png",
+    "pageUrl": "https://minecraft.wiki/w/End_Barrens",
+    "translations": {
+      "pt": "Zona árida do End"
+    },
+    "_manual": true
+  },
+  "End Highlands (icon)": {
+    "image": "https://i.imgur.com/7MxqjZy.png",
+    "pageUrl": "https://minecraft.wiki/w/End_Highlands",
+    "translations": {
+      "pt": "Planaltos do End"
+    },
+    "_manual": true
+  },
+  "End Midlands (icon)": {
+    "image": "https://i.imgur.com/bd62rVf.png",
+    "pageUrl": "https://minecraft.wiki/w/End_Midlands",
+    "translations": {
+      "pt": "Zona média do End"
+    },
+    "_manual": true
+  },
+  "Eroded Badlands (icon)": {
+    "image": "https://i.imgur.com/8aIrQM6.png",
+    "pageUrl": "https://minecraft.wiki/w/Eroded_Badlands",
+    "translations": {
+      "pt": "Terras áridas erodidas"
+    },
+    "_manual": true
+  },
+  "Flower Forest (icon)": {
+    "image": "https://i.imgur.com/Uv1zAXR.png",
+    "pageUrl": "https://minecraft.wiki/w/Flower_Forest",
+    "translations": {
+      "pt": "Floresta de flores",
+      "es": "Bosque floral"
+    },
+    "_manual": true
+  },
+  "Forest (icon)": {
+    "image": "https://i.imgur.com/v8pGoC7.png",
+    "pageUrl": "https://minecraft.wiki/w/Forest",
+    "translations": {
+      "pt": "Floresta",
+      "es": "Bosque"
+    },
+    "_manual": true
+  },
+  "Frozen Ocean (icon)": {
+    "image": "https://i.imgur.com/MXbARpg.png",
+    "pageUrl": "https://minecraft.wiki/w/Frozen_Ocean",
+    "translations": {
+      "pt": "Oceano congelado"
+    },
+    "_manual": true
+  },
+  "Frozen Peaks (icon)": {
+    "image": "https://i.imgur.com/R8V50GE.png",
+    "pageUrl": "https://minecraft.wiki/w/Frozen_Peaks",
+    "translations": {
+      "pt": "Picos congelados"
+    },
+    "_manual": true
+  },
+  "Frozen River (icon)": {
+    "image": "https://i.imgur.com/ctypjj8.png",
+    "pageUrl": "https://minecraft.wiki/w/Frozen_River",
+    "translations": {
+      "pt": "Rio congelado"
+    },
+    "_manual": true
+  },
+  "Deep Ocean (icon)": {
+    "image": "https://i.imgur.com/vVSsL81.png",
+    "pageUrl": "https://minecraft.wiki/w/Deep_Ocean",
+    "translations": {
+      "pt": "Oceano profundo"
+    },
+    "_manual": true
+  },
+  "Desert (icon)": {
+    "image": "https://i.imgur.com/QnugxCL.png",
+    "pageUrl": "https://minecraft.wiki/w/Desert",
+    "translations": {
+      "pt": "Deserto",
+      "es": "Desierto"
+    },
+    "_manual": true
+  },
+  "Dripstone Caves (icon)": {
+    "image": "https://i.imgur.com/XOE74OI.png",
+    "pageUrl": "https://minecraft.wiki/w/Dripstone_Caves",
+    "translations": {
+      "pt": "Cavernas de espeleotemas",
+      "es": "Cuevas kársticas"
+    },
+    "_manual": true
+  },
+  "Grove (icon)": {
+    "image": "https://i.imgur.com/yrQ9JEq.png",
+    "pageUrl": "https://minecraft.wiki/w/Grove",
+    "translations": {
+      "pt": "Bosque"
+    },
+    "_manual": true
+  },
+  "Ice Spikes (icon)": {
+    "image": "https://i.imgur.com/mTsRNhq.png",
+    "pageUrl": "https://minecraft.wiki/w/Ice_Spikes",
+    "translations": {
+      "pt": "Picos de gelo"
+    },
+    "_manual": true
+  },
+  "Jagged Peaks (icon)": {
+    "image": "https://i.imgur.com/RUfI7Se.png",
+    "pageUrl": "https://minecraft.wiki/w/Jagged_Peaks",
+    "translations": {
+      "pt": "Picos pontiagudos"
+    },
+    "_manual": true
+  },
+  "Lukewarm Ocean (icon)": {
+    "image": "https://i.imgur.com/HuYmXo6.png",
+    "pageUrl": "https://minecraft.wiki/w/Lukewarm_Ocean",
+    "translations": {
+      "pt": "Oceano morno"
+    },
+    "_manual": true
+  },
+  "Lush Caves (icon)": {
+    "image": "https://i.imgur.com/beYnBAT.png",
+    "pageUrl": "https://minecraft.wiki/w/Lush_Caves",
+    "translations": {
+      "pt": "Cavernas verdejantes",
+      "es": "Cuevas frondosas"
+    },
+    "_manual": true
+  },
+  "Mangrove (icon)": {
+    "image": "https://i.imgur.com/u1jeXU5.png",
+    "pageUrl": "https://minecraft.wiki/w/Mangrove",
+    "translations": {
+      "pt": "Mangue",
+      "es": "Mangle"
+    },
+    "_manual": true
+  },
+  "Meadow (icon)": {
+    "image": "https://i.imgur.com/WUc8lch.png",
+    "pageUrl": "https://minecraft.wiki/w/Meadow",
+    "translations": {
+      "pt": "Pradaria",
+      "es": "Prado"
+    },
+    "_manual": true
+  },
+  "Mushroom Fields (icon)": {
+    "image": "https://i.imgur.com/nMiHeM0.png",
+    "pageUrl": "https://minecraft.wiki/w/Mushroom_Fields",
+    "translations": {
+      "pt": "Campo de cogumelos",
+      "es": "Campo de champiñones"
+    },
+    "_manual": true
+  },
+  "Nether Wastes (icon)": {
+    "image": "https://i.imgur.com/GmlNWBW.png",
+    "pageUrl": "https://minecraft.wiki/w/Nether_Wastes",
+    "translations": {
+      "pt": "Ruínas do Nether",
+      "es": "Desiertos del Nether"
+    },
+    "_manual": true
+  },
+  "Ocean (icon)": {
+    "image": "https://i.imgur.com/jlnVS8e.png",
+    "pageUrl": "https://minecraft.wiki/w/Ocean",
+    "translations": {
+      "pt": "Oceano",
+      "es": "Océano"
+    },
+    "_manual": true
+  },
+  "Old Growth Birch Forest (icon)": {
+    "image": "https://i.imgur.com/6Evmjrw.png",
+    "pageUrl": "https://minecraft.wiki/w/Old_Growth_Birch_Forest",
+    "translations": {
+      "pt": "Floresta de bétulas antigas",
+      "es": "Abedular ancestral"
+    },
+    "_manual": true
+  },
+  "Old Growth Pine Taiga (icon)": {
+    "image": "https://i.imgur.com/I0npmfR.png",
+    "pageUrl": "https://minecraft.wiki/w/Old_Growth_Pine_Taiga",
+    "translations": {
+      "pt": "Taiga de pinheiros antigos",
+      "es": "Taiga ancestral"
+    },
+    "_manual": true
+  },
+  "Old Growth Spruce Taiga (icon)": {
+    "image": "https://i.imgur.com/0NKWEYa.png",
+    "pageUrl": "https://minecraft.wiki/w/Old_Growth_Spruce_Taiga",
+    "translations": {
+      "pt": "Taiga de abetos antigos"
+    },
+    "_manual": true
+  },
+  "Plains (icon)": {
+    "image": "https://i.imgur.com/PCwnsiy.png",
+    "pageUrl": "https://minecraft.wiki/w/Plains",
+    "translations": {
+      "pt": "Planície",
+      "es": "Llanura"
+    },
+    "_manual": true
+  },
+  "River (icon)": {
+    "image": "https://i.imgur.com/toG8EsB.png",
+    "pageUrl": "https://minecraft.wiki/w/River",
+    "translations": {
+      "pt": "Rio",
+      "es": "Río"
+    },
+    "_manual": true
+  },
+  "Savanna (icon)": {
+    "image": "https://i.imgur.com/8PPk6ld.png",
+    "pageUrl": "https://minecraft.wiki/w/Savanna",
+    "translations": {
+      "pt": "Savana",
+      "es": "Sabana"
+    },
+    "_manual": true
+  },
+  "Savanna Plateau (icon)": {
+    "image": "https://i.imgur.com/0KHeDM7.png",
+    "pageUrl": "https://minecraft.wiki/w/Savanna_Plateau",
+    "translations": {
+      "pt": "Planalto de savana",
+      "es": "Sabana#Meseta de sabana"
+    },
+    "_manual": true
+  },
+  "Small End Islands (icon)": {
+    "image": "https://i.imgur.com/evdlmYf.png",
+    "pageUrl": "https://minecraft.wiki/w/Small_End_Islands",
+    "translations": {
+      "pt": "Ilhas pequenas do End"
+    },
+    "_manual": true
+  },
+  "Snowy Beach (icon)": {
+    "image": "https://i.imgur.com/hDWAY5R.png",
+    "pageUrl": "https://minecraft.wiki/w/Snowy_Beach",
+    "translations": {
+      "pt": "Praia nevada"
+    },
+    "_manual": true
+  },
+  "Snowy Plains (icon)": {
+    "image": "https://i.imgur.com/1yR8X8s.png",
+    "pageUrl": "https://minecraft.wiki/w/Snowy_Plains",
+    "translations": {
+      "pt": "Planície nevada",
+      "es": "Llanura nevada"
+    },
+    "_manual": true
+  },
+  "Snowy Slopes (icon)": {
+    "image": "https://i.imgur.com/NmXsuP6.png",
+    "pageUrl": "https://minecraft.wiki/w/Snowy_Slopes",
+    "translations": {
+      "pt": "Encostas nevadas"
+    },
+    "_manual": true
+  },
+  "Snowy Taiga (icon)": {
+    "image": "https://i.imgur.com/S0pbgst.png",
+    "pageUrl": "https://minecraft.wiki/w/Snowy_Taiga",
+    "translations": {
+      "pt": "Taiga nevada",
+      "es": "Taiga nevada"
+    },
+    "_manual": true
+  },
+  "Soul Sand Valley (icon)": {
+    "image": "https://i.imgur.com/m0J8RnJ.png",
+    "pageUrl": "https://minecraft.wiki/w/Soul_Sand_Valley",
+    "translations": {
+      "pt": "Vale das almas",
+      "es": "Valle de almas"
+    },
+    "_manual": true
+  },
+  "Sparse Jungle (icon)": {
+    "image": "https://i.imgur.com/jvnzwZP.png",
+    "pageUrl": "https://minecraft.wiki/w/Sparse_Jungle",
+    "translations": {
+      "pt": "Margem de selva",
+      "es": "Jungla#Jungla dispersa"
+    },
+    "_manual": true
+  },
+  "Stony Shore (icon)": {
+    "image": "https://i.imgur.com/Gn9VY6W.png",
+    "pageUrl": "https://minecraft.wiki/w/Stony_Shore",
+    "translations": {
+      "pt": "Costa rochosa"
+    },
+    "_manual": true
+  },
+  "Sunflower Plains (icon)": {
+    "image": "https://i.imgur.com/9dkIwTB.png",
+    "pageUrl": "https://minecraft.wiki/w/Sunflower_Plains",
+    "translations": {
+      "pt": "Planície de girassóis"
+    },
+    "_manual": true
+  },
+  "Swamp (icon)": {
+    "image": "https://i.imgur.com/Y7i2ObS.png",
+    "pageUrl": "https://minecraft.wiki/w/Swamp",
+    "translations": {
+      "pt": "Pântano",
+      "es": "Pantano"
+    },
+    "_manual": true
+  },
+  "Taiga (icon)": {
+    "image": "https://i.imgur.com/VHQKu1p.png",
+    "pageUrl": "https://minecraft.wiki/w/Taiga",
+    "translations": {
+      "pt": "Taiga",
+      "es": "Taiga"
+    },
+    "_manual": true
+  },
+  "The End (biome) (icon)": {
+    "image": "https://i.imgur.com/YolltHB.png",
+    "pageUrl": "https://minecraft.wiki/w/The_End_(biome)",
+    "translations": {
+      "pt": "O End (bioma)",
+      "es": "El End (bioma)"
+    },
+    "_manual": true
+  },
+  "The Void (icon)": {
+    "image": "https://i.imgur.com/3vZf1ta.png",
+    "pageUrl": "https://minecraft.wiki/w/The_Void",
+    "translations": {
+      "pt": "O vazio",
+      "es": "El vacío"
+    },
+    "_manual": true
+  },
+  "Warm Ocean (icon)": {
+    "image": "https://i.imgur.com/waHzLCr.png",
+    "pageUrl": "https://minecraft.wiki/w/Warm_Ocean",
+    "translations": {
+      "pt": "Oceano quente"
+    },
+    "_manual": true
+  },
+  "Warped Forest (icon)": {
+    "image": "https://i.imgur.com/ntyVZcU.png",
+    "pageUrl": "https://minecraft.wiki/w/Warped_Forest",
+    "translations": {
+      "pt": "Floresta distorcida",
+      "es": "Bosque distorsionado"
+    },
+    "_manual": true
+  },
+  "Windswept Forest (icon)": {
+    "image": "https://i.imgur.com/k5XPyFO.png",
+    "pageUrl": "https://minecraft.wiki/w/Windswept_Forest",
+    "translations": {
+      "pt": "Floresta das ventanias"
+    },
+    "_manual": true
+  },
+  "Windswept Gravelly Hills (icon)": {
+    "image": "https://i.imgur.com/dpDE7D0.png",
+    "pageUrl": "https://minecraft.wiki/w/Windswept_Gravelly_Hills",
+    "translations": {
+      "pt": "Colinas de cascalho das ventanias"
+    },
+    "_manual": true
+  },
+  "Windswept Hills (icon)": {
+    "image": "https://i.imgur.com/gKWhOan.png",
+    "pageUrl": "https://minecraft.wiki/w/Windswept_Hills",
+    "translations": {
+      "pt": "Colinas das ventanias",
+      "es": "Colinas ventiscosas"
+    },
+    "_manual": true
+  },
+  "Windswept Savanna (icon)": {
+    "image": "https://i.imgur.com/aM7eV3m.png",
+    "pageUrl": "https://minecraft.wiki/w/Windswept_Savanna",
+    "translations": {
+      "pt": "Savana das ventanias",
+      "es": "Sabana#Sabana ventiscosa"
+    },
+    "_manual": true
+  },
+  "Wooded Badlands (icon)": {
+    "image": "https://i.imgur.com/JXHnMxS.png",
+    "pageUrl": "https://minecraft.wiki/w/Wooded_Badlands",
+    "translations": {
+      "pt": "Terras áridas florestadas"
+    },
+    "_manual": true
+  },
+  "Arboretum (icon)": {
+    "image": "https://i.imgur.com/nHkANwI.png",
+    "pageUrl": "https://minecraft.wiki/w/Arboretum",
+    "translations": {},
+    "_manual": true
+  },
+  "Badlands Plateau (icon)": {
+    "image": "https://i.imgur.com/ivUfyRq.png",
+    "pageUrl": "https://minecraft.wiki/w/Badlands_Plateau",
+    "translations": {
+      "pt": "Planalto de terras áridas"
+    },
+    "_manual": true
+  },
+  "Bamboo Jungle (icon)": {
+    "image": "https://i.imgur.com/OYZykMn.png",
+    "pageUrl": "https://minecraft.wiki/w/Bamboo_Jungle",
+    "translations": {
+      "pt": "Selva de bambu",
+      "es": "Jungla#Jungla de bambú"
+    },
+    "_manual": true
+  },
+  "Between (icon)": {
+    "image": "https://i.imgur.com/WAZ5W4B.png",
+    "pageUrl": "https://minecraft.wiki/w/Between",
+    "translations": {},
+    "_manual": true
+  },
+  "Biome For Player With No Time For Nonsense (icon)": {
+    "image": "https://i.imgur.com/1OAL63Y.png",
+    "pageUrl": "https://minecraft.wiki/w/Biome_For_Player_With_No_Time_For_Nonsense",
+    "translations": {
+      "pt": "Edição Java 20w14∞/Biome For Player With No Time For Nonsense"
+    },
+    "_manual": true
+  },
+  "Birch Forest Hills (icon)": {
+    "image": "https://i.imgur.com/0slaHsr.png",
+    "pageUrl": "https://minecraft.wiki/w/Birch_Forest_Hills",
+    "translations": {
+      "pt": "Colinas da floresta de bétulas"
+    },
+    "_manual": true
+  },
+  "Corruption (icon)": {
+    "image": "https://i.imgur.com/F26sg41.png",
+    "pageUrl": "https://minecraft.wiki/w/Corruption",
+    "translations": {},
+    "_manual": true
+  },
+  "Dark Forest Hills (icon)": {
+    "image": "https://i.imgur.com/WGqtwnG.png",
+    "pageUrl": "https://minecraft.wiki/w/Dark_Forest_Hills",
+    "translations": {
+      "pt": "Colinas da floresta escura"
+    },
+    "_manual": true
+  },
+  "Deep Warm Ocean (icon)": {
+    "image": "https://i.imgur.com/CMT1vY9.png",
+    "pageUrl": "https://minecraft.wiki/w/Deep_Warm_Ocean",
+    "translations": {
+      "es": "Océano cálido profundo"
+    },
+    "_manual": true
+  },
+  "Desert Hills (icon)": {
+    "image": "https://i.imgur.com/lU47qHu.png",
+    "pageUrl": "https://minecraft.wiki/w/Desert_Hills",
+    "translations": {
+      "pt": "Colinas do deserto"
+    },
+    "_manual": true
+  },
+  "Desert Lakes (icon)": {
+    "image": "https://i.imgur.com/evVfjUE.png",
+    "pageUrl": "https://minecraft.wiki/w/Desert_Lakes",
+    "translations": {},
+    "_manual": true
+  },
+  "Fields (icon)": {
+    "image": "https://i.imgur.com/x2JX5wv.png",
+    "pageUrl": "https://minecraft.wiki/w/Fields",
+    "translations": {},
+    "_manual": true
+  },
+  "Giant Spruce Taiga Hills (icon)": {
+    "image": "https://i.imgur.com/AtZcVoS.png",
+    "pageUrl": "https://minecraft.wiki/w/Giant_Spruce_Taiga_Hills",
+    "translations": {},
+    "_manual": true
+  },
+  "Giant Tree Taiga Hills (icon)": {
+    "image": "https://i.imgur.com/gLT2Ohh.png",
+    "pageUrl": "https://minecraft.wiki/w/Giant_Tree_Taiga_Hills",
+    "translations": {
+      "pt": "Colinas de taiga com árvores gigantes"
+    },
+    "_manual": true
+  },
+  "Gravelly Mountains+ (icon)": {
+    "image": "https://i.imgur.com/GagRSGS.png",
+    "pageUrl": "https://minecraft.wiki/w/Gravelly_Mountains%2B",
+    "translations": {
+      "pt": "Montanhas de cascalho+"
+    },
+    "_manual": true
+  },
+  "Hash (icon)": {
+    "image": "https://i.imgur.com/aSy9zxZ.png",
+    "pageUrl": "https://minecraft.wiki/w/Hash",
+    "translations": {},
+    "_manual": true
+  },
+  "Hub (icon)": {
+    "image": "https://i.imgur.com/5XOjeoL.png",
+    "pageUrl": "https://minecraft.wiki/w/Hub",
+    "translations": {},
+    "_manual": true
+  },
+  "Ice Desert (icon)": {
+    "image": "https://i.imgur.com/GEthcjp.png",
+    "pageUrl": "https://minecraft.wiki/w/Ice_Desert",
+    "translations": {
+      "pt": "Deserto de gelo",
+      "es": "Desierto de hielo"
+    },
+    "_manual": true
+  },
+  "Jungle Hills (icon)": {
+    "image": "https://i.imgur.com/QYeZ67B.png",
+    "pageUrl": "https://minecraft.wiki/w/Jungle_Hills",
+    "translations": {
+      "pt": "Colinas da selva"
+    },
+    "_manual": true
+  },
+  "Legacy Frozen Ocean (icon)": {
+    "image": "https://i.imgur.com/qLOHBf3.png",
+    "pageUrl": "https://minecraft.wiki/w/Legacy_Frozen_Ocean",
+    "translations": {
+      "pt": "Oceano congelado legado"
+    },
+    "_manual": true
+  },
+  "Modified Badlands Plateau (icon)": {
+    "image": "https://i.imgur.com/0Ubs7aK.png",
+    "pageUrl": "https://minecraft.wiki/w/Modified_Badlands_Plateau",
+    "translations": {
+      "pt": "Planalto de terras áridas (variante)"
+    },
+    "_manual": true
+  },
+  "Modified Jungle (icon)": {
+    "image": "https://i.imgur.com/ojF3vMP.png",
+    "pageUrl": "https://minecraft.wiki/w/Modified_Jungle",
+    "translations": {
+      "pt": "Selva (variante)"
+    },
+    "_manual": true
+  },
+  "Modified Jungle Edge (icon)": {
+    "image": "https://i.imgur.com/HewkhSK.png",
+    "pageUrl": "https://minecraft.wiki/w/Modified_Jungle_Edge",
+    "translations": {},
+    "_manual": true
+  },
+  "Modified Wooded Badlands Plateau (icon)": {
+    "image": "https://i.imgur.com/utrxhjd.png",
+    "pageUrl": "https://minecraft.wiki/w/Modified_Wooded_Badlands_Plateau",
+    "translations": {
+      "pt": "Planalto florestado de terras áridas (variante)"
+    },
+    "_manual": true
+  },
+  "Mountain Edge (icon)": {
+    "image": "https://i.imgur.com/cni3cy0.png",
+    "pageUrl": "https://minecraft.wiki/w/Mountain_Edge",
+    "translations": {
+      "pt": "Margem de montanha"
+    },
+    "_manual": true
+  },
+  "Mushroom Field Shore (icon)": {
+    "image": "https://i.imgur.com/cAmJZZS.png",
+    "pageUrl": "https://minecraft.wiki/w/Mushroom_Field_Shore",
+    "translations": {
+      "pt": "Costa do Campo de Cogumelos"
+    },
+    "_manual": true
+  },
+  "Rainforest (icon)": {
+    "image": "https://i.imgur.com/y4npnIi.png",
+    "pageUrl": "https://minecraft.wiki/w/Rainforest",
+    "translations": {
+      "pt": "Floresta tropical",
+      "es": "Bosque lluvioso"
+    },
+    "_manual": true
+  },
+  "Seasonal Forest (icon)": {
+    "image": "https://i.imgur.com/9LgvUe9.png",
+    "pageUrl": "https://minecraft.wiki/w/Seasonal_Forest",
+    "translations": {
+      "pt": "Floresta sazonal",
+      "es": "Bosque estacional"
+    },
+    "_manual": true
+  },
+  "Shapes (icon)": {
+    "image": "https://i.imgur.com/hvkMXtR.png",
+    "pageUrl": "https://minecraft.wiki/w/Shapes",
+    "translations": {
+      "pt": "Formas",
+      "es": "Formas"
+    },
+    "_manual": true
+  },
+  "Shattered Savanna Plateau (icon)": {
+    "image": "https://i.imgur.com/hSBNuDk.png",
+    "pageUrl": "https://minecraft.wiki/w/Shattered_Savanna_Plateau",
+    "translations": {
+      "pt": "Planalto de savana acidentada"
+    },
+    "_manual": true
+  },
+  "Shrubland (icon)": {
+    "image": "https://i.imgur.com/6j51fjE.png",
+    "pageUrl": "https://minecraft.wiki/w/Shrubland",
+    "translations": {
+      "pt": "Shrubland",
+      "es": "Matorral"
+    },
+    "_manual": true
+  },
+  "Sky (icon)": {
+    "image": "https://i.imgur.com/DztUKhe.png",
+    "pageUrl": "https://minecraft.wiki/w/Sky",
+    "translations": {
+      "pt": "Céu",
+      "es": "Cielo"
+    },
+    "_manual": true
+  },
+  "Snowy Mountains (icon)": {
+    "image": "https://i.imgur.com/1bbh6qj.png",
+    "pageUrl": "https://minecraft.wiki/w/Snowy_Mountains",
+    "translations": {
+      "pt": "Montanhas nevadas"
+    },
+    "_manual": true
+  },
+  "Snowy Taiga Hills (icon)": {
+    "image": "https://i.imgur.com/B9de50r.png",
+    "pageUrl": "https://minecraft.wiki/w/Snowy_Taiga_Hills",
+    "translations": {},
+    "_manual": true
+  },
+  "Snowy Taiga Mountains": {
+    "image": "https://minecraft.wiki/images/thumb/Snowy_Taiga_Mountains.png/1000px-Snowy_Taiga_Mountains.png",
+    "pageUrl": "https://minecraft.wiki/w/Snowy_Taiga_Mountains",
+    "translations": {
+      "pt": "Montanhas de taiga nevada"
+    },
+    "_manual": true
+  },
+  "Snowy Taiga Mountains (icon)": {
+    "image": "https://i.imgur.com/BVNTyI8.png",
+    "pageUrl": "https://minecraft.wiki/w/Snowy_Taiga_Mountains",
+    "translations": {
+      "pt": "Montanhas de taiga nevada"
+    },
+    "_manual": true
+  },
+  "Swamp Hills (icon)": {
+    "image": "https://i.imgur.com/sND4BSz.png",
+    "pageUrl": "https://minecraft.wiki/w/Swamp_Hills",
+    "translations": {
+      "pt": "Colinas do pântano"
+    },
+    "_manual": true
+  },
+  "Taiga Hills (icon)": {
+    "image": "https://i.imgur.com/GopuNfj.png",
+    "pageUrl": "https://minecraft.wiki/w/Taiga_Hills",
+    "translations": {
+      "pt": "Colinas de taiga"
+    },
+    "_manual": true
+  },
+  "Taiga Mountains (icon)": {
+    "image": "https://i.imgur.com/szX9Z4Y.png",
+    "pageUrl": "https://minecraft.wiki/w/Taiga_Mountains",
+    "translations": {
+      "pt": "Montanhas de taiga"
+    },
+    "_manual": true
+  },
+  "Tall Birch Hills (icon)": {
+    "image": "https://i.imgur.com/224saUB.png",
+    "pageUrl": "https://minecraft.wiki/w/Tall_Birch_Hills",
+    "translations": {
+      "pt": "Colinas de bétulas altas"
+    },
+    "_manual": true
+  },
+  "The Moon (icon)": {
+    "image": "https://i.imgur.com/6fmra89.png",
+    "pageUrl": "https://minecraft.wiki/w/The_Moon",
+    "translations": {
+      "pt": "Edição Java 23w13a or b/The Moon"
+    },
+    "_manual": true
+  },
+  "Tundra (icon)": {
+    "image": "https://i.imgur.com/usTMq9J.png",
+    "pageUrl": "https://minecraft.wiki/w/Tundra",
+    "translations": {
+      "pt": "Tundra",
+      "es": "Tundra"
+    },
+    "_manual": true
+  },
+  "Wasteland (icon)": {
+    "image": "https://i.imgur.com/2pxu77B.png",
+    "pageUrl": "https://minecraft.wiki/w/Wasteland",
+    "translations": {},
+    "_manual": true
+  },
+  "Wooded Hills (icon)": {
+    "image": "https://i.imgur.com/YJOZo0U.png",
+    "pageUrl": "https://minecraft.wiki/w/Wooded_Hills",
+    "translations": {
+      "pt": "Colinas florestadas"
+    },
+    "_manual": true
+  },
+  "Cherry Grove (icon)": {
+    "image": "https://i.imgur.com/OUJUHZ3.png",
+    "pageUrl": "https://minecraft.wiki/w/Cherry_Grove",
+    "translations": {
+      "pt": "Cerejal",
+      "es": "Cerezal"
+    },
+    "_manual": true
+  },
+  "Dappled Forest (icon)": {
+    "image": "https://i.imgur.com/Uf1sJcB.png",
+    "pageUrl": "https://minecraft.wiki/w/Dappled_Forest",
+    "translations": {
+      "pt": "Floresta salpicada",
+      "es": "Bosque moteado"
+    },
+    "_manual": true
+  },
+  "Pale Garden (icon)": {
+    "image": "https://i.imgur.com/xvjMW41.png",
+    "pageUrl": "https://minecraft.wiki/w/Pale_Garden",
+    "translations": {
+      "pt": "Jardim pálido",
+      "es": "Jardín pálido"
+    },
+    "_manual": true
+  },
+  "Sulfur Caves (icon)": {
+    "image": "https://i.imgur.com/xo99k07.png",
+    "pageUrl": "https://minecraft.wiki/w/Sulfur_Caves",
+    "translations": {
+      "pt": "Cavernas de enxofre",
+      "es": "Cuevas de azufre"
+    },
+    "_manual": true
+  },
+  "Stony Peaks (icon)": {
+    "image": "https://i.imgur.com/Mr476jb.png",
+    "pageUrl": "https://minecraft.wiki/w/Stony_Peaks",
+    "translations": {
+      "pt": "Picos rochosos"
     },
     "_manual": true
   }
