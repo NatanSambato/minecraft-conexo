@@ -6,6 +6,8 @@ export function wasOverhauled(puzzleId: number): boolean {
 }
 
 export function puzzleContentMatches(puzzle: Puzzle, savedLabels: string[]): boolean {
+    if (!savedLabels) return false;
+
     const currentItems = puzzle.groups.flatMap((g) => g.items).sort();
     const savedItems = [...savedLabels].sort();
 
