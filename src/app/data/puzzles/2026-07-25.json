@@ -31,9 +31,9 @@
       "correlation": "Mobs that flee from other mobs",
       "items": [
         "Villager",
+        "Skeleton",
         "Creeper",
-        "Phantom",
-        "Hoglin"
+        "Phantom"
       ]
     },
     {
