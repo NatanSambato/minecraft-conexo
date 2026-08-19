@@ -1,0 +1,51 @@
+{
+  "id": 67,
+  "date": "2026-08-20",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Bucketable Mobs",
+      "items": [
+        "Salmon",
+        "Tropical Fish",
+        "Tadpole",
+        "Sulfur Cube"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Mobs with Swords",
+      "items": [
+        "Zombified Piglin",
+        "Piglin",
+        "Wither Skeleton",
+        "Vex"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Neutral Mobs",
+      "items": [
+        "Iron Golem",
+        "Bee",
+        "Wolf",
+        "Llama"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Mobs with Persistence",
+      "items": [
+        "Happy Ghast",
+        "Villager",
+        "Ender Dragon",
+        "Shulker"
+      ]
+    }
+  ]
+}
