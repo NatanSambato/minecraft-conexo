@@ -23,7 +23,7 @@
     },
     {
       "id": 4,
-      "correlation": "Jockeys",
+      "correlation": "Jockey Variants",
       "color": "purple",
       "items": ["Spider", "Chicken", "Nautilus", "Ravager"]
     }
