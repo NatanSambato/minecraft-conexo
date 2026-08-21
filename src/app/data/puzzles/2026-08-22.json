@@ -1,0 +1,51 @@
+{
+  "id": 69,
+  "date": "2026-08-22",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Bricks",
+      "items": [
+        "Stone Bricks",
+        "Tuff Bricks",
+        "Nether Bricks",
+        "Resin Bricks"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Monster Room Blocks",
+      "items": [
+        "Mossy Cobblestone",
+        "Monster Spawner",
+        "Chest",
+        "Cobblestone"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Axis-Orientable Blocks",
+      "items": [
+        "Oak Log",
+        "Hay Bale",
+        "Bone Block",
+        "Quartz Pillar"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Blocks not destroyed by the Ender Dragon",
+      "items": [
+        "End Portal Frame",
+        "End Stone",
+        "Obsidian",
+        "Iron Bars"
+      ]
+    }
+  ]
+}
