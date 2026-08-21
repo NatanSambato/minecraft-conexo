@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3764,
+    "totalEntries": 3766,
     "languages": [
       "pt",
       "es"
@@ -26196,6 +26196,24 @@
     "pageUrl": "https://minecraft.wiki/w/Stony_Peaks",
     "translations": {
       "pt": "Picos rochosos"
+    },
+    "_manual": true
+  },
+  "Campfire (unlit)": {
+    "image": "https://minecraft.wiki/images/Unlit_Campfire_%28S%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Campfire",
+    "translations": {
+      "pt": "Fogueira",
+      "es": "Hoguera"
+    },
+    "_manual": true
+  },
+  "Nether Portal (unlit)": {
+    "image": "https://i.imgur.com/XzCwsEO.png",
+    "pageUrl": "https://minecraft.wiki/w/Nether_Portal",
+    "translations": {
+      "pt": "Portal do Nether",
+      "es": "Portal del Nether"
     },
     "_manual": true
   }

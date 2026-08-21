@@ -1,0 +1,51 @@
+{
+  "id": 68,
+  "date": "2026-08-21",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Can be Ignited by Flint and Steel",
+      "items": [
+        "TNT",
+        "Nether Portal (unlit)",
+        "Campfire (unlit)",
+        "Creeper"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Brewing Ingredients",
+      "items": [
+        "Golden Carrot",
+        "Magma Cream",
+        "Ghast Tear",
+        "Sugar"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Crafted with Nether Quartz",
+      "items": [
+        "Block of Quartz",
+        "Observer",
+        "Redstone Comparator",
+        "Diorite"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Cat Gifts",
+      "items": [
+        "Feather",
+        "String",
+        "Raw Chicken",
+        "Rabbit Hide"
+      ]
+    }
+  ]
+}
