@@ -7,13 +7,23 @@
       "id": 1,
       "correlation": "Spider Related",
       "color": "yellow",
-      "items": ["Spider Eye", "Fermented Spider Eye", "Spider Jockey", "Cobweb"]
+      "items": [
+        "Spider Eye",
+        "Fermented Spider Eye",
+        "Spider Jockey",
+        "Cobweb"
+      ]
     },
     {
       "id": 2,
       "correlation": "Arthropods",
       "color": "green",
-      "items": ["Bee", "Cave Spider", "Silverfish", "Endermite"]
+      "items": [
+        "Bee",
+        "Cave Spider",
+        "Silverfish",
+        "Endermite"
+      ]
     },
     {
       "id": 3,
@@ -22,7 +32,7 @@
       "items": [
         "Honeycomb Block",
         "Beehive",
-        "Candle",
+        "Candle (item)",
         "Waxed Weathered Chiseled Copper"
       ]
     },
@@ -30,7 +40,12 @@
       "id": 4,
       "correlation": "Apply an Effect",
       "color": "purple",
-      "items": ["Elder Guardian", "Shulker", "Husk", "Wither Rose"]
+      "items": [
+        "Elder Guardian",
+        "Shulker",
+        "Husk",
+        "Wither Rose"
+      ]
     }
   ]
 }
