@@ -1,0 +1,51 @@
+{
+  "id": 38,
+  "date": "2026-08-24",
+  "author": "mrcyberhumano",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "2017 Mob Vote",
+      "items": [
+        "Barnacle",
+        "The Great Hunger",
+        "Wildfire (Dungeons)",
+        "Phantom"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Ranged Illagers",
+      "items": [
+        "Evoker",
+        "Pillager",
+        "Illusioner",
+        "Iceologer"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Naturally generated Spawner Variants",
+      "items": [
+        "Blaze",
+        "Silverfish",
+        "Cave Spider",
+        "Skeleton"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Mobs that can Grief",
+      "items": [
+        "Creeper",
+        "Enderman",
+        "Ghast",
+        "Rabbit"
+      ]
+    }
+  ]
+}

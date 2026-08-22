@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3766,
+    "totalEntries": 3773,
     "languages": [
       "pt",
       "es"
@@ -4290,12 +4290,13 @@
     }
   },
   "Amethyst Cluster": {
-    "image": "https://minecraft.wiki/images/Small_Amethyst_Bud_(U)_JE1_BE2.png",
+    "image": "https://minecraft.wiki/images/Amethyst_Cluster_%28U%29_JE1_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Amethyst_Cluster",
     "translations": {
-      "es": "Cúmulo de amatista",
-      "pt": "Agregado de Ametista"
-    }
+      "pt": "Agregado de Ametista",
+      "es": "Cúmulo de amatista"
+    },
+    "_manual": true
   },
   "Paintings.png-atlas": {
     "image": "https://minecraft.wiki/images/25w44a_paintings.png-atlas.png",
@@ -26214,6 +26215,69 @@
     "translations": {
       "pt": "Portal do Nether",
       "es": "Portal del Nether"
+    },
+    "_manual": true
+  },
+  "Amethyst Cluster (small)": {
+    "image": "https://minecraft.wiki/images/Small_Amethyst_Bud_(U)_JE1_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Amethyst_Cluster",
+    "translations": {
+      "pt": "Agregado de Ametista",
+      "es": "Cúmulo de amatista"
+    },
+    "_manual": true
+  },
+  "Dragon Fireball": {
+    "image": "https://minecraft.wiki/images/Dragon_Fireball_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Ender_Dragon#Dragon_Fireball",
+    "translations": {
+      "pt": "Bola de Fogo do Dragão",
+      "es": "Bola de fuego de dragón"
+    },
+    "_manual": true
+  },
+  "Wither Skull (dangerous)": {
+    "image": "https://minecraft.wiki/images/Dangerous_Wither_Skull.png",
+    "pageUrl": "https://minecraft.wiki/w/Wither#Wither_Skull",
+    "translations": {
+      "pt": "Crânio de Wither",
+      "es": "Calavera del Wither"
+    },
+    "_manual": true
+  },
+  "Wither Skull": {
+    "image": "https://minecraft.wiki/images/Wither_Skull_JE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Wither#Wither_Skull",
+    "translations": {
+      "pt": "Crânio do Wither",
+      "es": "Calavera del Wither"
+    },
+    "_manual": true
+  },
+  "Wooden Button (item)": {
+    "image": "https://minecraft.wiki/images/Invicon_Oak_Button.png",
+    "pageUrl": "https://minecraft.wiki/w/Wooden_Button",
+    "translations": {
+      "pt": "Botão de madeira",
+      "es": "Botón de madera"
+    },
+    "_manual": true
+  },
+  "Black Bed (item)": {
+    "image": "https://i.imgur.com/tQQMIpm.png",
+    "pageUrl": "https://minecraft.wiki/w/Bed",
+    "translations": {
+      "pt": "Cama Preta",
+      "es": "Cama Negra"
+    },
+    "_manual": true
+  },
+  "Black Bed (item) (bedrock)": {
+    "image": "https://minecraft.wiki/images/Black_Bed_%28item%29_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Bed",
+    "translations": {
+      "pt": "Cama Preta",
+      "es": "Cama Negra"
     },
     "_manual": true
   }

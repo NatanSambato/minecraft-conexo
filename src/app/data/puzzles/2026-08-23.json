@@ -1,0 +1,51 @@
+{
+  "id": 71,
+  "date": "2026-08-23",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Made with Pumpkin",
+      "items": [
+        "Carved Pumpkin",
+        "Pumpkin Pie",
+        "Pumpkin Seeds",
+        "Love Golem"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Mob Projectiles",
+      "items": [
+        "Fireball",
+        "Dragon Fireball",
+        "Wither Skull (dangerous)",
+        "Llama Spit"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Crafted with Black Dye",
+      "items": [
+        "Black Bed (item)",
+        "Gray Dye",
+        "Black Terracotta",
+        "Dark Prismarine"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Hoglin Fleeing Interactions",
+      "items": [
+        "Warped Fungus",
+        "Piglin",
+        "Nether Portal",
+        "Respawn Anchor"
+      ]
+    }
+  ]
+}
