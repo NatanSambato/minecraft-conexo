@@ -1,50 +1,50 @@
 {
-  "id": 70,
+  "id": 73,
   "date": "2026-08-25",
-  "author": "mrcyberhumano",
+  "author": "Natowski",
   "groups": [
     {
       "id": 1,
       "color": "yellow",
-      "correlation": "Metals/Alloys",
+      "correlation": "Found in Pale Garden",
       "items": [
-        "Iron Ingot",
-        "Gold Ingot",
-        "Copper Ingot",
-        "Netherite Ingot"
+        "Pale Oak",
+        "Creaking",
+        "Eyeblossom (open)",
+        "Woodland Mansion"
       ]
     },
     {
       "id": 2,
       "color": "green",
-      "correlation": "Kinds of Glass",
+      "correlation": "Made with Pale Oak Log",
       "items": [
-        "Glass",
-        "Tinted Glass",
-        "Blue Stained Glass",
-        "Obsidian"
+        "Stripped Pale Oak Log",
+        "Pale Oak Planks",
+        "Campfire (item)",
+        "Smoker"
       ]
     },
     {
       "id": 3,
       "color": "blue",
-      "correlation": "Crystals",
+      "correlation": "Added in The Wild Update",
       "items": [
-        "Nether Quartz",
-        "Amethyst Cluster",
-        "Emerald",
-        "Diamond"
+        "Mangrove Swamp (icon)",
+        "Deep Dark (icon)",
+        "Allay",
+        "Goat Horn"
       ]
     },
     {
       "id": 4,
       "color": "purple",
-      "correlation": "Non-Metallic Minerals",
+      "correlation": "Items that had their recipe changed",
       "items": [
-        "Cinnabar",
-        "Sulfur",
-        "Calcite",
-        "Coal"
+        "Lead",
+        "Lodestone",
+        "Bundle",
+        "Golden Apple"
       ]
     }
   ]

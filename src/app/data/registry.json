@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3773,
+    "totalEntries": 3775,
     "languages": [
       "pt",
       "es"
@@ -21807,8 +21807,9 @@
   },
   "Stripped Pale Oak Log": {
     "image": "https://minecraft.wiki/images/Stripped_Pale_Oak_Log_%28UD%29_JE1_BE2.png?8fa4b",
-    "pageUrl": null,
-    "translations": {}
+    "pageUrl": "https://minecraft.wiki/w/Stripped_Log",
+    "translations": {},
+    "_manual": true
   },
   "Stripped Crimson Stem": {
     "image": "https://minecraft.wiki/images/Stripped_Crimson_Stem_%28UD%29_JE2_BE1.png?e94e8",
@@ -25540,15 +25541,6 @@
     },
     "_manual": true
   },
-  "Mangrove (icon)": {
-    "image": "https://i.imgur.com/u1jeXU5.png",
-    "pageUrl": "https://minecraft.wiki/w/Mangrove",
-    "translations": {
-      "pt": "Mangue",
-      "es": "Mangle"
-    },
-    "_manual": true
-  },
   "Meadow (icon)": {
     "image": "https://i.imgur.com/WUc8lch.png",
     "pageUrl": "https://minecraft.wiki/w/Meadow",
@@ -26278,6 +26270,33 @@
     "translations": {
       "pt": "Cama Preta",
       "es": "Cama Negra"
+    },
+    "_manual": true
+  },
+  "Eyeblossom (open)": {
+    "image": "https://minecraft.wiki/images/Open_Eyeblossom_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Eyeblossom",
+    "translations": {
+      "pt": "Olhoquídea",
+      "es": "Miraflor"
+    },
+    "_manual": true
+  },
+  "Mangrove Swamp (icon)": {
+    "image": "https://i.imgur.com/u1jeXU5.png",
+    "pageUrl": "https://minecraft.wiki/w/Mangrove_Swamp",
+    "translations": {
+      "pt": "Manguezal",
+      "es": "Pantano"
+    },
+    "_manual": true
+  },
+  "Campfire (item)": {
+    "image": "https://minecraft.wiki/images/Campfire_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Campfire",
+    "translations": {
+      "pt": "Fogueira",
+      "es": "Hoguera"
     },
     "_manual": true
   }
