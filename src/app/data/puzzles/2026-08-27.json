@@ -1,0 +1,51 @@
+{
+  "id": 74,
+  "date": "2026-08-27",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Rabbit Drops",
+      "items": [
+        "Rabbit Hide",
+        "Rabbit's Foot",
+        "Raw Rabbit",
+        "Cooked Rabbit"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Fruits",
+      "items": [
+        "Apple",
+        "Melon Slice",
+        "Sweet Berries",
+        "Chorus Fruit"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Harvested from Animals",
+      "items": [
+        "White Wool",
+        "Milk Bucket",
+        "Armadillo Scute",
+        "Egg"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Usable Items on a Mooshroom",
+      "items": [
+        "Wheat",
+        "Bucket",
+        "Bowl",
+        "Shears"
+      ]
+    }
+  ]
+}
