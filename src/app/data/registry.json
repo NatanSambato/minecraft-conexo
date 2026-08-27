@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3775,
+    "totalEntries": 3785,
     "languages": [
       "pt",
       "es"
@@ -26297,6 +26297,96 @@
     "translations": {
       "pt": "Fogueira",
       "es": "Hoguera"
+    },
+    "_manual": true
+  },
+  "Rusty Wolf": {
+    "image": "https://minecraft.wiki/images/Rusty_Wolf_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Wolf",
+    "translations": {
+      "pt": "Lobo Alaranjado",
+      "es": "Lobo Oxidado"
+    },
+    "_manual": true
+  },
+  "Frog (warm)": {
+    "image": "https://minecraft.wiki/images/Warm_Frog_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Frog",
+    "translations": {
+      "pt": "Sapo",
+      "es": "Rana"
+    },
+    "_manual": true
+  },
+  "Frog (cold)": {
+    "image": "https://minecraft.wiki/images/Cold_Frog_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Frog",
+    "translations": {
+      "pt": "Sapo",
+      "es": "Rana"
+    },
+    "_manual": true
+  },
+  "Cow (warm)": {
+    "image": "https://minecraft.wiki/images/Warm_Cow_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cow",
+    "translations": {
+      "pt": "Vaca",
+      "es": "Vaca"
+    },
+    "_manual": true
+  },
+  "Cow (cold)": {
+    "image": "https://minecraft.wiki/images/Cold_Cow_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Cow",
+    "translations": {
+      "pt": "Vaca",
+      "es": "Vaca"
+    },
+    "_manual": true
+  },
+  "Chicken (warm)": {
+    "image": "https://minecraft.wiki/images/Warm_Chicken_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Chicken",
+    "translations": {
+      "pt": "Galinha",
+      "es": "Pollo"
+    },
+    "_manual": true
+  },
+  "Chicken (cold)": {
+    "image": "https://minecraft.wiki/images/Cold_Chicken_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Chicken",
+    "translations": {
+      "pt": "Galinha",
+      "es": "Pollo"
+    },
+    "_manual": true
+  },
+  "Pig (cold)": {
+    "image": "https://minecraft.wiki/images/Cold_Pig_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pig",
+    "translations": {
+      "pt": "Porco",
+      "es": "Cerdo"
+    },
+    "_manual": true
+  },
+  "Pig (warm)": {
+    "image": "https://minecraft.wiki/images/Warm_Pig_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pig",
+    "translations": {
+      "pt": "Porco",
+      "es": "Cerdo"
+    },
+    "_manual": true
+  },
+  "Malgosha": {
+    "image": "https://minecraft.wiki/images/Malgosha_Render_AMCM.png",
+    "pageUrl": "https://minecraft.wiki/w/Movie:Malgosha",
+    "translations": {
+      "pt": "Malgosha",
+      "es": "Malgosha"
     },
     "_manual": true
   }
