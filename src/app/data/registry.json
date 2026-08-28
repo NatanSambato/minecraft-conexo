@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3785,
+    "totalEntries": 3787,
     "languages": [
       "pt",
       "es"
@@ -26387,6 +26387,24 @@
     "translations": {
       "pt": "Malgosha",
       "es": "Malgosha"
+    },
+    "_manual": true
+  },
+  "Splash Potion of Healing": {
+    "image": "https://minecraft.wiki/images/Splash_Potion_of_Healing_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Potion_of_Healing",
+    "translations": {
+      "pt": "Poção Arremessável de Cura",
+      "es": "Poción de curación arrojadiza"
+    },
+    "_manual": true
+  },
+  "Iron Spear (item)": {
+    "image": "https://minecraft.wiki/images/Iron_Spear_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Iron_Spear",
+    "translations": {
+      "pt": "Lança de Ferro",
+      "es": "Lanza de hierro"
     },
     "_manual": true
   }

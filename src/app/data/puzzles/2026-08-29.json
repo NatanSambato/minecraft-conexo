@@ -1,0 +1,51 @@
+{
+  "id": 76,
+  "date": "2026-08-29",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Tools",
+      "items": [
+        "Diamond Pickaxe",
+        "Golden Hoe",
+        "Copper Shovel",
+        "Shears"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Melee Weapons",
+      "items": [
+        "Netherite Sword",
+        "Iron Spear (item)",
+        "Mace",
+        "Stone Axe"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Ranged Weapons",
+      "items": [
+        "Bow",
+        "Crossbow",
+        "Trident (item)",
+        "Fire Wand"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Types of PvP",
+      "items": [
+        "End Crystal (item)",
+        "Minecart with TNT",
+        "Splash Potion of Healing",
+        "Mushroom Stew"
+      ]
+    }
+  ]
+}

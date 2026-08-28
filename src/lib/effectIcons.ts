@@ -44,7 +44,7 @@ export const EFFECT_ICON: Record<string, string | null> = {
 
 export function getEffectIcon(itemLabel: string): string | null {
   // Matches 'Potion of Night Vision' and 'Arrow of Night Vision'
-  const match = itemLabel.match(/^(?:Potion|Arrow) of (.+)$/);
+  const match = itemLabel.match(/^(?:Potion|Arrow|Splash Potion|Lingering Potion) of (.+)$/);
   if (!match) return null;
 
   const registryKey = EFFECT_ICON[match[1]];
