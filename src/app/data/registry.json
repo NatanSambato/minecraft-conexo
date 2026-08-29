@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3787,
+    "totalEntries": 3788,
     "languages": [
       "pt",
       "es"
@@ -26405,6 +26405,15 @@
     "translations": {
       "pt": "Lança de Ferro",
       "es": "Lanza de hierro"
+    },
+    "_manual": true
+  },
+  "Waxed Oxidized Copper Grate": {
+    "image": "https://minecraft.wiki/images/Oxidized_Copper_Grate_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Copper_Grate",
+    "translations": {
+      "pt": "Grade de Cobre Oxidado Encerado",
+      "es": "Rejilla de cobre oxidado encerado"
     },
     "_manual": true
   }

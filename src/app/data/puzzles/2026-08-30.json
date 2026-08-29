@@ -1,0 +1,51 @@
+{
+  "id": 77,
+  "date": "2026-08-30",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Trial Chamber Blocks",
+      "items": [
+        "Ominous Trial Spawner",
+        "Cut Copper",
+        "Waxed Oxidized Copper Grate",
+        "Chiseled Tuff Bricks"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Smooth Block Variants",
+      "items": [
+        "Smooth Stone",
+        "Smooth Sandstone",
+        "Smooth Red Sandstone",
+        "Smooth Quartz Block"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Blocks with a GUI",
+      "items": [
+        "Crafting Table",
+        "Smithing Table",
+        "Command Block",
+        "Copper Chest"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Blocks that reduce Fall Damage",
+      "items": [
+        "Magenta Bed",
+        "Hay Bale",
+        "Honey Block",
+        "Lava"
+      ]
+    }
+  ]
+}
