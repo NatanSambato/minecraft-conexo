@@ -1,0 +1,51 @@
+{
+  "id": 78,
+  "date": "2026-08-31",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Zombie Variants",
+      "items": [
+        "Zombie",
+        "Husk",
+        "Drowned",
+        "Poisonous Potato Zombie"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Unused Entities",
+      "items": [
+        "Giant",
+        "The Killer Bunny",
+        "Illusioner",
+        "Minecart with Monster Spawner"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Mobs with an Inventory",
+      "items": [
+        "Donkey (chested)",
+        "Villager",
+        "Piglin",
+        "Allay"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Teleporting Mobs",
+      "items": [
+        "Enderman",
+        "Shulker",
+        "Red Parrot",
+        "Pale Wolf (tamed)"
+      ]
+    }
+  ]
+}

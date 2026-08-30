@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3788,
+    "totalEntries": 3791,
     "languages": [
       "pt",
       "es"
@@ -26414,6 +26414,33 @@
     "translations": {
       "pt": "Grade de Cobre Oxidado Encerado",
       "es": "Rejilla de cobre oxidado encerado"
+    },
+    "_manual": true
+  },
+  "The Killer Bunny": {
+    "image": "https://minecraft.wiki/images/The_Killer_Bunny_JE6.png",
+    "pageUrl": "https://minecraft.wiki/w/Rabbit",
+    "translations": {
+      "pt": "Coelho Assassino",
+      "es": "Conejo asesino"
+    },
+    "_manual": true
+  },
+  "Donkey (chested)": {
+    "image": "https://minecraft.wiki/images/Chested_Donkey_JE5.png",
+    "pageUrl": "https://minecraft.wiki/w/Donkey",
+    "translations": {
+      "pt": "Burro",
+      "es": "Burro"
+    },
+    "_manual": true
+  },
+  "Pale Wolf (tamed)": {
+    "image": "https://minecraft.wiki/images/Tamed_Wolf_with_Red_Collar_JE3_BE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Wolf",
+    "translations": {
+      "pt": "Lobo Pálido",
+      "es": "Lobo pálido"
     },
     "_manual": true
   }
