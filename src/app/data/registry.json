@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3791,
+    "totalEntries": 3799,
     "languages": [
       "pt",
       "es"
@@ -1750,8 +1750,10 @@
     "image": "https://minecraft.wiki/images/Iron_Horse_Armor_JE5_BE3.png",
     "pageUrl": "https://minecraft.wiki/w/Iron_Horse_Armor",
     "translations": {
-      "pt": "Armadura de ferro para cavalo"
-    }
+      "pt": "Armadura de ferro para cavalo",
+      "es": "Armadura de hierro para caballo"
+    },
+    "_manual": true
   },
   "Lingering Potion": {
     "image": "https://minecraft.wiki/images/Lingering_Water_Bottle_JE2.png",
@@ -1906,8 +1908,10 @@
     "image": "https://minecraft.wiki/images/Iron_Nautilus_Armor_JE1_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Iron_Nautilus_Armor",
     "translations": {
-      "pt": "Armadura de Ferro para Náutilo"
-    }
+      "pt": "Armadura de Ferro para Náutilo",
+      "es": "Armadura de hierro para nautilo"
+    },
+    "_manual": true
   },
   "Highlight": {
     "image": "https://minecraft.wiki/images/Highlight_Action.png",
@@ -24665,7 +24669,7 @@
     "pageUrl": "https://minecraft.wiki/w/Copper_Nautilus_Armor",
     "translations": {
       "pt": "Armadura de Cobre para Náutilo",
-      "es": "Armadura para de cobre para nautilo"
+      "es": "Armadura de cobre para nautilo"
     },
     "_manual": true
   },
@@ -26441,6 +26445,78 @@
     "translations": {
       "pt": "Lobo Pálido",
       "es": "Lobo pálido"
+    },
+    "_manual": true
+  },
+  "Redstone Comparator (item)": {
+    "image": "https://minecraft.wiki/images/Redstone_Comparator_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Redstone_Comparator",
+    "translations": {
+      "pt": "Comparador de Redstone",
+      "es": "Comparador de redstone"
+    },
+    "_manual": true
+  },
+  "Redstone Repeater (item)": {
+    "image": "https://minecraft.wiki/images/Redstone_Repeater_%28item%29_JE3_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Redstone_Repeater",
+    "translations": {
+      "pt": "Repetidor de Redstone",
+      "es": "Repetidor de redstone"
+    },
+    "_manual": true
+  },
+  "Iron Horse Armor (item)": {
+    "image": "https://minecraft.wiki/images/Iron_Horse_Armor_%28item%29_JE4_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Iron_Horse_Armor",
+    "translations": {
+      "pt": "Armadura de ferro para cavalo",
+      "es": "Armadura de hierro para caballo"
+    },
+    "_manual": true
+  },
+  "Iron Nautilus Armor (item)": {
+    "image": "https://minecraft.wiki/images/Iron_Nautilus_Armor_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Iron_Nautilus_Armor",
+    "translations": {
+      "pt": "Armadura de Ferro para Náutilo",
+      "es": "Armadura de hierro para nautilo"
+    },
+    "_manual": true
+  },
+  "Lantern (item)": {
+    "image": "https://minecraft.wiki/images/Lantern_%28item%29_JE1_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Lantern",
+    "translations": {
+      "pt": "Lampião",
+      "es": "Farol"
+    },
+    "_manual": true
+  },
+  "Soul Lantern (item)": {
+    "image": "https://minecraft.wiki/images/Soul_Lantern_%28item%29_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Soul_Lantern",
+    "translations": {
+      "pt": "Lampião das Almas",
+      "es": "Farol de almas"
+    },
+    "_manual": true
+  },
+  "Red Candle (item)": {
+    "image": "https://minecraft.wiki/images/Red_Candle_%28item%29_JE3_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Candle",
+    "translations": {
+      "pt": "Candle Vermelha",
+      "es": "Candle Roja"
+    },
+    "_manual": true
+  },
+  "Yellow Candle (item)": {
+    "image": "https://minecraft.wiki/images/Yellow_Candle_%28item%29_JE3_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Candle",
+    "translations": {
+      "pt": "Candle Amarela",
+      "es": "Candle Amarilla"
     },
     "_manual": true
   }
