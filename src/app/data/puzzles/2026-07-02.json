@@ -18,13 +18,23 @@
       "id": 2,
       "correlation": "Redstone Components",
       "color": "green",
-      "items": ["Tripwire Hook", "Target", "Lever", "Redstone Torch"]
+      "items": [
+        "Redstone Torch",
+        "Lever",
+        "Target",
+        "Tripwire Hook"
+      ]
     },
     {
       "id": 3,
       "correlation": "Fuels",
       "color": "blue",
-      "items": ["Oak Button (item)", "Fishing Rod", "Lava Bucket", "Blaze Rod"]
+      "items": [
+        "Oak Button (item)",
+        "Fishing Rod",
+        "Lava Bucket",
+        "Blaze Rod"
+      ]
     },
     {
       "id": 4,
