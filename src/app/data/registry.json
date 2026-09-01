@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3799,
+    "totalEntries": 3824,
     "languages": [
       "pt",
       "es"
@@ -5182,7 +5182,11 @@
   "Coal Ore": {
     "image": "https://minecraft.wiki/images/Coal_Ore_JE5_BE4.png?73bee",
     "pageUrl": "https://minecraft.wiki/w/Coal_Ore",
-    "translations": {}
+    "translations": {
+      "pt": "Minério de Carvão",
+      "es": "Mena de carbón"
+    },
+    "_manual": true
   },
   "Clay": {
     "image": "https://minecraft.wiki/images/Clay_JE2_BE2.png",
@@ -5339,7 +5343,11 @@
   "Copper Ore": {
     "image": "https://minecraft.wiki/images/Copper_Ore_JE2_BE2.png?073cd",
     "pageUrl": "https://minecraft.wiki/w/Copper_Ore",
-    "translations": {}
+    "translations": {
+      "pt": "Minério de Cobre",
+      "es": "Mena de cobre"
+    },
+    "_manual": true
   },
   "Cobbled Deepslate": {
     "image": "https://minecraft.wiki/images/Cobbled_Deepslate.png",
@@ -5881,7 +5889,11 @@
   "Diamond Ore": {
     "image": "https://minecraft.wiki/images/Diamond_Ore_JE5_BE5.png?fa2f4",
     "pageUrl": "https://minecraft.wiki/w/Diamond_Ore",
-    "translations": {}
+    "translations": {
+      "pt": "Minério de Diamante",
+      "es": "Mena de diamante"
+    },
+    "_manual": true
   },
   "Flower": {
     "image": "https://minecraft.wiki/images/All_Flowers.png",
@@ -5949,7 +5961,11 @@
   "Emerald Ore": {
     "image": "https://minecraft.wiki/images/Emerald_Ore_JE4_BE3.png?02ea7",
     "pageUrl": "https://minecraft.wiki/w/Emerald_Ore",
-    "translations": {}
+    "translations": {
+      "pt": "Minério de Esmeralda",
+      "es": "Mena de esmeralda"
+    },
+    "_manual": true
   },
   "Flower Pot": {
     "image": "https://minecraft.wiki/images/Flower_Pot_JE3.png",
@@ -6241,7 +6257,11 @@
   "Gold Ore": {
     "image": "https://minecraft.wiki/images/Gold_Ore_JE7_BE4.png?9817a",
     "pageUrl": "https://minecraft.wiki/w/Gold_Ore",
-    "translations": {}
+    "translations": {
+      "pt": "Minério de Ouro",
+      "es": "Mena de oro"
+    },
+    "_manual": true
   },
   "Fluid": {
     "image": "https://minecraft.wiki/images/LiquidsComparison.png",
@@ -6616,7 +6636,11 @@
   "Iron Ore": {
     "image": "https://minecraft.wiki/images/Iron_Ore_JE6_BE4.png?b1fb3",
     "pageUrl": "https://minecraft.wiki/w/Iron_Ore",
-    "translations": {}
+    "translations": {
+      "pt": "Minério de Ferro",
+      "es": "Mena de hierro"
+    },
+    "_manual": true
   },
   "Ladder": {
     "image": "https://minecraft.wiki/images/Ladder_(S)_JE4.png",
@@ -6661,7 +6685,11 @@
   "Lapis Lazuli Ore": {
     "image": "https://minecraft.wiki/images/Lapis_Lazuli_Ore_JE4_BE4.png?73194",
     "pageUrl": "https://minecraft.wiki/w/Lapis_Lazuli_Ore",
-    "translations": {}
+    "translations": {
+      "pt": "Minério de Lápis-Lazúli",
+      "es": "Mena de lapislázuli"
+    },
+    "_manual": true
   },
   "Iron Bars": {
     "image": "https://minecraft.wiki/images/Iron_Bars_(EW)_JE9.png",
@@ -7954,7 +7982,11 @@
   "Redstone Ore": {
     "image": "https://minecraft.wiki/images/Redstone_Ore_JE4_BE3.png?69549",
     "pageUrl": "https://minecraft.wiki/w/Redstone_Ore",
-    "translations": {}
+    "translations": {
+      "pt": "Minério de Redstone",
+      "es": "Mena de redstone"
+    },
+    "_manual": true
   },
   "Red Mushroom": {
     "image": "https://minecraft.wiki/images/Red_Mushroom_JE9.png",
@@ -10624,9 +10656,10 @@
     "image": "https://minecraft.wiki/images/Plains_Nitwit.png",
     "pageUrl": "https://minecraft.wiki/w/Nitwit",
     "translations": {
-      "es": "Aldeano",
-      "pt": "Palerma"
-    }
+      "pt": "Palerma",
+      "es": "Simplón"
+    },
+    "_manual": true
   },
   "Village/Structure (old)/Blueprints/Farm Shack": {
     "image": null,
@@ -10736,8 +10769,10 @@
     "image": "https://minecraft.wiki/images/Traitor_Villager.png",
     "pageUrl": "https://minecraft.wiki/w/Traitor",
     "translations": {
-      "pt": "Edição Java 25w14craftmine/Traitor"
-    }
+      "pt": "Traidor",
+      "es": "Traidor"
+    },
+    "_manual": true
   },
   "Ms. Minerva": {
     "image": "https://minecraft.wiki/images/Minerva_on_vacation.jpg",
@@ -26517,6 +26552,231 @@
     "translations": {
       "pt": "Candle Amarela",
       "es": "Candle Amarilla"
+    },
+    "_manual": true
+  },
+  "Mossy Cobblestone (old)": {
+    "image": "https://minecraft.wiki/images/Mossy_Cobblestone_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Mossy_Cobblestone",
+    "translations": {
+      "pt": "Pedregulho musgoso",
+      "es": "Roca musgosa"
+    },
+    "_manual": true
+  },
+  "Netherrack (old)": {
+    "image": "https://minecraft.wiki/images/Netherrack_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Netherrack",
+    "translations": {
+      "pt": "Netherrack",
+      "es": "Netherrack"
+    },
+    "_manual": true
+  },
+  "Soul Sand (old)": {
+    "image": "https://minecraft.wiki/images/Soul_Sand_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Soul_Sand",
+    "translations": {
+      "pt": "Areia das Almas",
+      "es": "Arena de almas"
+    },
+    "_manual": true
+  },
+  "Glowstone (old)": {
+    "image": "https://minecraft.wiki/images/Glowstone_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Glowstone",
+    "translations": {
+      "pt": "Pedra Luminosa",
+      "es": "Piedra luminosa"
+    },
+    "_manual": true
+  },
+  "Sponge (old)": {
+    "image": "https://minecraft.wiki/images/Sponge_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Sponge",
+    "translations": {
+      "pt": "Esponja",
+      "es": "Esponja"
+    },
+    "_manual": true
+  },
+  "Wet Sponge (old)": {
+    "image": "https://minecraft.wiki/images/Wet_Sponge_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Sponge",
+    "translations": {
+      "pt": "Esponja húmida",
+      "es": "Esponja mojada"
+    },
+    "_manual": true
+  },
+  "Diamond Ore (old)": {
+    "image": "https://minecraft.wiki/images/Diamond_Ore_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Diamond_Ore",
+    "translations": {
+      "pt": "Minério de Diamante",
+      "es": "Mena de diamante"
+    },
+    "_manual": true
+  },
+  "Gold Ore (old)": {
+    "image": "https://minecraft.wiki/images/Gold_Ore_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Gold_Ore",
+    "translations": {
+      "pt": "Minério de Ouro",
+      "es": "Mena de oro"
+    },
+    "_manual": true
+  },
+  "Lapis Lazuli Ore (old)": {
+    "image": "https://minecraft.wiki/images/Lapis_Lazuli_Ore_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Lapis_Lazuli_Ore",
+    "translations": {
+      "pt": "Minério de Lápis-Lazúli",
+      "es": "Mena de lapislázuli"
+    },
+    "_manual": true
+  },
+  "Redstone Ore (old)": {
+    "image": "https://minecraft.wiki/images/Redstone_Ore_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Redstone_Ore",
+    "translations": {
+      "pt": "Minério de Redstone",
+      "es": "Mena de redstone"
+    },
+    "_manual": true
+  },
+  "Emerald Ore (old)": {
+    "image": "https://minecraft.wiki/images/Emerald_Ore_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Emerald_Ore",
+    "translations": {
+      "pt": "Minério de Esmeralda",
+      "es": "Mena de esmeralda"
+    },
+    "_manual": true
+  },
+  "Nether Quartz Ore (old)": {
+    "image": "https://minecraft.wiki/images/Nether_Quartz_Ore_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Nether_Quartz_Ore",
+    "translations": {
+      "pt": "Minério de Quartzo do Nether",
+      "es": "Mena de cuarzo del Nether"
+    },
+    "_manual": true
+  },
+  "Half Heart": {
+    "image": "https://minecraft.wiki/images/Half_Heart_pJE20090818.png",
+    "pageUrl": "https://minecraft.wiki/w/History_of_textures",
+    "translations": {
+      "pt": "Meio Coração",
+      "es": "Medio corazón"
+    },
+    "_manual": true
+  },
+  "Gold Ingot (old) (v1)": {
+    "image": "https://minecraft.wiki/images/Gold_Ingot_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Gold_Ingot",
+    "translations": {
+      "pt": "Lingote de Ouro",
+      "es": "Lingote de oro"
+    },
+    "_manual": true
+  },
+  "Gold Ingot (old) (v2)": {
+    "image": "https://minecraft.wiki/images/Gold_Ingot_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Gold_Ingot",
+    "translations": {
+      "pt": "Lingote de Ouro",
+      "es": "Lingote de oro"
+    },
+    "_manual": true
+  },
+  "Crystallized Honey": {
+    "image": "https://minecraft.wiki/images/Crystallized_Honey.png",
+    "pageUrl": "https://minecraft.wiki/w/Unused_textures#Crystallized_honey",
+    "translations": {
+      "pt": "Mel Cristalizado",
+      "es": "Miel cristalizado"
+    },
+    "_manual": true
+  },
+  "Vindicator (idle)": {
+    "image": "https://minecraft.wiki/images/Vindicator_JE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Vindicator",
+    "translations": {
+      "pt": "Vingador",
+      "es": "Vindicador"
+    },
+    "_manual": true
+  },
+  "Evoker (idle)": {
+    "image": "https://minecraft.wiki/images/Evoker_JE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Evoker",
+    "translations": {
+      "pt": "Invocador",
+      "es": "Evocador"
+    },
+    "_manual": true
+  },
+  "Enchantsmith": {
+    "image": "https://minecraft.wiki/images/MCD_Enchantsmith.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Enchantsmith",
+    "translations": {
+      "pt": "Encantamenteiro",
+      "es": "Forja Embrujos"
+    },
+    "_manual": true
+  },
+  "Retired Adventurer": {
+    "image": "https://minecraft.wiki/images/MCD_Retired_Adventurer.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Retired_Adventurer",
+    "translations": {
+      "pt": "Aventureiro Aposentado",
+      "es": "Aventurero retirado"
+    },
+    "_manual": true
+  },
+  "Luxury Merchant": {
+    "image": "https://minecraft.wiki/images/MCD_Luxury_Merchant.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Luxury_Merchant",
+    "translations": {
+      "pt": "Comerciante de Luxo",
+      "es": "Comerciante de lujo"
+    },
+    "_manual": true
+  },
+  "Mystery Merchant": {
+    "image": "https://minecraft.wiki/images/MCD_Mystery_Merchant.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Mystery_Merchant",
+    "translations": {
+      "pt": "Comerciante Misterioso",
+      "es": "Comerciante misterioso"
+    },
+    "_manual": true
+  },
+  "Nitwit Villager Skin": {
+    "image": "https://minecraft.wiki/images/Easter_Egg_Villager.png",
+    "pageUrl": "https://minecraft.wiki/w/Nitwit",
+    "translations": {
+      "pt": "Skin de Aldeão Palerma",
+      "es": "Aspecto de aldeano simplón"
+    },
+    "_manual": true
+  },
+  "Potato Villager": {
+    "image": "https://minecraft.wiki/images/Potato_villager.png",
+    "pageUrl": "https://minecraft.wiki/w/Potato_Mob#Existing_mobs",
+    "translations": {
+      "pt": "Aldeão de Batata",
+      "es": "Aldeano de patata"
+    },
+    "_manual": true
+  },
+  "Bob": {
+    "image": "https://minecraft.wiki/images/Jungle_Villager_Base_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Java_Edition_20w14%E2%88%9E#isolation_dimension",
+    "translations": {
+      "pt": "Bob",
+      "es": "Bob"
     },
     "_manual": true
   }

@@ -1,0 +1,51 @@
+{
+  "id": 80,
+  "date": "2026-09-02",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Villager Professions",
+      "items": [
+        "Farmer",
+        "Librarian",
+        "Fisherman",
+        "Butcher"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Minecraft Dungeons Merchants",
+      "items": [
+        "Enchantsmith",
+        "Luxury Merchant",
+        "Mystery Merchant",
+        "Retired Adventurer"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "April Fools' Jokes",
+      "items": [
+        "Potato Villager",
+        "Nitwit Villager Skin",
+        "Traitor",
+        "Bob"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Non-Villager Mobs with Big Noses",
+      "items": [
+        "Iron Golem",
+        "Witch",
+        "Evoker (idle)",
+        "NPC"
+      ]
+    }
+  ]
+}
