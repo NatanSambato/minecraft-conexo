@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3824,
+    "totalEntries": 3825,
     "languages": [
       "pt",
       "es"
@@ -1884,8 +1884,10 @@
     "image": "https://minecraft.wiki/images/Heart_Decorated_Pot.png",
     "pageUrl": "https://minecraft.wiki/w/Heart_Pottery_Sherd",
     "translations": {
-      "pt": "Óstraco de Coração"
-    }
+      "pt": "Vaso Decorado de Coração",
+      "es": "Vasija decorada de corazón"
+    },
+    "_manual": true
   },
   "Lashing Potato": {
     "image": "https://minecraft.wiki/images/Lashing_Potato.png",
@@ -19448,8 +19450,10 @@
     "image": "https://minecraft.wiki/images/Purple_Heart_Elytra_JE.png",
     "pageUrl": "https://minecraft.wiki/w/Purple_Heart_Cape",
     "translations": {
-      "pt": "Capa de Coração Lilás"
-    }
+      "pt": "Capa de Coração Lilás",
+      "es": "Capa Corazón Púrpura"
+    },
+    "_manual": true
   },
   "Yearn Cape": {
     "image": "https://minecraft.wiki/images/Yearn_Elytra_JE.png",
@@ -26755,7 +26759,7 @@
   },
   "Nitwit Villager Skin": {
     "image": "https://minecraft.wiki/images/Easter_Egg_Villager.png",
-    "pageUrl": "https://minecraft.wiki/w/Nitwit",
+    "pageUrl": "https://minecraft.wiki/w/April_Fools%27_Day_jokes#2014",
     "translations": {
       "pt": "Skin de Aldeão Palerma",
       "es": "Aspecto de aldeano simplón"
@@ -26777,6 +26781,15 @@
     "translations": {
       "pt": "Bob",
       "es": "Bob"
+    },
+    "_manual": true
+  },
+  "Village (plains) (isometric)": {
+    "image": "https://minecraft.wiki/images/Plains_village_isometric_view.png",
+    "pageUrl": "https://minecraft.wiki/w/Village",
+    "translations": {
+      "pt": "Vila",
+      "es": "Aldea"
     },
     "_manual": true
   }

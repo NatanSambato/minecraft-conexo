@@ -1,0 +1,51 @@
+{
+  "id": 81,
+  "date": "2026-09-03",
+  "author": "mrcyberhumano",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Armor Trims",
+      "items": [
+        "Vex Armor Trim",
+        "Wayfinder Armor Trim",
+        "Wild Armor Trim",
+        "Dune Armor Trim"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Heart Related",
+      "items": [
+        "Purple Heart Cape",
+        "Heart Pottery Sherd",
+        "Heart of the Sea",
+        "Creaking Heart"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Blocks with a Soul Variant",
+      "items": [
+        "Torch",
+        "Lantern",
+        "Campfire",
+        "Sand"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Cat Related",
+      "items": [
+        "Cat Statue Room",
+        "Village (plains) (isometric)",
+        "Swamp Hut",
+        "Bed"
+      ]
+    }
+  ]
+}
