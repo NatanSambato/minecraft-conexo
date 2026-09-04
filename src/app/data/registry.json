@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3825,
+    "totalEntries": 3835,
     "languages": [
       "pt",
       "es"
@@ -26790,6 +26790,96 @@
     "translations": {
       "pt": "Vila",
       "es": "Aldea"
+    },
+    "_manual": true
+  },
+  "Moobloom (earth)": {
+    "image": "https://minecraft.wiki/images/MCE_Moobloom.png",
+    "pageUrl": "https://minecraft.wiki/w/Earth:Moobloom",
+    "translations": {
+      "pt": "Moobloom",
+      "es": "Vacaflor"
+    },
+    "_manual": true
+  },
+  "Temperate Cow": {
+    "image": "https://minecraft.wiki/images/Cow_JE7_BE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Cow",
+    "translations": {
+      "pt": "Vaca Temperada",
+      "es": "Vaca temperada"
+    },
+    "_manual": true
+  },
+  "Illusioner (idle)": {
+    "image": "https://minecraft.wiki/images/Illusioner_JE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Illusioner",
+    "translations": {
+      "pt": "Ilusionista",
+      "es": "Ilusionista"
+    },
+    "_manual": true
+  },
+  "Moolip": {
+    "image": "https://minecraft.wiki/images/MCE_Moolip.png",
+    "pageUrl": "https://minecraft.wiki/w/Earth:Moolip",
+    "translations": {
+      "pt": "Muulip",
+      "es": "Moolip"
+    },
+    "_manual": true
+  },
+  "Cold Cow": {
+    "image": "https://minecraft.wiki/images/Cold_Cow_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Cow",
+    "translations": {
+      "pt": "Vaca Gelada",
+      "es": "Vaca helada"
+    },
+    "_manual": true
+  },
+  "Warm Cow": {
+    "image": "https://minecraft.wiki/images/Warm_Cow_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cow",
+    "translations": {
+      "pt": "Vaca Quente",
+      "es": "Vaca cálida"
+    },
+    "_manual": true
+  },
+  "Snifflet": {
+    "image": "https://minecraft.wiki/images/Snifflet_sniffsniff_JE3_BE2.gif",
+    "pageUrl": "https://pt.minecraft.wiki/w/Farejador#Snifflets",
+    "translations": {
+      "pt": "Bebê Farejador",
+      "es": "Snifflet"
+    },
+    "_manual": true
+  },
+  "Temperate Baby Cow": {
+    "image": "https://minecraft.wiki/images/Baby_Temperate_Cow_JE6_BE5.png",
+    "pageUrl": "https://minecraft.wiki/w/Cow",
+    "translations": {
+      "pt": "Vaca Temperada Bebê",
+      "es": "Vaca temperada bebé"
+    },
+    "_manual": true
+  },
+  "Gray Foal": {
+    "image": "https://minecraft.wiki/images/Baby_Gray_Horse_JE5.png",
+    "pageUrl": "https://minecraft.wiki/w/Horse#Foal",
+    "translations": {
+      "pt": "Potro Cinza",
+      "es": "Potro gris"
+    },
+    "_manual": true
+  },
+  "Ghastling": {
+    "image": "https://minecraft.wiki/images/Ghastling_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Happy_Ghast#Ghastling",
+    "translations": {
+      "pt": "Ghastzinho",
+      "es": "Ghastito"
     },
     "_manual": true
   }
