@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3835,
+    "totalEntries": 3836,
     "languages": [
       "pt",
       "es"
@@ -26880,6 +26880,15 @@
     "translations": {
       "pt": "Ghastzinho",
       "es": "Ghastito"
+    },
+    "_manual": true
+  },
+  "Happy Ghast (harnessed)": {
+    "image": "https://minecraft.wiki/images/Happy_Ghast_White_Harness_Goggles_Up_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Happy_Ghast",
+    "translations": {
+      "pt": "Ghast Feliz",
+      "es": "Ghast feliz"
     },
     "_manual": true
   }
