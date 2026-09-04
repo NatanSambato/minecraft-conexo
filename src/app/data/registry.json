@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3836,
+    "totalEntries": 3845,
     "languages": [
       "pt",
       "es"
@@ -26889,6 +26889,86 @@
     "translations": {
       "pt": "Ghast Feliz",
       "es": "Ghast feliz"
+    },
+    "_manual": true
+  },
+  "Warped Fungus (item)": {
+    "image": "https://minecraft.wiki/images/Warped_Fungus_%28item%29_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Warped_Fungus",
+    "translations": {
+      "pt": "Fungo Distorcido"
+    },
+    "_manual": true
+  },
+  "Danger Pottery Sherd (item)": {
+    "image": "https://minecraft.wiki/images/Danger_Pottery_Sherd_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Danger_Pottery_Sherd",
+    "translations": {
+      "pt": "Vaso Decorado de Creeper",
+      "es": "Vasija decorada de Creeper"
+    },
+    "_manual": true
+  },
+  "Warm Ocean Ruins": {
+    "image": "https://minecraft.wiki/images/Underwater_ruin_warm.png",
+    "pageUrl": "https://minecraft.wiki/w/Warm_Ocean_Ruins",
+    "translations": {
+      "pt": "Ruína Oceânica Quente",
+      "es": "Ruinas oceánicas cálida"
+    },
+    "_manual": true
+  },
+  "Cold Ocean Ruins": {
+    "image": "https://minecraft.wiki/images/Underwater_ruin_cold.png",
+    "pageUrl": "https://minecraft.wiki/w/Cold_Ocean_Ruins",
+    "translations": {
+      "pt": "Ruína Oceânica Fria",
+      "es": "Ruinas oceánicas fría"
+    },
+    "_manual": true
+  },
+  "Coral Zombie Nautilus": {
+    "image": "https://minecraft.wiki/images/Coral_Zombie_Nautilus_Breathe_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Zombie_Nautilus",
+    "translations": {
+      "pt": "Náutilo-Zumbi de Coral",
+      "es": "Nautilo zombi de coral"
+    },
+    "_manual": true
+  },
+  "Sea Pickle (four)": {
+    "image": "https://minecraft.wiki/images/Sea_Pickle_4_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Sea_Pickle",
+    "translations": {
+      "pt": "Pepino-do-Mar",
+      "es": "Pepino de mar"
+    },
+    "_manual": true
+  },
+  "Green Candle (item)": {
+    "image": "https://minecraft.wiki/images/Green_Candle_%28item%29_JE3_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Candle",
+    "translations": {
+      "pt": "Candle Verde",
+      "es": "Candle Verde"
+    },
+    "_manual": true
+  },
+  "End Ship": {
+    "image": "https://minecraft.wiki/images/End_Ship.png",
+    "pageUrl": "https://minecraft.wiki/w/End_City#End_ship",
+    "translations": {
+      "pt": "Barco do End",
+      "es": "Barco del End"
+    },
+    "_manual": true
+  },
+  "Yellow Stained Glass Pane (item)": {
+    "image": "https://i.imgur.com/u4r0SPB.png",
+    "pageUrl": "https://minecraft.wiki/w/Stained_Glass_Pane",
+    "translations": {
+      "pt": "Vidraça Tingida Amarelo",
+      "es": "Panel de cristal Amarillo"
     },
     "_manual": true
   }

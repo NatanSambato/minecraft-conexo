@@ -1,0 +1,51 @@
+{
+  "id": 84,
+  "date": "2026-09-05",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Boats",
+      "items": [
+        "Bamboo Raft",
+        "Obsidian Boat",
+        "End Ship",
+        "Shipwreck"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Found in Warm Ocean",
+      "items": [
+        "Coral Reef",
+        "Coral Zombie Nautilus",
+        "Warm Ocean Ruins",
+        "Sea Pickle (four)"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Trail Ruins Loot",
+      "items": [
+        "Music Disc Relic",
+        "Danger Pottery Sherd (item)",
+        "Green Candle (item)",
+        "Yellow Stained Glass Pane (item)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Epic Items",
+      "items": [
+        "Heavy Core",
+        "Elytra (item)",
+        "Dragon Head",
+        "Silence Armor Trim"
+      ]
+    }
+  ]
+}
