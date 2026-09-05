@@ -6,7 +6,7 @@
     {
       "id": 1,
       "color": "yellow",
-      "correlation": "Boats",
+      "correlation": "Boats/Ships",
       "items": [
         "Bamboo Raft",
         "Obsidian Boat",
