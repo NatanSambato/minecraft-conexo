@@ -1,0 +1,51 @@
+{
+  "id": 85,
+  "date": "2026-09-06",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Same Block Stackable Blocks",
+      "items": [
+        "Candle (lit) (four)",
+        "Turtle Egg (four)",
+        "Sea Pickle (four)",
+        "Leaf Litter (four)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Resin Blocks",
+      "items": [
+        "Block of Resin",
+        "Resin Brick Slab",
+        "Resin Clump",
+        "Resin Ore"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Ores",
+      "items": [
+        "Deepslate Coal Ore",
+        "Nether Quartz Ore",
+        "Ancient Debris",
+        "Ruby Ore"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Water and Lava Interaction Blocks",
+      "items": [
+        "Obsidian",
+        "Cobblestone",
+        "Stone",
+        "Basalt"
+      ]
+    }
+  ]
+}

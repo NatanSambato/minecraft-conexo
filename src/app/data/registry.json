@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3845,
+    "totalEntries": 3850,
     "languages": [
       "pt",
       "es"
@@ -26969,6 +26969,51 @@
     "translations": {
       "pt": "Vidraça Tingida Amarelo",
       "es": "Panel de cristal Amarillo"
+    },
+    "_manual": true
+  },
+  "Candle (lit) (four)": {
+    "image": "https://minecraft.wiki/images/Four_Candles_%28lit%29_JE2_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Candle",
+    "translations": {
+      "pt": "Vela",
+      "es": "Vela"
+    },
+    "_manual": true
+  },
+  "Turtle Egg (four)": {
+    "image": "https://minecraft.wiki/images/Turtle_Egg_4_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Turtle_Egg",
+    "translations": {
+      "pt": "Ovo de Tartaruga",
+      "es": "Huevo de tortuga"
+    },
+    "_manual": true
+  },
+  "Leaf Litter (item)": {
+    "image": "https://minecraft.wiki/images/Leaf_Litter_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Leaf_Litter",
+    "translations": {
+      "pt": "Serrapilheira",
+      "es": "Hojas secas"
+    },
+    "_manual": true
+  },
+  "Leaf Litter (four)": {
+    "image": "https://minecraft.wiki/images/Leaf_Litter_4_%28S%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Leaf_Litter",
+    "translations": {
+      "pt": "Serrapilheira",
+      "es": "Hojas secas"
+    },
+    "_manual": true
+  },
+  "Ruby Ore": {
+    "image": "https://minecraft.wiki/images/Emerald_Ore_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Ruby",
+    "translations": {
+      "pt": "Minério de Rubi",
+      "es": "Mena de rubí"
     },
     "_manual": true
   }
