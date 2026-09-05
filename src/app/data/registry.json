@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3850,
+    "totalEntries": 3855,
     "languages": [
       "pt",
       "es"
@@ -12846,11 +12846,13 @@
     }
   },
   "Acacia": {
-    "image": "https://minecraft.wiki/images/Acacia_Sapling_JE7_BE2.png",
+    "image": "https://minecraft.wiki/images/Acacia_Tree.png",
     "pageUrl": "https://minecraft.wiki/w/Acacia",
     "translations": {
-      "pt": "Acácia"
-    }
+      "pt": "Acácia",
+      "es": "Acacia"
+    },
+    "_manual": true
   },
   "Sunflower Plains": {
     "image": "https://minecraft.wiki/images/Sunflower_Plains.png",
@@ -27014,6 +27016,51 @@
     "translations": {
       "pt": "Minério de Rubi",
       "es": "Mena de rubí"
+    },
+    "_manual": true
+  },
+  "Zombie Horseman": {
+    "image": "https://minecraft.wiki/images/Zombie_Horseman_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Zombie_Horse#Zombie_horsemen",
+    "translations": {
+      "pt": "Cavaleiro-zumbi",
+      "es": "Jinete cadavérico"
+    },
+    "_manual": true
+  },
+  "Bone Spider": {
+    "image": "https://minecraft.wiki/images/MCE_Bone_Spider.png",
+    "pageUrl": "https://minecraft.wiki/w/Earth:Bone_Spider",
+    "translations": {
+      "pt": "Aranha de Ossos",
+      "es": "Araña de huesos"
+    },
+    "_manual": true
+  },
+  "Icy Spider": {
+    "image": "https://minecraft.wiki/images/MCSM2_Icy_Spider.png",
+    "pageUrl": "https://minecraft.wiki/w/Story_Mode:Icy_Spider",
+    "translations": {
+      "pt": "Aranha Gelada",
+      "es": "Araña de hielo"
+    },
+    "_manual": true
+  },
+  "Warm Pig": {
+    "image": "https://minecraft.wiki/images/Warm_Pig_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pig",
+    "translations": {
+      "pt": "Porco Quente",
+      "es": "Cerdo cálida"
+    },
+    "_manual": true
+  },
+  "Acacia (single canopy)": {
+    "image": "https://minecraft.wiki/images/Single-canopy_Acacia_Tree.png",
+    "pageUrl": "https://minecraft.wiki/w/Acacia",
+    "translations": {
+      "pt": "Acácia",
+      "es": "Acacia"
     },
     "_manual": true
   }

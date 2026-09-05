@@ -1,0 +1,51 @@
+{
+  "id": 86,
+  "date": "2026-09-07",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Spiders",
+      "items": [
+        "Cave Spider",
+        "Spider",
+        "Bone Spider",
+        "Icy Spider"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Found in Savanna",
+      "items": [
+        "Acacia",
+        "Armadillo",
+        "Warm Pig",
+        "Pillager Outpost"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Added in Mounts of Mayhem",
+      "items": [
+        "Lunge",
+        "Breath of the Nautilus",
+        "Zombie Horseman",
+        "Camel Husk"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Mobs with Knockback Resistance",
+      "items": [
+        "Iron Golem",
+        "Warden",
+        "Shulker",
+        "Ravager"
+      ]
+    }
+  ]
+}
