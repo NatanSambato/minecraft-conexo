@@ -1,0 +1,51 @@
+{
+  "id": 87,
+  "date": "2026-09-09",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Fish Buckets",
+      "items": [
+        "Bucket of Tropical Fish",
+        "Bucket of Cod",
+        "Bucket of Salmon",
+        "Bucket of Pufferfish"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Can Contain Water",
+      "items": [
+        "Desert Well",
+        "Bucket",
+        "Cauldron",
+        "Glass Bottle"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Block Buckets",
+      "items": [
+        "Powder Snow Bucket",
+        "Lava Bucket",
+        "Water Bucket",
+        "Bucket of Mud"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Traded with the Wandering Trader",
+      "items": [
+        "Fermented Spider Eye",
+        "Hay Bale",
+        "Water Bottle",
+        "Milk Bucket"
+      ]
+    }
+  ]
+}

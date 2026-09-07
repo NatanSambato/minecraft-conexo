@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3855,
+    "totalEntries": 3856,
     "languages": [
       "pt",
       "es"
@@ -5282,12 +5282,13 @@
     }
   },
   "Concrete Powder": {
-    "image": "https://minecraft.wiki/images/White_Concrete_Powder.png",
+    "image": "https://minecraft.wiki/images/White_Concrete_Powder_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Concrete_Powder",
     "translations": {
-      "es": "Cemento",
-      "pt": "Cimento"
-    }
+      "pt": "Cimento",
+      "es": "Cemento"
+    },
+    "_manual": true
   },
   "Conduit": {
     "image": "https://minecraft.wiki/images/Conduit_JE1_BE1.png",
@@ -20549,12 +20550,13 @@
     }
   },
   "Red Concrete Powder": {
-    "image": "https://minecraft.wiki/images/Red_Concrete_Powder.png?0ec06",
+    "image": "https://minecraft.wiki/images/Red_Concrete_Powder_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Concrete_Powder",
     "translations": {
       "pt": "Cimento Vermelho",
       "es": "Cemento Rojo"
-    }
+    },
+    "_manual": true
   },
   "Black Concrete Powder": {
     "image": "https://minecraft.wiki/images/Black_Concrete_Powder.png?6ed2c",
@@ -27061,6 +27063,15 @@
     "translations": {
       "pt": "Acácia",
       "es": "Acacia"
+    },
+    "_manual": true
+  },
+  "Enchanted Golden Pickaxe": {
+    "image": "https://minecraft.wiki/images/Enchanted_Golden_Pickaxe.gif",
+    "pageUrl": "https://minecraft.wiki/w/Golden_Pickaxe",
+    "translations": {
+      "pt": "Picareta de Ouro Encantada",
+      "es": "Pico de oro encantado"
     },
     "_manual": true
   }
