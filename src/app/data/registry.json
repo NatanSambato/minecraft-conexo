@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3856,
+    "totalEntries": 3858,
     "languages": [
       "pt",
       "es"
@@ -16571,12 +16571,13 @@
     }
   },
   "Locator Bar": {
-    "image": null,
+    "image": "https://i.imgur.com/xpg9nn5.png",
     "pageUrl": "https://minecraft.wiki/w/Locator_Bar",
     "translations": {
-      "es": "Barra localizadora",
-      "pt": "Barra Localizadora"
-    }
+      "pt": "Barra Localizadora",
+      "es": "Barra localizadora"
+    },
+    "_manual": true
   },
   "Transportation": {
     "image": "https://minecraft.wiki/images/RideableMinecart.png",
@@ -26887,15 +26888,6 @@
     },
     "_manual": true
   },
-  "Happy Ghast (harnessed)": {
-    "image": "https://minecraft.wiki/images/Happy_Ghast_White_Harness_Goggles_Up_JE1_BE1.gif",
-    "pageUrl": "https://minecraft.wiki/w/Happy_Ghast",
-    "translations": {
-      "pt": "Ghast Feliz",
-      "es": "Ghast feliz"
-    },
-    "_manual": true
-  },
   "Warped Fungus (item)": {
     "image": "https://minecraft.wiki/images/Warped_Fungus_%28item%29_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Warped_Fungus",
@@ -27072,6 +27064,33 @@
     "translations": {
       "pt": "Picareta de Ouro Encantada",
       "es": "Pico de oro encantado"
+    },
+    "_manual": true
+  },
+  "Vibrant Visuals (icon)": {
+    "image": "https://i.imgur.com/vuQ3pWt.png",
+    "pageUrl": "https://minecraft.wiki/w/Vibrant_Visuals",
+    "translations": {
+      "pt": "Visuais Vibrantes",
+      "es": "Visuales vibrantes"
+    },
+    "_manual": true
+  },
+  "Happy Ghast (harnessed) (closed)": {
+    "image": "https://minecraft.wiki/images/Happy_Ghast_White_Harness_Goggles_Down_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Happy_Ghast",
+    "translations": {
+      "pt": "Ghast Feliz",
+      "es": "Ghast feliz"
+    },
+    "_manual": true
+  },
+  "Happy Ghast (harnessed) (open)": {
+    "image": "https://minecraft.wiki/images/Happy_Ghast_White_Harness_Goggles_Up_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Happy_Ghast",
+    "translations": {
+      "pt": "Ghast Feliz",
+      "es": "Ghast feliz"
     },
     "_manual": true
   }
