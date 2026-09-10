@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3858,
+    "totalEntries": 3890,
     "languages": [
       "pt",
       "es"
@@ -11878,9 +11878,10 @@
     "image": "https://minecraft.wiki/images/Piglin_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Piglin",
     "translations": {
-      "es": "Piglin",
-      "pt": "Piglin/Sons"
-    }
+      "pt": "Piglin",
+      "es": "Piglin"
+    },
+    "_manual": true
   },
   "Bartering": {
     "image": "https://minecraft.wiki/images/BarteringGuide_v2.png",
@@ -27091,6 +27092,293 @@
     "translations": {
       "pt": "Ghast Feliz",
       "es": "Ghast feliz"
+    },
+    "_manual": true
+  },
+  "Zombie Villager (converting)": {
+    "image": "https://minecraft.wiki/images/Zombie_Nitwit_curing.gif",
+    "pageUrl": "https://minecraft.wiki/w/Zombie_Villager",
+    "translations": {
+      "pt": "Aldeão Zumbi",
+      "es": "Aldeano zombi"
+    },
+    "_manual": true
+  },
+  "Enderman (shaking)": {
+    "image": "https://minecraft.wiki/images/Enderman_Screaming.gif",
+    "pageUrl": "https://minecraft.wiki/w/Enderman",
+    "translations": {
+      "pt": "Enderman",
+      "es": "Enderman"
+    },
+    "_manual": true
+  },
+  "Strider (cold)": {
+    "image": "https://minecraft.wiki/images/Strider_Cold_JE3.gif",
+    "pageUrl": "https://minecraft.wiki/w/Strider",
+    "translations": {
+      "pt": "Lavagante",
+      "es": "Lavagante"
+    },
+    "_manual": true
+  },
+  "Magma Cube (jumping)": {
+    "image": "https://minecraft.wiki/images/Magma_Cube_jumping.gif",
+    "pageUrl": "https://minecraft.wiki/w/Magma_Cube",
+    "translations": {
+      "pt": "Cubo de Magma",
+      "es": "Cubo de magma"
+    },
+    "_manual": true
+  },
+  "Piglin (celebrating)": {
+    "image": "https://minecraft.wiki/images/Piglin_celebrate_hunt_JE2.gif",
+    "pageUrl": "https://minecraft.wiki/w/Piglin",
+    "translations": {
+      "pt": "Piglin",
+      "es": "Piglin"
+    },
+    "_manual": true
+  },
+  "Rabbit (jumping)": {
+    "image": "https://minecraft.wiki/images/Brown_rabbit_move_JE4.gif",
+    "pageUrl": "https://minecraft.wiki/w/Rabbit",
+    "translations": {
+      "pt": "Coelho",
+      "es": "Conejo"
+    },
+    "_manual": true
+  },
+  "Slime (jumping)": {
+    "image": "https://minecraft.wiki/images/Slime.gif",
+    "pageUrl": "https://minecraft.wiki/w/Slime",
+    "translations": {
+      "pt": "Slime",
+      "es": "Slime"
+    },
+    "_manual": true
+  },
+  "Frog (temperate)": {
+    "image": "https://minecraft.wiki/images/Temperate_Frog_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Frog",
+    "translations": {
+      "pt": "Sapo",
+      "es": "Rana"
+    },
+    "_manual": true
+  },
+  "Frog (temperate) (jumping)": {
+    "image": "https://minecraft.wiki/images/Frog_Jump.gif",
+    "pageUrl": "https://minecraft.wiki/w/Frog",
+    "translations": {
+      "pt": "Sapo",
+      "es": "Rana"
+    },
+    "_manual": true
+  },
+  "Evoker (celebrating)": {
+    "image": "https://minecraft.wiki/images/Evoker_celebrating.gif",
+    "pageUrl": "https://minecraft.wiki/w/Evoker",
+    "translations": {
+      "pt": "Invocador",
+      "es": "Evocador"
+    },
+    "_manual": true
+  },
+  "Illusioner (celebrating)": {
+    "image": "https://minecraft.wiki/images/Illusioner_celebrating.gif",
+    "pageUrl": "https://minecraft.wiki/w/Illusioner",
+    "translations": {
+      "pt": "Ilusionista",
+      "es": "Ilusionista"
+    },
+    "_manual": true
+  },
+  "Pillager (jumping)": {
+    "image": "https://minecraft.wiki/images/Pillager_celebrating.gif",
+    "pageUrl": "https://minecraft.wiki/w/Pillager",
+    "translations": {
+      "pt": "Saqueador",
+      "es": "Saqueador"
+    },
+    "_manual": true
+  },
+  "Pillager (celebrating)": {
+    "image": "https://minecraft.wiki/images/Pillager_celebrating_BE.gif",
+    "pageUrl": "https://minecraft.wiki/w/Pillager",
+    "translations": {
+      "pt": "Saqueador",
+      "es": "Saqueador"
+    },
+    "_manual": true
+  },
+  "Allay (dancing)": {
+    "image": "https://minecraft.wiki/images/Allay_Dancing.gif",
+    "pageUrl": "https://minecraft.wiki/w/Allay",
+    "translations": {
+      "pt": "Allay",
+      "es": "Allay"
+    },
+    "_manual": true
+  },
+  "Bee (angry)": {
+    "image": "https://minecraft.wiki/images/Bee_%28angry%29_JE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Bee",
+    "translations": {
+      "pt": "Abelha",
+      "es": "Abeja"
+    },
+    "_manual": true
+  },
+  "Red Parrot (dancing)": {
+    "image": "https://minecraft.wiki/images/Dancing_Red_Parrot.gif",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Vermelho",
+      "es": "Loro Rojo"
+    },
+    "_manual": true
+  },
+  "Green Parrot (dancing)": {
+    "image": "https://minecraft.wiki/images/Dancing_Green_Parrot.gif",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Verde",
+      "es": "Loro Verde"
+    },
+    "_manual": true
+  },
+  "Gray Parrot (dancing)": {
+    "image": "https://minecraft.wiki/images/Dancing_Gray_Parrot.gif",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Cinza",
+      "es": "Loro Gris"
+    },
+    "_manual": true
+  },
+  "Cyan Parrot (dancing)": {
+    "image": "https://minecraft.wiki/images/Dancing_Cyan_Parrot.gif",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Ciano",
+      "es": "Loro Cian"
+    },
+    "_manual": true
+  },
+  "Blue Parrot (dancing)": {
+    "image": "https://minecraft.wiki/images/Dancing_Blue_Parrot.gif",
+    "pageUrl": "https://minecraft.wiki/w/Parrot",
+    "translations": {
+      "pt": "Papagaio Azul",
+      "es": "Loro Azul"
+    },
+    "_manual": true
+  },
+  "Vindicator (celebrating)": {
+    "image": "https://minecraft.wiki/images/Vindicator_celebrating.gif",
+    "pageUrl": "https://minecraft.wiki/w/Vindicator",
+    "translations": {
+      "pt": "Vingador",
+      "es": "Vindicador"
+    },
+    "_manual": true
+  },
+  "Warden (roar)": {
+    "image": "https://minecraft.wiki/images/Warden_roar.gif",
+    "pageUrl": "https://minecraft.wiki/w/Warden",
+    "translations": {
+      "pt": "Defensor",
+      "es": "Warden"
+    },
+    "_manual": true
+  },
+  "Witch (celebrating)": {
+    "image": "https://minecraft.wiki/images/Witch_celebrating.gif",
+    "pageUrl": "https://minecraft.wiki/w/Witch",
+    "translations": {
+      "pt": "Bruxa",
+      "es": "Bruja"
+    },
+    "_manual": true
+  },
+  "Zombified Piglin (converting)": {
+    "image": "https://minecraft.wiki/images/Piglin_being_zombified.gif",
+    "pageUrl": "https://minecraft.wiki/w/Zombified_Piglin",
+    "translations": {
+      "pt": "Piglin-Zumbi",
+      "es": "Piglin zombificado"
+    },
+    "_manual": true
+  },
+  "Piglin Brute (converting)": {
+    "image": "https://minecraft.wiki/images/Piglin_Brute_being_zombified.gif",
+    "pageUrl": "https://minecraft.wiki/w/Piglin_Brute",
+    "translations": {
+      "pt": "Piglin Bárbaro",
+      "es": "Piglin bruto"
+    },
+    "_manual": true
+  },
+  "Husk (converting)": {
+    "image": "https://minecraft.wiki/images/Husk_becoming_Zombie.gif",
+    "pageUrl": "https://minecraft.wiki/w/Husk",
+    "translations": {
+      "pt": "Zumbi-Múmia/Sons",
+      "es": "Disecado"
+    },
+    "_manual": true
+  },
+  "Zombie (converting)": {
+    "image": "https://minecraft.wiki/images/Zombie_becoming_Drowned.gif",
+    "pageUrl": "https://minecraft.wiki/w/Zombie",
+    "translations": {
+      "pt": "Zumbi",
+      "es": "Zombi"
+    },
+    "_manual": true
+  },
+  "Hoglin (converting)": {
+    "image": "https://minecraft.wiki/images/Hoglin_being_Zombified.gif",
+    "pageUrl": "https://minecraft.wiki/w/Hoglin",
+    "translations": {
+      "pt": "Hoglin",
+      "es": "Hoglin"
+    },
+    "_manual": true
+  },
+  "Zoglin (attacking)": {
+    "image": "https://minecraft.wiki/images/Zoglin_attacking.gif",
+    "pageUrl": "https://minecraft.wiki/w/Zoglin",
+    "translations": {
+      "pt": "Zoglin",
+      "es": "Zoglin"
+    },
+    "_manual": true
+  },
+  "Wolf (shaking)": {
+    "image": "https://minecraft.wiki/images/Wolf_shaking.gif",
+    "pageUrl": "https://minecraft.wiki/w/Wolf",
+    "translations": {
+      "pt": "Lobo",
+      "es": "Lobo"
+    },
+    "_manual": true
+  },
+  "Termite Mound": {
+    "image": "https://minecraft.wiki/images/Termite_mound.gif",
+    "pageUrl": "https://minecraft.wiki/w/Termite",
+    "translations": {
+      "es": "Termita"
+    },
+    "_manual": true
+  },
+  "Potted Red Mushroom": {
+    "image": "https://minecraft.wiki/images/Potted_Red_Mushroom_JE5.png",
+    "pageUrl": "https://minecraft.wiki/w/Flower_Pot#Renders",
+    "translations": {
+      "pt": "Cogumelo vermelho envasado",
+      "es": "Maceta con champiñón rojo."
     },
     "_manual": true
   }

@@ -1,0 +1,51 @@
+{
+  "id": 93,
+  "date": "2026-09-11",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Mob Voting Losing Mobs",
+      "items": [
+        "Glare",
+        "Rascal",
+        "Wildfire (Dungeons)",
+        "Copper Golem"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Mobs Spawned from Blocks",
+      "items": [
+        "Ghastling",
+        "Turtle",
+        "Tadpole",
+        "Creaking"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Original Passive Mobs",
+      "items": [
+        "Pig",
+        "Sheep",
+        "Cow",
+        "Chicken"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Shaking Mobs",
+      "items": [
+        "Strider (cold)",
+        "Enderman (shaking)",
+        "Zombie Villager (converting)",
+        "Zombie (converting)"
+      ]
+    }
+  ]
+}
