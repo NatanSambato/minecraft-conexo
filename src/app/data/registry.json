@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3890,
+    "totalEntries": 3901,
     "languages": [
       "pt",
       "es"
@@ -6774,12 +6774,13 @@
     }
   },
   "Lava Spawner": {
-    "image": "https://minecraft.wiki/images/Lava_Spawner_JE1.png",
+    "image": "https://minecraft.wiki/images/Infinite_Lava_Source_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Lava_Spawner",
     "translations": {
-      "es": "Generador de lava",
-      "pt": "Gerador de Lava"
-    }
+      "pt": "Gerador de Lava",
+      "es": "Generador de lava"
+    },
+    "_manual": true
   },
   "Magma Block": {
     "image": "https://minecraft.wiki/images/Magma_Block_JE2.gif",
@@ -27379,6 +27380,95 @@
     "translations": {
       "pt": "Cogumelo vermelho envasado",
       "es": "Maceta con champiñón rojo."
+    },
+    "_manual": true
+  },
+  "Lava Spring": {
+    "image": "https://minecraft.wiki/images/EnvSprite_lavaspring.png",
+    "pageUrl": "https://minecraft.wiki/w/Spring#Ceiling_springs",
+    "translations": {
+      "pt": "Lava",
+      "es": "Lava"
+    },
+    "_manual": true
+  },
+  "Field Masoned Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Field_Masoned_Banner_Pattern_JE1_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Field_Masoned_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Muro"
+    },
+    "_manual": true
+  },
+  "Bordure Indented Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Bordure_Indented_Banner_Pattern_JE1_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Bordure_Indented_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Bordadura Dentada"
+    },
+    "_manual": true
+  },
+  "Flower Charge Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Flower_Charge_Banner_Pattern_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Flower_Charge_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Flor"
+    },
+    "_manual": true
+  },
+  "Creeper Charge Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Creeper_Charge_Banner_Pattern_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Creeper_Charge_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Creeper"
+    },
+    "_manual": true
+  },
+  "Skull Charge Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Skull_Charge_Banner_Pattern_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Skull_Charge_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Caveira"
+    },
+    "_manual": true
+  },
+  "Thing Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Thing_Banner_Pattern_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Thing_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Emblema"
+    },
+    "_manual": true
+  },
+  "Globe Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Globe_Banner_Pattern_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Globe_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Globo"
+    },
+    "_manual": true
+  },
+  "Snout Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Snout_Banner_Pattern_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Snout_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Focinho"
+    },
+    "_manual": true
+  },
+  "Flow Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Flow_Banner_Pattern_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Flow_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Espiral"
+    },
+    "_manual": true
+  },
+  "Guster Banner Pattern (item)": {
+    "image": "https://minecraft.wiki/images/Guster_Banner_Pattern_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Guster_Banner_Pattern",
+    "translations": {
+      "pt": "Figura para Estandarte de Vórtice"
     },
     "_manual": true
   }

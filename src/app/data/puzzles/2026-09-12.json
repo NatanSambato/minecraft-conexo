@@ -1,0 +1,51 @@
+{
+  "id": 94,
+  "date": "2026-09-12",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Banner Patterns",
+      "items": [
+        "Flow Banner Pattern (item)",
+        "Guster Banner Pattern (item)",
+        "Globe Banner Pattern (item)",
+        "Field Masoned Banner Pattern (item)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Block of Copper",
+      "items": [
+        "Copper Ingot",
+        "Copper Grate",
+        "Cut Copper",
+        "Bolt Armor Trim"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Can Launch a Wind Charge",
+      "items": [
+        "Breeze",
+        "Player (Steve)",
+        "Dispenser",
+        "Ominous Trial Spawner"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Items enchantable only with an Anvil",
+      "items": [
+        "Carved Pumpkin",
+        "Carrot on a Stick",
+        "Compass",
+        "Brush"
+      ]
+    }
+  ]
+}
