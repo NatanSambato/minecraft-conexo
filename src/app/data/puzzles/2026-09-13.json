@@ -1,0 +1,51 @@
+{
+  "id": 95,
+  "date": "2026-09-13",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Ender Dragon Related",
+      "items": [
+        "Ender Dragon Spawn Egg",
+        "Dragon's Breath",
+        "Dragon Fireball",
+        "Dragon Egg"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "The End Blocks",
+      "items": [
+        "End Stone",
+        "Obsidian",
+        "Chorus Plant",
+        "Chorus Flower"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "End Ship Blocks",
+      "items": [
+        "Item Frame",
+        "Dragon Head",
+        "End Stone Bricks",
+        "Chiseled Purpur"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Made with Purpur Block",
+      "items": [
+        "Spire Armor Trim",
+        "Purpur Pillar",
+        "Purpur Stairs",
+        "Purpur Slab"
+      ]
+    }
+  ]
+}

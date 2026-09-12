@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3901,
+    "totalEntries": 3902,
     "languages": [
       "pt",
       "es"
@@ -27469,6 +27469,15 @@
     "pageUrl": "https://minecraft.wiki/w/Guster_Banner_Pattern",
     "translations": {
       "pt": "Figura para Estandarte de Vórtice"
+    },
+    "_manual": true
+  },
+  "Ender Dragon Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Ender_Dragon_Spawn_Egg_JE3_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Dragão Ender",
+      "es": "Huevo generador de Enderdragón"
     },
     "_manual": true
   }
