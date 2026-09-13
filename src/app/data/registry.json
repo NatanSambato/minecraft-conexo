@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3902,
+    "totalEntries": 3908,
     "languages": [
       "pt",
       "es"
@@ -26352,7 +26352,7 @@
   },
   "Rusty Wolf": {
     "image": "https://minecraft.wiki/images/Rusty_Wolf_JE1_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Wolf",
+    "pageUrl": "https://minecraft.wiki/w/Wolf#Rusty",
     "translations": {
       "pt": "Lobo Alaranjado",
       "es": "Lobo Oxidado"
@@ -27478,6 +27478,60 @@
     "translations": {
       "pt": "Ovo Gerador de Dragão Ender",
       "es": "Huevo generador de Enderdragón"
+    },
+    "_manual": true
+  },
+  "Spotted Wolf": {
+    "image": "https://minecraft.wiki/images/Spotted_Wolf_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Wolf#Spotted",
+    "translations": {
+      "pt": "Lobo Manchado",
+      "es": "Lobo Manchado"
+    },
+    "_manual": true
+  },
+  "Striped Wolf": {
+    "image": "https://minecraft.wiki/images/Striped_Wolf_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Wolf#Spotted",
+    "translations": {
+      "pt": "Lobo Listrado",
+      "es": "Lobo Rayado"
+    },
+    "_manual": true
+  },
+  "Woods Wolf": {
+    "image": "https://minecraft.wiki/images/Woods_Wolf_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Wolf#Woods",
+    "translations": {
+      "pt": "Lobo das Florestas",
+      "es": "Lobo Boscoso"
+    },
+    "_manual": true
+  },
+  "Wolf Armor (item)": {
+    "image": "https://minecraft.wiki/images/Wolf_Armor_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Wolf_Armor",
+    "translations": {
+      "pt": "Armadura de Lobo",
+      "es": "Armadura para lobo"
+    },
+    "_manual": true
+  },
+  "Warm Frog": {
+    "image": "https://minecraft.wiki/images/Warm_Frog_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Frog#Warm",
+    "translations": {
+      "pt": "Sapo Quente",
+      "es": "Rana cálida"
+    },
+    "_manual": true
+  },
+  "Cold Frog": {
+    "image": "https://minecraft.wiki/images/Cold_Frog_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Frog#Cold",
+    "translations": {
+      "pt": "Sapo Frio",
+      "es": "Rana helada"
     },
     "_manual": true
   }

@@ -1,0 +1,51 @@
+{
+  "id": 96,
+  "date": "2026-09-14",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Found in Mangrove Swamp",
+      "items": [
+        "Mangrove",
+        "Mud",
+        "Warm Frog",
+        "Bogged"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Cold Variant Mobs",
+      "items": [
+        "Chicken (cold)",
+        "Pig (cold)",
+        "Cow (cold)",
+        "Cold Frog"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Added in the Armored Paws update",
+      "items": [
+        "Wolf Armor (item)",
+        "Armadillo",
+        "Spotted Wolf",
+        "Striped Wolf"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Daylight Cycle Related",
+      "items": [
+        "Clock",
+        "Daylight Detector",
+        "Phantom",
+        "Villager"
+      ]
+    }
+  ]
+}
