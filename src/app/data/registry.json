@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3910,
+    "totalEntries": 3915,
     "languages": [
       "pt",
       "es"
@@ -27550,6 +27550,51 @@
     "translations": {
       "pt": "Aldeão Zumbi",
       "es": "Aldeano zombi"
+    },
+    "_manual": true
+  },
+  "Glow Lichen (item)": {
+    "image": "https://minecraft.wiki/images/Glow_Lichen_%28texture%29_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Glow_Lichen",
+    "translations": {
+      "pt": "Líquen Brilhante",
+      "es": "Liquen luminoso"
+    },
+    "_manual": true
+  },
+  "Blue Egg": {
+    "image": "https://minecraft.wiki/images/Blue_Egg_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Egg#Blue",
+    "translations": {
+      "pt": "Ovo Azul",
+      "es": "Huevo azul"
+    },
+    "_manual": true
+  },
+  "Brown Egg": {
+    "image": "https://minecraft.wiki/images/Brown_Egg_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Egg#Brown",
+    "translations": {
+      "pt": "Ovo Marrom",
+      "es": "Huevo marrón"
+    },
+    "_manual": true
+  },
+  "Vines (item) (BE)": {
+    "image": "https://minecraft.wiki/images/Vines_%28carried_texture%29_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Vines",
+    "translations": {
+      "pt": "Trepadeiras",
+      "es": "Enredaderas"
+    },
+    "_manual": true
+  },
+  "Oak Fallen Tree": {
+    "image": "https://minecraft.wiki/images/Oak_Fallen_Log.png",
+    "pageUrl": "https://minecraft.wiki/w/Fallen_Tree",
+    "translations": {
+      "pt": "Árvore de Carvalho caída",
+      "es": "Roble caído"
     },
     "_manual": true
   }

@@ -1,0 +1,51 @@
+{
+  "id": 97,
+  "date": "2026-09-15",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Dyes not obtained from Flowers",
+      "items": [
+        "Brown Dye",
+        "Green Dye",
+        "Light Gray Dye",
+        "Purple Dye"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Blocks that grow into Trees",
+      "items": [
+        "Cherry Sapling",
+        "Mangrove Propagule",
+        "Azalea",
+        "Crimson Fungus"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Obtained by mining with Shears",
+      "items": [
+        "Acacia Leaves",
+        "Seagrass (item)",
+        "Vines (item) (BE)",
+        "Glow Lichen (item)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Added in the Spring to Life update",
+      "items": [
+        "Blue Egg",
+        "Cactus Flower",
+        "Firefly Bush",
+        "Oak Fallen Tree"
+      ]
+    }
+  ]
+}

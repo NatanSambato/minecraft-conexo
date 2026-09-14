@@ -1,0 +1,51 @@
+{
+  "id": 89,
+  "date": "2026-09-16",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Health Effects",
+      "items": [
+        "Regeneration",
+        "Instant Damage",
+        "Instant Health",
+        "Absorption"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Joke Effects",
+      "items": [
+        "Sticky",
+        "Shazboots! (effect)",
+        "Big",
+        "Sharing"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Beacon Effects",
+      "items": [
+        "Haste",
+        "Speed",
+        "Jump Boost",
+        "Resistance"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Visibility Effects",
+      "items": [
+        "Blindness",
+        "Darkness",
+        "Night Vision",
+        "Nausea"
+      ]
+    }
+  ]
+}
