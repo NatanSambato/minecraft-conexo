@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3908,
+    "totalEntries": 3910,
     "languages": [
       "pt",
       "es"
@@ -27096,15 +27096,6 @@
     },
     "_manual": true
   },
-  "Zombie Villager (converting)": {
-    "image": "https://minecraft.wiki/images/Zombie_Nitwit_curing.gif",
-    "pageUrl": "https://minecraft.wiki/w/Zombie_Villager",
-    "translations": {
-      "pt": "Aldeão Zumbi",
-      "es": "Aldeano zombi"
-    },
-    "_manual": true
-  },
   "Enderman (shaking)": {
     "image": "https://minecraft.wiki/images/Enderman_Screaming.gif",
     "pageUrl": "https://minecraft.wiki/w/Enderman",
@@ -27339,15 +27330,6 @@
     },
     "_manual": true
   },
-  "Hoglin (converting)": {
-    "image": "https://minecraft.wiki/images/Hoglin_being_Zombified.gif",
-    "pageUrl": "https://minecraft.wiki/w/Hoglin",
-    "translations": {
-      "pt": "Hoglin",
-      "es": "Hoglin"
-    },
-    "_manual": true
-  },
   "Zoglin (attacking)": {
     "image": "https://minecraft.wiki/images/Zoglin_attacking.gif",
     "pageUrl": "https://minecraft.wiki/w/Zoglin",
@@ -27532,6 +27514,42 @@
     "translations": {
       "pt": "Sapo Frio",
       "es": "Rana helada"
+    },
+    "_manual": true
+  },
+  "Hoglin (converting) (shorter)": {
+    "image": "https://i.imgur.com/4NbuScl.gif",
+    "pageUrl": "https://minecraft.wiki/w/Hoglin",
+    "translations": {
+      "pt": "Hoglin",
+      "es": "Hoglin"
+    },
+    "_manual": true
+  },
+  "Hoglin (converting) (original)": {
+    "image": "https://minecraft.wiki/images/Hoglin_being_Zombified.gif",
+    "pageUrl": "https://minecraft.wiki/w/Hoglin",
+    "translations": {
+      "pt": "Hoglin",
+      "es": "Hoglin"
+    },
+    "_manual": true
+  },
+  "Zombie Villager (converting) (original)": {
+    "image": "https://minecraft.wiki/images/Zombie_Nitwit_curing.gif",
+    "pageUrl": "https://minecraft.wiki/w/Zombie_Villager",
+    "translations": {
+      "pt": "Aldeão Zumbi",
+      "es": "Aldeano zombi"
+    },
+    "_manual": true
+  },
+  "Zombie Villager (converting) (shorter)": {
+    "image": "https://i.imgur.com/ZqnQcKD.gif",
+    "pageUrl": "https://minecraft.wiki/w/Zombie_Villager",
+    "translations": {
+      "pt": "Aldeão Zumbi",
+      "es": "Aldeano zombi"
     },
     "_manual": true
   }
