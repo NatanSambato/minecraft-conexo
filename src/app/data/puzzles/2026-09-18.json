@@ -1,0 +1,51 @@
+{
+  "id": 92,
+  "date": "2026-09-18",
+  "author": "Larinha <3",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Swamp Hut Blocks",
+      "items": [
+        "Cauldron",
+        "Potted Red Mushroom",
+        "Crafting Table",
+        "Spruce Fence"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Hostile Nether Mobs",
+      "items": [
+        "Piglin Brute",
+        "Ghast",
+        "Magma Cube",
+        "Blaze"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Glowing",
+      "items": [
+        "Glow Squid",
+        "Glow Item Frame",
+        "Amethyst Cluster",
+        "Crying Obsidian"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Mobs with a Fleeing Interaction",
+      "items": [
+        "Villager",
+        "Fox",
+        "Creeper",
+        "Hoglin"
+      ]
+    }
+  ]
+}

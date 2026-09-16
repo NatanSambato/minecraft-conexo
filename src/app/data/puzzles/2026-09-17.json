@@ -1,0 +1,51 @@
+{
+  "id": 91,
+  "date": "2026-09-17",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Armor Trim Materials",
+      "items": [
+        "Emerald",
+        "Diamond",
+        "Amethyst Shard",
+        "Redstone Dust"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Can place Fire",
+      "items": [
+        "Flint and Steel",
+        "Fire Charge",
+        "Lava",
+        "Lightning"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Items Bartered",
+      "items": [
+        "Potion of Fire Resistance",
+        "Spectral Arrow (item)",
+        "Crying Obsidian",
+        "String"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Customizable Items",
+      "items": [
+        "Banner",
+        "Armor Trim",
+        "Firework Rocket",
+        "Suspicious Stew"
+      ]
+    }
+  ]
+}

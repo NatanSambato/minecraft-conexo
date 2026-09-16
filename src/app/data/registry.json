@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3915,
+    "totalEntries": 3918,
     "languages": [
       "pt",
       "es"
@@ -8816,8 +8816,10 @@
     "image": "https://minecraft.wiki/images/Sunflower_JE6.png",
     "pageUrl": "https://minecraft.wiki/w/Sunflower",
     "translations": {
-      "pt": "Girassol"
-    }
+      "pt": "Girassol",
+      "es": "Girasol"
+    },
+    "_manual": true
   },
   "Stained Glass": {
     "image": "https://minecraft.wiki/images/White_Stained_Glass_JE3_BE3.png",
@@ -27595,6 +27597,33 @@
     "translations": {
       "pt": "Árvore de Carvalho caída",
       "es": "Roble caído"
+    },
+    "_manual": true
+  },
+  "Sunflower (item)": {
+    "image": "https://i.imgur.com/gSH54E9.png",
+    "pageUrl": "https://minecraft.wiki/w/Sunflower",
+    "translations": {
+      "pt": "Girassol",
+      "es": "Girasol"
+    },
+    "_manual": true
+  },
+  "Lightning": {
+    "image": "https://i.imgur.com/C98Njte.png",
+    "pageUrl": "https://minecraft.wiki/w/Thunderstorm#Lightning",
+    "translations": {
+      "pt": "Relâmpago",
+      "es": "Tormenta elétrica"
+    },
+    "_manual": true
+  },
+  "Armor Trim": {
+    "image": "https://minecraft.wiki/images/Armor_Trim_Dune_%28sample_model%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Dune_Armor_Trim",
+    "translations": {
+      "pt": "Enfeite de Armadura",
+      "es": "Diseño de armadura"
     },
     "_manual": true
   }
