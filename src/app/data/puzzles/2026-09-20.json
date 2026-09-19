@@ -1,0 +1,51 @@
+{
+  "id": 99,
+  "date": "2026-09-20",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Slabs",
+      "items": [
+        "Cut Red Sandstone Slab",
+        "Brick Slab",
+        "Tuff Slab",
+        "Quartz Slab"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Stronghold Blocks",
+      "items": [
+        "End Portal Frame",
+        "Cracked Stone Bricks",
+        "Iron Door",
+        "Bookshelf"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Crafted with Diorite",
+      "items": [
+        "Diorite Wall",
+        "Polished Diorite",
+        "Granite",
+        "Andesite"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Used in the craft of Armor Trims",
+      "items": [
+        "Breeze Rod",
+        "Purpur Block",
+        "Prismarine Bricks",
+        "Block of Copper"
+      ]
+    }
+  ]
+}

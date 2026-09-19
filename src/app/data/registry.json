@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3918,
+    "totalEntries": 3919,
     "languages": [
       "pt",
       "es"
@@ -27624,6 +27624,15 @@
     "translations": {
       "pt": "Enfeite de Armadura",
       "es": "Diseño de armadura"
+    },
+    "_manual": true
+  },
+  "Skeleton Horseman": {
+    "image": "https://minecraft.wiki/images/Skeleton_Horseman.png",
+    "pageUrl": "https://minecraft.wiki/w/Skeleton_Horse#Skeleton_horsemen",
+    "translations": {
+      "pt": "Cavaleiro-Esqueleto",
+      "es": "Jinete esquelético"
     },
     "_manual": true
   }
