@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3919,
+    "totalEntries": 3925,
     "languages": [
       "pt",
       "es"
@@ -27633,6 +27633,60 @@
     "translations": {
       "pt": "Cavaleiro-Esqueleto",
       "es": "Jinete esquelético"
+    },
+    "_manual": true
+  },
+  "Feather (old)": {
+    "image": "https://minecraft.wiki/images/Feather_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Feather",
+    "translations": {
+      "pt": "Pena",
+      "es": "Pluma"
+    },
+    "_manual": true
+  },
+  "Glowstone Dust (old)": {
+    "image": "https://minecraft.wiki/images/Glowstone_Dust_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Glowstone_Dust",
+    "translations": {
+      "pt": "Pó de Pedra Luminosa",
+      "es": "Polvo de piedra luminosa"
+    },
+    "_manual": true
+  },
+  "Obsidian Room": {
+    "image": "https://minecraft.wiki/images/Woodland_mansion_1x1_as3.png",
+    "pageUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+    "translations": {
+      "pt": "Sala da Obisidiana",
+      "es": "Habitación de obsidiana"
+    },
+    "_manual": true
+  },
+  "Obsidian Room (diamond)": {
+    "image": "https://minecraft.wiki/images/Woodland_mansion_1x1_as3_2.png",
+    "pageUrl": "https://minecraft.wiki/w/Woodland_Mansion",
+    "translations": {
+      "pt": "Sala da Obisidiana",
+      "es": "Habitación de obsidiana"
+    },
+    "_manual": true
+  },
+  "TruMoo": {
+    "image": "https://minecraft.wiki/images/MinecraftTruMoo.png",
+    "pageUrl": "https://minecraft.wiki/w/TruMoo",
+    "translations": {
+      "pt": "TruMoo",
+      "es": "TruMoo"
+    },
+    "_manual": true
+  },
+  "Milk Arrow": {
+    "image": "https://i.imgur.com/Cs201ko.png",
+    "pageUrl": "https://minecraft.wiki/w/Milk_Arrow",
+    "translations": {
+      "pt": "Flecha de Leite",
+      "es": "Flecha de leche"
     },
     "_manual": true
   }
