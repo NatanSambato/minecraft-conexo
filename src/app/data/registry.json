@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3925,
+    "totalEntries": 3935,
     "languages": [
       "pt",
       "es"
@@ -13554,8 +13554,10 @@
     "image": "https://minecraft.wiki/images/Spruce.png",
     "pageUrl": "https://minecraft.wiki/w/Spruce",
     "translations": {
-      "pt": "Abeto"
-    }
+      "pt": "Abeto",
+      "es": "Abeto"
+    },
+    "_manual": true
   },
   "Desert Pyramid": {
     "image": "https://minecraft.wiki/images/Desert_Pyramid_JE3_BE3.png",
@@ -21744,8 +21746,9 @@
     "pageUrl": "https://minecraft.wiki/w/Log",
     "translations": {
       "pt": "Tronco de Abeto",
-      "es": "Tronco de Picea"
-    }
+      "es": "Tronco de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Log": {
     "image": "https://minecraft.wiki/images/Jungle_Log_%28UD%29_JE9_BE4.png?a69e4",
@@ -21959,8 +21962,9 @@
     "pageUrl": "https://minecraft.wiki/w/Shelf",
     "translations": {
       "pt": "Estante de Abeto",
-      "es": "Estante de Picea"
-    }
+      "es": "Estante de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Shelf": {
     "image": "https://minecraft.wiki/images/Jungle_Shelf_JE1_BE2.png?f3c01",
@@ -22061,8 +22065,9 @@
     "pageUrl": "https://minecraft.wiki/w/Planks",
     "translations": {
       "pt": "Tábuas de Abeto",
-      "es": "Tablones de Picea"
-    }
+      "es": "Tablones de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Planks": {
     "image": "https://minecraft.wiki/images/Jungle_Planks_JE3_BE2.png?adaef",
@@ -22163,8 +22168,9 @@
     "pageUrl": "https://minecraft.wiki/w/Stairs",
     "translations": {
       "pt": "Escadas de Abeto",
-      "es": "Escaleras de Picea"
-    }
+      "es": "Escaleras de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Stairs": {
     "image": "https://minecraft.wiki/images/Jungle_Stairs_%28N%29_JE4_BE2.png?d6da4",
@@ -22265,8 +22271,9 @@
     "pageUrl": "https://minecraft.wiki/w/Slab",
     "translations": {
       "pt": "Laje de Abeto",
-      "es": "Losa de Picea"
-    }
+      "es": "Losa de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Slab": {
     "image": "https://minecraft.wiki/images/Jungle_Slab_JE3_BE2.png?a13de",
@@ -22367,8 +22374,9 @@
     "pageUrl": "https://minecraft.wiki/w/Fence",
     "translations": {
       "pt": "Cerca de Abeto",
-      "es": "Valla de Picea"
-    }
+      "es": "Valla de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Fence": {
     "image": "https://minecraft.wiki/images/Jungle_Fence_%28EW%29_JE5.png?44e2f",
@@ -22469,8 +22477,9 @@
     "pageUrl": "https://minecraft.wiki/w/Fence_Gate",
     "translations": {
       "pt": "Portão de Abeto",
-      "es": "Puerta de valla de Picea"
-    }
+      "es": "Puerta de valla de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Fence Gate": {
     "image": "https://minecraft.wiki/images/Jungle_Fence_Gate_JE3_BE2.png?a74d7",
@@ -22571,8 +22580,9 @@
     "pageUrl": "https://minecraft.wiki/w/Door",
     "translations": {
       "pt": "Porta de Abeto",
-      "es": "Puerta de Picea"
-    }
+      "es": "Puerta de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Door": {
     "image": "https://minecraft.wiki/images/Jungle_Door_JE5.png?c216b",
@@ -22674,8 +22684,9 @@
     "pageUrl": "https://minecraft.wiki/w/Trapdoor",
     "translations": {
       "pt": "Alçapão de Abeto",
-      "es": "Trampilla de Picea"
-    }
+      "es": "Trampilla de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Trapdoor": {
     "image": "https://minecraft.wiki/images/Jungle_Trapdoor_JE1_BE1.png?1252f",
@@ -22776,8 +22787,9 @@
     "pageUrl": "https://minecraft.wiki/w/Sign",
     "translations": {
       "pt": "Placa de Abeto",
-      "es": "Cartel de Picea"
-    }
+      "es": "Cartel de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Sign": {
     "image": "https://minecraft.wiki/images/Jungle_Sign_%280%29.png?39433",
@@ -22878,8 +22890,9 @@
     "pageUrl": "https://minecraft.wiki/w/Hanging_Sign",
     "translations": {
       "pt": "Placa Suspensa de Abeto",
-      "es": "Cartel Colgante de Picea"
-    }
+      "es": "Cartel Colgante de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Hanging Sign": {
     "image": "https://minecraft.wiki/images/Jungle_Hanging_Sign_JE1_BE1.png?cb657",
@@ -22980,8 +22993,9 @@
     "pageUrl": "https://minecraft.wiki/w/Button",
     "translations": {
       "pt": "Botão de Abeto",
-      "es": "Botón de Picea"
-    }
+      "es": "Botón de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Button": {
     "image": "https://minecraft.wiki/images/Jungle_Button_JE4.png?f004c",
@@ -23083,8 +23097,9 @@
     "pageUrl": "https://minecraft.wiki/w/Pressure_Plate",
     "translations": {
       "pt": "Placa de Pressão de Abeto",
-      "es": "Placa de presión de Picea"
-    }
+      "es": "Placa de presión de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Pressure Plate": {
     "image": "https://minecraft.wiki/images/Jungle_Pressure_Plate_JE3_BE2.png?1e795",
@@ -23185,8 +23200,9 @@
     "pageUrl": "https://minecraft.wiki/w/Boat",
     "translations": {
       "pt": "Bote de Abeto",
-      "es": "Barca de Picea"
-    }
+      "es": "Barca de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Boat": {
     "image": "https://minecraft.wiki/images/Jungle_Boat_JE3_BE2.png?d45f3",
@@ -23270,8 +23286,9 @@
     "pageUrl": "https://minecraft.wiki/w/Boat_with_Chest",
     "translations": {
       "pt": "Bote com Baú de Abeto",
-      "es": "Barca con Cofre de Picea"
-    }
+      "es": "Barca con Cofre de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Boat with Chest": {
     "image": "https://minecraft.wiki/images/Jungle_Boat_with_Chest_JE2_BE1.png?de53b",
@@ -23355,8 +23372,9 @@
     "pageUrl": "https://minecraft.wiki/w/Sapling",
     "translations": {
       "pt": "Muda de Abeto",
-      "es": "Brote de Picea"
-    }
+      "es": "Brote de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Sapling": {
     "image": "https://minecraft.wiki/images/Jungle_Sapling_JE7_BE2.png?24ddb",
@@ -23432,8 +23450,9 @@
     "pageUrl": "https://minecraft.wiki/w/Leaves",
     "translations": {
       "pt": "Folhas de Abeto",
-      "es": "Hojas de Picea"
-    }
+      "es": "Hojas de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Leaves": {
     "image": "https://minecraft.wiki/images/Jungle_Leaves.png?fe8d3",
@@ -23509,8 +23528,9 @@
     "pageUrl": "https://minecraft.wiki/w/Wood",
     "translations": {
       "pt": "Madeira de Abeto",
-      "es": "Leño de Picea"
-    }
+      "es": "Leño de Abeto"
+    },
+    "_manual": true
   },
   "Jungle Wood": {
     "image": "https://minecraft.wiki/images/Jungle_Wood_%28UD%29_JE6_BE2.png?51428",
@@ -24954,7 +24974,7 @@
   },
   "Mega Pine": {
     "image": "https://minecraft.wiki/images/Mega_Pine_Tree.png",
-    "pageUrl": "https://minecraft.wiki/w/Boat",
+    "pageUrl": "https://minecraft.wiki/w/Spruce#Mega_Pine",
     "translations": {
       "pt": "Mega Pinheiro",
       "es": "Pino gigante"
@@ -27687,6 +27707,96 @@
     "translations": {
       "pt": "Flecha de Leite",
       "es": "Flecha de leche"
+    },
+    "_manual": true
+  },
+  "Pine": {
+    "image": "https://minecraft.wiki/images/Tall_Pine_Tree.png",
+    "pageUrl": "https://minecraft.wiki/w/Spruce#Pine",
+    "translations": {
+      "pt": "Pinheiro",
+      "es": "Pino"
+    },
+    "_manual": true
+  },
+  "Spruce with Vines": {
+    "image": "https://minecraft.wiki/images/Spruce_Tree_with_Vines.png",
+    "pageUrl": "https://minecraft.wiki/w/Spruce#Spruce_with_Vines",
+    "translations": {
+      "pt": "Abeto Morto",
+      "es": "Abeto moribundo"
+    },
+    "_manual": true
+  },
+  "Snowy Wolf": {
+    "image": "https://minecraft.wiki/images/Snowy_Wolf_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Wolf#Snowy",
+    "translations": {
+      "pt": "Lobo Nevado",
+      "es": "Lobo Nevado"
+    },
+    "_manual": true
+  },
+  "Spruce Fallen Tree": {
+    "image": "https://minecraft.wiki/images/Spruce_Fallen_Log.png",
+    "pageUrl": "https://minecraft.wiki/w/Fallen_Tree#Spruce",
+    "translations": {
+      "pt": "Árvore de Abeto caída",
+      "es": "Abeto caído"
+    },
+    "_manual": true
+  },
+  "Mega Spruce": {
+    "image": "https://minecraft.wiki/images/Mega_Spruce_Tree.png",
+    "pageUrl": "https://minecraft.wiki/w/Spruce#Mega_Spruce",
+    "translations": {
+      "pt": "Mega Abeto",
+      "es": "Abeto gigante"
+    },
+    "_manual": true
+  },
+  "Skeleton (converting)": {
+    "image": "https://minecraft.wiki/images/Skeleton_become_Stray.gif",
+    "pageUrl": "https://minecraft.wiki/w/Powder_Snow#Freezing",
+    "translations": {
+      "pt": "Esqueleto",
+      "es": "Esqueleto"
+    },
+    "_manual": true
+  },
+  "Snowfall": {
+    "image": "https://i.imgur.com/WhGBFH3.png",
+    "pageUrl": "https://minecraft.wiki/w/Snowfall",
+    "translations": {
+      "pt": "Nevasca",
+      "es": "Nevada"
+    },
+    "_manual": true
+  },
+  "White Splotched Rabbit": {
+    "image": "https://minecraft.wiki/images/White_Splotched_Rabbit_JE4_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Rabbit#White_Splotched",
+    "translations": {
+      "pt": "Coelho com Manchas Brancas",
+      "es": "Conejo Blanco y Negro"
+    },
+    "_manual": true
+  },
+  "Falling": {
+    "image": "https://i.imgur.com/XGcewXM.png",
+    "pageUrl": "https://minecraft.wiki/w/Damage#Fall_damage",
+    "translations": {
+      "pt": "Queda",
+      "es": "Caída"
+    },
+    "_manual": true
+  },
+  "Fall Damage": {
+    "image": "https://i.imgur.com/XGcewXM.png",
+    "pageUrl": "https://minecraft.wiki/w/Damage#Fall_damage",
+    "translations": {
+      "pt": "Dano de Queda",
+      "es": "Danõ por caída"
     },
     "_manual": true
   }

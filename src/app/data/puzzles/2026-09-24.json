@@ -1,0 +1,51 @@
+{
+  "id": 106,
+  "date": "2026-09-24",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Spruce Wood Tree Variants",
+      "items": [
+        "Spruce",
+        "Mega Spruce",
+        "Spruce with Vines",
+        "Mega Pine"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Found in Grove",
+      "items": [
+        "Snowfall",
+        "Powder Snow",
+        "White Splotched Rabbit",
+        "Snowy Wolf"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Added in the Village & Pillage update",
+      "items": [
+        "Hero of the Village",
+        "Pillager",
+        "Smoker",
+        "Sweet Berries"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Powder Snow Interactions",
+      "items": [
+        "Leather Boots",
+        "Fall Damage",
+        "Skeleton",
+        "Cauldron"
+      ]
+    }
+  ]
+}
