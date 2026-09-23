@@ -41,10 +41,10 @@
       "color": "purple",
       "correlation": "Shaking Mobs",
       "items": [
+        "Skeleton (converting)",
         "Strider (cold)",
         "Enderman (shaking)",
-        "Hoglin (converting) (shorter)",
-        "Zombie Villager (converting) (shorter)"
+        "Hoglin (converting) (shorter)"
       ]
     }
   ]
