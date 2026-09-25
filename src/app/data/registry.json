@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3935,
+    "totalEntries": 3948,
     "languages": [
       "pt",
       "es"
@@ -7196,11 +7196,12 @@
     }
   },
   "Ominous Banner": {
-    "image": "https://minecraft.wiki/images/Ominous_Banner.gif",
+    "image": "https://minecraft.wiki/images/Ominous_Wall_Banner.png",
     "pageUrl": "https://minecraft.wiki/w/Ominous_Banner",
     "translations": {
       "pt": "Estandarte Ameaçador"
-    }
+    },
+    "_manual": true
   },
   "Nylium": {
     "image": "https://minecraft.wiki/images/Crimson_Nylium_JE1_BE1.png",
@@ -23796,7 +23797,7 @@
     "_manual": true
   },
   "Arrow of Oozing": {
-    "image": "https://minecraft.wiki/images/Arrow_of_Oozing_JE1_BE1.png?9f8b2",
+    "image": "https://minecraft.wiki/images/Arrow_of_Oozing_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha Pegajosa",
@@ -27797,6 +27798,123 @@
     "translations": {
       "pt": "Dano de Queda",
       "es": "Danõ por caída"
+    },
+    "_manual": true
+  },
+  "Garret (AMCM LE)": {
+    "image": "https://minecraft.wiki/images/AMCM_live_event_garrett.png",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Renders",
+    "translations": {
+      "pt": "Garret",
+      "es": "Garret"
+    },
+    "_manual": true
+  },
+  "Steve (AMCM LE)": {
+    "image": "https://minecraft.wiki/images/AMCM_live_event_steve.png",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Renders",
+    "translations": {
+      "pt": "Steve",
+      "es": "Steve"
+    },
+    "_manual": true
+  },
+  "Natalie (AMCM LE)": {
+    "image": "https://minecraft.wiki/images/AMCM_live_event_natalie.png",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Renders",
+    "translations": {
+      "pt": "Natalie",
+      "es": "Natalie"
+    },
+    "_manual": true
+  },
+  "Dawn (AMCM LE)": {
+    "image": "https://minecraft.wiki/images/AMCM_live_event_dawn.png",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Renders",
+    "translations": {
+      "pt": "Dawn",
+      "es": "Dawn"
+    },
+    "_manual": true
+  },
+  "Henry (AMCM LE)": {
+    "image": "https://minecraft.wiki/images/AMCM_live_event_henry.png",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Renders",
+    "translations": {
+      "pt": "Henry",
+      "es": "Henry"
+    },
+    "_manual": true
+  },
+  "Steve (Kadoosh!) (AMCM LE)": {
+    "image": "https://minecraft.wiki/images/Kadoosh%21_Render.gif",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Rewards",
+    "translations": {
+      "pt": "Steve",
+      "es": "Steve"
+    },
+    "_manual": true
+  },
+  "Steve (Battle Cry) (AMCM LE)": {
+    "image": "https://minecraft.wiki/images/Battle_Cry_Render.gif",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Rewards",
+    "translations": {
+      "pt": "Steve",
+      "es": "Steve"
+    },
+    "_manual": true
+  },
+  "Compass (AMCM LE)": {
+    "image": "https://minecraft.wiki/images/AMCM_live_event_compass.png",
+    "pageUrl": "https://minecraft.wiki/w/Compass",
+    "translations": {
+      "pt": "Bússola",
+      "es": "Brújula"
+    },
+    "_manual": true
+  },
+  "Compass (Story Mode)": {
+    "image": "https://minecraft.wiki/images/MCSM_Compass.png",
+    "pageUrl": "https://minecraft.wiki/w/Compass",
+    "translations": {
+      "pt": "Bússola",
+      "es": "Brújula"
+    },
+    "_manual": true
+  },
+  "Clock (AMCM LE)": {
+    "image": "https://minecraft.wiki/images/AMCM_live_event_clock.png",
+    "pageUrl": "https://minecraft.wiki/w/Clock",
+    "translations": {
+      "pt": "Relógio",
+      "es": "Reloj"
+    },
+    "_manual": true
+  },
+  "Saxophone": {
+    "image": "https://minecraft.wiki/images/AMCM_live_event_saxophone.png",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Games",
+    "translations": {
+      "pt": "Saxofone",
+      "es": "Saxofón"
+    },
+    "_manual": true
+  },
+  "Steve (Arrows)": {
+    "image": "https://minecraft.wiki/images/Steve_got_shot.png",
+    "pageUrl": "https://minecraft.wiki/w/Steve",
+    "translations": {
+      "pt": "Steve",
+      "es": "Steve"
+    },
+    "_manual": true
+  },
+  "Alex (Arrows)": {
+    "image": "https://minecraft.wiki/images/Alex_got_shot.png",
+    "pageUrl": "https://minecraft.wiki/w/Alex",
+    "translations": {
+      "pt": "Alex",
+      "es": "Alex"
     },
     "_manual": true
   }
