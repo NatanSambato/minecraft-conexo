@@ -1,0 +1,51 @@
+{
+  "id": 100,
+  "date": "2026-09-28",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Made with Brown Mushroom",
+      "items": [
+        "Huge Brown Mushroom",
+        "Potted Brown Mushroom",
+        "Mushroom Stew",
+        "Fermented Spider Eye"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Added in The Copper Age update",
+      "items": [
+        "Exposed Copper Golem Statue",
+        "Copper Axe",
+        "Copper Horse Armor (item)",
+        "Shelf"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Shipwreck Loot",
+      "items": [
+        "Coast Armor Trim",
+        "Suspicious Stew",
+        "Paper",
+        "Copper Nautilus Armor (item)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Items with Removed Recipes",
+      "items": [
+        "Chainmail Chestplate (item)",
+        "Enchanted Golden Apple",
+        "Diamond Horse Armor (item)",
+        "Stonecutter (old)"
+      ]
+    }
+  ]
+}

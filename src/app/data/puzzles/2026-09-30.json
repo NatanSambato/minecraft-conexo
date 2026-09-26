@@ -1,0 +1,51 @@
+{
+  "id": 108,
+  "date": "2026-09-30",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "A Minecraft Movie Characters",
+      "items": [
+        "Steve (AMCM LE)",
+        "Garret (AMCM LE)",
+        "Natalie (AMCM LE)",
+        "Dawn (AMCM LE)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Default Skins",
+      "items": [
+        "Steve",
+        "Alex",
+        "Sunny",
+        "Zuri"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Movement Features",
+      "items": [
+        "Sprinting",
+        "Crawling (steve)",
+        "Sneaking",
+        "Jumping"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Emotes",
+      "items": [
+        "Steve (Kadoosh!) (AMCM LE) (emote)",
+        "Steve (Battle Cry) (AMCM LE) (emote)",
+        "Clapping (emote)",
+        "Ironic Dance (emote)"
+      ]
+    }
+  ]
+}

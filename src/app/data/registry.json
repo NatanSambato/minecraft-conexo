@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3948,
+    "totalEntries": 3982,
     "languages": [
       "pt",
       "es"
@@ -6346,12 +6346,13 @@
     }
   },
   "Hay Bale": {
-    "image": "https://minecraft.wiki/images/Hay_Bale_(UD)_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Hay_Bale_%28UD%29_JE3_BE3.png",
     "pageUrl": "https://minecraft.wiki/w/Hay_Bale",
     "translations": {
-      "es": "Bala de heno",
-      "pt": "Fardo de Feno"
-    }
+      "pt": "Fardo de Feno",
+      "es": "Bala de heno"
+    },
+    "_manual": true
   },
   "Granite": {
     "image": "https://minecraft.wiki/images/Granite.png",
@@ -8685,14 +8686,6 @@
     "pageUrl": "https://minecraft.wiki/w/Sky_(block)",
     "translations": {}
   },
-  "Shelf Mushroom": {
-    "image": "https://minecraft.wiki/images/Shelf_Mushroom_(S)_JE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Shelf_Mushroom",
-    "translations": {
-      "es": "Políporo",
-      "pt": "Shelf Mushroom"
-    }
-  },
   "Stone": {
     "image": "https://minecraft.wiki/images/Stone_JE5_BE3.png",
     "pageUrl": "https://minecraft.wiki/w/Stone",
@@ -9041,11 +9034,13 @@
     }
   },
   "Straw Bed": {
-    "image": "https://minecraft.wiki/images/Straw_Bed_Reveal_Cropped.png",
+    "image": "https://minecraft.wiki/images/Straw_Bed_%28N%29_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Straw_Bed",
     "translations": {
-      "pt": "Cama de Palha"
-    }
+      "pt": "Cama de Palha",
+      "es": "Cama de paja"
+    },
+    "_manual": true
   },
   "Torch": {
     "image": "https://minecraft.wiki/images/Torch.gif",
@@ -10069,7 +10064,11 @@
   "Copper Golem": {
     "image": "https://minecraft.wiki/images/Copper_Golem_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Copper_Golem",
-    "translations": {}
+    "translations": {
+      "pt": "Golem de Cobre",
+      "es": "Gólem de cobre"
+    },
+    "_manual": true
   },
   "Tadpole": {
     "image": "https://minecraft.wiki/images/Tadpole_JE1.png",
@@ -13852,14 +13851,6 @@
       "pt": "Espeleotema de Enxofre (recurso)"
     }
   },
-  "Poplar": {
-    "image": "https://minecraft.wiki/images/Poplar_Tree_Red_Leaves.png",
-    "pageUrl": "https://minecraft.wiki/w/Poplar",
-    "translations": {
-      "es": "Álamo",
-      "pt": "Choupo"
-    }
-  },
   "Abandoned Camp": {
     "image": "https://minecraft.wiki/images/Abandoned_Camp.png",
     "pageUrl": "https://minecraft.wiki/w/Abandoned_Camp",
@@ -16467,12 +16458,13 @@
     }
   },
   "Sitting": {
-    "image": "https://minecraft.wiki/images/Steve_Sitting.png",
+    "image": "https://minecraft.wiki/images/Sitting_Steve.png",
     "pageUrl": "https://minecraft.wiki/w/Sitting",
     "translations": {
-      "es": "Sentarse",
-      "pt": "Sentar"
-    }
+      "pt": "Sentar",
+      "es": "Sentarse"
+    },
+    "_manual": true
   },
   "Hitbox": {
     "image": "https://minecraft.wiki/images/Zombie_chasing_villager_with_hitboxes.png",
@@ -24681,7 +24673,7 @@
   },
   "Hay Pile": {
     "image": "https://minecraft.wiki/images/Hay_Pile.png",
-    "pageUrl": "https://minecraft.wiki/w/Pile",
+    "pageUrl": "https://minecraft.wiki/w/Pile#Hay",
     "translations": {
       "pt": "Pilha de Feno",
       "es": "Pila de heno"
@@ -27846,24 +27838,6 @@
     },
     "_manual": true
   },
-  "Steve (Kadoosh!) (AMCM LE)": {
-    "image": "https://minecraft.wiki/images/Kadoosh%21_Render.gif",
-    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Rewards",
-    "translations": {
-      "pt": "Steve",
-      "es": "Steve"
-    },
-    "_manual": true
-  },
-  "Steve (Battle Cry) (AMCM LE)": {
-    "image": "https://minecraft.wiki/images/Battle_Cry_Render.gif",
-    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Rewards",
-    "translations": {
-      "pt": "Steve",
-      "es": "Steve"
-    },
-    "_manual": true
-  },
   "Compass (AMCM LE)": {
     "image": "https://minecraft.wiki/images/AMCM_live_event_compass.png",
     "pageUrl": "https://minecraft.wiki/w/Compass",
@@ -27915,6 +27889,348 @@
     "translations": {
       "pt": "Alex",
       "es": "Alex"
+    },
+    "_manual": true
+  },
+  "Crawling (steve)": {
+    "image": "https://minecraft.wiki/images/Crawling_Steve_%28wide%29.png",
+    "pageUrl": "https://minecraft.wiki/w/Crawling",
+    "translations": {
+      "pt": "Rastejar",
+      "es": "Arrastrarse"
+    },
+    "_manual": true
+  },
+  "Ice Pile": {
+    "image": "https://minecraft.wiki/images/Ice_Pile.png",
+    "pageUrl": "https://minecraft.wiki/w/Pile#Ice",
+    "translations": {
+      "pt": "Pilha de Gelo",
+      "es": "Pila de hielo"
+    },
+    "_manual": true
+  },
+  "Frosted Ice (melting 2)": {
+    "image": "https://minecraft.wiki/images/Frosted_Ice_2_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Frosted_Ice",
+    "translations": {
+      "pt": "Gelo Fosco",
+      "es": "Hielo escarchado"
+    },
+    "_manual": true
+  },
+  "Frosted Ice (melting 3)": {
+    "image": "https://minecraft.wiki/images/Frosted_Ice_3_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Frosted_Ice",
+    "translations": {
+      "pt": "Gelo Fosco",
+      "es": "Hielo escarchado"
+    },
+    "_manual": true
+  },
+  "Frosted Ice (melting 1)": {
+    "image": "https://minecraft.wiki/images/Frosted_Ice_1_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Frosted_Ice",
+    "translations": {
+      "pt": "Gelo Fosco",
+      "es": "Hielo escarchado"
+    },
+    "_manual": true
+  },
+  "Copper Horse Armor (item)": {
+    "image": "https://minecraft.wiki/images/Copper_Horse_Armor_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Copper_Horse_Armor",
+    "translations": {
+      "pt": "Armadura de Cobre para Cavalo",
+      "es": "Armadura de cobre para caballo"
+    },
+    "_manual": true
+  },
+  "Potted Brown Mushroom": {
+    "image": "https://minecraft.wiki/images/Potted_Brown_Mushroom_JE5.png",
+    "pageUrl": "https://minecraft.wiki/w/Flower_Pot#Renders",
+    "translations": {
+      "pt": "Cogumelo marrom envasado",
+      "es": "Maceta con champiñón marrón."
+    },
+    "_manual": true
+  },
+  "Buried Treasure Map": {
+    "image": "https://minecraft.wiki/images/Map_%28item%29_Actually_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Explorer_Map#Buried_Treasure",
+    "translations": {
+      "pt": "Mapa do Tesouro Enterrado",
+      "es": "Mapa del Tesoro enterrado"
+    },
+    "_manual": true
+  },
+  "Wave (emote)": {
+    "image": "https://minecraft.wiki/images/Emote_Wave.gif",
+    "pageUrl": "https://minecraft.wiki/w/Emote#Available_animations",
+    "translations": {
+      "pt": "Acenar",
+      "es": "Saludar"
+    },
+    "_manual": true
+  },
+  "Clapping (emote)": {
+    "image": "https://minecraft.wiki/images/Emote_Clapping.gif",
+    "pageUrl": "https://minecraft.wiki/w/Emote#Available_animations",
+    "translations": {
+      "pt": "Aplaudir",
+      "es": "Aplausos"
+    },
+    "_manual": true
+  },
+  "Ironic Dance (emote)": {
+    "image": "https://minecraft.wiki/images/MCD_Emote_Ironic_Dance.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Emote#Emotes",
+    "translations": {
+      "pt": "Dança Irônica",
+      "es": "Baile irónico"
+    },
+    "_manual": true
+  },
+  "Steve (Battle Cry) (AMCM LE) (emote)": {
+    "image": "https://minecraft.wiki/images/Battle_Cry_Render.gif",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Rewards",
+    "translations": {
+      "pt": "Steve",
+      "es": "Steve"
+    },
+    "_manual": true
+  },
+  "Steve (Kadoosh!) (AMCM LE) (emote)": {
+    "image": "https://minecraft.wiki/images/Kadoosh%21_Render.gif",
+    "pageUrl": "https://minecraft.wiki/w/A_Minecraft_Movie_Live_Event#Rewards",
+    "translations": {
+      "pt": "Steve",
+      "es": "Steve"
+    },
+    "_manual": true
+  },
+  "Exposed Copper Golem Statue": {
+    "image": "https://minecraft.wiki/images/Exposed_Copper_Golem_Statue_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Copper_Golem_Statue",
+    "translations": {
+      "pt": "Estátua de Golem de Cobre Exposto",
+      "es": "Estatua de gólem de cobre expuesto"
+    },
+    "_manual": true
+  },
+  "Copper Golem Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Copper_Golem_Spawn_Egg_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Golem de Cobre",
+      "es": "Huevo generador de gólem de cobre"
+    },
+    "_manual": true
+  },
+  "Black Cushion": {
+    "image": "https://minecraft.wiki/images/Black_Cushion_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Black",
+    "translations": {
+      "pt": "Almofada Preta",
+      "es": "Cojín Negro"
+    },
+    "_manual": true
+  },
+  "White Cushion": {
+    "image": "https://minecraft.wiki/images/White_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#White",
+    "translations": {
+      "pt": "Almofada Branca",
+      "es": "Cojín Blanco"
+    },
+    "_manual": true
+  },
+  "Cushion": {
+    "image": "https://minecraft.wiki/images/White_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion",
+    "translations": {
+      "pt": "Almofada",
+      "es": "Cojín"
+    },
+    "_manual": true
+  },
+  "Light Gray Cushion": {
+    "image": "https://minecraft.wiki/images/Light_Gray_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Light_Gray",
+    "translations": {
+      "pt": "Almofada Cinza Claro",
+      "es": "Cojín Gris Claro"
+    },
+    "_manual": true
+  },
+  "Brown Cushion": {
+    "image": "https://minecraft.wiki/images/Brown_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Brown",
+    "translations": {
+      "pt": "Almofada Marrom",
+      "es": "Cojín Marrón"
+    },
+    "_manual": true
+  },
+  "Red Cushion": {
+    "image": "https://minecraft.wiki/images/Red_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Red",
+    "translations": {
+      "pt": "Almofada Vermelha",
+      "es": "Cojín Rojo"
+    },
+    "_manual": true
+  },
+  "Orange Cushion": {
+    "image": "https://minecraft.wiki/images/Orange_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Orange",
+    "translations": {
+      "pt": "Almofada Laranja",
+      "es": "Cojín Naranja"
+    },
+    "_manual": true
+  },
+  "Yellow Cushion": {
+    "image": "https://minecraft.wiki/images/Yellow_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Yellow",
+    "translations": {
+      "pt": "Almofada Amarela",
+      "es": "Cojín Amarillo"
+    },
+    "_manual": true
+  },
+  "Lime Cushion": {
+    "image": "https://minecraft.wiki/images/Lime_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Lime",
+    "translations": {
+      "pt": "Almofada Verde-Limão",
+      "es": "Cojín Verde Lima"
+    },
+    "_manual": true
+  },
+  "Green Cushion": {
+    "image": "https://minecraft.wiki/images/Green_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Green",
+    "translations": {
+      "pt": "Almofada Verde",
+      "es": "Cojín Verde"
+    },
+    "_manual": true
+  },
+  "Cyan Cushion": {
+    "image": "https://minecraft.wiki/images/Cyan_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Cyan",
+    "translations": {
+      "pt": "Almofada Ciano",
+      "es": "Cojín Cian"
+    },
+    "_manual": true
+  },
+  "Light Blue Cushion": {
+    "image": "https://minecraft.wiki/images/Light_Blue_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Light_Blue",
+    "translations": {
+      "pt": "Almofada Azul-Clara",
+      "es": "Cojín Azul Claro"
+    },
+    "_manual": true
+  },
+  "Blue Cushion": {
+    "image": "https://minecraft.wiki/images/Blue_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Blue",
+    "translations": {
+      "pt": "Almofada Azul",
+      "es": "Cojín Azul"
+    },
+    "_manual": true
+  },
+  "Purple Cushion": {
+    "image": "https://minecraft.wiki/images/Purple_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Purple",
+    "translations": {
+      "pt": "Almofada Roxa",
+      "es": "Cojín Morado"
+    },
+    "_manual": true
+  },
+  "Magenta Cushion": {
+    "image": "https://minecraft.wiki/images/Magenta_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Magenta",
+    "translations": {
+      "pt": "Almofada Magenta",
+      "es": "Cojín Magenta"
+    },
+    "_manual": true
+  },
+  "Pink Cushion": {
+    "image": "https://minecraft.wiki/images/Pink_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Pink",
+    "translations": {
+      "pt": "Almofada Rosa",
+      "es": "Cojín Rosa"
+    },
+    "_manual": true
+  },
+  "Light Gray Concrete Stairs": {
+    "image": "https://minecraft.wiki/images/Light_Gray_Concrete_Stairs_%28N%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Concrete_Stairs#Light_Gray",
+    "translations": {
+      "pt": "Escadas de Concreto Cinza Claro",
+      "es": "Escaleras de Hormigón Gris Claro"
+    },
+    "_manual": true
+  },
+  "Gray Cushion": {
+    "image": "https://minecraft.wiki/images/Gray_Cushion_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#Gray",
+    "translations": {
+      "pt": "Almofada Cinza",
+      "es": "Cojín Gris"
+    },
+    "_manual": true
+  },
+  "Poplar (orange)": {
+    "image": "https://minecraft.wiki/images/Poplar_Tree_Orange_Leaves.png",
+    "pageUrl": "https://minecraft.wiki/w/Poplar#Orange_Poplar",
+    "translations": {
+      "pt": "Choupo",
+      "es": "Álamo"
+    },
+    "_manual": true
+  },
+  "Poplar (yellow)": {
+    "image": "https://minecraft.wiki/images/Poplar_Tree_Yellow_Leaves.png",
+    "pageUrl": "https://minecraft.wiki/w/Poplar#Yellow_Poplar",
+    "translations": {
+      "pt": "Choupo",
+      "es": "Álamo"
+    },
+    "_manual": true
+  },
+  "Poplar (red)": {
+    "image": "https://minecraft.wiki/images/Poplar_Tree_Red_Leaves.png",
+    "pageUrl": "https://minecraft.wiki/w/Poplar#Red_Poplar",
+    "translations": {
+      "pt": "Choupo",
+      "es": "Álamo"
+    },
+    "_manual": true
+  },
+  "Shelf Mushroom (big)": {
+    "image": "https://minecraft.wiki/images/Big_Shelf_Mushroom_%28S%29_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Shelf_Mushroom",
+    "translations": {
+      "pt": "Shelf Mushroom",
+      "es": "Políporo"
+    },
+    "_manual": true
+  },
+  "Shelf Mushroom (small)": {
+    "image": "https://minecraft.wiki/images/Shelf_Mushroom_(S)_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Shelf_Mushroom",
+    "translations": {
+      "pt": "Shelf Mushroom",
+      "es": "Políporo"
     },
     "_manual": true
   }

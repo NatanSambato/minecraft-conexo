@@ -1,0 +1,51 @@
+{
+  "id": 114,
+  "date": "2026-09-29",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Added in the Wilderness Bound update",
+      "items": [
+        "Abandoned Camp",
+        "Dappled Forest (icon)",
+        "Shelf Mushroom (big)",
+        "Straw Bed"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Entities you can Sit on",
+      "items": [
+        "Horse",
+        "Minecart",
+        "Pale Oak Boat",
+        "Gray Cushion"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Crafted with Poplar Planks",
+      "items": [
+        "Poplar Door",
+        "Poplar Trapdoor",
+        "Crafting Table",
+        "Chest"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Light Gray Blocks",
+      "items": [
+        "Light Gray Glazed Terracotta",
+        "Light Gray Shulker Box",
+        "Light Gray Wool Slab",
+        "Light Gray Concrete Stairs"
+      ]
+    }
+  ]
+}

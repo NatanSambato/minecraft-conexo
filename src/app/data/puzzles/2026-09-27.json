@@ -1,0 +1,51 @@
+{
+  "id": 112,
+  "date": "2026-09-27",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Polished Blocks",
+      "items": [
+        "Polished Sulfur Wall",
+        "Polished Diorite Stairs",
+        "Polished Tuff Slab",
+        "Polished Granite"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Desert and Badlands Plants",
+      "items": [
+        "Cactus",
+        "Tall Dry Grass",
+        "Short Dry Grass",
+        "Dead Bush"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Wooded Badlands Blocks",
+      "items": [
+        "Terracotta",
+        "Grass Block",
+        "Coarse Dirt",
+        "Leaf Litter (four)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Desert Well Blocks",
+      "items": [
+        "Water",
+        "Sandstone Slab",
+        "Sandstone",
+        "Suspicious Sand"
+      ]
+    }
+  ]
+}
