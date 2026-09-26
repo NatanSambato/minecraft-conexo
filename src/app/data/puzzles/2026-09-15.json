@@ -1,50 +1,50 @@
 {
-  "id": 97,
+  "id": 114,
   "date": "2026-09-15",
   "author": "Natowski",
   "groups": [
     {
       "id": 1,
       "color": "yellow",
-      "correlation": "Dyes not obtained from Flowers",
+      "correlation": "Added in the Wilderness Bound update",
       "items": [
-        "Brown Dye",
-        "Green Dye",
-        "Light Gray Dye",
-        "Purple Dye"
+        "Abandoned Camp",
+        "Dappled Forest (icon)",
+        "Shelf Mushroom (big)",
+        "Straw Bed"
       ]
     },
     {
       "id": 2,
       "color": "green",
-      "correlation": "Blocks that grow into Trees",
+      "correlation": "Entities you can Sit on",
       "items": [
-        "Cherry Sapling",
-        "Mangrove Propagule",
-        "Azalea",
-        "Crimson Fungus"
+        "Horse",
+        "Minecart",
+        "Pale Oak Boat",
+        "Gray Cushion"
       ]
     },
     {
       "id": 3,
       "color": "blue",
-      "correlation": "Obtained by mining with Shears",
+      "correlation": "Crafted with Poplar Planks",
       "items": [
-        "Acacia Leaves",
-        "Seagrass (item)",
-        "Vines (item) (BE)",
-        "Glow Lichen (item)"
+        "Poplar Door",
+        "Poplar Trapdoor",
+        "Crafting Table",
+        "Chest"
       ]
     },
     {
       "id": 4,
       "color": "purple",
-      "correlation": "Added in the Spring to Life update",
+      "correlation": "Light Gray Blocks",
       "items": [
-        "Blue Egg",
-        "Cactus Flower",
-        "Firefly Bush",
-        "Oak Fallen Tree"
+        "Light Gray Glazed Terracotta",
+        "Light Gray Shulker Box",
+        "Light Gray Wool Slab",
+        "Light Gray Concrete Stairs"
       ]
     }
   ]
