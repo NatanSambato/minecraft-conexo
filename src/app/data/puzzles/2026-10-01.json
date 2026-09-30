@@ -1,0 +1,51 @@
+{
+  "id": 115,
+  "date": "2026-10-01",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Nether Fortress Blocks",
+      "items": [
+        "Nether Bricks",
+        "Monster Spawner",
+        "Nether Wart (crop)",
+        "Chest"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Found in Warped Forest",
+      "items": [
+        "Huge Warped Fungus",
+        "Warped Nylium",
+        "Shroomlight",
+        "Crimson Fungus"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Nether Wastes Blocks",
+      "items": [
+        "Netherrack",
+        "Nether Quartz Ore",
+        "Soul Sand",
+        "Gravel"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Added in the Frostburn Update",
+      "items": [
+        "Stray",
+        "Nether Wart Block",
+        "Red Nether Bricks",
+        "Fossil (spine 4)"
+      ]
+    }
+  ]
+}

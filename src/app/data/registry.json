@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3982,
+    "totalEntries": 3983,
     "languages": [
       "pt",
       "es"
@@ -28231,6 +28231,15 @@
     "translations": {
       "pt": "Shelf Mushroom",
       "es": "Políporo"
+    },
+    "_manual": true
+  },
+  "Fossil (spine 4)": {
+    "image": "https://minecraft.wiki/images/Fossil_Spine_4.png",
+    "pageUrl": "https://minecraft.wiki/w/Fossil",
+    "translations": {
+      "pt": "Fóssil",
+      "es": "Fósil"
     },
     "_manual": true
   }
