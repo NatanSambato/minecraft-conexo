@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3983,
+    "totalEntries": 3986,
     "languages": [
       "pt",
       "es"
@@ -28240,6 +28240,33 @@
     "translations": {
       "pt": "Fóssil",
       "es": "Fósil"
+    },
+    "_manual": true
+  },
+  "Muddy Pig": {
+    "image": "https://minecraft.wiki/images/MCE_Muddy_Pig.png",
+    "pageUrl": "https://minecraft.wiki/w/Earth:Muddy_Pig",
+    "translations": {
+      "pt": "Porco Porquinho",
+      "es": "Cerdo lodoso"
+    },
+    "_manual": true
+  },
+  "Cold Pig": {
+    "image": "https://minecraft.wiki/images/Cold_Pig_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Pig",
+    "translations": {
+      "pt": "Porco Frio",
+      "es": "Cerdo helado"
+    },
+    "_manual": true
+  },
+  "Horse (Creamy)": {
+    "image": "https://minecraft.wiki/images/Creamy_Horse.png",
+    "pageUrl": "https://minecraft.wiki/w/Horse",
+    "translations": {
+      "pt": "Cavalo",
+      "es": "Caballo"
     },
     "_manual": true
   }
