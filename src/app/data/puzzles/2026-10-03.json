@@ -28,12 +28,12 @@
     {
       "id": 3,
       "color": "blue",
-      "correlation": "Fisher Cottage Village Loot",
+      "correlation": "Monster Room Loot",
       "items": [
-        "Barrel",
-        "Raw Salmon",
-        "Coal",
-        "Water Bucket"
+        "Music Disc cat",
+        "Name Tag",
+        "Enchanted Book",
+        "Bucket"
       ]
     },
     {
