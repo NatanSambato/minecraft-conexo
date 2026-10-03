@@ -1,0 +1,51 @@
+{
+  "id": 120,
+  "date": "2026-10-04",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Made with Oak Log",
+      "items": [
+        "Stripped Oak Log",
+        "Oak Planks",
+        "Oak Wood",
+        "Smoker"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Minecart Variations",
+      "items": [
+        "Hopper",
+        "Furnace",
+        "Chest",
+        "Command Block"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Dye Sources",
+      "items": [
+        "Ink Sac",
+        "Cactus",
+        "Bone Meal",
+        "Beetroot"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Fisher Cottage Village Loot",
+      "items": [
+        "Raw Salmon",
+        "Coal",
+        "Water Bucket",
+        "Barrel"
+      ]
+    }
+  ]
+}
