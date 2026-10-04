@@ -1,0 +1,51 @@
+{
+  "id": 110,
+  "date": "2026-10-06",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Can Explode",
+      "items": [
+        "Minecart with TNT",
+        "Charged Creeper",
+        "End Crystal",
+        "Respawn Anchor (4 charges)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Music Related",
+      "items": [
+        "Jukebox",
+        "Saxophone",
+        "Cyan Parrot (dancing)",
+        "Allay"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Jockey Variants",
+      "items": [
+        "Skeleton Horse",
+        "Chicken",
+        "Strider",
+        "Nautilus"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Found in River",
+      "items": [
+        "Drowned",
+        "Salmon",
+        "Squid",
+        "Water"
+      ]
+    }
+  ]
+}

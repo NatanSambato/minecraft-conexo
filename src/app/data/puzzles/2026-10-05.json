@@ -1,0 +1,51 @@
+{
+  "id": 121,
+  "date": "2026-10-05",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Cakes",
+      "items": [
+        "Cake",
+        "Cake (10 years anniversary)",
+        "Cake with Red Candle",
+        "Birthday Cake Skin"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Sugar",
+      "items": [
+        "Potion of Swiftness",
+        "Cake (item)",
+        "Fermented Spider Eye",
+        "Pumpkin Pie"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Witch Drops",
+      "items": [
+        "Glass Bottle",
+        "Redstone Dust",
+        "Glowstone Dust",
+        "Gunpowder"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Player-Kill-Only Mob Drops",
+      "items": [
+        "Blaze Rod",
+        "Phantom Membrane",
+        "Wither Skeleton Skull",
+        "Wet Sponge"
+      ]
+    }
+  ]
+}

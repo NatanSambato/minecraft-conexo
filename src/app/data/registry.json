@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3986,
+    "totalEntries": 3991,
     "languages": [
       "pt",
       "es"
@@ -28267,6 +28267,51 @@
     "translations": {
       "pt": "Cavalo",
       "es": "Caballo"
+    },
+    "_manual": true
+  },
+  "Cake (10 years anniversary)": {
+    "image": "https://minecraft.wiki/images/10_years_cake_render.png",
+    "pageUrl": "https://minecraft.wiki/w/Cake#Renders",
+    "translations": {
+      "pt": "Bolo",
+      "es": "Tarta"
+    },
+    "_manual": true
+  },
+  "Cake with Red Candle": {
+    "image": "https://minecraft.wiki/images/Red_Candle_Cake_%28lit%29_JE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Cake#Renders",
+    "translations": {
+      "pt": "Bolo com Vela Vermelha",
+      "es": "Tarta con vela roja"
+    },
+    "_manual": true
+  },
+  "Birthday Cake Skin": {
+    "image": "https://minecraft.wiki/images/Birthday_Cake.png",
+    "pageUrl": "https://minecraft.wiki/w/1st_Birthday_Skin_Pack#Skins",
+    "translations": {
+      "pt": "Skin de Bolo de Aniversário",
+      "es": "Aspecto de Tarta de Cumpleaños"
+    },
+    "_manual": true
+  },
+  "Charged Creeper": {
+    "image": "https://minecraft.wiki/images/Charged_Creeper.webp",
+    "pageUrl": "https://minecraft.wiki/w/Creeper#Charged",
+    "translations": {
+      "pt": "Creeper Elétrico",
+      "es": "Creeper Cargado"
+    },
+    "_manual": true
+  },
+  "Respawn Anchor (4 charges)": {
+    "image": "https://minecraft.wiki/images/Respawn_Anchor_Charges_4_JE1_BE1.gif",
+    "pageUrl": "https://minecraft.wiki/w/Respawn_Anchor#4_charges",
+    "translations": {
+      "pt": "Âncora de Renascimento",
+      "es": "Nexo de reaparición"
     },
     "_manual": true
   }
