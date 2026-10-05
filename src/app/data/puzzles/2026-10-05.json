@@ -17,7 +17,7 @@
     {
       "id": 2,
       "color": "green",
-      "correlation": "Crafted with Sugar",
+      "correlation": "Made with Sugar",
       "items": [
         "Potion of Swiftness",
         "Cake (item)",
@@ -29,12 +29,7 @@
       "id": 3,
       "color": "blue",
       "correlation": "Witch Drops",
-      "items": [
-        "Glass Bottle",
-        "Redstone Dust",
-        "Glowstone Dust",
-        "Gunpowder"
-      ]
+      "items": ["Glass Bottle", "Stick", "Glowstone Dust", "Gunpowder"]
     },
     {
       "id": 4,
