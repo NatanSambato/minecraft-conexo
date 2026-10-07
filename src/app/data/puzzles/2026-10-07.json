@@ -1,0 +1,51 @@
+{
+  "id": 123,
+  "date": "2026-10-07",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Nether Biomes",
+      "items": [
+        "Nether Wastes (icon)",
+        "Soul Sand Valley (icon)",
+        "Basalt Deltas (icon)",
+        "Warped Forest (icon)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Offshore Biomes",
+      "items": [
+        "Warm Ocean (icon)",
+        "Deep Ocean (icon)",
+        "Frozen Ocean (icon)",
+        "Mushroom Fields (icon)"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Woodland Biomes",
+      "items": [
+        "Dappled Forest (icon)",
+        "Old Growth Birch Forest (icon)",
+        "Dark Forest (icon)",
+        "Bamboo Jungle (icon)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Village Biomes",
+      "items": [
+        "Plains (icon)",
+        "Desert (icon)",
+        "Snowy Plains (icon)",
+        "Savanna (icon)"
+      ]
+    }
+  ]
+}
