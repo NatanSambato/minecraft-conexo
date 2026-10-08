@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3991,
+    "totalEntries": 3996,
     "languages": [
       "pt",
       "es"
@@ -23420,7 +23420,11 @@
   "Poplar Sapling": {
     "image": "https://minecraft.wiki/images/Poplar_Sapling_JE1.png?89d92",
     "pageUrl": "https://minecraft.wiki/w/Sapling",
-    "translations": {}
+    "translations": {
+      "pt": "Muda de Álamo",
+      "es": "Brote de álamo"
+    },
+    "_manual": true
   },
   "Oak Leaves": {
     "image": "https://minecraft.wiki/images/Oak_Leaves.png?80d73",
@@ -24224,7 +24228,7 @@
     "_manual": true
   },
   "Brain Coral Block": {
-    "image": "https://minecraft.wiki/images/Brain_Coral_Block_JE2_BE1.png",
+    "image": "https://minecraft.wiki/images/Brain_Coral_Block_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Coral_Block",
     "translations": {
       "pt": "Bloco de Coral-de-Cérebro",
@@ -28312,6 +28316,51 @@
     "translations": {
       "pt": "Âncora de Renascimento",
       "es": "Nexo de reaparición"
+    },
+    "_manual": true
+  },
+  "Cherry Sapling (item)": {
+    "image": "https://minecraft.wiki/images/Cherry_Sapling_%28texture%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Sapling",
+    "translations": {
+      "pt": "Muda de Cerejeira",
+      "es": "Brote de Cerezo"
+    },
+    "_manual": true
+  },
+  "Pale Oak Sapling (item)": {
+    "image": "https://minecraft.wiki/images/Pale_Oak_Sapling_%28texture%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Sapling",
+    "translations": {
+      "pt": "Muda de Carvalho Pálido",
+      "es": "Brote de Roble Pálido"
+    },
+    "_manual": true
+  },
+  "Poplar Sapling (item)": {
+    "image": "https://i.imgur.com/Drq90Dv.png",
+    "pageUrl": "https://minecraft.wiki/w/Sapling",
+    "translations": {
+      "pt": "Muda de Álamo",
+      "es": "Brote de álamo"
+    },
+    "_manual": true
+  },
+  "Wildflowers (item)": {
+    "image": "https://minecraft.wiki/images/Wildflowers_%28item%29_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Wildflowers",
+    "translations": {
+      "pt": "Flores-do-Campo",
+      "es": "Florecillas silvestres"
+    },
+    "_manual": true
+  },
+  "Cactus Flower (item)": {
+    "image": "https://i.imgur.com/A2pP69t.png",
+    "pageUrl": "https://minecraft.wiki/w/Cactus_Flower",
+    "translations": {
+      "pt": "Flor de Cacto",
+      "es": "Flor de cactus"
     },
     "_manual": true
   }

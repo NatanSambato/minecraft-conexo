@@ -1,0 +1,51 @@
+{
+  "id": 124,
+  "date": "2026-10-08",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Saplings",
+      "items": [
+        "Oak Sapling (item)",
+        "Cherry Sapling (item)",
+        "Pale Oak Sapling (item)",
+        "Poplar Sapling (item)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Flowers",
+      "items": [
+        "Wildflowers (item)",
+        "Sunflower (item)",
+        "Cactus Flower (item)",
+        "Chorus Flower"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Taming Foods",
+      "items": [
+        "Raw Salmon",
+        "Bone",
+        "Wheat Seeds",
+        "Apple"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Traded by the Wandering Trader",
+      "items": [
+        "Brain Coral Block",
+        "Potion of Invisibility",
+        "Bucket of Tropical Fish",
+        "Lily Pad (item)"
+      ]
+    }
+  ]
+}
