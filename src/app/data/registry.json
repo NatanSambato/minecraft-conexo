@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 3996,
+    "totalEntries": 4002,
     "languages": [
       "pt",
       "es"
@@ -28361,6 +28361,60 @@
     "translations": {
       "pt": "Flor de Cacto",
       "es": "Flor de cactus"
+    },
+    "_manual": true
+  },
+  "Hay Bale (old)": {
+    "image": "https://minecraft.wiki/images/Hay_Bale_%28UD%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Hay_Bale",
+    "translations": {
+      "pt": "Fardo de Feno",
+      "es": "Bala de heno"
+    },
+    "_manual": true
+  },
+  "Block of Emerald (old)": {
+    "image": "https://minecraft.wiki/images/Block_of_Emerald_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Block_of_Emerald",
+    "translations": {
+      "pt": "Bloco de Esmeralda",
+      "es": "Bloque de esmeralda"
+    },
+    "_manual": true
+  },
+  "Cactus (old)": {
+    "image": "https://minecraft.wiki/images/Cactus_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cactus",
+    "translations": {
+      "pt": "Cacto",
+      "es": "Cactus"
+    },
+    "_manual": true
+  },
+  "Redstone Lamp (lit) (old)": {
+    "image": "https://minecraft.wiki/images/Lit_Redstone_Lamp_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Redstone_Lamp",
+    "translations": {
+      "pt": "Lâmpada de Redstone",
+      "es": "Lámpara de redstone"
+    },
+    "_manual": true
+  },
+  "Redstone Lamp (old)": {
+    "image": "https://minecraft.wiki/images/Redstone_Lamp_JE2_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Redstone_Lamp",
+    "translations": {
+      "pt": "Lâmpada de Redstone",
+      "es": "Lámpara de redstone"
+    },
+    "_manual": true
+  },
+  "Glass (old)": {
+    "image": "https://minecraft.wiki/images/Glass_JE3_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Glass",
+    "translations": {
+      "pt": "Vidro",
+      "es": "Cristal"
     },
     "_manual": true
   }

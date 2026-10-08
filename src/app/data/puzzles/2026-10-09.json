@@ -1,0 +1,51 @@
+{
+  "id": 127,
+  "date": "2026-10-09",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Sand Variants",
+      "items": [
+        "Sand",
+        "Suspicious Sand",
+        "Red Sand",
+        "Soul Sand"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Old Texture Blocks",
+      "items": [
+        "Netherrack (old)",
+        "Diamond Ore (old)",
+        "Cactus (old)",
+        "Glass (old)"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Jungle Pyramid Blocks",
+      "items": [
+        "Mossy Cobblestone",
+        "Cobblestone",
+        "Dispenser",
+        "Tripwire Hook"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Crafted with 4 of the same item in a Square Shape",
+      "items": [
+        "Crafting Table",
+        "Glowstone",
+        "Clay",
+        "Wool"
+      ]
+    }
+  ]
+}
