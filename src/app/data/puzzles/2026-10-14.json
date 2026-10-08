@@ -1,0 +1,51 @@
+{
+  "id": 98,
+  "date": "2026-10-14",
+  "author": "mrcyberhumano",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Throwable",
+      "items": [
+        "Snowball",
+        "Ender Pearl",
+        "Eye of Ender",
+        "Wind Charge (item)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Balls",
+      "items": [
+        "Slimeball",
+        "Clay Ball",
+        "Dragon Fireball",
+        "Fireball"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Found in Chests",
+      "items": [
+        "Heart of the Sea",
+        "Clock",
+        "Fire Charge",
+        "Magma Cream"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Biological Items ",
+      "items": [
+        "Sunflower (item)",
+        "Chorus Fruit",
+        "Pufferfish (item)",
+        "Nautilus Shell"
+      ]
+    }
+  ]
+}
