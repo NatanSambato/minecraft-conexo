@@ -7,25 +7,45 @@
       "id": 1,
       "correlation": "Crafted with Wool",
       "color": "yellow",
-      "items": ["White Carpet", "Painting", "Banner", "Harness"]
+      "items": [
+        "White Carpet",
+        "Painting",
+        "Banner",
+        "Harness (item)"
+      ]
     },
     {
       "id": 2,
       "correlation": "Storage Items",
       "color": "green",
-      "items": ["Shulker Box", "Barrel", "Bundle", "Shelf"]
+      "items": [
+        "Shulker Box",
+        "Barrel",
+        "Bundle",
+        "Shelf"
+      ]
     },
     {
       "id": 3,
       "correlation": "Spreading Blocks",
       "color": "blue",
-      "items": ["Fire", "Grass Block", "Mycelium", "Vines"]
+      "items": [
+        "Fire",
+        "Grass Block",
+        "Mycelium",
+        "Vines"
+      ]
     },
     {
       "id": 4,
       "correlation": "Items that became craftable",
       "color": "purple",
-      "items": ["Saddle", "Name Tag", "Mossy Cobblestone", "End Crystal (item)"]
+      "items": [
+        "Saddle",
+        "Name Tag",
+        "Mossy Cobblestone",
+        "End Crystal (item)"
+      ]
     }
   ]
 }

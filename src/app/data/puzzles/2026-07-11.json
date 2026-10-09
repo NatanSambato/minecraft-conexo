@@ -7,13 +7,23 @@
       "id": 1,
       "correlation": "Removed Items",
       "color": "yellow",
-      "items": ["Ruby", "Quiver", "Horse Saddle", "Copper Horn"]
+      "items": [
+        "Ruby",
+        "Quiver",
+        "Horse Saddle",
+        "Copper Horn"
+      ]
     },
     {
       "id": 2,
       "correlation": "Crafted with Copper Ingot",
       "color": "green",
-      "items": ["Copper Hoe", "Lightning Rod", "Brush", "Spyglass"]
+      "items": [
+        "Copper Hoe",
+        "Lightning Rod",
+        "Brush",
+        "Spyglass (item)"
+      ]
     },
     {
       "id": 3,
@@ -30,7 +40,12 @@
       "id": 4,
       "correlation": "Mobs that interact with blocks",
       "color": "purple",
-      "items": ["Enderman", "Copper Golem", "Zombie", "Villager"]
+      "items": [
+        "Enderman",
+        "Copper Golem",
+        "Zombie",
+        "Villager"
+      ]
     }
   ]
 }

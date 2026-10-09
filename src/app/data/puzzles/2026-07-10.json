@@ -29,13 +29,23 @@
       "id": 3,
       "correlation": "Have a color in the name",
       "color": "blue",
-      "items": ["Pink Petals", "Red Sand", "Brown Mushroom", "Blackstone"]
+      "items": [
+        "Pink Petals",
+        "Red Sand",
+        "Brown Mushroom",
+        "Blackstone"
+      ]
     },
     {
       "id": 4,
       "correlation": "16-Stack Items",
       "color": "purple",
-      "items": ["Bucket", "Snowball", "Cherry Sign", "Written Book"]
+      "items": [
+        "Bucket",
+        "Snowball",
+        "Cherry Sign (item)",
+        "Written Book"
+      ]
     }
   ]
 }
