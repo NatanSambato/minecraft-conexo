@@ -1,0 +1,51 @@
+{
+  "id": 129,
+  "date": "2026-10-11",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Added in the Buzzy Bees update",
+      "items": [
+        "Bee",
+        "Bee Nest",
+        "Honeycomb",
+        "Honey Bottle"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Wheat",
+      "items": [
+        "Bread",
+        "Hay Bale",
+        "Cake (item)",
+        "Cookie"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Soup Ingredients",
+      "items": [
+        "Bowl",
+        "Shelf Mushroom (item)",
+        "Beetroot",
+        "Cooked Rabbit"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "16-Stack Items",
+      "items": [
+        "Egg",
+        "Bucket",
+        "Acacia Sign (item)",
+        "Yellow Banner"
+      ]
+    }
+  ]
+}

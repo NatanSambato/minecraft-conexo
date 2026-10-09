@@ -1,0 +1,51 @@
+{
+  "id": 128,
+  "date": "2026-10-10",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Raiders",
+      "items": [
+        "Evoker",
+        "Vindicator",
+        "Pillager",
+        "Witch"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Mobs that drop Rotten Flesh",
+      "items": [
+        "Zombie",
+        "Husk",
+        "Zombified Piglin",
+        "Zombie Nautilus"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Mobs not Naturally Generated",
+      "items": [
+        "Giant",
+        "Mule",
+        "Snow Golem",
+        "Toast (rabbit)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Mobs with a Head Item",
+      "items": [
+        "Wither Skeleton",
+        "Ender Dragon",
+        "Piglin",
+        "Creeper"
+      ]
+    }
+  ]
+}

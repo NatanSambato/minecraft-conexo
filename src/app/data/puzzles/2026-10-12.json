@@ -1,0 +1,51 @@
+{
+  "id": 130,
+  "date": "2026-10-12",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Found in Beach",
+      "items": [
+        "Buried Treasure (custom)",
+        "Sand",
+        "Turtle",
+        "Shipwreck"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Glass",
+      "items": [
+        "Light Blue Stained Glass",
+        "Brown Harness (item)",
+        "End Crystal (item)",
+        "Daylight Detector"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Traded by the Fisherman Villager",
+      "items": [
+        "Cooked Salmon",
+        "Enchanted Fishing Rod",
+        "Bucket of Cod",
+        "Campfire (item)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Jumping Interactions",
+      "items": [
+        "Jump Boost",
+        "Honey Block",
+        "Turtle Egg (four)",
+        "Cobweb"
+      ]
+    }
+  ]
+}

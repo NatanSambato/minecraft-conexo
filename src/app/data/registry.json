@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4002,
+    "totalEntries": 4017,
     "languages": [
       "pt",
       "es"
@@ -23869,7 +23869,7 @@
   },
   "Yellow Harness": {
     "image": "https://minecraft.wiki/images/Yellow_Ghast_Harness_Goggles_Up.png",
-    "pageUrl": "https://minecraft.wiki/w/Harness",
+    "pageUrl": "https://minecraft.wiki/w/Harness#Yellow",
     "translations": {
       "pt": "Arreio Amarelo",
       "es": "Arnés Amarillo"
@@ -28415,6 +28415,141 @@
     "translations": {
       "pt": "Vidro",
       "es": "Cristal"
+    },
+    "_manual": true
+  },
+  "Toast (rabbit)": {
+    "image": "https://minecraft.wiki/images/Toast_Rabbit_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Rabbit#Toast",
+    "translations": {
+      "pt": "Toast",
+      "es": "Toast"
+    },
+    "_manual": true
+  },
+  "Shelf Mushroom (item)": {
+    "image": "https://i.imgur.com/OWBZqeq.png",
+    "pageUrl": "https://minecraft.wiki/w/Shelf_Mushroom",
+    "translations": {
+      "pt": "Shelf Mushroom",
+      "es": "Políporo"
+    },
+    "_manual": true
+  },
+  "Cherry Sign (item)": {
+    "image": "https://minecraft.wiki/images/Cherry_Sign_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Sign",
+    "translations": {
+      "pt": "Placa de Cerejeira",
+      "es": "Cartel de Cerezo"
+    },
+    "_manual": true
+  },
+  "Yellow Harness (item)": {
+    "image": "https://minecraft.wiki/images/Yellow_Harness_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Harness#Yellow",
+    "translations": {
+      "pt": "Arreio Amarelo",
+      "es": "Arnés Amarillo"
+    },
+    "_manual": true
+  },
+  "Harness (item)": {
+    "image": "https://minecraft.wiki/images/White_Harness_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Harness",
+    "translations": {
+      "pt": "Arreio",
+      "es": "Arnés"
+    },
+    "_manual": true
+  },
+  "Brown Harness": {
+    "image": "https://minecraft.wiki/images/Brown_Ghast_Harness_Goggles_Up.png",
+    "pageUrl": "https://minecraft.wiki/w/Harness#Brown",
+    "translations": {
+      "pt": "Arreio Marrom",
+      "es": "Arnés Marrón"
+    },
+    "_manual": true
+  },
+  "Brown Harness (item)": {
+    "image": "https://minecraft.wiki/images/Brown_Harness_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Harness#Brown",
+    "translations": {
+      "pt": "Arreio Marrom",
+      "es": "Arnés Marrón"
+    },
+    "_manual": true
+  },
+  "Buried Treasure (custom)": {
+    "image": "https://i.imgur.com/UDWXrER.png",
+    "pageUrl": "https://minecraft.wiki/w/Buried_Treasure",
+    "translations": {
+      "pt": "Tesouro Enterrado",
+      "es": "Tesoro enterrado"
+    },
+    "_manual": true
+  },
+  "Sniffer Egg (item)": {
+    "image": "https://minecraft.wiki/images/Sniffer_Egg_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Sniffer_Egg",
+    "translations": {
+      "pt": "Ovo de Farejador",
+      "es": "Huevo de sniffer"
+    },
+    "_manual": true
+  },
+  "Enchanted Fishing Rod": {
+    "image": "https://minecraft.wiki/images/Enchanted_Fishing_Rod.gif",
+    "pageUrl": "https://minecraft.wiki/w/Fishing_Rod",
+    "translations": {
+      "pt": "Vara de Pesca Encantada",
+      "es": "Caña de pescar encantada"
+    },
+    "_manual": true
+  },
+  "Straw Bed (item)": {
+    "image": "https://minecraft.wiki/images/Straw_Bed_%28item%29_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Straw_Bed",
+    "translations": {
+      "pt": "Cama de Palha",
+      "es": "Cama de paja"
+    },
+    "_manual": true
+  },
+  "White Cushion (item)": {
+    "image": "https://minecraft.wiki/images/White_Cushion_%28item%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Cushion#White",
+    "translations": {
+      "pt": "Almofada Branca",
+      "es": "Cojín Blanco"
+    },
+    "_manual": true
+  },
+  "Cobweb (item)": {
+    "image": "https://i.imgur.com/qPifOl4.png",
+    "pageUrl": "https://minecraft.wiki/w/Cobweb",
+    "translations": {
+      "pt": "Teia de Aranha",
+      "es": "Telaraña"
+    },
+    "_manual": true
+  },
+  "Orange Leather Tunic (item)": {
+    "image": "https://i.imgur.com/ecGdM1z.png",
+    "pageUrl": "https://minecraft.wiki/w/Leather_Tunic",
+    "translations": {
+      "pt": "Túnica de Couro Laranja",
+      "es": "Túnica de cuero naranja"
+    },
+    "_manual": true
+  },
+  "Yellow Leather Horse Armor (item)": {
+    "image": "https://i.imgur.com/U8lbbxI.png",
+    "pageUrl": "https://minecraft.wiki/w/Leather_Horse_Armor",
+    "translations": {
+      "pt": "Armadura de couro para cavalo amarela",
+      "es": "Armadura de cuero para caballo amarilla"
     },
     "_manual": true
   }

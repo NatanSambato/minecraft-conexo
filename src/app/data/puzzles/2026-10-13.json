@@ -1,0 +1,51 @@
+{
+  "id": 132,
+  "date": "2026-10-13",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Generated Loot Containers",
+      "items": [
+        "Chest",
+        "Minecart with Chest",
+        "Barrel",
+        "Decorated Pot"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Copper Ingot",
+      "items": [
+        "Block of Copper",
+        "Copper Leggings (item)",
+        "Brush",
+        "Spyglass (item)"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Abandoned Camp Loot",
+      "items": [
+        "Straw Bed (item)",
+        "White Cushion (item)",
+        "Cobweb (item)",
+        "Bundle"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Can be dyed off on a Water Cauldron",
+      "items": [
+        "Brown Shulker Box",
+        "Orange Leather Tunic (item)",
+        "Yellow Leather Horse Armor (item)",
+        "Red Banner"
+      ]
+    }
+  ]
+}
