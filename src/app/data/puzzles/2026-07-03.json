@@ -7,25 +7,45 @@
       "id": 1,
       "correlation": "Skeleton Variants",
       "color": "yellow",
-      "items": ["Stray", "Bogged", "Parched", "Wither Skeleton"]
+      "items": [
+        "Stray",
+        "Bogged",
+        "Parched",
+        "Wither Skeleton"
+      ]
     },
     {
       "id": 2,
       "correlation": "Raiders",
       "color": "green",
-      "items": ["Evoker", "Vindicator", "Pillager", "Witch"]
+      "items": [
+        "Evoker",
+        "Vindicator",
+        "Pillager",
+        "Witch"
+      ]
     },
     {
       "id": 3,
-      "correlation": "Mobs that drop fish",
+      "correlation": "Mobs that drop Fish",
       "color": "blue",
-      "items": ["Guardian", "Elder Guardian", "Dolphin", "Polar Bear"]
+      "items": [
+        "Guardian",
+        "Elder Guardian",
+        "Dolphin",
+        "Polar Bear"
+      ]
     },
     {
       "id": 4,
       "correlation": "Jockey Variants",
       "color": "purple",
-      "items": ["Spider", "Chicken", "Nautilus", "Ravager"]
+      "items": [
+        "Spider",
+        "Chicken",
+        "Nautilus",
+        "Ravager"
+      ]
     }
   ]
 }
