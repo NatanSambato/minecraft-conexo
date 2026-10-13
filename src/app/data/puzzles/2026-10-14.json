@@ -1,50 +1,50 @@
 {
-  "id": 98,
+  "id": 122,
   "date": "2026-10-14",
-  "author": "mrcyberhumano",
+  "author": "Natowski",
   "groups": [
     {
       "id": 1,
       "color": "yellow",
-      "correlation": "Throwable",
+      "correlation": "Minecraft Dungeon Effects",
       "items": [
-        "Snowball",
-        "Ender Pearl",
-        "Eye of Ender",
-        "Wind Charge (item)"
+        "Shadow Form",
+        "Defense",
+        "Potion Barrier",
+        "Burning"
       ]
     },
     {
       "id": 2,
       "color": "green",
-      "correlation": "Balls",
+      "correlation": "Movement Effects",
       "items": [
-        "Slimeball",
-        "Clay Ball",
-        "Dragon Fireball",
-        "Fireball"
+        "Speed",
+        "Slowness",
+        "Slow Falling",
+        "Dolphin's Grace"
       ]
     },
     {
       "id": 3,
       "color": "blue",
-      "correlation": "Found in Chests",
+      "correlation": "Enchanted Golden Apple Effects",
       "items": [
-        "Heart of the Sea",
-        "Clock",
-        "Fire Charge",
-        "Magma Cream"
+        "Regeneration",
+        "Fire Resistance",
+        "Resistance",
+        "Absorption"
       ]
     },
     {
       "id": 4,
       "color": "purple",
-      "correlation": "Biological Items ",
+      "correlation": "Melee-Related Effects",
       "items": [
-        "Sunflower (item)",
-        "Chorus Fruit",
-        "Pufferfish (item)",
-        "Nautilus Shell"
+        "Strength",
+        "Weakness",
+        "Haste",
+        "Mining Fatigue"
       ]
     }
   ]

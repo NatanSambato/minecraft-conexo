@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4017,
+    "totalEntries": 4026,
     "languages": [
       "pt",
       "es"
@@ -13102,14 +13102,6 @@
       "pt": "Far Lands (Edição Java)/Infdev 20100327 para Beta 1.7.3"
     }
   },
-  "Amethyst Geode": {
-    "image": "https://minecraft.wiki/images/Amethyst_Geode_uncracked_JE3_BE1.png",
-    "pageUrl": "https://minecraft.wiki/w/Amethyst_Geode",
-    "translations": {
-      "es": "Geoda de amatista",
-      "pt": "Geodo de ametista"
-    }
-  },
   "Windswept Hills": {
     "image": "https://minecraft.wiki/images/Windswept_Hills.png",
     "pageUrl": "https://minecraft.wiki/w/Windswept_Hills",
@@ -23784,7 +23776,7 @@
     "_manual": true
   },
   "Arrow of Weaving": {
-    "image": "https://minecraft.wiki/images/Arrow_of_Weaving_JE1_BE1.png?fbf04",
+    "image": "https://minecraft.wiki/w/Tipped_Arrow#/media/File:Arrow_of_Weaving_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Tipped_Arrow",
     "translations": {
       "pt": "Flecha de Tecitura",
@@ -28550,6 +28542,96 @@
     "translations": {
       "pt": "Armadura de couro para cavalo amarela",
       "es": "Armadura de cuero para caballo amarilla"
+    },
+    "_manual": true
+  },
+  "Burning": {
+    "image": "https://minecraft.wiki/images/MCD_Burning.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Burning",
+    "translations": {
+      "pt": "Queimadura",
+      "es": "Quemadura"
+    },
+    "_manual": true
+  },
+  "Voided": {
+    "image": "https://minecraft.wiki/images/Voided.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Voided",
+    "translations": {
+      "pt": "Vazio",
+      "es": "Anulado"
+    },
+    "_manual": true
+  },
+  "Shadow Form": {
+    "image": "https://minecraft.wiki/images/Shadow_Form.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Shadow_Form",
+    "translations": {
+      "pt": "Forma Sombria",
+      "es": "Forma de sombra"
+    },
+    "_manual": true
+  },
+  "Rampaging": {
+    "image": "https://minecraft.wiki/images/MCD_Rampaging.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Rampaging",
+    "translations": {
+      "pt": "Descontrolado",
+      "es": "Descontrolado"
+    },
+    "_manual": true
+  },
+  "Potion Barrier": {
+    "image": "https://minecraft.wiki/images/MCD_Potion_Barrier.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Potion_Barrier",
+    "translations": {
+      "pt": "Barreira de Poção",
+      "es": "Barrera de pociones"
+    },
+    "_manual": true
+  },
+  "Defense": {
+    "image": "https://minecraft.wiki/images/Defense_MCD.png",
+    "pageUrl": "https://minecraft.wiki/w/Dungeons:Protection_(Status_Effect)",
+    "translations": {
+      "pt": "Defesa",
+      "es": "Protección"
+    },
+    "_manual": true
+  },
+  "Amethyst Geode (cracked)": {
+    "image": "https://minecraft.wiki/images/Amethyst_Geode_JE4_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Amethyst_Geode#Cracked",
+    "translations": {
+      "pt": "Geodo de ametista",
+      "es": "Geoda de amatista"
+    },
+    "_manual": true
+  },
+  "Amethyst Geode (whole)": {
+    "image": "https://minecraft.wiki/images/Amethyst_Geode_uncracked_JE3_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Amethyst_Geode#Whole",
+    "translations": {
+      "pt": "Geodo de ametista",
+      "es": "Geoda de amatista"
+    },
+    "_manual": true
+  },
+  "Wheat Crop (Age 7)": {
+    "image": "https://minecraft.wiki/images/Wheat_Age_7_JE10.png",
+    "pageUrl": "https://minecraft.wiki/w/Wheat_Seeds",
+    "translations": {
+      "pt": "Trigo",
+      "es": "Trigo"
+    },
+    "_manual": true
+  },
+  "Wildflowers (four)": {
+    "image": "https://minecraft.wiki/images/Wildflowers_4_%28S%29_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Wildflowers",
+    "translations": {
+      "pt": "Flores-do-Campo",
+      "es": "Florecillas silvestres"
     },
     "_manual": true
   }
