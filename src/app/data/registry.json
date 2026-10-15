@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4026,
+    "totalEntries": 4030,
     "languages": [
       "pt",
       "es"
@@ -6371,12 +6371,13 @@
     }
   },
   "Frosted Ice": {
-    "image": "https://minecraft.wiki/images/Frosted_Ice_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Frosted_Ice_%28age_0%29_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Frosted_Ice",
     "translations": {
-      "es": "Hielo escarchado",
-      "pt": "Gelo Fosco"
-    }
+      "pt": "Gelo Fosco",
+      "es": "Hielo escarchado"
+    },
+    "_manual": true
   },
   "Glazed Terracotta": {
     "image": "https://minecraft.wiki/images/White_Glazed_Terracotta_(S)_JE2_BE2.png",
@@ -20502,12 +20503,13 @@
     }
   },
   "Cyan Concrete Powder": {
-    "image": "https://minecraft.wiki/images/Cyan_Concrete_Powder.png?b656c",
+    "image": "https://minecraft.wiki/images/Cyan_Concrete_Powder_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Concrete_Powder",
     "translations": {
       "pt": "Cimento Ciano",
       "es": "Cemento Cian"
-    }
+    },
+    "_manual": true
   },
   "Purple Concrete Powder": {
     "image": "https://minecraft.wiki/images/Purple_Concrete_Powder.png?7dfb0",
@@ -27907,7 +27909,7 @@
     "_manual": true
   },
   "Frosted Ice (melting 2)": {
-    "image": "https://minecraft.wiki/images/Frosted_Ice_2_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Frosted_Ice_%28age_2%29_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Frosted_Ice",
     "translations": {
       "pt": "Gelo Fosco",
@@ -27916,7 +27918,7 @@
     "_manual": true
   },
   "Frosted Ice (melting 3)": {
-    "image": "https://minecraft.wiki/images/Frosted_Ice_3_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Frosted_Ice_%28age_3%29_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Frosted_Ice",
     "translations": {
       "pt": "Gelo Fosco",
@@ -27925,7 +27927,7 @@
     "_manual": true
   },
   "Frosted Ice (melting 1)": {
-    "image": "https://minecraft.wiki/images/Frosted_Ice_1_JE2_BE2.png",
+    "image": "https://minecraft.wiki/images/Frosted_Ice_%28age_1%29_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Frosted_Ice",
     "translations": {
       "pt": "Gelo Fosco",
@@ -28632,6 +28634,41 @@
     "translations": {
       "pt": "Flores-do-Campo",
       "es": "Florecillas silvestres"
+    },
+    "_manual": true
+  },
+  "Pearlescent Froglight ": {
+    "image": "https://minecraft.wiki/images/Pearlescent_Froglight_(UD)_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Froglight#Pearlescent",
+    "translations": {
+      "pt": "Anfibrilho Perolado",
+      "es": "Ranaluz nacarada"
+    },
+    "_manual": true
+  },
+  "Ochre Froglight": {
+    "image": "https://minecraft.wiki/images/Ochre_Froglight_%28UD%29_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Froglight#Ochre",
+    "translations": {
+      "pt": "Anfibrilho Ocre",
+      "es": "Ranaluz ocre"
+    },
+    "_manual": true
+  },
+  "Verdant Froglight": {
+    "image": "https://minecraft.wiki/images/Verdant_Froglight_%28UD%29_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Froglight#Verdant",
+    "translations": {
+      "pt": "Anfibrilho Verdejante",
+      "es": "Ranaluz verde"
+    },
+    "_manual": true
+  },
+  "Soul Torch (item)": {
+    "image": "https://minecraft.wiki/images/Soul_Torch_%28texture%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Soul_Torch",
+    "translations": {
+      "pt": "Tocha das Almas"
     },
     "_manual": true
   }
