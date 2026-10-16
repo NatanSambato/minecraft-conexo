@@ -1,0 +1,51 @@
+{
+  "id": 133,
+  "date": "2026-10-19",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Nether Baby Mobs",
+      "items": [
+        "Baby Strider",
+        "Baby Zombified Piglin",
+        "Baby Piglin",
+        "Baby Hoglin"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Baby Animals with Specific Names",
+      "items": [
+        "Chick",
+        "Spotted Puppy (wolf)",
+        "Siamese Kitten (cat)",
+        "Gray Foal"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Animals with no Baby Variants",
+      "items": [
+        "Tropical Fish",
+        "Pufferfish (large)",
+        "Salmon",
+        "Gray Parrot"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Unbreedable Mobs with a Baby Variant",
+      "items": [
+        "Mule",
+        "Dolphin",
+        "Happy Ghast",
+        "Polar Bear"
+      ]
+    }
+  ]
+}

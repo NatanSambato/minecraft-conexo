@@ -1,0 +1,51 @@
+{
+  "id": 136,
+  "date": "2026-10-18",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Found in Basalt Deltas",
+      "items": [
+        "Basalt Columns",
+        "Delta",
+        "Magma Cube",
+        "Blackstone"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Coal",
+      "items": [
+        "Block of Coal",
+        "Soul Torch (item)",
+        "Campfire (item)",
+        "Fireball"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Means of Transportation",
+      "items": [
+        "Skeleton Horse",
+        "Strider",
+        "Obsidian Boat",
+        "Nether Portal"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Wither Skeleton Skull Related",
+      "items": [
+        "Skull Charge Banner Pattern (item)",
+        "Wither Skeleton",
+        "Wither",
+        "Note Block"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 125,
+  "date": "2026-10-20",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Found in Dripstone Caves",
+      "items": [
+        "Dripstone (feature)",
+        "Dripstone Block",
+        "Copper Ore",
+        "Water"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Cobblestone",
+      "items": [
+        "Stone Hoe",
+        "Dispenser",
+        "Mossy Cobblestone",
+        "Diorite"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Mined faster with Shears",
+      "items": [
+        "Brown Wool",
+        "Acacia Leaves",
+        "Cobweb",
+        "Glow Lichen"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Pillager Outpost Blocks",
+      "items": [
+        "Ominous Banner",
+        "Dark Oak Log",
+        "Birch Planks",
+        "Cobblestone"
+      ]
+    }
+  ]
+}

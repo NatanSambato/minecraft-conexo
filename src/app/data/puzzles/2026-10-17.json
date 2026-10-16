@@ -1,0 +1,51 @@
+{
+  "id": 119,
+  "date": "2026-10-17",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Not obtainable in Survival Mode",
+      "items": [
+        "Jigsaw Block",
+        "Command Block",
+        "Phantom Spawn Egg",
+        "Debug Stick"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Warped Planks",
+      "items": [
+        "Warped Door",
+        "Warped Pressure Plate",
+        "Shield",
+        "Loom"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Ancient City Loot",
+      "items": [
+        "Disc Fragment",
+        "Ward Armor Trim",
+        "Music Disc otherside",
+        "Potion of Regeneration"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Can launch an Arrow",
+      "items": [
+        "Bow",
+        "Crossbow",
+        "Dispenser",
+        "Ominous Trial Spawner"
+      ]
+    }
+  ]
+}

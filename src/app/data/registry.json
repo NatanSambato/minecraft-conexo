@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4030,
+    "totalEntries": 4047,
     "languages": [
       "pt",
       "es"
@@ -2038,8 +2038,10 @@
     "image": "https://minecraft.wiki/images/Minecart_with_Command_Block.gif",
     "pageUrl": "https://minecraft.wiki/w/Minecart_with_Command_Block",
     "translations": {
-      "pt": "Carrinho de mina com bloco de comando"
-    }
+      "pt": "Carrinho de mina com bloco de comando",
+      "es": "Vagoneta con bloque de comandos"
+    },
+    "_manual": true
   },
   "Nautilus Shell": {
     "image": "https://minecraft.wiki/images/Nautilus_Shell_JE1_BE2.png",
@@ -14117,9 +14119,10 @@
     "translations": {}
   },
   "Ancient City/Structure/Blueprints/City Center": {
-    "image": null,
+    "image": "https://minecraft.wiki/images/Ancient_City_city_center_1_2.png",
     "pageUrl": "https://minecraft.wiki/w/Ancient_City%2FStructure%2FBlueprints%2FCity_Center",
-    "translations": {}
+    "translations": {},
+    "_manual": true
   },
   "Ancient City/Structure/Blueprints/City Center Walls": {
     "image": null,
@@ -28669,6 +28672,159 @@
     "pageUrl": "https://minecraft.wiki/w/Soul_Torch",
     "translations": {
       "pt": "Tocha das Almas"
+    },
+    "_manual": true
+  },
+  "Minecart with Command Block (item)": {
+    "image": "https://minecraft.wiki/images/Minecart_with_Command_Block_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Minecart_with_Command_Block",
+    "translations": {
+      "pt": "Carrinho de mina com bloco de comando",
+      "es": "Vagoneta con bloque de comandos"
+    },
+    "_manual": true
+  },
+  "Vex Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Vex_Spawn_Egg_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Vex",
+      "es": "Huevo generador de Vex"
+    },
+    "_manual": true
+  },
+  "Warden Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Warden_Spawn_Egg_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Warden",
+      "es": "Huevo generador de Warden"
+    },
+    "_manual": true
+  },
+  "Phantom Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Phantom_Spawn_Egg_JE3_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Espectro",
+      "es": "Huevo generador de Fantasma"
+    },
+    "_manual": true
+  },
+  "Glow Squid Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Glow_Squid_Spawn_Egg_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Lula-Brilhante",
+      "es": "Huevo generador de Calamar Luminoso"
+    },
+    "_manual": true
+  },
+  "Baby Strider": {
+    "image": "https://minecraft.wiki/images/Baby_Strider_JE3_BE3.gif",
+    "pageUrl": "https://minecraft.wiki/w/Strider",
+    "translations": {
+      "pt": "Lavagante Bebê",
+      "es": "Lavagante bebé"
+    },
+    "_manual": true
+  },
+  "Baby Zombified Piglin": {
+    "image": "https://minecraft.wiki/images/Baby_Zombified_Piglin_JE10.png",
+    "pageUrl": "https://minecraft.wiki/w/Zombified_Piglin#Baby_with_Sword",
+    "translations": {
+      "pt": "Piglin-Zumbi Bebê",
+      "es": "Piglin zombificado bebé"
+    },
+    "_manual": true
+  },
+  "Baby Piglin": {
+    "image": "https://minecraft.wiki/images/Baby_Piglin_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Piglin#Baby",
+    "translations": {
+      "pt": "Piglin Bebê",
+      "es": "Piglin bebé"
+    },
+    "_manual": true
+  },
+  "Baby Hoglin": {
+    "image": "https://minecraft.wiki/images/Baby_Hoglin_JE6.png",
+    "pageUrl": "https://minecraft.wiki/w/Hoglin#Baby",
+    "translations": {
+      "pt": "Hoglin Bebê",
+      "es": "Hoglin bebé"
+    },
+    "_manual": true
+  },
+  "Chick": {
+    "image": "https://minecraft.wiki/images/Baby_Chicken_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Chicken",
+    "translations": {
+      "pt": "Pintinho",
+      "es": "Pollito"
+    },
+    "_manual": true
+  },
+  "Siamese Kitten (cat)": {
+    "image": "https://minecraft.wiki/images/Baby_Siamese_Cat_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Cat#Siamese",
+    "translations": {
+      "pt": "Gatinho Siamês",
+      "es": "Gatito siamés"
+    },
+    "_manual": true
+  },
+  "Spotted Puppy (wolf)": {
+    "image": "https://minecraft.wiki/images/Spotted_Baby_Wolf_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Wolf#Spotted",
+    "translations": {
+      "pt": "Filhote de Lobo Manchado",
+      "es": "Cria de Lobo Manchado"
+    },
+    "_manual": true
+  },
+  "Ice Box (Ancient City)": {
+    "image": "https://minecraft.wiki/images/Ancient_City_ice_box_1.png",
+    "pageUrl": "https://minecraft.wiki/w/Ancient_City%2FStructure%2FBlueprints%2FIce_Box_1",
+    "translations": {
+      "pt": "Geladeira",
+      "es": "Refrigerador"
+    },
+    "_manual": true
+  },
+  "Sauna (Ancient City)": {
+    "image": "https://minecraft.wiki/images/Ancient_City_sauna_1.png",
+    "pageUrl": "https://minecraft.wiki/w/Ancient_City%2FStructure%2FBlueprints%2FSauna_1",
+    "translations": {
+      "pt": "Sauna",
+      "es": "Sauna"
+    },
+    "_manual": true
+  },
+  "Large Pillar (Ancient City)": {
+    "image": "https://minecraft.wiki/images/Ancient_City_large_pillar_1.png",
+    "pageUrl": "https://minecraft.wiki/w/Ancient_City%2FStructure%2FBlueprints%2FLarge_Pillar_1",
+    "translations": {
+      "pt": "Pilar Grande",
+      "es": "Grande Pilar"
+    },
+    "_manual": true
+  },
+  "City Center (Ancient City)": {
+    "image": "https://minecraft.wiki/images/Ancient_City_city_center_2_2.png",
+    "pageUrl": "https://minecraft.wiki/w/Ancient_City%2FStructure%2FBlueprints%2FCity_Center_2",
+    "translations": {
+      "pt": "Centro da Cidade",
+      "es": "Centro de la ciudad"
+    },
+    "_manual": true
+  },
+  "Desert Village": {
+    "image": "https://minecraft.wiki/images/Desert_Village_isometric_view.png",
+    "pageUrl": "https://minecraft.wiki/w/Village#Desert",
+    "translations": {
+      "pt": "Vila do Deserto",
+      "es": "Aldea del desierto"
     },
     "_manual": true
   }
