@@ -1,0 +1,51 @@
+{
+  "id": 105,
+  "date": "2026-10-21",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Ancient City Sections",
+      "items": [
+        "City Center (Ancient City)",
+        "Ice Box (Ancient City)",
+        "Sauna (Ancient City)",
+        "Large Pillar (Ancient City)"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Structures with Obsidian",
+      "items": [
+        "End Spike",
+        "Ruined Portal (overworld) (small)",
+        "Obsidian Room (diamond)",
+        "Lava Room"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Structures with Mossy Cobblestone",
+      "items": [
+        "Jungle Pyramid",
+        "Forest Rock",
+        "Monster Room",
+        "Abandoned Plains Small House (5)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Swamp Structures",
+      "items": [
+        "Swamp Oak",
+        "Swamp Hut",
+        "Abandoned Camp (Tent Swamp 10)",
+        "Fossil (spine 4)"
+      ]
+    }
+  ]
+}

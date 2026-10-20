@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4047,
+    "totalEntries": 4049,
     "languages": [
       "pt",
       "es"
@@ -10197,12 +10197,13 @@
     }
   },
   "NPC": {
-    "image": "https://minecraft.wiki/images/NPC1pre.png",
+    "image": "https://minecraft.wiki/images/NPC.png",
     "pageUrl": "https://minecraft.wiki/w/NPC",
     "translations": {
-      "es": "NPC",
-      "pt": "NPC"
-    }
+      "pt": "NPC",
+      "es": "NPC"
+    },
+    "_manual": true
   },
   "Zombie Villager": {
     "image": "https://minecraft.wiki/images/Plains_Zombie_Villager_Base_JE1.png",
@@ -28825,6 +28826,24 @@
     "translations": {
       "pt": "Vila do Deserto",
       "es": "Aldea del desierto"
+    },
+    "_manual": true
+  },
+  "Abandoned Plains Small House (5)": {
+    "image": "https://i.imgur.com/OUHWgg1.png",
+    "pageUrl": "https://minecraft.wiki/w/Village",
+    "translations": {
+      "pt": "Casa Pequena Abandonada da Planície",
+      "es": "Casa pequenã abandonada de llanuras"
+    },
+    "_manual": true
+  },
+  "Abandoned Camp (Tent Swamp 10)": {
+    "image": "https://i.imgur.com/orA0EHZ.png",
+    "pageUrl": "https://minecraft.wiki/w/Abandoned_Camp",
+    "translations": {
+      "pt": "Acampamento Abandonado",
+      "es": "Campamento abandonado"
     },
     "_manual": true
   }
