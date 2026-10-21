@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4049,
+    "totalEntries": 4052,
     "languages": [
       "pt",
       "es"
@@ -28844,6 +28844,32 @@
     "translations": {
       "pt": "Acampamento Abandonado",
       "es": "Campamento abandonado"
+    },
+    "_manual": true
+  },
+  "Attack Cooldown": {
+    "image": "https://minecraft.wiki/images/AttackIndicatorCrosshair.png",
+    "pageUrl": "https://minecraft.wiki/w/Melee_attack#Attack_cooldown",
+    "translations": {
+      "pt": "Intervalo de Ataque",
+      "es": "Recarga de ataque"
+    },
+    "_manual": true
+  },
+  "Golden Spear (item)": {
+    "image": "https://minecraft.wiki/images/Golden_Spear_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Golden_Spear",
+    "translations": {
+      "pt": "Lança de Ouro"
+    },
+    "_manual": true
+  },
+  "Powered Rail (item)": {
+    "image": "https://i.imgur.com/r81TwTm.png",
+    "pageUrl": "https://minecraft.wiki/w/Powered_Rail",
+    "translations": {
+      "pt": "Trilho Elétrico",
+      "es": "Raíl propulsor"
     },
     "_manual": true
   }
