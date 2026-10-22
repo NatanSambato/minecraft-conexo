@@ -1,0 +1,51 @@
+{
+  "id": 139,
+  "date": "2026-10-23",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Removed Items",
+      "items": [
+        "Green Shrub (item)",
+        "Gear (item)",
+        "Ruby",
+        "Studded Boots"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Smeltable",
+      "items": [
+        "Raw Copper",
+        "Raw Salmon",
+        "Clay Ball",
+        "Cactus"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Brewing Base Ingredients",
+      "items": [
+        "Nether Wart (item)",
+        "Glowstone Dust",
+        "Redstone Dust",
+        "Gunpowder"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Stronghold Loot",
+      "items": [
+        "Eye Armor Trim",
+        "Ender Pearl",
+        "Apple",
+        "Diamond"
+      ]
+    }
+  ]
+}

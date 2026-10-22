@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4052,
+    "totalEntries": 4055,
     "languages": [
       "pt",
       "es"
@@ -28870,6 +28870,31 @@
     "translations": {
       "pt": "Trilho Elétrico",
       "es": "Raíl propulsor"
+    },
+    "_manual": true
+  },
+  "Green Shrub (item)": {
+    "image": "https://minecraft.wiki/images/Green_Shrub_%28item%29_JE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Green_Shrub",
+    "translations": {
+      "pt": "Arbusto verde"
+    },
+    "_manual": true
+  },
+  "Gear (item)": {
+    "image": "https://i.imgur.com/AEkLmcN.gif",
+    "pageUrl": "https://minecraft.wiki/w/Gear",
+    "translations": {
+      "pt": "Engrenagem",
+      "es": "Engranaje"
+    },
+    "_manual": true
+  },
+  "Studded Boots": {
+    "image": "https://minecraft.wiki/images/Studded_Boots_%28item%29_JE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Studded_Armor#Boots",
+    "translations": {
+      "pt": "Botas Cravejadas"
     },
     "_manual": true
   }
