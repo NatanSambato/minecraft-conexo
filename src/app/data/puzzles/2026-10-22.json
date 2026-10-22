@@ -8,7 +8,7 @@
       "color": "yellow",
       "correlation": "Crafted with Gold Ingot",
       "items": [
-        "Golden Apple",
+        "Block of Gold",
         "Golden Axe",
         "Golden Spear (item)",
         "Netherite Ingot"
@@ -29,23 +29,13 @@
       "id": 3,
       "color": "blue",
       "correlation": "Added in the Combat Update",
-      "items": [
-        "Attack Cooldown",
-        "Shield",
-        "Elytra (item)",
-        "Mending"
-      ]
+      "items": ["Attack Cooldown", "Shield", "Elytra (item)", "Mending"]
     },
     {
       "id": 4,
       "color": "purple",
       "correlation": "Traded with the Armorer Villager",
-      "items": [
-        "Coal",
-        "Iron Ingot",
-        "Diamond",
-        "Lava Bucket"
-      ]
+      "items": ["Coal", "Iron Ingot", "Diamond", "Lava Bucket"]
     }
   ]
 }
