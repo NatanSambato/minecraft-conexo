@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4055,
+    "totalEntries": 4056,
     "languages": [
       "pt",
       "es"
@@ -28895,6 +28895,14 @@
     "pageUrl": "https://minecraft.wiki/w/Studded_Armor#Boots",
     "translations": {
       "pt": "Botas Cravejadas"
+    },
+    "_manual": true
+  },
+  "Fern (item)": {
+    "image": "https://i.imgur.com/Y2EXbNc.png",
+    "pageUrl": "https://minecraft.wiki/w/Fern",
+    "translations": {
+      "pt": "Samambaia"
     },
     "_manual": true
   }
