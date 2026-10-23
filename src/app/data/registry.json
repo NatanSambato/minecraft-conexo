@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4056,
+    "totalEntries": 4062,
     "languages": [
       "pt",
       "es"
@@ -9122,13 +9122,6 @@
     "translations": {
       "es": "Agua",
       "pt": "Água"
-    }
-  },
-  "Tulip": {
-    "image": "https://minecraft.wiki/images/Red_Tulip_JE7_BE2.png",
-    "pageUrl": "https://minecraft.wiki/w/Tulip",
-    "translations": {
-      "pt": "Tulipa"
     }
   },
   "Wood": {
@@ -28903,6 +28896,68 @@
     "pageUrl": "https://minecraft.wiki/w/Fern",
     "translations": {
       "pt": "Samambaia"
+    },
+    "_manual": true
+  },
+  "Mega Jungle Tree": {
+    "image": "https://minecraft.wiki/images/Mega_Jungle_Tree.png",
+    "pageUrl": "https://minecraft.wiki/w/Jungle_Tree",
+    "translations": {
+      "pt": "Mega Árvore da Selva",
+      "es": "Árbol de jungla gigante"
+    },
+    "_manual": true
+  },
+  "Plains Village": {
+    "image": "https://minecraft.wiki/images/Plains_Village_isometric_view.png",
+    "pageUrl": "https://minecraft.wiki/w/Village#Plains",
+    "translations": {
+      "pt": "Vila da Planície",
+      "es": "Aldea de llanuras"
+    },
+    "_manual": true
+  },
+  "Oak (with Bee Nest)": {
+    "image": "https://minecraft.wiki/images/Oak_Tree_with_Bee_nest.png",
+    "pageUrl": "https://minecraft.wiki/w/Oak",
+    "translations": {
+      "pt": "Carvalho"
+    },
+    "_manual": true
+  },
+  "Red Tulip": {
+    "image": "https://minecraft.wiki/images/Red_Tulip_JE7_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Tulip#Red",
+    "translations": {
+      "pt": "Tulipa Vermelha",
+      "es": "Tulipán Rojo"
+    },
+    "_manual": true
+  },
+  "White Tulip": {
+    "image": "https://minecraft.wiki/images/White_Tulip_JE7_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Tulip#White",
+    "translations": {
+      "pt": "Tulipa Branca",
+      "es": "Tulipán Blanco"
+    },
+    "_manual": true
+  },
+  "Orange Tulip": {
+    "image": "https://minecraft.wiki/images/Orange_Tulip_JE7_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Tulip#Orange",
+    "translations": {
+      "pt": "Tulipa Laranja",
+      "es": "Tulipán Naranja"
+    },
+    "_manual": true
+  },
+  "PinkTulip": {
+    "image": "https://minecraft.wiki/images/Pink_Tulip_JE7_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Tulip#Pink",
+    "translations": {
+      "pt": "Tulipa Rosa",
+      "es": "Tulipán Rosa"
     },
     "_manual": true
   }
