@@ -1,0 +1,51 @@
+{
+  "id": 72,
+  "date": "2026-10-25",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Soups/Stews",
+      "items": [
+        "Mushroom Stew",
+        "Suspicious Stew",
+        "Rabbit Stew",
+        "Beetroot Soup"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Rabbit Stew Ingredients",
+      "items": [
+        "Bowl",
+        "Cooked Rabbit",
+        "Carrot",
+        "Baked Potato"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Shearable",
+      "items": [
+        "Pumpkin",
+        "Bee Nest",
+        "Leash Knot",
+        "Sulfur Cube (Oak Log)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Fungus Related",
+      "items": [
+        "Bogged",
+        "Glow Lichen",
+        "Shroomlight",
+        "Crimson Fungus"
+      ]
+    }
+  ]
+}

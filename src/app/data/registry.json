@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4062,
+    "totalEntries": 4066,
     "languages": [
       "pt",
       "es"
@@ -28959,6 +28959,33 @@
       "pt": "Tulipa Rosa",
       "es": "Tulipán Rosa"
     },
+    "_manual": true
+  },
+  "Leash Knot": {
+    "image": "https://minecraft.wiki/images/Leash_Knot_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Lead#Leash_Knot",
+    "translations": {
+      "pt": "Nó de Laço",
+      "es": "Nudo de la rienda"
+    },
+    "_manual": true
+  },
+  "Sulfur Cube (Grass Block)": {
+    "image": "https://minecraft.wiki/images/Sulfur_Cube_Grass_Block_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Sulfur_Cube",
+    "translations": {},
+    "_manual": true
+  },
+  "Sulfur Cube (TNT)": {
+    "image": "https://minecraft.wiki/images/Sulfur_Cube_TNT_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Sulfur_Cube",
+    "translations": {},
+    "_manual": true
+  },
+  "Sulfur Cube (Oak Log)": {
+    "image": "https://minecraft.wiki/images/Sulfur_Cube_Oak_Log_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Sulfur_Cube",
+    "translations": {},
     "_manual": true
   }
 }
