@@ -98,6 +98,30 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
     setOldDate(null);
   };
 
+  const handleRandomize = () => {
+    if (!puzzles || puzzles.length === 0) {
+      alert("No previous puzzles to randomize from.");
+      return;
+    }
+
+    const pool = puzzles.flatMap((p) =>
+      p.groups.filter((g) => g.items.some((item) => item.trim() !== "")),
+    );
+
+    const colors = ["yellow", "green", "blue", "purple"];
+    const newGroups = [];
+
+    for (const color of colors) {
+      const candidates = pool.filter((g) => g.color === color);
+      const choice = candidates[Math.floor(Math.random() * candidates.length)];
+      newGroups.push({ ...choice, id: newGroups.length + 1 });
+    }
+
+    setGroups(newGroups);
+    setId(null);
+    setOldDate(null);
+  };
+
   return (
     <div className="flex items-start justify-center gap-10 w-full max-w-7xl mx-auto">
       {/* Form */}
@@ -121,6 +145,7 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
         onSave={handleSave}
         onImport={handleImport}
         onClear={handleClear}
+        onRandomize={handleRandomize}
       />
 
       <div className="flex flex-col gap-5 w-full max-w-xl">

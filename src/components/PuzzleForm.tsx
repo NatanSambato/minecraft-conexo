@@ -4,6 +4,7 @@ import { getGroupColor } from "@/lib/gameUtils";
 import {
   BrushCleaning,
   ClipboardPaste,
+  Dices,
   Grip,
   GripVertical,
 } from "lucide-react";
@@ -45,6 +46,7 @@ interface PuzzleFormProp {
   onSave: () => Promise<void>;
   onImport: (puzzle: string) => void;
   onClear: () => void;
+  onRandomize: () => void;
 }
 
 interface SortableGroupProps {
@@ -246,6 +248,7 @@ export default function PuzzleForm({
   onSave,
   onImport,
   onClear,
+  onRandomize,
 }: PuzzleFormProp) {
   const inputStyle: string = "bg-stone-900 px-2 py-1 font-bold rounded";
 
@@ -289,6 +292,12 @@ export default function PuzzleForm({
             icon={<BrushCleaning size={14} />}
             onClick={onClear}
             className="bg-stone-500"
+          />
+          <IconButton
+            title="Randomize Puzzle"
+            icon={<Dices size={14} />}
+            onClick={onRandomize}
+            className="bg-rose-500"
           />
         </div>
       )}
