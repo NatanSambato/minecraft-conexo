@@ -5,6 +5,7 @@ import {
   BrushCleaning,
   ClipboardPaste,
   Dices,
+  Eraser,
   Grip,
   GripVertical,
 } from "lucide-react";
@@ -39,6 +40,7 @@ interface PuzzleFormProp {
   onUpdateItem: (gi: number, ii: number, v: string) => void;
   onReorderGroups: (newGroups: Group[]) => void;
   onReorderItems: (gi: number, newItems: string[]) => void;
+  onClearGroup: (gi: number) => void;
   onDateChange: (v: string) => void;
   onAuthorChange: (v: string) => void;
   onNotesChange: (v: string) => void;
@@ -56,6 +58,7 @@ interface SortableGroupProps {
   onUpdateCorrelation: (gi: number, v: string) => void;
   onUpdateItem: (gi: number, ii: number, v: string) => void;
   onReorderItems: (gi: number, v: string[]) => void;
+  onClearGroup: (gi: number) => void;
 }
 
 interface SortableItemProps {
@@ -125,6 +128,7 @@ function SortableGroupCard({
   onUpdateCorrelation,
   onUpdateItem,
   onReorderItems,
+  onClearGroup,
 }: SortableGroupProps) {
   const { attributes, listeners, setNodeRef, transform, isDragging } =
     useSortable({ id: group.id });
@@ -155,6 +159,11 @@ function SortableGroupCard({
     >
       {/* Correlation input */}
       <div className="flex items-center justify-center gap-2">
+        <IconButton
+          title="Clear Group"
+          icon={<Eraser size={16} />}
+          onClick={() => onClearGroup(gi)}
+        />
         <input
           className="w-full bg-stone-900 rounded px-2 py-1 font-bold"
           placeholder={`Group ${gi + 1}`}
@@ -241,6 +250,7 @@ export default function PuzzleForm({
   onUpdateItem,
   onReorderGroups,
   onReorderItems,
+  onClearGroup,
   onDateChange,
   onAuthorChange,
   onNotesChange,
@@ -362,6 +372,7 @@ export default function PuzzleForm({
                 onUpdateCorrelation={onUpdateCorrelation}
                 onUpdateItem={onUpdateItem}
                 onReorderItems={onReorderItems}
+                onClearGroup={onClearGroup}
               ></SortableGroupCard>
             ))}
           </div>

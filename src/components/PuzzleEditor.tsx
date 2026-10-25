@@ -64,6 +64,14 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
     );
   };
 
+  const handleClearGroup = (gi: number) => {
+    setGroups((prev) =>
+      prev.map((g, i) =>
+        i === gi ? { ...g, correlation: "", items: g.items.map(() => "") } : g,
+      ),
+    );
+  };
+
   const handleSave = async () => {
     await onSave?.({ id, date, author, notes, groups, oldDate });
     setOldDate(null);
@@ -138,6 +146,7 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
         onUpdateItem={updateItem}
         onReorderGroups={handleReorderGroups}
         onReorderItems={handleReorderItems}
+        onClearGroup={handleClearGroup}
         onDateChange={setDate}
         onAuthorChange={setAuthor}
         onNotesChange={setNotes}
