@@ -85,7 +85,7 @@ export default function page() {
       </div>
 
       {/* Footer */}
-      <footer className="py-6">
+      <footer className="flex flex-col gap-10 items-center py-8 text-center">
         {/* Discord link */}
         <Link
           href={"https://discord.gg/bGabGs327p"}
@@ -98,6 +98,12 @@ export default function page() {
           <DiscordIcon className="w-4 h-4" />
           Join us on Discord
         </Link>
+
+        {/* Disclaimer */}
+        <p className="pt-5 max-w-3xs mx-auto text-xs opacity-70">
+          Not an official Minecraft or Conexo product. Not associated with
+          Mojang Studios, Microsoft or Daydash.
+        </p>
       </footer>
     </main>
   );
