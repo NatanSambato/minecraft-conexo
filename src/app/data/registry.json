@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4067,
+    "totalEntries": 4071,
     "languages": [
       "pt",
       "es"
@@ -28994,6 +28994,36 @@
     "translations": {
       "pt": "Pétalas Rosas",
       "es": "Pétalos rosas"
+    },
+    "_manual": true
+  },
+  "Gust": {
+    "image": "https://minecraft.wiki/images/Gust_%28texture_2%29_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Particles#Types_of_particles",
+    "translations": {},
+    "_manual": true
+  },
+  "Sonic Boom": {
+    "image": "https://i.imgur.com/hwY03ML.png",
+    "pageUrl": "https://minecraft.wiki/w/Particles#Types_of_particles",
+    "translations": {},
+    "_manual": true
+  },
+  "Bubble": {
+    "image": "https://i.imgur.com/MYq2XIS.png",
+    "pageUrl": "https://minecraft.wiki/w/Particles#Types_of_particles",
+    "translations": {
+      "pt": "Bolhas",
+      "es": "Burbujas"
+    },
+    "_manual": true
+  },
+  "Sulfur Cube Goo": {
+    "image": "https://i.imgur.com/c7U1JwY.png",
+    "pageUrl": "https://minecraft.wiki/w/Particles#Types_of_particles",
+    "translations": {
+      "pt": "Gosma de Cubo de Enxofre",
+      "es": "Baba de cubo de azufre"
     },
     "_manual": true
   }
