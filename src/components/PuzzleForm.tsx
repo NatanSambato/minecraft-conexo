@@ -41,6 +41,7 @@ interface PuzzleFormProp {
   onReorderGroups: (newGroups: Group[]) => void;
   onReorderItems: (gi: number, newItems: string[]) => void;
   onClearGroup: (gi: number) => void;
+  onRandomizeGroup: (gi: number) => void;
   onDateChange: (v: string) => void;
   onAuthorChange: (v: string) => void;
   onNotesChange: (v: string) => void;
@@ -59,6 +60,7 @@ interface SortableGroupProps {
   onUpdateItem: (gi: number, ii: number, v: string) => void;
   onReorderItems: (gi: number, v: string[]) => void;
   onClearGroup: (gi: number) => void;
+  onRandomizeGroup?: (gi: number) => void;
 }
 
 interface SortableItemProps {
@@ -129,6 +131,7 @@ function SortableGroupCard({
   onUpdateItem,
   onReorderItems,
   onClearGroup,
+  onRandomizeGroup,
 }: SortableGroupProps) {
   const { attributes, listeners, setNodeRef, transform, isDragging } =
     useSortable({ id: group.id });
@@ -159,11 +162,22 @@ function SortableGroupCard({
     >
       {/* Correlation input */}
       <div className="flex items-center justify-center gap-2">
-        <IconButton
-          title="Clear Group"
-          icon={<Eraser size={16} />}
-          onClick={() => onClearGroup(gi)}
-        />
+        <div className="flex gap-1">
+          {/* Clear Group button */}
+          <IconButton
+            title="Clear Group"
+            icon={<Eraser size={16} />}
+            onClick={() => onClearGroup(gi)}
+          />
+          {onRandomizeGroup && (
+            <IconButton
+              title="Randomize Group"
+              icon={<Dices size={16} />}
+              onClick={() => onRandomizeGroup(gi)}
+            />
+          )}
+        </div>
+
         <input
           className="w-full bg-stone-900 rounded px-2 py-1 font-bold"
           placeholder={`Group ${gi + 1}`}
@@ -251,6 +265,7 @@ export default function PuzzleForm({
   onReorderGroups,
   onReorderItems,
   onClearGroup,
+  onRandomizeGroup,
   onDateChange,
   onAuthorChange,
   onNotesChange,
@@ -373,6 +388,9 @@ export default function PuzzleForm({
                 onUpdateItem={onUpdateItem}
                 onReorderItems={onReorderItems}
                 onClearGroup={onClearGroup}
+                onRandomizeGroup={
+                  mode === "create" ? onRandomizeGroup : undefined
+                }
               ></SortableGroupCard>
             ))}
           </div>

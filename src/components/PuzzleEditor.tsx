@@ -72,6 +72,31 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
     );
   };
 
+  const handleRandomizeGroup = (gi: number) => {
+    if (!puzzles || puzzles.length === 0) {
+      alert("No previous puzzles to randomize from.");
+      return;
+    }
+
+    const color = groups[gi].color;
+
+    const candidates = puzzles
+      .flatMap((p) => p.groups)
+      .filter(
+        (g) => g.color === color && g.items.some((item) => item.trim() != ""),
+      );
+
+    const choice = candidates[Math.floor(Math.random() * candidates.length)];
+
+    setGroups((prev) =>
+      prev.map((g, i) =>
+        i === gi
+          ? { ...g, correlation: choice.correlation, items: [...choice.items] }
+          : g,
+      ),
+    );
+  };
+
   const handleSave = async () => {
     await onSave?.({ id, date, author, notes, groups, oldDate });
     setOldDate(null);
@@ -147,6 +172,7 @@ export default function PuzzleEditor({ mode, items, puzzles, onSave }: Props) {
         onReorderGroups={handleReorderGroups}
         onReorderItems={handleReorderItems}
         onClearGroup={handleClearGroup}
+        onRandomizeGroup={handleRandomizeGroup}
         onDateChange={setDate}
         onAuthorChange={setAuthor}
         onNotesChange={setNotes}
