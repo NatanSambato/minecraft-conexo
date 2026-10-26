@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4066,
+    "totalEntries": 4067,
     "languages": [
       "pt",
       "es"
@@ -28986,6 +28986,15 @@
     "image": "https://minecraft.wiki/images/Sulfur_Cube_Oak_Log_JE2_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Sulfur_Cube",
     "translations": {},
+    "_manual": true
+  },
+  "Pink Petals (four)": {
+    "image": "https://minecraft.wiki/images/Pink_Petals_4_%28S%29_JE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Pink_Petals",
+    "translations": {
+      "pt": "Pétalas Rosas",
+      "es": "Pétalos rosas"
+    },
     "_manual": true
   }
 }
