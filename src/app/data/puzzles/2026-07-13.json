@@ -7,13 +7,23 @@
       "id": 1,
       "correlation": "Mobs that can equip a Saddle",
       "color": "yellow",
-      "items": ["Pig", "Mule", "Skeleton Horse", "Camel Husk"]
+      "items": [
+        "Pig",
+        "Mule",
+        "Skeleton Horse",
+        "Camel Husk"
+      ]
     },
     {
       "id": 2,
       "correlation": "Nether Mobs",
       "color": "green",
-      "items": ["Blaze", "Ghast", "Piglin", "Strider"]
+      "items": [
+        "Blaze",
+        "Ghast",
+        "Piglin",
+        "Strider"
+      ]
     },
     {
       "id": 3,
@@ -21,7 +31,7 @@
       "color": "blue",
       "items": [
         "Potion of Regeneration",
-        "End Crystal",
+        "End Crystal (item)",
         "Dried Ghast",
         "Mundane Potion"
       ]
