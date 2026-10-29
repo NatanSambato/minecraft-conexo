@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4071,
+    "totalEntries": 4076,
     "languages": [
       "pt",
       "es"
@@ -13305,12 +13305,13 @@
     }
   },
   "Basalt Pillar": {
-    "image": null,
+    "image": "https://minecraft.wiki/images/Basalt_Pillar.png",
     "pageUrl": "https://minecraft.wiki/w/Basalt_Pillar",
     "translations": {
-      "es": "Pilar de basalto",
-      "pt": "Pilar de basalto"
-    }
+      "pt": "Pilar de basalto",
+      "es": "Pilar de basalto"
+    },
+    "_manual": true
   },
   "Huge Warped Fungus": {
     "image": "https://minecraft.wiki/images/Huge_Warped_fungi.png",
@@ -29024,6 +29025,50 @@
     "translations": {
       "pt": "Gosma de Cubo de Enxofre",
       "es": "Baba de cubo de azufre"
+    },
+    "_manual": true
+  },
+  "Diamond Spear (item)": {
+    "image": "https://minecraft.wiki/images/Diamond_Spear_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Diamond_Spear",
+    "translations": {
+      "pt": "Lança de Diamante"
+    },
+    "_manual": true
+  },
+  "Weak Panda": {
+    "image": "https://minecraft.wiki/images/Weak_Panda_JE1_BE1.png",
+    "pageUrl": "https://minecraft.wiki/w/Panda#Gallery",
+    "translations": {
+      "pt": "Panda Fraco",
+      "es": "Panda debíl"
+    },
+    "_manual": true
+  },
+  "Weak Baby Panda": {
+    "image": "https://minecraft.wiki/images/Weak_Baby_Panda_JE4_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Panda#Gallery",
+    "translations": {
+      "pt": "Filhote de Panda Fraco",
+      "es": "Cría de Panda debíl"
+    },
+    "_manual": true
+  },
+  "Pony": {
+    "image": "https://minecraft.wiki/images/Horse_%28pig%29.png",
+    "pageUrl": "https://minecraft.wiki/w/April_Fools%27_Day_jokes#2013",
+    "translations": {
+      "pt": "Pônei",
+      "es": "Poni"
+    },
+    "_manual": true
+  },
+  "Gold Rabbit": {
+    "image": "https://minecraft.wiki/images/Gold_Rabbit_BE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Rabbit#Gold",
+    "translations": {
+      "pt": "Coelho Creme",
+      "es": "Conejo oro"
     },
     "_manual": true
   }
