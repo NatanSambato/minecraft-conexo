@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4076,
+    "totalEntries": 4077,
     "languages": [
       "pt",
       "es"
@@ -29070,6 +29070,12 @@
       "pt": "Coelho Creme",
       "es": "Conejo oro"
     },
+    "_manual": true
+  },
+  "Small Sulfur Cube": {
+    "image": "https://minecraft.wiki/images/Sulfur_Cube_Small_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Sulfur_Cube",
+    "translations": {},
     "_manual": true
   }
 }
