@@ -1,0 +1,51 @@
+{
+  "id": 161,
+  "date": "2026-10-31",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Chiseled Blocks",
+      "items": [
+        "Chiseled Stone Bricks",
+        "Chiseled Deepslate",
+        "Chiseled Tuff Bricks",
+        "Chiseled Red Sandstone"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Made with Sand",
+      "items": [
+        "Glass",
+        "Sandstone",
+        "TNT",
+        "White Concrete Powder"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Ore Vein Blocks",
+      "items": [
+        "Block of Raw Iron",
+        "Block of Raw Copper",
+        "Tuff",
+        "Granite"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Blocks only obtainable with Silk Touch",
+      "items": [
+        "Ice",
+        "Deepslate Redstone Ore",
+        "Nether Gold Ore",
+        "Sculk Shrieker"
+      ]
+    }
+  ]
+}
