@@ -1,0 +1,51 @@
+{
+  "id": 163,
+  "date": "2026-11-01",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Tropical Fish",
+      "items": [
+        "Dottyback",
+        "Emperor Red Snapper",
+        "Parrotfish",
+        "Cichlid"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Water Interactions",
+      "items": [
+        "Frost Walker",
+        "Farmland (wet)",
+        "Lava",
+        "Enderman"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Added in the Update Aquatic",
+      "items": [
+        "Warm Ocean (icon)",
+        "Drowned with Trident",
+        "Warm Ocean Ruins",
+        "Conduit (active)"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Added in the Bountiful Update",
+      "items": [
+        "Ocean Monument",
+        "Wet Sponge",
+        "Rabbit",
+        "Red Banner"
+      ]
+    }
+  ]
+}

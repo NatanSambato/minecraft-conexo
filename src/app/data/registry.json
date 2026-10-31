@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4077,
+    "totalEntries": 4088,
     "languages": [
       "pt",
       "es"
@@ -29076,6 +29076,105 @@
     "image": "https://minecraft.wiki/images/Sulfur_Cube_Small_JE3_BE3.png",
     "pageUrl": "https://minecraft.wiki/w/Sulfur_Cube",
     "translations": {},
+    "_manual": true
+  },
+  "Drowned with Trident": {
+    "image": "https://minecraft.wiki/images/Drowned_with_Trident.png",
+    "pageUrl": "https://minecraft.wiki/w/Drowned#Gallery",
+    "translations": {
+      "pt": "Afogado com Tridente",
+      "es": "Ahogado con Tridente"
+    },
+    "_manual": true
+  },
+  "Underwater Cave": {
+    "image": "https://i.imgur.com/L6ICp2u.png",
+    "pageUrl": "https://minecraft.wiki/w/Cave#:~:text=carver%20exposing%20bedrock-,Underwater%20carver%20caves,-%5Bedit%20%7C",
+    "translations": {
+      "pt": "Caverna subaquática",
+      "es": "Cueva acuática"
+    },
+    "_manual": true
+  },
+  "Conduit (active)": {
+    "image": "https://minecraft.wiki/images/Conduit.gif",
+    "pageUrl": "https://minecraft.wiki/w/Conduit",
+    "translations": {
+      "pt": "Conduto",
+      "es": "Canalizador"
+    },
+    "_manual": true
+  },
+  "Enchanted Bow": {
+    "image": "https://minecraft.wiki/images/Enchanted_Bow.gif",
+    "pageUrl": "https://minecraft.wiki/w/Bow#Gallery",
+    "translations": {
+      "pt": "Arco Encantado",
+      "es": "Arco encantado"
+    },
+    "_manual": true
+  },
+  "Clownfish": {
+    "image": "https://minecraft.wiki/images/Clownfish.png",
+    "pageUrl": "https://minecraft.wiki/w/Tropical_Fish",
+    "translations": {
+      "pt": "Peixe-palhaço",
+      "es": "Pez payaso"
+    },
+    "_manual": true
+  },
+  "Yellow Tang": {
+    "image": "https://minecraft.wiki/images/Yellow_tang_fix.png",
+    "pageUrl": "https://minecraft.wiki/w/Tropical_Fish",
+    "translations": {
+      "pt": "Peixe-cirurgião-amarelo",
+      "es": "Espiga amarilla"
+    },
+    "_manual": true
+  },
+  "Emperor Red Snapper": {
+    "image": "https://minecraft.wiki/images/Emperor_Red_Snapper.png",
+    "pageUrl": "https://minecraft.wiki/w/Tropical_Fish",
+    "translations": {
+      "pt": "Pargo-imperador-vermelho",
+      "es": "Pargo rojo emperador"
+    },
+    "_manual": true
+  },
+  "Parrotfish": {
+    "image": "https://minecraft.wiki/images/Parrotfish.png",
+    "pageUrl": "https://minecraft.wiki/w/Tropical_Fish",
+    "translations": {
+      "pt": "Peixe-papagaio",
+      "es": "Pez loro"
+    },
+    "_manual": true
+  },
+  "Dottyback": {
+    "image": "https://minecraft.wiki/images/Dottyback.png",
+    "pageUrl": "https://minecraft.wiki/w/Tropical_Fish",
+    "translations": {
+      "pt": "Royal-gramma-falso",
+      "es": "Dottyback"
+    },
+    "_manual": true
+  },
+  "Blue Tang": {
+    "image": "https://minecraft.wiki/images/Blue_Tang.png",
+    "pageUrl": "https://minecraft.wiki/w/Tropical_Fish",
+    "translations": {
+      "pt": "Peixe-cirurgião-azul‌",
+      "es": "Espiga azul"
+    },
+    "_manual": true
+  },
+  "Cichlid": {
+    "image": "https://minecraft.wiki/images/Cichlid.png",
+    "pageUrl": "https://minecraft.wiki/w/Tropical_Fish",
+    "translations": {
+      "pt": "Ciclídeo",
+      "es": "Cíclidos"
+    },
     "_manual": true
   }
 }
