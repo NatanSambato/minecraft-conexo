@@ -1,0 +1,51 @@
+{
+  "id": 164,
+  "date": "2026-11-02",
+  "author": "Natowski",
+  "groups": [
+    {
+      "id": 1,
+      "color": "yellow",
+      "correlation": "Spawn Eggs",
+      "items": [
+        "Villager Spawn Egg",
+        "Copper Golem Spawn Egg",
+        "Husk Spawn Egg",
+        "Tadpole Spawn Egg"
+      ]
+    },
+    {
+      "id": 2,
+      "color": "green",
+      "correlation": "Crafted with Jungle Planks",
+      "items": [
+        "Jungle Door (item)",
+        "Jungle Sign (item)",
+        "Chest",
+        "Bowl"
+      ]
+    },
+    {
+      "id": 3,
+      "color": "blue",
+      "correlation": "Unstackable Items",
+      "items": [
+        "Bundle",
+        "Totem of Undying",
+        "Mushroom Stew",
+        "Stone Pickaxe"
+      ]
+    },
+    {
+      "id": 4,
+      "color": "purple",
+      "correlation": "Rare Block Drops",
+      "items": [
+        "Poisonous Potato",
+        "Jungle Sapling (item)",
+        "Apple",
+        "Flint"
+      ]
+    }
+  ]
+}

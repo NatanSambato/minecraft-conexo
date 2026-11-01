@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4093,
+    "totalEntries": 4106,
     "languages": [
       "pt",
       "es"
@@ -652,8 +652,10 @@
     "image": "https://minecraft.wiki/images/Bucket_of_Tadpole_JE1_BE1.png",
     "pageUrl": "https://minecraft.wiki/w/Bucket_of_Tadpole",
     "translations": {
-      "pt": "Balde com Girino"
-    }
+      "pt": "Balde com Girino",
+      "es": "Cubo con renacuajo"
+    },
+    "_manual": true
   },
   "Copper Horn": {
     "image": "https://minecraft.wiki/images/Copper_Horn_BE2.png",
@@ -10070,7 +10072,11 @@
   "Tadpole": {
     "image": "https://minecraft.wiki/images/Tadpole_JE1.png",
     "pageUrl": "https://minecraft.wiki/w/Tadpole",
-    "translations": {}
+    "translations": {
+      "pt": "Girino",
+      "es": "Renacuajo"
+    },
+    "_manual": true
   },
   "Sniffer": {
     "image": "https://minecraft.wiki/images/Sniffer_sniffsniff.gif",
@@ -29217,6 +29223,123 @@
     "translations": {
       "pt": "Porta Deformado",
       "es": "Puerta distorsionada"
+    },
+    "_manual": true
+  },
+  "Armadillo Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Armadillo_Spawn_Egg_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Tatu",
+      "es": "Huevo generador de Armadillo"
+    },
+    "_manual": true
+  },
+  "Husk Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Husk_Spawn_Egg_JE2_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Zumbi-Múmia",
+      "es": "Huevo generador de Disecado"
+    },
+    "_manual": true
+  },
+  "Rabbit Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Rabbit_Spawn_Egg_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Coelho",
+      "es": "Huevo generador de Conejo"
+    },
+    "_manual": true
+  },
+  "Mule Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Mule_Spawn_Egg_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Mula",
+      "es": "Huevo generador de Mula"
+    },
+    "_manual": true
+  },
+  "Villager Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Villager_Spawn_Egg_JE3_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Aldeão",
+      "es": "Huevo generador de Aldeano"
+    },
+    "_manual": true
+  },
+  "Horse Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Horse_Spawn_Egg_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Cavalo",
+      "es": "Huevo generador de Caballo"
+    },
+    "_manual": true
+  },
+  "Donkey Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Donkey_Spawn_Egg_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Burro",
+      "es": "Huevo generador de Burro"
+    },
+    "_manual": true
+  },
+  "Tadpole Spawn Egg": {
+    "image": "https://minecraft.wiki/images/Tadpole_Spawn_Egg_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Spawn_Egg",
+    "translations": {
+      "pt": "Ovo Gerador de Girino",
+      "es": "Huevo generador de Renacuajo"
+    },
+    "_manual": true
+  },
+  "Spruce Door (item)": {
+    "image": "https://minecraft.wiki/images/Spruce_Door_%28item%29_JE4_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Door",
+    "translations": {
+      "pt": "Porta de Abeto",
+      "es": "Puerta de Abeto"
+    },
+    "_manual": true
+  },
+  "Spruce Sign (item)": {
+    "image": "https://minecraft.wiki/images/Spruce_Sign_%28item%29_JE2_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Sign",
+    "translations": {
+      "pt": "Placa de Abeto",
+      "es": "Cartel de Abeto"
+    },
+    "_manual": true
+  },
+  "Jungle Sapling (item)": {
+    "image": "https://minecraft.wiki/images/Jungle_Sapling_%28texture%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Sapling",
+    "translations": {
+      "pt": "Muda de Selva",
+      "es": "Brote de Jungla"
+    },
+    "_manual": true
+  },
+  "Jungle Door (item)": {
+    "image": "https://minecraft.wiki/images/Jungle_Door_%28item%29_JE5_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Door",
+    "translations": {
+      "pt": "Porta de Selva",
+      "es": "Puerta de Jungla"
+    },
+    "_manual": true
+  },
+  "Jungle Sign (item)": {
+    "image": "https://minecraft.wiki/images/Jungle_Sign_%28item%29_JE2_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Sign",
+    "translations": {
+      "pt": "Placa de Selva",
+      "es": "Cartel de Jungla"
     },
     "_manual": true
   }
