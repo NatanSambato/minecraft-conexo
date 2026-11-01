@@ -1,7 +1,7 @@
 {
   "_meta": {
     "builtAt": "2026-07-01T13:16:22.465Z",
-    "totalEntries": 4088,
+    "totalEntries": 4093,
     "languages": [
       "pt",
       "es"
@@ -8057,12 +8057,13 @@
     }
   },
   "Redstone Repeater": {
-    "image": "https://minecraft.wiki/images/Redstone_Repeater_(S)_JE5_BE2.png",
+    "image": "https://minecraft.wiki/images/Redstone_Repeater_%28N%29_JE5_BE2.png",
     "pageUrl": "https://minecraft.wiki/w/Redstone_Repeater",
     "translations": {
-      "es": "Repetidor de redstone",
-      "pt": "Repetidor de Redstone"
-    }
+      "pt": "Repetidor de Redstone",
+      "es": "Repetidor de redstone"
+    },
+    "_manual": true
   },
   "Reserved6": {
     "image": "https://minecraft.wiki/images/Missing_Tile_BE3.png",
@@ -29174,6 +29175,48 @@
     "translations": {
       "pt": "Ciclídeo",
       "es": "Cíclidos"
+    },
+    "_manual": true
+  },
+  "Redstone Wire (inactive)": {
+    "image": "https://minecraft.wiki/images/Inactive_Redstone_Wire_%28NESW%29_JE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Redstone_Dust",
+    "translations": {
+      "pt": "Cabo de Redstone",
+      "es": "Cable de redstone"
+    },
+    "_manual": true
+  },
+  "Redstone Wire (active)": {
+    "image": "https://minecraft.wiki/images/Active_Redstone_Wire_%28NESW%29_JE4.png",
+    "pageUrl": "https://minecraft.wiki/w/Redstone_Dust",
+    "translations": {
+      "pt": "Cabo de Redstone",
+      "es": "Cable de redstone"
+    },
+    "_manual": true
+  },
+  "Poplar Door (item)": {
+    "image": "https://minecraft.wiki/images/Poplar_Door_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Door",
+    "translations": {},
+    "_manual": true
+  },
+  "Iron Door (item)": {
+    "image": "https://minecraft.wiki/images/Iron_Door_%28item%29_JE3_BE3.png",
+    "pageUrl": "https://minecraft.wiki/w/Iron_Door",
+    "translations": {
+      "pt": "Porta de ferro",
+      "es": "Puerta de hierro"
+    },
+    "_manual": true
+  },
+  "Warped Door (item)": {
+    "image": "https://minecraft.wiki/images/Warped_Door_%28item%29_JE2_BE2.png",
+    "pageUrl": "https://minecraft.wiki/w/Door",
+    "translations": {
+      "pt": "Porta Deformado",
+      "es": "Puerta distorsionada"
     },
     "_manual": true
   }
